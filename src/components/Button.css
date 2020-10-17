@@ -1,0 +1,26 @@
+.button1 {
+    line-height: 50%;
+    margin-top: 30px;
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+}
+.sign-up {
+    border-radius: 100px 100px !important;
+    background: #4E1D69 !important;
+}
+.apply {
+    border-radius: 100px 100px !important;
+    color: #4E1D69 !important;
+}
+  .help:hover {
+    font-weight: bold;
+  }
+  .talk:hover {
+    font-weight: bold;
+  }
+  /* @media (min-width: 768px) {
+    .button1 {
+      width: 50px;
+    }
+} */
