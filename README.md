@@ -1,3 +1,14 @@
+After every commit, wait for like 2-3 minutes depenidng on the load or the workdone for the images to build, check the url.... http://18.216.96.4:3000/
+
+If after waiting for about 2-3 minutes and no changes. Please, reach out to the DevOps Engineer, that's probably an error pumping in the pipeline... or Docker images are full and old images need to be deleted
+
+
+
+
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
