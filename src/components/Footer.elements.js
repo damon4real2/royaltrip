@@ -5,10 +5,10 @@ import { Link } from 'react-router-dom';
 export const FooterContainer = styled.div`
   background-color: #F5F2F6;
   padding: 4rem 0 2rem 0;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  // display: flex;
+  // flex-direction: column;
+  // justify-content: center;
+  // align-items: center;
 `;
 
 export const FooterSubscription = styled.section`
@@ -62,8 +62,8 @@ export const FormInput = styled.input`
 `;
 
 export const FooterLinksContainer = styled.div`
-  width: 100%;
-  max-width: 1000px;
+  // width: 100%;
+  // max-width: 1000px;
   display: flex;
   justify-content: center;
   @media screen and (max-width: 820px) {
@@ -82,7 +82,7 @@ export const FooterLinkItems = styled.div`
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  margin: 16px;
+  // margin: 16px;
   text-align: left;
   width: 160px;
   box-sizing: border-box;
@@ -95,16 +95,29 @@ export const FooterLinkItems = styled.div`
 `;
 
 export const FooterLinkTitle = styled.h2`
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 26px;
+  text-align: center;
+  color: #333333;
   margin-bottom: 16px;
 `;
 
 export const FooterLink = styled(Link)`
-  color: #000;
   text-decoration: none;
   margin-bottom: 0.5rem;
+  font-family: IBM Plex Sans Light;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    color: #333333;
   &:hover {
     color: #0467fb;
     transition: 0.3s ease-out;
+    
   }
 `;
 
@@ -141,18 +154,26 @@ export const SocialIcon = styled(FaMagento)`
 `;
 
 export const WebsiteRights = styled.small`
+  // color: #B6993E;
+  // margin-left: 63px;
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 30px;
   color: #B6993E;
-  margin-bottom: 16px;
 `;
 
 export const SocialIcons = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 240px;
+  margin-left: 3rem;
 `;
 
 export const SocialIconLink = styled.a`
   color: #B6993E;
   font-size: 20px;
+  margin: 0 7px;
 `;
+

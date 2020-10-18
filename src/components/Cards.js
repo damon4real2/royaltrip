@@ -4,14 +4,17 @@ import {
   Card, CardImg, CardText, CardBody, CardDeck,
   CardTitle
 } from 'reactstrap';
-import './Cards.css';
+import "./css/Cards.css";;
 
 const Example = (props) => {
   return (
+    <div className="safeConvenient">
+      <div className="container">
     <CardDeck style={{
       // outline: 0,
       textAlign: "center",
-      marginTop: "200px",
+      marginTop: "80px",
+      marginBottom: "80px"
     }}>
       <Card style={{
         border: "0px",
@@ -21,11 +24,9 @@ const Example = (props) => {
       }}>
       <CardImg
           alt="First Card"
-          className="rounded-circle"
-          src={require("../images/card1.svg")}
+          src={require("../assets/images/card1.svg")}
           top
-          style={{width:"40%", 
-          height:"30%"}}
+          style={{width:"147px"}}
         ></CardImg>
         <CardBody>
           <CardTitle className=" h4 text-center-black mb-3">Safe and convenient</CardTitle>
@@ -40,11 +41,9 @@ const Example = (props) => {
       }}>
       <CardImg
           alt="Second Card"
-          className="rounded-circle"
-          src={require("../images/card2.svg")}
+          src={require("../assets/images/card2.svg")}
           top
-          style={{width:"40%", 
-          height:"30%"}}
+          style={{width:"147px"}}
         ></CardImg>
         <CardBody>
           <CardTitle className=" h4 text-center-black mb-3">Happy drivers, happy riders</CardTitle>
@@ -59,11 +58,9 @@ const Example = (props) => {
       }}>
       <CardImg
           alt="Third Card"
-          className="rounded-circle"
-          src={require("../images/card3.svg")}
+          src={require("../assets/images/card3.svg")}
           top
-          style={{width:"40%", 
-          height:"30%"}}
+          style={{width:"147px"}}
         ></CardImg>
         <CardBody>
           <CardTitle className=" h4 text-black mb-3">Always there for you.</CardTitle>
@@ -72,6 +69,8 @@ const Example = (props) => {
       </Card>
       
     </CardDeck>
+    </div>
+    </div>
   );
 };
 

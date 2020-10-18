@@ -1,11 +1,11 @@
 import React, { Component } from "react";
-import './Features.css';
+import "./css/Features.css";
 
 export class features extends Component {
   render() {
     return (
-      <div id="features" className="text-center circle-wrapper">
-        <div className="container">
+      <div id="features" className="text-center">
+        <div className="features_">
           {/* <div className="col-md-10 col-md-offset-1 section-title"> */}
             <h2>Features</h2>
           </div>
@@ -20,31 +20,51 @@ export class features extends Component {
                   </div>
                 ))
               : "Loading..."} */}
+              <div className="features_grid">
             <div className="row">
-                <div className="">
-                    <img
-                        alt="Card"
-                        src={require("../images/ride.svg")}
+            <div class="col-md-4">
+                <div className="img2">
+                <div className="feature-grid">
+                <div className="circle-background">
+                    <img className=""
+                      alt="Card"
+                      src={require("../assets/images/ride.svg")}
                     />
-                    <h5>Get a ride</h5>
-                    <p>Royal Trip offers you a ride in minutes.</p>
+                  </div>
+                      <h5>Get a ride</h5>
+                      <p>Royal Trip offers a ride in meetings.</p>
                 </div>
-                <div className="">
-                    <img
-                        alt="Card"
-                        src={require("../images/price.svg")}
+                </div>
+                </div>
+                <div class="col-md-4">
+                <div className="img2">
+                <div className="feature-grid">
+                <div className="circle-background">
+                    <img className=""
+                      alt="Card"
+                      src={require("../assets/images/price.svg")}
                     />
-                    <h5>Get a ride</h5>
-                    <p>Royal Trip offers you a ride in minutes.</p>
+                  </div>
+                      <h5>Best prices</h5>
+                      <p>Royal Trip offers you the best prices.</p>
                 </div>
-                <div className="">
+                </div>
+                </div>
+                <div class="col-md-4">
+                <div className="img2">
+                <div className="feature-grid">
+                <div className="circle-background">
                     <img
-                        alt="Card"
-                        src={require("../images/class.svg")}
+                      alt="Card"
+                      src={require("../assets/images/class.svg")}
                     />
-                    <h5>Get a ride</h5>
-                    <p>Royal Trip offers you a ride in minutes.</p>
+                  </div>
+                      <h5>Ride with class</h5>
+                      <p>Royal Trip gives you a safe and classy ride.</p>
                 </div>
+                </div>
+              </div>
+              </div>
               </div>
             </div>
         // </div>
