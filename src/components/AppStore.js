@@ -1,6 +1,5 @@
 import React from "react";
-import './AppStore.css';
-
+import "./css/AppStore.css";
 // reactstrap components
 import {
   // Button,
@@ -9,36 +8,43 @@ import {
   CardImg,
   CardTitle,
   CardText,
+  Row,
   // Container,
 } from "reactstrap";
 
 function Example() {
   return (
-    <>
-      <Card className="col-sm-6 col-md-6 col-xs-6">
-        <div className="my-container">
-        <CardBody className="appstore">
+    <div className="appstore">
+      <div className="my-container">
+      <Row>
+      {/* <Card className="col-md-12 "> */}
+        <div className="col-md-6 ">
+        <div className="readytoride">
+        <div className="readytoride2">
           <CardTitle className="appstore-h4">Ready to ride/drive with class?</CardTitle>
+          <div className="appstore-playstore">
+            <img src={require("../assets/images/app-store.svg")} alt="app-store" />
+            <img src={require("../assets/images/google-play.svg")} alt="app-store" />
+          </div>
           <CardText className="appstore-p">
             Or sign up to start riding/driving.
           </CardText>
-
-          {/* <Button
-            className=" px-0"
-            color="link"
-            href="#pablo"
-            onClick={(e) => e.preventDefault()}
-          >
-            View article
-          </Button> */}
-        </CardBody>
-        <CardImg className="img2"
-          alt="..."
-          src={require("../images/man.svg")}
-        ></CardImg>
         </div>
-      </Card>
-    </>
+        </div>
+        </div>
+        <div className="col-md-1"></div>
+        <div className="col-md-5">
+          <div className="img_happy">
+            <img className="img3"
+              alt="..."
+              src={require("../assets/images/man.png")}
+            />
+            </div>
+        </div>
+      {/* </Card> */}
+      </Row>
+      </div>
+    </div>
   );
 }
 

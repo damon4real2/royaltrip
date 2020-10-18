@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import logo from '../images/logo.svg';
+import logo from '../assets/images/logo.svg';
 import {Link} from 'react-router-dom';
 import {
   Collapse,
@@ -14,7 +14,7 @@ import {
   DropdownMenu,
   DropdownItem,
 } from 'reactstrap';
-import './Navbar.css';
+import "./css/Navbar.css";;
 
 const Example = (props) => {
   const [isOpen, setIsOpen] = useState(false);

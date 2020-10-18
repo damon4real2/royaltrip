@@ -1,11 +1,11 @@
 import React from 'react';
 import Navbar from './components/Navbar';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import Home from './components/pages/Home';
-import Driver from './components/pages/Driver';
-import Rider from './components/pages/Rider';
-import logIn from './components/pages/LogIn';
-import SignUp from './components/pages/SignUp';
+import Home from './pages/Home';
+import Driver from './pages/Driver';
+import Rider from './pages/Rider';
+import logIn from './pages/LogIn';
+import SignUp from './pages/SignUp';
 
 import './App.css';
 
