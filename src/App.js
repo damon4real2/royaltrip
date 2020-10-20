@@ -5,8 +5,7 @@ import Home from './pages/Home';
 import Driver from './pages/Driver';
 import Rider from './pages/Rider';
 import logIn from './pages/LogIn';
-import SignUp from './pages/SignUpToDrive';
-import ApplyTo from './pages/ApplyToRide';
+import SignUp from './pages/SignUp';
 
 import './App.css';
 
@@ -20,8 +19,7 @@ function App() {
           <Route path='/driver' component={Driver} />
           <Route path='/rider' component={Rider} />
           <Route path='/logIn' component={logIn} />
-          <Route path='/signUpToDrive' component={SignUp} />
-          <Route path='/applyToRide' component={ApplyTo} />
+          <Route path='/signUp' component={SignUp} />
         </Switch>
       </Router>
     </>
