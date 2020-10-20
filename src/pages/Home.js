@@ -8,6 +8,7 @@ import Cards from '../components/Cards';
 import AppStore from '../components/AppStore';
 import Footer from '../components/Footer';
 
+
 function Home() {
   return (
     <>

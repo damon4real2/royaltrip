@@ -17,7 +17,7 @@
 import React, { Component } from "react";
 import { Button } from 'reactstrap';
 import "./css/Button.css";
-var Bootstrap = require('react-bootstrap')
+// var Bootstrap = require('react-bootstrap')
 
 export default class button extends Component {
     render() {

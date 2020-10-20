@@ -1,8 +1,9 @@
 import React from 'react';
+import '../App.css';
 
 function LogIn() {
     return (
-        <div>LogIn</div>
+        <div>Log In</div>
     )
 }
 export default LogIn;
