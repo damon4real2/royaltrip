@@ -25,7 +25,7 @@ const Example = (props) => {
     <div>
       <Navbar color="light" light expand="md">
         <NavbarBrand href="/">
-        <Link to="/Home">
+        <Link to="/">
           <img className="img1" src={logo} alt="Royal Crystal Airways" />
         </Link>
         </NavbarBrand>
@@ -47,10 +47,14 @@ const Example = (props) => {
               </DropdownToggle>
               <DropdownMenu right>
                 <DropdownItem>
-                  Sign up to ride
+                  <NavItem>
+                    <NavLink href="/signUpToDrive">Sign up to drive</NavLink>
+                  </NavItem>
                 </DropdownItem>
                 <DropdownItem>
-                  Apply to drive
+                  <NavItem>
+                    <NavLink href="/applyToRide">Apply to ride</NavLink>
+                  </NavItem>
                 </DropdownItem>
               </DropdownMenu>
             </UncontrolledDropdown>

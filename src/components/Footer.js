@@ -15,7 +15,7 @@ import {
   FooterLink,
   SocialMedia,
   SocialMediaWrap,
-  SocialLogo,
+  // SocialLogo,
 //   SocialIcon,
   WebsiteRights,
   SocialIcons,
@@ -30,7 +30,7 @@ function Footer() {
       <div className="col-md-4">
         <div className="royalTrip">
           <div className="royalTripLogo">
-            <img src={require("../assets/images/logo.svg")} />
+            <img src={require("../assets/images/logo.svg")} alt="footer-logo" />
           </div>
           <div className="appstore-playstore2">
             <img src={require("../assets/images/app-store.svg")} alt="app-store" />

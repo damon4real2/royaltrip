@@ -1,5 +1,5 @@
 import React from 'react';
-import { Card, CardTitle, CardText, Row, Col } from 'reactstrap';
+import {Row, Col } from 'reactstrap';
 import "./css/RequestRide.css";
 
 const Example = (props) => {
@@ -15,7 +15,7 @@ const Example = (props) => {
       {/* <Col sm="1" className=""></Col> */}
       <Col sm="5" className="ml-auto">
         <div className="rrbody">
-          <img src={require("../assets/images/phone1.png")} alt="Card image cap" />
+          <img src={require("../assets/images/phone1.png")} alt="Phone" />
         </div>
       </Col>
     </Row>
