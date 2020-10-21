@@ -33,8 +33,7 @@ export class features extends Component {
                   </div>
                       <h5>Get a ride</h5>
                       <p>Royal Trip offers a ride in meetings.</p>
-    
-                      </div>
+                </div>
                 </div>
                 </div>
                 <div class="col-md-4">

@@ -2,14 +2,9 @@ import React from "react";
 import "./css/AppStore.css";
 // reactstrap components
 import {
-  // Button,
-  Card,
-  CardBody,
-  CardImg,
   CardTitle,
   CardText,
   Row,
-  // Container,
 } from "reactstrap";
 
 function Example() {
