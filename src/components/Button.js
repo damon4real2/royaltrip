@@ -3,8 +3,8 @@
 // import './Button.css'
 // const Example = (props) => {
 //   return (
-    // <div clButtonme="button1">
-    //   <Button clButtonme="sign-up">Sign up to ride</Button>{' '}
+    // <div className="button1">
+    //   <Button className="sign-up">Sign up to ride</Button>{' '}
     //   <Button className="apply">Apply to drive</Button>{' '}
     //   <Button className="help">Help line</Button>{' '}
     //   <Button className="talk">Talk to us</Button>{' '}
@@ -17,7 +17,7 @@
 import React, { Component } from "react";
 import { Button } from 'reactstrap';
 import "./css/Button.css";
-var Bootstrap = require('react-bootstrap')
+// var Bootstrap = require('react-bootstrap')
 
 export default class button extends Component {
     render() {
