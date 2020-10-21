@@ -30,8 +30,8 @@ body{
   left: -90px;
   top: 22px; */
   position: absolute;
-  width: 15.75rem;
-  height: 6.5rem;
+  width: 101%;
+  height: 100%;
   left: -0.5rem;
   top: 0px;
 }
@@ -49,7 +49,12 @@ font-family: IBM Plex Sans Regular;
 font-style: normal;
 font-weight: 500;
 font-size: 16px;
-color: #F0F0F0;
+color: #F0F0F0 !important;
+text-decoration: none !important;
+}
+.applyToRideLogIn a {
+  color: #F0F0F0 !important;
+  text-decoration: none !important;
 }
 
 .applyToRidePs p1{
@@ -208,10 +213,16 @@ box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
 border-radius: 30px;
 }
 .call-me, .text-me {
-  /* display: flex;
-align-items: center; */
+  display: flex;
+align-items: center;
 text-align: center;
   color: #333333 !important;
+}
+.call-me-img {
+  padding-right: 1em;
+}
+.text-me-img {
+  padding-right: 1em;
 }
 /* .call-me {
   position: absolute;
@@ -268,7 +279,27 @@ color: #333333 !important;
   color: #99811D;
 }
 
-/* @media only screen and (min-width: 320px) and (max-width: 767px) {
-  left: 15.625rem;
-  top: 3.3125rem;
-} */
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  .applyToRide  {
+    width: 144%;
+    background-image: none !important;
+    margin-top: -27px;
+    margin-left: -35px;
+}
+.applyToRideLogIn a {
+  color: #501F6A !important;
+  text-decoration: none !important;
+ }
+  .applyToRideLogIn {
+    color: #501F6A !important;
+    position: absolute;
+    top: 11px;
+    left: 440px;
+    /* margin-bottom: 1rem; */
+    width: 59px;
+  }
+  .applyToRideForm {
+    width: 100%;
+    left: -15rem;
+  }
+}

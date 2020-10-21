@@ -4,10 +4,9 @@ import Background from "../assets/images/rca-bg.jpg";
 
 import { Button } from 'reactstrap';
 import '../App.css';
+import {Link} from 'react-router-dom';
 
 var applyToRideStyle = {
-  width: "101%",
-  height: "100%",
   backgroundImage: "url(" + Background + ")"
 };
 
@@ -20,7 +19,8 @@ class ApplyToRide extends Component {
               <img src={require("../assets/images/applyToRideBgroundLogo.png")} alt="Apply To Ride Logo" />
           </div>
           <div className="applyToRideLogIn">
-            <p>LOG IN</p>
+          <Link to="/">LOG IN</Link>
+          {/* <link href="../pages/logIn">LOG IN</link> */}
           </div>
           <div className="applyToRidePage">
             <div className="row">
