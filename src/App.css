@@ -44,7 +44,7 @@ top: 36px;
 .applyToRideLogIn {
   position: absolute;
 left: 1290px;
-top: 53px;
+top: 25px;
 font-family: IBM Plex Sans Regular;
 font-style: normal;
 font-weight: 500;
@@ -61,7 +61,7 @@ text-decoration: none !important;
   position: absolute;
 width: 336px;
 height: 47px;
-left: 267px;
+left: 109px;
 top: 169px;
 font-family: IBM Plex Sans Medium;
 font-style: normal;
@@ -74,7 +74,7 @@ color: #FFFFFF;
   position: absolute;
 width: 298px;
 height: 31px;
-left: 267px;
+left: 112px;
 top: 231px;
 
 font-family: IBM Plex Sans Light;
@@ -133,6 +133,14 @@ color: #333333;
   box-shadow: 0px 4px 20px rgba(120, 120, 118, 0.2);
   border-radius: 10px;
 }
+input {
+  border-style: none;
+  outline: none;
+}
+input:focus {
+  border-style: none;
+  outline: none;
+}
 .applyToRideForm p5 {
   position: absolute;
 width: 272px;
@@ -163,6 +171,7 @@ color: #501F6A;
 }
 
 .applyToRideForm resend {
+  text-decoration: none !important;
   position: absolute;
 width: 83px;
 height: 18px;
@@ -175,7 +184,13 @@ font-size: 14px;
 line-height: 18px;
 color: #501F6A;
 }
-.call-me, .text-me, .select, .form-input,
+
+.applyToRideForm resend a {
+  text-decoration: none;
+} 
+
+.call-me, .text-me, .applyToDrive, .next,
+.select, .form-input,
 textarea,
 button,
 .form-control,
@@ -213,6 +228,7 @@ box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
 border-radius: 30px;
 }
 .call-me, .text-me {
+  margin-top: .5em;
   display: flex;
 align-items: center;
 text-align: center;
@@ -278,13 +294,146 @@ color: #333333 !important;
   text-align: center;
   color: #99811D;
 }
+.check a {
+  text-decoration: none !important;
+} 
+/* LOG IN FORM */
+.applyToDrive {
+  position: absolute;
+  width: 177px;
+  /* height: 54px; */
+  left: 40px;
+  top: 46px;
+  background: #501F6A !important;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) !important;
+  border-radius: 30px !important;
+}
+.logInFormLogo {
+  /* position: absolute; */
+  width: 252px;
+  height: 104px;
+  left: 890px;
+  top: 19px;
+}
+.welcome {
+  position: absolute;
+width: 379px;
+height: 36px;
+left: 43px;
+font-family: IBM Plex Sans Semi-bold;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 36px;
+text-align: center;
+color: #000000;
+}
+.welcome p {
+  position: absolute;
+  width: 458px;
+  height: 46px;
+  left: 30px;
+  padding-top: 30px;
+  text-align: left;
+  font-family: IBM Plex Sans Light;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 23px;
+  color: #1B1B1B;
+}
+.inputPhoneNo {
+  position: absolute;
+width: 380px;
+height: 60px;
+left: 73px;
+top: 260px;
 
+background: #FFFFFF;
+box-shadow: 0px 4px 20px rgba(120, 120, 118, 0.2);
+border-radius: 10px;
+}
+.flag-dropdown {
+  position: absolute;
+  /* left: 73px; */
+  /* top: 260px; */
+  /* width: 38px; */
+}
+.send p5 {
+  position: absolute;
+  font-family: IBM Plex Sans Light;
+  left: 75px;
+  top: 360px;
+  color: #333333;
+}
+.send checkbox {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  left: 73px;
+  top: 410px;
+  border: 1px solid #333333;
+  box-sizing: border-box;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.send p7 {
+  position: absolute;
+  font-family: IBM Plex Sans Light;
+  color: #333333;
+  left: 130px;
+  top: 410px;
+}
+#next {
+  text-transform: uppercase;
+  left: 80px;
+  top: 480px;
+}
+.newNumber {
+  position: absolute;
+  width: 169px;
+  height: 23px;
+  left: 73px;
+  top: 600px;
+  font-family: IBM Plex Sans Light;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 23px;
+  text-align: center;
+  color: #333333;
+}
+.find {
+  position: absolute;
+  width: 147px;
+  height: 23px;
+  left: 73px;
+  top: 650px;
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 23px;
+  /* text-align: center; */
+  color: #99811D;
+}
+.find a {
+  color: #99811D !important;
+  text-decoration: none !important;
+}
 @media only screen and (min-width: 320px) and (max-width: 767px) {
   .applyToRide  {
+    display: flex;
+    overflow: hidden;
     width: 144%;
     background-image: none !important;
-    margin-top: -27px;
-    margin-left: -35px;
+    top: -20px;
+}
+.applyToRide img {
+  width: 90px;
+  margin-top: 15px;
+  height: 2rem;
+  margin-top: 15px;
 }
 .applyToRideLogIn a {
   color: #501F6A !important;
@@ -293,13 +442,26 @@ color: #333333 !important;
   .applyToRideLogIn {
     color: #501F6A !important;
     position: absolute;
-    top: 11px;
-    left: 440px;
-    /* margin-bottom: 1rem; */
+    /* top: 15px; */
+    margin-left: -5px;
+    top: 5px;
     width: 59px;
+    font-size: 6px;
   }
+  /* .applyToRidePage  {
+    position: flex;
+    text-align: center;
+    align-items: center;
+  } */
   .applyToRideForm {
-    width: 100%;
-    left: -15rem;
+      position: absolute;
+      width: 391px;
+      height: 546px;
+      right: -66px;
+      /* left: -50px; */
+      top: 75px;
+      background: #FFFFFF;
+      border-radius: 6px;
+      box-shadow: 0px 4px 20px rgba(120, 120, 118, 0.2);
   }
 }
