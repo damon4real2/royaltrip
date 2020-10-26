@@ -4,8 +4,10 @@
   /* width: 150px; */
 }
 .navbar-nav .nav-link {
+  margin-top: 10px;
   margin-right: 25px;
   margin-left: 25px;
+  font-family: IBM Plex Sans;
 }
 /* 
 Extra small (xs) devices (portrait phones, less than 576px)

@@ -143,31 +143,29 @@ input:focus {
 }
 .applyToRideForm p5 {
   position: absolute;
-width: 272px;
-height: 18px;
-left: 18px;
-top: 209px;
-font-family: IBM Plex Sans Light;
-font-style: normal;
-font-weight: normal;
-font-size: 14px;
-line-height: 18px;
-color: #333333;
+  width: 272px;
+  height: 18px;
+  left: 18px;
+  top: 209px;
+  font-family: IBM Plex Sans Light;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  color: #333333;
 }
 .applyToRideForm number {
   position: absolute;
-width: 118px;
-height: 18px;
-left: 15px;
-margin-top: 200px;
-
-font-family: IBM Plex Sans Regular;
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 18px;
-
-color: #501F6A;
+  width: 118px;
+  height: 18px;
+  left: 15px;
+  margin-top: 200px;
+  font-family: IBM Plex Sans Regular;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  color: #333333;
 }
 
 .applyToRideForm resend {
@@ -182,11 +180,12 @@ font-style: normal;
 font-weight: 500;
 font-size: 14px;
 line-height: 18px;
-color: #501F6A;
+color: #501F6A !important;
 }
 
 .applyToRideForm resend a {
   text-decoration: none;
+  color: #501F6A !important;
 } 
 
 .call-me, .text-me, .applyToDrive, .next,
@@ -292,10 +291,11 @@ color: #333333 !important;
   font-size: 14px;
   line-height: 18px;
   text-align: center;
-  color: #99811D;
+  color: #99811D !important;
 }
 .check a {
   text-decoration: none !important;
+  color: #99811D !important;
 } 
 /* LOG IN FORM */
 .applyToDrive {

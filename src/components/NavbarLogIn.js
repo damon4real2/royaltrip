@@ -8,11 +8,7 @@ import {
   NavbarBrand,
   Nav,
   NavItem,
-  NavLink,
-  UncontrolledDropdown,
-  DropdownToggle,
-  DropdownMenu,
-  DropdownItem,
+  NavLink
 } from 'reactstrap';
 import "./css/Navbar.css";
 
@@ -29,35 +25,23 @@ const Example = (props) => {
           <img className="img1" src={logo} alt="Royal Crystal Airways" />
         </Link>
         </NavbarBrand>
-        <NavbarToggler onClick={toggle} />
-        <Collapse isOpen={isOpen} navbar>
-          <Nav className="ml-auto" navbar>
+        <Nav className="ml-auto" navbar>
             <NavItem>
               <NavLink href="/Driver">Driver</NavLink>
             </NavItem>
+        </Nav>
+        <NavbarToggler onClick={toggle} />
+        <Collapse isOpen={isOpen} navbar>
+          <Nav className="ml-auto" navbar>
             <NavItem>
               <NavLink href="/Rider">Rider</NavLink>
             </NavItem>
             <NavItem>
               <NavLink href="/logIn">Log In</NavLink>
             </NavItem>
-            <UncontrolledDropdown nav inNavbar>
-              <DropdownToggle nav caret>
-                Sign Up
-              </DropdownToggle>
-              <DropdownMenu right>
-                <DropdownItem>
-                  <NavItem>
-                    <NavLink href="/signUpToDrive">Sign up to drive</NavLink>
-                  </NavItem>
-                </DropdownItem>
-                <DropdownItem>
-                  <NavItem>
-                    <NavLink href="/applyToRide">Apply to ride</NavLink>
-                  </NavItem>
-                </DropdownItem>
-              </DropdownMenu>
-            </UncontrolledDropdown>
+            <NavItem>
+              <NavLink href="/Rider">Sign Up</NavLink>
+            </NavItem>
           </Nav>
         </Collapse>
       </Navbar>

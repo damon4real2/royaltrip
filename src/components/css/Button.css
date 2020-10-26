@@ -22,7 +22,7 @@ box-shadow: none !important;
   color: #4E1D69 !important;
   border: none !important;
   /* width: 18%; */
-  font-size: 13px !important;
+  font-size: 18px !important;
   padding-left: 1rem !important;
   padding-right: 1rem !important;
   background: #fff !important;
@@ -36,7 +36,9 @@ box-shadow: none !important;
     justify-content: space-between !important;
 }
 .sign-up {
-  font-size: 13px !important;
+  font-size: 18px !important;
+  width: 195px;
+height: 54px;
   /* width: 18%; */
   padding-left: 2rem !important;
   padding-right: 2rem !important;
@@ -44,7 +46,9 @@ box-shadow: none !important;
     background: #4E1D69 !important;
 }
 .apply {
-  font-size: 13px !important;
+  width: 195px;
+height: 54px;
+  font-size: 18px !important;
   padding-left: 2rem !important;
   padding-right: 2rem !important;
   /* width: 18%; */

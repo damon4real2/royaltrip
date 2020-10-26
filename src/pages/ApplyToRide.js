@@ -7,7 +7,6 @@ import {Link} from 'react-router-dom';
 var applyToRideStyle = {
   backgroundImage: "url(" + Background + ")"
 };
-
 class ApplyToRide extends Component {
 
   render() {

@@ -1,0 +1,82 @@
+.termsOfService {
+    position: absolute;
+    width: 1440px;
+    height: 534px;
+    left: 0px;
+    background: rgba(80, 31, 106, 0.1);
+}
+.termsOfService p {
+    text-transform: uppercase;
+    position: absolute;
+    width: 275px;
+    height: 23px;
+    left: 118px;
+    top: 102px;
+    font-family: IBM Plex Sans Medium;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 23px;
+    text-align: center;
+    color: #501F6A;
+}
+.termsOfService p1 {
+    position: absolute;
+    width: 1065px;
+    height: 166px;
+    left: 136px;
+    top: 125px;
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 83px;
+    color: #501F6A;
+}
+
+.enterNo {
+    position: absolute;
+    width: 361px;
+    height: 60px;
+    left: 139px;
+    top: 317px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(120, 120, 118, 0.2);
+    border-radius: 10px;
+}
+
+::placeholder {
+    text-align: center;
+}
+#apply {
+    width: 219px;
+    height: 54px;
+    text-transform: uppercase;
+    left: 139px;
+    top: 420px;
+}
+.checkbox {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 415px;
+    top: 435px;
+    border: 1px solid #501F6A;
+    box-sizing: border-box;
+    border-radius: 3px !important;
+    cursor: pointer;
+}
+.agreement {
+    position: absolute;
+    width: 237px;
+    height: 18px;
+    right: 705px;
+    top: 436px;
+    font-family: IBM Plex Sans Light;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    color: #501F6A;
+}

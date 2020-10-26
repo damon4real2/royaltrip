@@ -19,7 +19,7 @@ function Example() {
           <CardTitle className="appstore-h4">Ready to ride/drive with class?</CardTitle>
           <div className="appstore-playstore">
             <img src={require("../assets/images/app-store.svg")} alt="app-store" />
-            <img src={require("../assets/images/google-play.svg")} alt="app-store" />
+            <img src={require("../assets/images/google-play.svg")} alt="google-play" />
           </div>
           <CardText className="appstore-p">
             Or sign up to start riding/driving.
