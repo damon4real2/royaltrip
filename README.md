@@ -1,4 +1,4 @@
-After every commit, wait for like 2-3 minutes depenidng on the load or the workdone for the images to build, check the url.... http://royalcrystalairwaysadmin.space/
+After every commit, wait for like 2-3 minutes depenidng on the load or the workdone for the images to build, check the url.... http://royaltrips.royalcrystalairwaysadmin.space/
 
 If after waiting for about 2-3 minutes and no changes. Please, reach out to the DevOps Engineer, that's probably an error pumping in the pipeline... or Docker images are full and old images need to be deleted
 
