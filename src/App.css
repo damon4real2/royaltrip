@@ -277,7 +277,7 @@ color: #333333 !important;
   border-color: #FFFFFF !important;
 }
 .text {
-  margin-top: 250px;
+  margin-top: 250px !important;
 }
 .check {
   position: absolute;

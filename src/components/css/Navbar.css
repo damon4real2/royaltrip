@@ -1,13 +1,15 @@
-.img1 {
-  height: 2.5rem;
-  /* margin-left: 30px; */
-  /* width: 150px; */
+.nav-link {
+  margin: 10px 25px;
+  font-family: IBM Plex Sans Medium;
 }
-.navbar-nav .nav-link {
-  margin-top: 10px;
-  margin-right: 25px;
-  margin-left: 25px;
-  font-family: IBM Plex Sans;
+.active1 {
+  position: absolute;
+  width: 108.75px;
+  height: 54px;
+  left: 1231px;
+  top: 25px;
+  background: #99811D;
+  border-radius: 6px;
 }
 /* 
 Extra small (xs) devices (portrait phones, less than 576px)
@@ -97,6 +99,6 @@ Extra (xl) large devices (large desktops, 1200px and up)
 
 @media only screen and (min-width: 320px) and (max-width: 767px) {
   .img1 {
-    width: 100px;
+    width: 65px !important;
   }
 }

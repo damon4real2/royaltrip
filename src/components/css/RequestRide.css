@@ -11,26 +11,28 @@
     padding: 5rem;
 }
 .title {
+    position: absolute;
     font-family: IBM Plex Sans Medium;
     font-style: normal;
     font-weight: 600;
-    font-size: 36px;
-    line-height: 47px;
+    font-size: 40px !important;
+    line-height: 20px !important;
     /* text-align: center; */
     color: #4E1D69;
-    font-size: 1.5rem;
+    /* font-size: 1.5rem; */
+    top: 215px
 }
 .text {
     font-family: IBM Plex Sans Light;
     font-style: normal;
     font-weight: 500;
-    font-size: 18px;
-    line-height: 23px;
+    font-size: 20px !important;
+    line-height: 20px !important;
     color: #4E1D69; 
+    position: relative;
+    top: -100px !important;
 }
-.card-text, .card-title {
-    color: #4E1D69;
-}
+
 .requestContainer {
     /* width: 80%;
     min-height: 300px;

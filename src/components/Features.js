@@ -7,7 +7,7 @@ export class features extends Component {
       <div id="features" className="text-center">
         <div className="features_">
           {/* <div className="col-md-10 col-md-offset-1 section-title"> */}
-            <h2>Features</h2>
+            {/* <h2>Features</h2> */}
           </div>
           {/* <div className="row"> */}
             {/* {this.props.data
@@ -38,7 +38,7 @@ export class features extends Component {
                 </div>
                 <div class="col-md-4">
                 <div className="img2">
-                <div className="feature-grid">
+                <div className="feature-grid active">
                 <div className="circle-background">
                     <img className=""
                       alt="Card"

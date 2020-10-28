@@ -2,7 +2,7 @@ import React from 'react';
 import {Row, Col } from 'reactstrap';
 import "./css/RequestRide.css";
 
-const Example = (props) => {
+const RequestRide = (props) => {
   return (
       <div className="requestContainer">
     <Row >
@@ -23,4 +23,4 @@ const Example = (props) => {
   );
 };
 
-export default Example;
+export default RequestRide;

@@ -1,0 +1,204 @@
+@font-face {
+    font-family: roboto-cufonfonts;
+    src: url("../../assets/fonts/roboto-cufonfonts/Roboto-Regular.ttf");
+  }
+  
+  @font-face {
+    font-family: roboto-cufonfonts;
+    src: url("../../assets/fonts/roboto-cufonfonts/Roboto-Black.ttf");
+  }
+.getStarted {
+    left: 9.38%;
+    right: 9.38%;
+    top: 52.48%;
+    bottom: 33.08%;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+.getStarted1 {
+    position: absolute;
+    left: 9.38%;
+    right: 9.38%;
+    top: 1800px;
+    /* top: 52.37%;
+    bottom: 33.19%; */
+    /* background: #99811D; */
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    border-top: 4px solid #99811D;
+}
+
+.getStarted2 {
+    /* position: absolute; */
+    left: 9.38%;
+    right: 9.38%;
+    top: 52.48%;
+    bottom: 33.08%;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.icon-1 {
+    position: absolute;
+    left: 21.88%;
+    right: 75.35%;
+    top: 80px;
+    bottom: 44.62%;
+    background: #501B6C;
+}
+#safe {
+    text-transform: capitalize;
+    position: absolute;
+    height: 25px;
+    left: 12.5%;
+    right: 65.97%;
+    top: 170px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+    color: #091D2D;
+}
+.convenient {
+    position: absolute;
+    height: 25px;
+    left: 12.5%;
+    right: 65.97%;
+    top: 220px;
+    /* top: calc(50% - 25px/2 + 287px); */
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+    color: #091D2D;
+}
+.moving {
+    position: absolute;
+    height: 36px;
+    left: 18.75%;
+    right: 72.22%;
+    top: 270px;
+    /* top: calc(50% - 36px/2 + 349.5px); */
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    color: #524558;
+}
+.get-started-button1 {
+    text-transform: capitalize;
+    position: absolute;
+    left: 19.38%;
+    right: 72.85%;
+    top: 420px;
+    background: #501F6A !important;
+    box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.happy {
+    position: absolute;
+    left: 37.15%;
+    right: 37.15%;
+    top: 51.51%;
+    bottom: 32.38%;
+    background: linear-gradient(225deg, #501F6A 0%, #4E176C 100%);
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.icon-2 {
+    position: absolute;
+    left: 48.33%;
+    right: 48.19%;
+    top: 80px;
+    bottom: 44.62%;
+    background: #FFFFFF;
+}
+
+
+
+.icon-3 {
+    position: absolute;
+    left: 76.04%;
+    right: 20.49%;
+    top: 80px;
+    bottom: 44.62%;
+    background: #501F6A;
+}
+#always {
+    position: absolute;
+    height: 25px;
+    left: 67.01%;
+    right: 11.46%;
+    top: 170px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+    color: #091D2D;
+}
+.there {
+    text-transform: capitalize;
+    position: absolute;
+    height: 25px;
+    left: 67.01%;
+    right: 11.46%;
+    top: 220px;
+    /* top: calc(50% - 25px/2 + 287px); */
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+    color: #091D2D;
+}
+.get {
+    position: absolute;
+    height: 36px;
+    left: 72.85%;
+    right: 17.36%;
+    top: 270px;
+    /* top: calc(50% - 36px/2 + 349.5px); */
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    color: #524558;
+}
+.get-started-button2 {
+    text-transform: capitalize;
+    position: absolute;
+    left: 73.89%;
+    right: 18.33%;
+    top: 420px;
+    background: #501F6A !important;
+    box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    color: #FFFFFF;
+}

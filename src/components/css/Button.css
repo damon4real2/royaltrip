@@ -34,16 +34,18 @@ box-shadow: none !important;
     height: 45px;
     display: flex;
     justify-content: space-between !important;
+    font-family: IBM Plex Sans;
 }
 .sign-up {
+  font-family: IBM Plex Sans Light;
   font-size: 18px !important;
   width: 195px;
-height: 54px;
-  /* width: 18%; */
+  height: 54px;
+  width: 18%;
   padding-left: 2rem !important;
   padding-right: 2rem !important;
-    border-radius: 100px 100px !important;
-    background: #4E1D69 !important;
+  border-radius: 100px 100px !important;
+  background: #4E1D69 !important;
 }
 .apply {
   width: 195px;

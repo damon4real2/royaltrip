@@ -22,7 +22,7 @@ import "./css/Button.css";
 export default class button extends Component {
     render() {
         var well={
-            boxShadow: "0 1px 1px rgba(120, 120, 118, 0.20)"
+            boxShadow: "0 1px 1px rgba(120, 120, 118, 0.20)",
         }
         var header={
           marginTop: "20px",
