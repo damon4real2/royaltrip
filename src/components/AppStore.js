@@ -29,10 +29,28 @@ function Example() {
         </div>
         <div className="col-md-1"></div>
         <div className="col-md-5">
-          <div className="img_happy">
+          {/* <div className="img_happy">
             <img className="img3"
               alt="..."
               src={require("../assets/images/man.png")}
+            />
+            </div> */}
+            <div className="img_happy">
+            <img className="cars"
+              alt="..."
+              src={require("../assets/images/cars.png")}
+            />
+            <img className="logo1"
+              alt="..."
+              src={require("../assets/images/logo.svg")}
+            />
+            <img className="logo2"
+              alt="..."
+              src={require("../assets/images/logo.svg")}
+            />
+            <img className="logo3"
+              alt="..."
+              src={require("../assets/images/logo.svg")}
             />
             </div>
         </div>

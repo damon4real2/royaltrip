@@ -125,7 +125,7 @@ function Footer() {
           </div>
           <div className="col-md-8">
             <div>
-            <WebsiteRights>2020, Royal Trips. All rights reserved.</WebsiteRights>
+            <WebsiteRights>2020, Royal Trip. All rights reserved.</WebsiteRights>
             </div>
           </div>
         </div>

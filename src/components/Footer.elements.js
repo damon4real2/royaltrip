@@ -3,12 +3,19 @@ import { FaMagento } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 
 export const FooterBackground = styled.div`
+  // position: absolute;
+  // width: 1440px;
+  // height: 527px;
+  // left: 0px;
+  // top: 3086px;
+  // background: #F5F2F6;
   position: absolute;
-  width: 1440px;
-  height: 527px;
-  left: 0px;
-  top: 3086px;
-  background: #F5F2F6;
+width: 1440px;
+height: 424px;
+left: 0px;
+top: 3189px;
+
+background: #99811D;
 `;
 
 export const FooterContainer = styled.div`

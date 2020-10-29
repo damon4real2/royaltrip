@@ -41,8 +41,8 @@ const Example = (props) => {
             <NavItem>
               <NavLink href="/logIn">Log In</NavLink>
             </NavItem>
-            <UncontrolledDropdown nav inNavbar>
-              <DropdownToggle nav caret>
+            <UncontrolledDropdown nav inNavbar id="sign-up-nav">
+              <DropdownToggle nav>
                 Sign Up
               </DropdownToggle>
               <DropdownMenu right>

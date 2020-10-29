@@ -8,7 +8,7 @@ function Rider() {
     return (
         <form className="logInForm">
             <Link to="/">
-                <img className="logInFormLogo" src={require("../assets/images/applyToRideBgroundLogo.png")} alt="Apply To Ride Logo" />
+                <img className="logInFormLogo" src={require("../assets/images/logo.svg")} alt="RCA Logo" />
             </Link>
             <div className="welcome">
                 <p6>Welcome! Enter Your Number</p6>

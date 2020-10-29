@@ -8,16 +8,17 @@
     src: url("../../assets/fonts/IBM_Plex_Sans/IBMPlexSans-Light.ttf");
   }
  .appstore-playstore2 {
-     margin-left: 2.6rem;
-     margin-top: 1.5rem;
+     margin-left: 6.6rem;
+     margin-top: 2.5rem;
  }
   .appstore-playstore2 img {
-      margin: 10px;
+      margin: 13px;
       width: 140px;
   }
   .question {
       display: flex;
-      margin-left: 3.2rem;
+      margin-left: 7.2rem;
+      margin-top: 3rem;
   }
   .question p{
       margin-bottom: 0;
@@ -56,8 +57,47 @@
 .jwaAXM{
     margin: 0 !important;
 }
-.royalTripLogo {
-  margin-left: 3rem;
+.eOfDOf {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-left: 88px;
+}
+.KJqga {
+  margin-top: 35px;
+  margin-left: 155px;
+  display: flex;
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px;
+  color: #000000;
+}
+.gqXWtw {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 90%;
+  max-width: 1000px;
+  margin: 33px auto 2px 61px !important;
 }
 @media only screen and (min-width: 320px) and (max-width: 767px) {
     .footer-container {

@@ -1,15 +1,23 @@
+.img1 {
+  margin-left: 50px;
+}
 .nav-link {
   margin: 10px 25px;
   font-family: IBM Plex Sans Medium;
 }
-.active1 {
-  position: absolute;
-  width: 108.75px;
+.nav-item:hover .dropdown-menu{
+  display:block!important
+}
+#sign-up-nav {
+  padding-left: 26px;
+  padding-top: 16px;
+  width: 104.75px;
   height: 54px;
-  left: 1231px;
-  top: 25px;
-  background: #99811D;
-  border-radius: 6px;
+  background: #99811D !important;
+  border-radius: 6px
+}
+#sign-up-nav a {
+  display: contents;
 }
 /* 
 Extra small (xs) devices (portrait phones, less than 576px)
