@@ -4,7 +4,7 @@ import './css/LogoFooter.css';
 function logoFooter() {
     return (
         <div className="logo-parent">
-            <img className="bottom-logo" src={require("../assets/images/logo.svg")} alt="Car" />
+            <img className="bottom-logo" src={require("../assets/images/logo.svg")} alt="logo-footer" />
         </div>
     )
 }

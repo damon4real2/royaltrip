@@ -74,4 +74,42 @@ height: 54px;
       padding-right: 1rem !important;
       font-size: 13px !important;
     }
+    .signup_buttons {
+      display: flex;
+      display: flex;
+      position: absolute;
+      width: 286px;
+    height: 262px;
+    left: 108px;
+    top: 320px;
+      background: #FFFFFF;
+      box-shadow: 0px 0px 10px -6px rgba(120, 120, 118, 0.25);
+    }
+    .sign-up, .apply {
+      /* position: absolute; */
+      width: 189px;
+      height: 45px;
+      border-radius: 30px;
+    }
+    .sign-up {
+      left: 86px;
+      top: 519px;
+      background: #501F6A;
+    }
+    .apply {
+      margin-top: 27px;
+      background: #FFFFFF;;
+    }
+    .help, .talk {
+        
+    }
+    .help {
+      margin-top: 18px;
+    margin-left: 45px;
+    margin-right: 90px;
+    }
+    .talk {
+      margin-bottom: 50px;
+      margin-left: 45px;
+    }
   }

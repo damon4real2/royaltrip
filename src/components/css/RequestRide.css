@@ -59,11 +59,35 @@
     width: 65%;
 }
 @media only screen and (min-width: 320px) and (max-width: 767px) {
-    .rrtext {
-        text-align: center;
-        padding: 2rem;
-        }
     .rrbody {
-     margin-top: 0;
+        position: absolute;
+        margin-top: -35rem;
+        margin-right: -58px;
+        /* transform: matrix(-0.99, -0.14, -0.14, 0.99, 0, 0); */
  }
+ .title {
+    left: 54px;
+    font-size: 26px !important;
+        position: absolute;
+        font-family: IBM Plex Sans Medium;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 20px !important;
+        text-align: center;
+        color: #4E1D69;
+        top: 411px;
+    }
+    .text {
+        text-align: left;
+        font-size: 12px !important;
+        left: -40px;
+        font-family: IBM Plex Sans Light;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 21px !important;
+        color: #4E1D69;
+        top: 95px !important;
+        line-height: 20px !important;
+        margin-top: 250px !important;
+    }
 }

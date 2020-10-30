@@ -1,19 +1,3 @@
-// import React from 'react';
-// import { Button } from 'reactstrap';
-// import './Button.css'
-// const Example = (props) => {
-//   return (
-    // <div className="button1">
-    //   <Button className="sign-up">Sign up to ride</Button>{' '}
-    //   <Button className="apply">Apply to drive</Button>{' '}
-    //   <Button className="help">Help line</Button>{' '}
-    //   <Button className="talk">Talk to us</Button>{' '}
-//     </div>
-//   );
-// }
-
-// export default Example;
-
 import React, { Component } from "react";
 import { Button } from 'reactstrap';
 import "./css/Button.css";
@@ -35,7 +19,7 @@ export default class button extends Component {
         <div style={well}>
             <div className="container">
                 <div style={header}></div>
-                <div className="signup_buttons">
+                <div className="row signup_buttons">
                     <Button className="sign-up">Sign up to ride</Button>{' '}
                     <Button className="apply">Apply to drive</Button>{' '}
                     <Button className="help">Help line</Button>{' '}

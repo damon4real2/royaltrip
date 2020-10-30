@@ -22,7 +22,7 @@ export class features extends Component {
               : "Loading..."} */}
               <div className="features_grid">
             <div className="row">
-            <div class="col-md-4">
+            <div class="col-md-4 feature-a">
                 <div className="img2">
                 <div className="feature-grid">
                 <div className="circle-background">
@@ -36,7 +36,7 @@ export class features extends Component {
                 </div>
                 </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 feature-b">
                 <div className="img2">
                 <div className="feature-grid active">
                 <div className="circle-background">
@@ -50,7 +50,7 @@ export class features extends Component {
                 </div>
                 </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 feature-c">
                 <div className="img2">
                 <div className="feature-grid">
                 <div className="circle-background">
