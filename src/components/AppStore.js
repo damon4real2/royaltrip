@@ -38,9 +38,9 @@ function Example() {
             <div className="img_happy">
             <img className="cars"
               alt="..."
-              src={require("../assets/images/cars.png")}
+              src={require("../assets/images/cars-grouped.png")}
             />
-            <img className="logo1"
+            {/* <img className="logo1"
               alt="..."
               src={require("../assets/images/logo.svg")}
             />
@@ -51,7 +51,7 @@ function Example() {
             <img className="logo3"
               alt="..."
               src={require("../assets/images/logo.svg")}
-            />
+            /> */}
             </div>
         </div>
       {/* </Card> */}

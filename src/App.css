@@ -203,26 +203,26 @@ box-shadow: none !important;
 }
 .applyToRideButton1 {
 color: #333333 !important;
-margin-top: 270px;
+margin-top: 478px;
 position: absolute;
 text-align: center;
 justify-content: space-between;
   position: absolute;
 width: 155px;
 height: 54px;
-left: 15px;
+left: 100px;
 box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
 border-radius: 30px;
 }
 .applyToRideButton2 {
-  top: 340px;
+  top: 500px;
   text-align: center;
 color: #333333 !important;
 justify-content: space-between;
   position: absolute;
 width: 155px;
 height: 54px;
-left: 220px;
+left: 287px;
 box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
 border-radius: 30px;
 }
@@ -288,6 +288,10 @@ color: #333333 !important;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) !important;
   border-radius: 30px !important;
 }
+.applyToDrive a {
+  text-decoration: none !important;
+  color: #FFFFFF !important;
+}
 .logInFormLogo {
   /* position: absolute; */
   width: 252px;
@@ -312,7 +316,7 @@ color: #000000;
   position: absolute;
   width: 458px;
   height: 46px;
-  left: 30px;
+  left: 45px;
   padding-top: 30px;
   text-align: left;
   font-family: IBM Plex Sans Light;
@@ -457,6 +461,14 @@ top: 46px;
 background: #501F6A !important ;
 border-radius: 30px !important;
 }
+.signUpToDriveButton a {
+  text-decoration: none !important;
+  color: #FFFFFF;
+}
+.signUpToDriveButton a:hover {
+  text-decoration: none !important;
+  color: #FFFFFF;
+}
 .signUpToDriveImg {
   /* position: absolute; */
 width: 890px;
@@ -477,7 +489,6 @@ width: 375px;
 height: 36px;
 left: 92px;
 top: 168px;
-
 font-family: IBM Plex Sans;
 font-style: normal;
 font-weight: 500;
@@ -485,12 +496,12 @@ font-size: 27px;
 line-height: 36px;
 text-align: center;
 text-transform: capitalize;
-
 color: #501F6A;
 }
+
 .sign-to-drive {
   position: absolute;
-width: 139px;
+/* width: 139px; */
 height: 26px;
 left: 95px;
 top: 238px;
@@ -523,8 +534,8 @@ color: #333333;
   position: absolute;
   width: 361px;
   height: 60px;
-  left: 100px;
-  top: 369px;
+  left: 85px;
+    top: 363px;
   background: #FFFFFF;
   box-shadow: 0px 4px 20px rgba(120, 120, 118, 0.2);
   border-radius: 10px;
@@ -571,13 +582,16 @@ background: #501F6A;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 border-radius: 30px;
 }
-
+#next_SignUp a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
 .text_SignUp {
   position: absolute;
 width: 135px;
 height: 23px;
 left: 117px;
-top: 726px;
+top: 680px;
 
 font-family: IBM Plex Sans Light;
 font-style: normal;
@@ -593,7 +607,7 @@ color: #333333;
 width: 266px;
 height: 18px;
 left: 115px;
-top: 764px;
+top: 730px;
 
 font-family: IBM Plex Sans;
 font-style: normal;
@@ -608,3 +622,428 @@ color: #99811D;
   text-decoration: none !important;
   color: #99811D !important;
 } 
+
+
+.enter-code {
+  position: absolute;
+width: 395px;
+height: 36px;
+left: 52px;
+top: 170px;
+font-family: IBM Plex Sans;
+font-style: normal;
+font-weight: 500;
+font-size: 28px;
+line-height: 36px;
+text-align: center;
+color: #000000;
+text-transform: capitalize;
+}
+.enterVerificationCode {
+position: absolute;
+width: 380px;
+height: 60px;
+left: 103px;
+top: 245px;
+background: #FFFFFF;
+box-shadow: 0px 4px 20px rgba(120, 120, 118, 0.2);
+border-radius: 10px;
+}
+.send-text {
+  position: absolute;
+/* width: 352px; */
+height: 18px;
+left: 105px;
+top: 350px;
+font-family: IBM Plex Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 23px;
+color: #333333;
+}
+.phone-number {
+  position: absolute;
+  width: 152px;
+  height: 23px;
+  left: 103px;
+  top: 402px;
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+  color: #333333;
+}
+.resend {
+  position: absolute;
+/* width: 106px; */
+height: 23px;
+left: 106px;
+top: 450px;
+font-family: IBM Plex Sans;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 23px;
+color: #501F6A;
+}
+/* .form2 {
+
+} */
+.problem {
+  position: absolute;
+/* width: 198px; */
+height: 23px;
+left: 106px;
+top: 650px;
+
+font-family: IBM Plex Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 23px;
+text-align: center;
+
+color: #333333;
+}
+.support {
+  position: absolute;
+/* width: 126px; */
+height: 23px;
+left: 107px;
+    top: 688px;
+font-family: IBM Plex Sans;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 23px;
+text-align: center;
+
+}
+.support a {
+  text-decoration: none !important;
+  color: #99811D !important;
+}
+
+
+.driverFormLogo {
+  position: absolute;
+width: 112px;
+height: 75px;
+left: 68px;
+top: 44px;
+}
+.cash-out {
+  text-transform: capitalize;
+  position: absolute;
+width: 962px;
+height: 94px;
+left: 164px;
+top: 116px;
+
+font-family: IBM Plex Sans;
+font-style: normal;
+font-weight: 500;
+font-size: 60px;
+line-height: 94px;
+/* identical to box height */
+
+text-align: center;
+text-transform: capitalize;
+
+color: #501F6A;
+}
+.sign-up-to-drive {
+  position: absolute;
+/* width: 167px; */
+height: 31px;
+left: 243px;
+    top: 220px;
+
+font-family: IBM Plex Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 31px;
+text-align: center;
+
+color: #1B1B1B;
+}
+.driver {
+  position: absolute;
+  /* width: 139px;  */
+  /* height: 26px; */
+  left: 95px;
+  top: 238px;
+
+font-family: IBM Plex Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 26px;
+/* identical to box height */
+
+text-align: center;
+
+color: #1B1B1B;
+}
+.awesome {
+  position: absolute;
+width: 519px;
+height: 19px;
+left: 243px;
+top: 275px;
+
+font-family: IBM Plex Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 23px;
+
+color: #333333;
+}
+.first-name {
+  position: absolute;
+width: 361px;
+height: 60px;
+left: 258px;
+top: 275px;
+
+background: rgba(80, 31, 106, 0.06);
+border-radius: 10px;
+}
+.last-name {
+  position: absolute;
+width: 361px;
+height: 60px;
+left: 150px;
+top: 275px;
+
+background: rgba(80, 31, 106, 0.06);
+border-radius: 10px;
+}
+.email {
+  position: absolute;
+width: 361px;
+height: 60px;
+left: 42px;
+top: 275px;
+
+background: rgba(80, 31, 106, 0.06);
+border-radius: 10px;
+}
+.driver-top {
+  margin-top: 73px;
+}
+.drver-bottom {
+  margin-top: 183px;
+}
+.license-number {
+position: absolute;
+width: 361px;
+height: 60px;
+left: 258px;
+top: 355px;
+
+background: rgba(80, 31, 106, 0.06);
+border-radius: 10px;
+}
+.referral-code {
+position: absolute;
+width: 361px;
+height: 60px;
+left: 150px;
+top: 355px;
+
+background: rgba(80, 31, 106, 0.06);
+border-radius: 10px;
+}
+.city {
+
+position: absolute;
+width: 361px;
+height: 60px;
+left: 42px;
+top: 355px;
+
+background: rgba(80, 31, 106, 0.06);
+border-radius: 10px;
+}
+.form3Button {
+  text-transform: uppercase;
+  position: absolute;
+width: 219px;
+height: 54px;
+left: 245px;
+top: 577px;
+background: #501F6A !important;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) !important;
+border-radius: 30px !important;
+}
+.form3Button a {
+  color: #FFFFFF !important;
+text-decoration: none !important;
+}
+.already {
+  position: absolute;
+/* width: 285px; */
+height: 23px;
+left: 250px;
+    top: 660px;
+
+font-family: IBM Plex Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 23px;
+text-align: center;
+
+color: #333333;
+}
+.log-in {
+  position: absolute;
+/* width: 49px; */
+height: 23px;
+left: 250px;
+top: 695px;
+
+font-family: IBM Plex Sans;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 23px;
+text-align: center;
+
+}
+.log-in a {
+  text-decoration: none !important;
+  color: #99811D !important;
+}
+
+/* LOG IN */
+.driver_enter {
+  position: absolute;
+  top: 254px;
+}
+#next a {
+  text-decoration: none !important;
+  color: #FFFFFF !important;
+}
+.driver_checkbox {
+  position: absolute;
+  left: 82px;
+    top: 411px;
+}
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+ .applyToDriveImg {
+  display: none;
+  visibility: hidden;
+ }
+  .applyToDrive {
+   display: none;
+   visibility: hidden;
+ }
+.logInFormLogo {
+  position: absolute;
+  width: 89px;
+  height: 57px;
+  left: 108px;
+  top: 20px;
+}
+.drive {
+  position: absolute;
+width: 375px;
+height: 36px;
+left: 940px;
+top: 168px;
+
+font-family: IBM Plex Sans;
+font-style: normal;
+font-weight: 500;
+font-size: 28px;
+line-height: 36px;
+text-align: center;
+text-transform: capitalize;
+
+color: #000000;
+}
+
+
+.welcome {
+  top: 99px;
+    left: 71px;
+}
+.SignUpToDriveFormLogo {
+  visibility: hidden;
+  display: none;
+}
+.signUpToDriveForm, .SignUpToDriveForm1, .SignUpToDriveForm2, .SignUpToDriveForm3, .logInForm1, .logInForm2, .logInForm3 {
+  background-image: none !important;
+  position: absolute;
+width: 360px;
+height: 640px;
+left: 0px;
+top: 0px;
+background: #FDFCFD;
+}
+
+
+.driverFormLogo {
+  position: absolute;
+width: 89px;
+height: 57px;
+left: 18px;
+top: 20px;
+}
+
+.driverFormLogo {
+  position: absolute;
+width: 257px;
+height: 62px;
+left: 20px;
+top: 95px;
+
+font-family: IBM Plex Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 31px;
+text-transform: capitalize;
+
+color: #501F6A;
+}
+.sign-up-to-drive {
+  /* position: absolute; */
+width: 125px;
+height: 23px;
+left: 20px;
+top: 186px;
+
+font-family: IBM Plex Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 23px;
+text-align: center;
+
+color: #1B1B1B;
+}
+.awesome {
+  /* position: absolute; */
+width: 286px;
+height: 31px;
+left: 20px;
+top: 233px;
+
+font-family: IBM Plex Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 18px;
+
+color: #333333;
+}
+
+
+}

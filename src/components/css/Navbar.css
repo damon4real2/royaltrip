@@ -1,31 +1,42 @@
 .img1 {
-  /* margin-left: 50px; */
-  margin-left: 29px;
+  margin-left: 50px;
+    margin-left: -5px;
 }
 .nav-link {
   margin: 10px 25px;
   font-family: IBM Plex Sans Medium;
 }
 .nav-item:hover .dropdown-menu{
-  display:block!important
+  display:block !important;
+  background: #99811D !important;
+  /* color: #ffffff !important; */
 }
 #sign-up-nav {
-  padding-left: 24px;
-  padding-top: 14px;
-  width: 104.75px;
-  height: 54px;
+  padding-left: 25px;
+  padding-top: 17px;
+      width: 108.75px;
+    height: 54px;
   background: #99811D !important;
   border-radius: 6px
 }
 #sign-up-nav a {
   display: contents;
+  color: #ffffff !important;
 }
+#sign-up-nav a:hover {
+  display: contents;
+  color: #000000 !important;
+}
+/* .navbar-nav > li{
+  padding-left: 15px;
+  padding-right:  15px;
+} */
 .navbar {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
-  padding: 0.75rem 2rem;
+  padding: 0.5rem 4rem !important;
   background: var(--offWhite);
   z-index: 1;
 }
@@ -53,7 +64,7 @@
   display: block;
   text-decoration: none;
   padding: 1rem 0;
-  color: var(--mainBlack);
+  color: #000000;
   transition: var(--mainTransition);
   text-align: center;
   font-size: 1rem;
@@ -67,6 +78,15 @@
 .show-nav {
   height: 100px;
 }
+
+
+.navbar-nav > li > .dropdown-menu {     background-color: #FFFFFF !important;  }
+
+/* Dropdown menu font color*/ 
+
+ .navbar-nav > li > .dropdown-menu a{   color: #000000 !important;  }
+
+
 @media screen and (min-width: 768px) {
   .nav-btn {
     display: none;
@@ -86,13 +106,15 @@
     padding: 0.5rem 0;
   }
 }
-
+.navbar-light .navbar-nav .nav-link {
+  color: #000000 !important;
+}
 @media only screen and (min-width: 320px) and (max-width: 767px) {
   .img1 {
     position: absolute;
     width: 78px;
     height: 57px;
-    left: -5px;
+    left: 30px;
     top: 16px;
   }
   .bg-light {
@@ -105,20 +127,30 @@
   box-shadow: 0px 4px 10px -6px rgba(120, 120, 118, 0.25);
   }
   .navbar-toggler-icon {
-    height: 14px;
-    position: absolute;
-    left: 86.00000007%;
-    right: 31.78%;
-    top: 30.74%;
-    bottom: 98.94%;
-    background: #FFFFFF;
+      top: -3px;
+      position: absolute;
+      left: 1.72px;
+      display: inline-block;
+      width: 1.5em;
+      height: 1.5em;
+      vertical-align: middle;
+      content: "";
+      background: no-repeat center center;
+      background-size: 100% 100%;
+      display: inline-block;
+}
+.navbar-toggler {
+  color: red !important;
+}
+.navbar-toggle.collapsed {
+  background-color: red !important;
 }
   .navbar-light .navbar-toggler {
-    /* position: absolute; */
+    position: absolute;
     width: 37px;
     height: 28px;
-    left: 304px;
-    top: 26px;
+    left: 314px;
+    top: 27px;
     background: #99811D;
     border: 2px solid #99811D;
     box-sizing: border-box;
@@ -126,4 +158,7 @@
   .navbar a {
     color: #FFFFFF !important;
   }
+  .navbar-dark .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;..");
+  }  
 }

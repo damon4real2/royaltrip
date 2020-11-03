@@ -25,42 +25,42 @@ export class features extends Component {
             <div class="col-md-4 feature-a">
                 <div className="img2">
                 <div className="feature-grid">
-                <div className="circle-background">
+                <div className="img-background">
                     <img className=""
                       alt="Card"
-                      src={require("../assets/images/ride.svg")}
+                      src={require("../assets/images/get-a-ride.svg")}
                     />
                   </div>
                       <h5>Get a ride</h5>
-                      <p>Royal Trip offers a ride in meetings.</p>
+                      <p>Royal Trip offers a ride in minutes.</p>
                 </div>
                 </div>
                 </div>
                 <div class="col-md-4 feature-b">
                 <div className="img2">
                 <div className="feature-grid active">
-                <div className="circle-background">
+                <div className="img-background middle">
                     <img className=""
                       alt="Card"
-                      src={require("../assets/images/price.svg")}
+                      src={require("../assets/images/best-prices.svg")}
                     />
                   </div>
-                      <h5>Best prices</h5>
-                      <p>Royal Trip offers you the best prices.</p>
+                      <div className="middle-title">Best prices</div>
+                      <div className="middle-text">We do not stretch you beyond what is affordable.</div>
                 </div>
                 </div>
                 </div>
                 <div class="col-md-4 feature-c">
                 <div className="img2">
                 <div className="feature-grid">
-                <div className="circle-background">
+                <div className="img-background">
                     <img
                       alt="Card"
-                      src={require("../assets/images/class.svg")}
+                      src={require("../assets/images/ride-with-class.svg")}
                     />
                   </div>
-                      <h5>Ride with class</h5>
-                      <p>Royal Trip gives you a safe and classy ride.</p>
+                      <h5 className="ride">Ride with class</h5>
+                      <p class="end">Royal Trip gives you a safe and classy ride.</p>
                 </div>
                 </div>
               </div>

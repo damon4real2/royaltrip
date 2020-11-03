@@ -7,9 +7,15 @@
     font-family: IBM Plex Sans Light;
     src: url("../../assets/fonts/IBM_Plex_Sans/IBMPlexSans-Light.ttf");
   }
+  .royalTripLogo {
+    bottom: 177px;
+    position: absolute;
+    left: 120px;
+  }
  .appstore-playstore2 {
-     margin-left: 6.6rem;
-     margin-top: 2.5rem;
+     margin-left: 5.49rem;
+     margin-top: 5.5rem;
+     color: #99811D !important;
  }
   .appstore-playstore2 img {
       margin: 13px;
@@ -17,9 +23,27 @@
   }
   .question {
       display: flex;
-      margin-left: 7.2rem;
+      margin-left: 6.15rem;
       margin-top: 3rem;
   }
+  .eRVeVP {
+    color: #99811D !important;
+    /* color: #000000; */
+    font-size: 20px;
+    margin: 0 7px;
+}
+  .Hsue {
+    margin-left: 154px;
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 30px;
+    color: #99811D !important;
+    bottom: 130px;
+    position: absolute;
+    top: 32px;
+}
   .question p{
       margin-bottom: 0;
       margin-left: 0.7rem;
@@ -29,7 +53,11 @@
     font-size: 18px;
     line-height: 23px;
     text-align: center;
-    color: #333333;
+    color: #99811D;
+  }
+  .question-icon {
+    color: #99811D !important;
+    /* background: red !important; */
   }
   .kOefKs{
       justify-content: flex-start !important;
@@ -99,9 +127,44 @@
   max-width: 1000px;
   margin: 33px auto 2px 61px !important;
 }
+.dbrNqS {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-left: 3.1rem;
+  color: #99811D;
+}
 @media only screen and (min-width: 320px) and (max-width: 767px) {
     .footer-container {
         justify-content: center !important;
         /* padding: 2rem; */
     }
+}
+
+.bEjdwM {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  margin-bottom: 0.5rem;
+  font-family: IBM Plex Sans Light;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  color: #000000 !important;
+}
+
+.cUFyQW {
+  right: 4px;
+  max-width: 1000px;
+  width: 100%;
+  position: absolute;
 }

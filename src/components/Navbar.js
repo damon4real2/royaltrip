@@ -31,7 +31,7 @@ const Example = (props) => {
         </NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
-          <Nav className="ml-auto" navbar>
+          <Nav className="ml-auto" navbar nav-fill>
             <NavItem>
               <NavLink href="/Driver">Driver</NavLink>
             </NavItem>
@@ -42,7 +42,7 @@ const Example = (props) => {
               <NavLink href="/logIn">Log In</NavLink>
             </NavItem>
             <UncontrolledDropdown nav inNavbar id="sign-up-nav">
-              <DropdownToggle nav>
+              <DropdownToggle nav className="nav-sign-up">
                 Sign Up
               </DropdownToggle>
               <DropdownMenu right>

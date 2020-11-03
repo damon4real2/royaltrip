@@ -9,7 +9,7 @@
   } */
 .getStarted {
     height: 762px;
-width: 1440px;
+width: 1455px;
 left: 0px;
 top: 1766px;
 border-radius: 0px;
@@ -27,15 +27,15 @@ border-radius: 0px;
     height: 522px;
     width: 1170px;
     left: 135px;
-    top: 1896px;
+    top: 2120px;
     border-radius: 10px;
     
     /* top: 52.37%;
     bottom: 33.19%; */
     /* background: #99811D; */
     box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
-    border-radius: 10px;
-    border-top: 4px solid #99811D;
+    border-radius: 11px;
+    border-top: 7px solid #99811D;
 }
 
 .getStarted2 {
@@ -94,16 +94,16 @@ border-radius: 0px;
     color: #091D2D;
 }
 .moving {
-    width: 148px;
+    width: 276px;
     position: absolute;
     height: 36px;
-    left: 12.75%;
+    left: 7.75%;
     right: 68.22%;
     top: 270px;
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
-    font-size: 14px;
+    font-size: 12px;
     line-height: 18px;
     text-align: center;
     color: #524558;
@@ -112,7 +112,7 @@ border-radius: 0px;
     text-transform: capitalize;
     position: absolute;
     /* left: 19.38%;  */
-    right: 76.85%;
+    right: 77.85%;
     top: 378px;
     background: #501F6A !important;
     box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.2);
@@ -137,7 +137,7 @@ border-radius: 0px;
 .get-started-middle {
     height: 582px;
 width: 370px;
-left: 37.15%;
+left: 35.15%;
 right: 37.15%;
 top: -6.49%; 
 border-radius: 10px;
@@ -275,16 +275,16 @@ color: #FFFFFF;
 }
 .get {
     position: absolute;
-    width: 171px;
+    width: 199px;
     position: absolute;
     height: 36px;
-    left: 76.85%;
+    left: 74.85%;
     right: 10.36%;
     top: 270px;
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
-    font-size: 14px;
+    font-size: 12px;
     line-height: 18px;
     text-align: center;
     color: #524558;
@@ -293,7 +293,7 @@ color: #FFFFFF;
     text-transform: capitalize;
     position: absolute;
     /* left: 73.89%;  */
-    right: 11.33%;
+    right: 12.33%;
     top: 378px;
     background: #501F6A !important;
     box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.2);

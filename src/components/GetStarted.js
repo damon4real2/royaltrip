@@ -13,7 +13,7 @@ function GetStarted() {
                                 </div>
                                 <p id="safe">safe</p>
                                 <p className="convenient">And Convenient</p>
-                                <p className="moving">Moving with RoyalTrip is easy, safe and fast.</p>
+                                <p className="moving">We are committed to working to design a safe and delightful experience for you.</p>
                                 <Button className="get-started-button1">get started</Button>{' '}
                             <div className="get-started-middle">
                                 <div className="icon-2">
@@ -30,7 +30,7 @@ function GetStarted() {
                                 </div>
                                 <p id="always">Always</p>
                                 <p className="there">there for you</p>
-                                <p className="get">Get fast support whenever you need it.</p>
+                                <p className="get">We are very responsive and prompt, you have our full attention everytime you need it.</p>
                                 <Button className="get-started-button3">get started</Button>{' '}
                     </div>
                 </div>

@@ -13,23 +13,22 @@
 width: 1440px;
 height: 483px;
 left: 0px;
-top: 2532px;
-
-background: #FFFFFF;
+top: 2759px;
+background: #501F6A;;
 }
 .appstore-h4 {
   position: absolute;
   width: 514px;
   height: 47px;
   left: 143px;
-  top: 156px;
+  top: 144px;
   font-family: IBM Plex Sans;
   font-style: normal;
   font-weight: 600;
   font-size: 36px;
   line-height: 47px;
   text-align: center;
-  color: #100118;
+  color: #FFFFFF;
 }
 .appstore-p {
   position: absolute;
@@ -93,8 +92,9 @@ background: #FFFFFF;
   position: absolute;
   width: 808px;
   height: 483px;
-  left: -216px;
-  top: 4px;
+  left: -159px;
+  top: 0px;
+  background: #000;
 }
 .logo1 {
   position: absolute;

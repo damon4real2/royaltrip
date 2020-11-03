@@ -6,6 +6,7 @@ import {
   FaTwitter,
   FaLinkedin
 } from 'react-icons/fa';
+import {Link} from 'react-router-dom';
 import {
   FooterBackground,
   FooterContainer,
@@ -31,15 +32,17 @@ function Footer() {
         <div className="row">
         <div className="col-md-4">
           <div className="royalTrip">
-            {/* <div className="royalTripLogo">
+            <div className="royalTripLogo">
+            <Link to="/">
               <img src={require("../assets/images/logo.svg")} alt="footer-logo" />
-            </div> */}
+            </Link>
+            </div>
             <div className="appstore-playstore2">
               <img src={require("../assets/images/app-store.svg")} alt="app-store" />
               <img src={require("../assets/images/google-play.svg")} alt="app-store" />
             </div>
             <div className="question">
-            <img src={require("../assets/images/question.svg")} alt="question" />
+            <img className="question-icon" src={require("../assets/images/question-icon.jpeg")} alt="question" />
             <p>Help Center</p>
             </div>
           </div>

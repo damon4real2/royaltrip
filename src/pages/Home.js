@@ -8,7 +8,7 @@ import RequestRide from '../components/RequestRide';
 import GetStarted from '../components/GetStarted';
 // import Cards from '../components/Cards';
 import AppStore from '../components/AppStore';
-import LogoFooter from '../components/LogoFooter';
+// import LogoFooter from '../components/LogoFooter';
 import Footer from '../components/Footer';
 
 
@@ -23,7 +23,7 @@ function Home() {
       <GetStarted />
       {/* <Cards /> */}
       <AppStore />
-      <LogoFooter />
+      {/* <LogoFooter /> */}
       <Footer />
     </>
   );
