@@ -8,8 +8,8 @@ const RequestRide = (props) => {
     <Row >
       <Col sm="6" className="requestRight">
         <div className="rrhead">
-          <div className="title">A fast ride for when you need it!</div>
-          <div className="text">Tell us where you want to go. Connect with your Royal Trip Driver and enjoy your ride.</div>
+          <div className="title">A fast ride when you need it!</div>
+          <div className="text">Tell us where you want to go. Connect with your Royal Trip Driver, and enjoy your ride.</div>
         </div>
       </Col>
       {/* <Col sm="1" className=""></Col> */}

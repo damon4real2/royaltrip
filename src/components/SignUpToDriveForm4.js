@@ -1,6 +1,6 @@
 import React from 'react';
 import '../App.css';
-// import {Link} from 'react-router-dom';
+import {Link} from 'react-router-dom';
 import { Button } from 'reactstrap';
 import SignUpToDriveForm4b from "./SignUpToDriveForm4b"
 
@@ -12,7 +12,9 @@ function SignUpToDriveForm4() {
                     <div className="logInImg">
                         <img className='signUpToDriveImg' src={require("../assets/images/rca-bg.jpg")} alt={'sign-up'}/>
                         <Button className="signUpToDriveButton">
-                            log in
+                        <Link to="/logIn">
+                             log in
+                            </Link>
                         </Button>{' '}
                     </div>   
                 </div> 

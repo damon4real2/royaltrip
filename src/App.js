@@ -6,11 +6,15 @@ import Rider from './pages/Rider';
 import logIn from './pages/LogIn';
 import SignUp from './pages/SignUpToDrive';
 import ApplyTo from './pages/ApplyToRide';
+import FAQ from './pages/FAQ';
+import ContactUs from './pages/ContactUs';
 import SignUpToDriveForm from './components/SignUpToDriveForm2';
 import SignUpToDriveForm3 from './components/SignUpToDriveForm3';
 import signUpToDriveForm4 from './components/SignUpToDriveForm4';
 import LogInForm from './components/LogInForm2';
 import LogInForm3 from './components/LogInForm3';
+import RiderForm2 from './components/RiderForm2';
+import RiderForm3 from './components/RiderForm3';
 
 import './App.css';
 
@@ -25,11 +29,15 @@ function App() {
           <Route path='/logIn' component={logIn} />
           <Route path='/signUpToDrive' component={SignUp} />
           <Route path='/applyToRide' component={ApplyTo} />
+          <Route path='/FAQ' component={FAQ} />
+          <Route path='/ContactUs' component={ContactUs} />
           <Route path='/signUpToDriveForm2' component={SignUpToDriveForm} />
           <Route path='/signUpToDriveForm3' component={SignUpToDriveForm3} />
           <Route path='/signUpToDriveForm4' component={signUpToDriveForm4} />
           <Route path='/LogInForm2' component={LogInForm} />
           <Route path='/LogInForm3' component={LogInForm3} />
+          <Route path='/RiderForm2' component={RiderForm2} />
+          <Route path='/RiderForm3' component={RiderForm3} />
         </Switch>
       </Router>
     </>

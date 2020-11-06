@@ -1,0 +1,64 @@
+.Stay {
+  position: absolute;
+width: 1441px;
+height: 440px;
+left: 0px;
+top: 1980px;
+background: #EEE9F0;
+}
+.Stay h1 {
+  position: absolute;
+  height: 42px;
+  left: 42.57%;
+  right: 42.43%;
+  top: 95px;
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 1.2px;
+  color: #1E2022;
+}
+.Stay h2 {
+  position: absolute;
+height: 54px;
+left: 34.24%;
+right: 34.03%;
+top: 150px;
+
+font-family: Nunito;
+font-style: normal;
+font-weight: normal;
+font-size: 17px;
+line-height: 27px;
+/* or 159% */
+
+text-align: center;
+letter-spacing: 0.6px;
+
+color: #501F6A;
+}
+.enter {
+  position: absolute;
+left: 34.24%;
+right: 34.03%;
+top: 55.21%;
+bottom: 20.97%;
+width: 457px;
+height: 52px;
+background: #FFFFFF;
+box-shadow: 0px 2px 48px rgba(0, 0, 0, 0.06);
+border-radius: 4px;
+}
+.enter::placeholder {
+  text-align: left;
+}
+.email-search {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  top: 249px;
+    left: 904px;
+}

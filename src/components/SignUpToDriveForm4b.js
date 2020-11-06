@@ -15,7 +15,11 @@ function SignUpToDriveForm4b() {
     </label>
     <p className="send-text">We sent a text to the phone number below.</p>
     <div className="phone-number">+2348284548717</div>
-    <div className="resend">Resend code</div>
+    <div className="resend">
+        <Link to="/">
+            Resend code
+        </Link>
+        </div>
     <div className="applyToRideButton1">
          <Button className="call-me">
             <img className="call-me-img"

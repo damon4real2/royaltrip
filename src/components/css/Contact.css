@@ -1,0 +1,141 @@
+.Contact {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 2060px;
+  bottom: 0%;
+  background: #501F6A;
+  height: 680px;
+}
+.Contact h1 {
+  text-transform: uppercase;
+  position: absolute;
+  width: 188px;
+  height: 26px;
+  left: 138px;
+  top: 92.5px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 26px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.Contact h2 {
+  position: absolute;
+  width: 394px;
+  height: 75px;
+  left: 137px;
+  top: 129.5px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 25px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.56px;
+  color: #FFFFFF;
+  text-align: left;
+}
+.location-icon1 {
+  position: absolute;
+  width: 45px;
+  height: 25px;
+  left: 127px;
+  top: 250.5px;
+  font-family: Font Awesome 5 Free;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 25px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.72px;
+  color: #FFFFFF;
+}
+.location1 {
+  position: absolute;
+  width: 175px;
+  height: 51px;
+  left: 190px;
+  top: 245.5px;
+  font-family: Open Sans;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 25px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.96px;
+  color: #FFFFFF;
+}
+.location-icon2 {
+  position: absolute;
+  width: 50px;
+  height: 25px;
+  left: 127px;
+  top: 351.5px;
+  font-family: Font Awesome 5 Free;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 25px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.72px;
+  color: #FFFFFF;
+}
+.location2 {
+  position: absolute;
+  width: 167px;
+  height: 51px;
+  left: 190px;
+  top: 346.5px;
+  font-family: Open Sans;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 25px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.96px;
+  color: #FFFFFF;
+}
+.location-icon3 {
+  position: absolute;
+  width: 48px;
+  height: 25px;
+  left: 127px;
+  top: 472.5px;
+  font-family: Font Awesome 5 Free;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 25px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.64px;
+  color: #FFFFFF;
+}
+.location3 {
+  position: absolute;
+  width: 219px;
+  height: 51px;
+  left: 190px;
+  top: 468px;
+  font-family: Open Sans;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 25px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.96px;
+  color: #FFFFFF;
+}
+

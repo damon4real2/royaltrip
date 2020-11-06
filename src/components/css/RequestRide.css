@@ -65,11 +65,11 @@
         margin-right: -58px;
         /* transform: matrix(-0.99, -0.14, -0.14, 0.99, 0, 0); */
  }
- .rrbody img {
+ /* .rrbody img {
     width: 20px;
-}
+} */
  .title {
-    left: 54px;
+    left: 39px;
     font-size: 26px !important;
         position: absolute;
         font-family: IBM Plex Sans Medium;

@@ -68,7 +68,7 @@ function SignUpToDriveForm1() {
             {/* <div className="checkbox_SignUp"></div> */}
                 <Checkbox />
             <div className="agreement_SignUp">I agree to RoyalTrip's terms of Service.</div>
-            <Button className="applyToDrive" id="next_SignUp">
+            <Button id="next_SignUp">
                 {/* next */}
                 <Link to={'/SignUpToDriveForm2'}>
                     next

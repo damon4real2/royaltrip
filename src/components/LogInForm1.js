@@ -84,7 +84,7 @@ function LogInForm1() {
                 <Checkbox />
                 <p7>Keep me signed in</p7>
             </div>
-            <Button className="applyToDrive" id="next">
+            <Button id="next">
                 <Link to={'/LogInForm2'}>
                     next
                 </Link>

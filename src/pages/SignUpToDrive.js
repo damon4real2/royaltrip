@@ -188,6 +188,7 @@ class SignUpToDrive extends Component {
                 <div className="col-7">
                     <div className="logInImg">
                         <img className='signUpToDriveImg' src={require("../assets/images/rca-bg.jpg")} alt={'sign-up'}/>
+                        {/* <img className='signUpToDriveImg' src={require("../assets/images/drive-with-royal-trip.svg")} alt={'sign-up'}/> */}
                         <Button className="signUpToDriveButton">
                             <Link to="/logIn">
                              log in

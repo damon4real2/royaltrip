@@ -139,12 +139,12 @@
       background-size: 100% 100%;
       display: inline-block;
 }
-.navbar-toggler {
+/* .navbar-toggler {
   color: red !important;
 }
 .navbar-toggle.collapsed {
   background-color: red !important;
-}
+} */
   .navbar-light .navbar-toggler {
     position: absolute;
     width: 37px;

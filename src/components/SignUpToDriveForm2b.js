@@ -17,7 +17,7 @@ function SignUpToDriveForm2b() {
             <p className="send-text">We sent a text to the phone number below.</p>
             <div className="phone-number">+2348284548717</div>
             <div className="resend">Resend code</div>
-            <Button className="applyToDrive form2" id="next_SignUp">
+            <Button className="form2" id="next_SignUp">
                 {/* next */}
                 <Link to={'/SignUpToDriveForm3'}>
                     next

@@ -203,7 +203,7 @@ box-shadow: none !important;
 }
 .applyToRideButton1 {
 color: #333333 !important;
-margin-top: 478px;
+margin-top: 477px;
 position: absolute;
 text-align: center;
 justify-content: space-between;
@@ -299,6 +299,11 @@ color: #333333 !important;
   left: 890px;
   top: 19px;
 }
+.form3logo {
+  left: 105px;
+  position: absolute;
+  top: 30px;
+}
 .welcome {
   position: absolute;
 width: 379px;
@@ -372,6 +377,12 @@ border-radius: 10px;
   text-transform: uppercase;
   left: 80px;
   top: 480px;
+  background: #501F6A;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 30px;
+position: absolute;
+width: 177px;
+height: 54px;
 }
 .newNumber {
   position: absolute;
@@ -406,6 +417,16 @@ border-radius: 10px;
   text-decoration: none !important;
 }
 @media only screen and (min-width: 320px) and (max-width: 767px) {
+ 
+  .row {
+    display: block !important;
+  } 
+  .logInFormLogo {
+    width: 112px;
+height: 75px;
+left: 73px !important;
+top: 20px !important;
+  }
   .applyToRide  {
     display: flex;
     overflow: hidden;
@@ -448,7 +469,19 @@ border-radius: 10px;
       border-radius: 6px;
       box-shadow: 0px 4px 20px rgba(120, 120, 118, 0.2);
   }
-}
+} 
+#next {
+    left: 85px;
+    top: 485px;
+  }
+  .newNumber {
+    left: 95px;
+    top: 631px;
+  }
+  .find {
+    left: 96px;
+    top: 683px;
+  }
 /* SIGN UP TO DRIVE */
   .signUpToDriveButton {
     text-transform: uppercase;
@@ -477,11 +510,11 @@ left: 0px;
 top: 0px;
 }
 .SignUpToDriveFormLogo {
-  position: absolute;
-  width: 252px;
-  height: 104px;
-  left: 51px;
-  top: 45px;
+    position: absolute;
+    width: 84px;
+    height: 104px;
+    left: 97px;
+    top: 25px;
 }
 .drive {
   position: absolute;
@@ -592,14 +625,12 @@ width: 135px;
 height: 23px;
 left: 117px;
 top: 680px;
-
 font-family: IBM Plex Sans Light;
 font-style: normal;
 font-weight: normal;
 font-size: 18px;
 line-height: 23px;
 text-align: center;
-
 color: #333333;
 }
 .check {
@@ -687,6 +718,10 @@ font-weight: 500;
 font-size: 18px;
 line-height: 23px;
 color: #501F6A;
+}
+.resend a {
+  text-decoration: none !important;
+  color: #501F6A !important;
 }
 /* .form2 {
 
@@ -935,13 +970,49 @@ text-align: center;
   left: 82px;
     top: 411px;
 }
+
+.riderForm {
+  top: 256px;
+}
+.send_rider_form {
+  position: absolute;
+    left: 99px !important;
+    top: 426px !important;
+}
+
+.rider_check {
+  left: 92px;
+    top: 332px;
+}
+.keep {
+  left: 158px !important;
+    top: 472px !important;
+}
+#next {
+  text-transform: uppercase;
+    left: 95px;
+    top: 529px;
+    background: #501F6A;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 30px;
+position: absolute;
+width: 177px;
+height: 54px;
+} 
+.rider_number {
+  left: 99px;
+}
+.rider_find {
+  left: 100px;
+}
+
 @media only screen and (min-width: 320px) and (max-width: 767px) {
+  /* LOG IN */
  .applyToDriveImg {
   display: none;
   visibility: hidden;
  }
   .applyToDrive {
-   display: none;
    visibility: hidden;
  }
 .logInFormLogo {
@@ -951,13 +1022,12 @@ text-align: center;
   left: 108px;
   top: 20px;
 }
-.drive {
+/* .drive {
   position: absolute;
 width: 375px;
 height: 36px;
 left: 940px;
 top: 168px;
-
 font-family: IBM Plex Sans;
 font-style: normal;
 font-weight: 500;
@@ -967,17 +1037,128 @@ text-align: center;
 text-transform: capitalize;
 
 color: #000000;
-}
+} */
 
 
 .welcome {
-  top: 99px;
-    left: 71px;
+  top: 104px;
+    left: 42px;
 }
-.SignUpToDriveFormLogo {
-  visibility: hidden;
-  display: none;
+.welcome p {
+  left: 36px;
 }
+.driver_enter {
+  position: absolute;
+  top: 245px;
+  left: 80px;
+}
+.send p5 {
+  width: 298px !important;
+  left: 84px;
+}
+.send p7 {
+  width: 148px;
+}
+.applyToDrive {
+  left: 82px;
+  top: 489px;
+background: #501F6A !important;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 30px;
+}
+
+/* LOGINFORM2 */
+.enter-code {
+  font-size: 24px;
+    left: -9px;
+    top: 113px;
+}
+.enterVerificationCode {
+  left: 55px;
+  width: 300px;
+  top: 206px;
+}
+.send-text {
+  width: 270px;
+height: 18px;
+left: 58px;
+    top: 306px;
+    font-family: IBM Plex Sans Light;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 18px;
+
+color: #333333;
+}
+.phone-number {
+  left: 55px;
+    top: 357px;
+}
+.resend {
+  position: absolute;
+  width: 105px !important;
+  /* height: 23px; */
+  left: 63px;
+  top: 402px;
+  font-family: 'IBM Plex Sans Light';
+  font-style: normal;
+  font-weight: 500;
+  /* font-size: 18px; */
+  line-height: 23px;
+  color: #501F6A;
+}
+.problem {
+  position: absolute;
+  width: 254px;
+  /* height: 18px; */
+  left: 20px;
+  top: 490px;
+
+font-family: IBM Plex Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 18px;
+text-align: center;
+
+color: #333333;
+}
+.support {
+  position: absolute;
+width: 98px;
+height: 18px;
+left: 69px;
+    top: 523px;
+font-family: IBM Plex Sans;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 18px;
+text-align: center;
+
+color: #99811D;
+}
+/* LOGINFORM3 */
+.applyToRideButton1 {
+  width: 154px;
+  left: 40px;
+  margin-top: 438px;
+}
+.applyToRideButton2 {
+  width: 154px;
+  left: 218px;
+  top: 461px;
+}
+.problem {
+  top: 561px;
+}
+.support {
+  top: 595px;
+}
+
+
+
 .signUpToDriveForm, .SignUpToDriveForm1, .SignUpToDriveForm2, .SignUpToDriveForm3, .logInForm1, .logInForm2, .logInForm3 {
   background-image: none !important;
   position: absolute;
@@ -1046,4 +1227,82 @@ color: #333333;
 }
 
 
+}
+/* RIDER */
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+#next_SignUp {
+    width: 154px;
+    height: 54px;
+    left: 68px;
+    top: 469px;
+  }
+/* SIGN UP TO DRIVE */
+.row {
+  display: block !important;
+} 
+.signUpToDriveImg {
+  display: none;
+  visibility: hidden;
+}
+.SignUpToDriveFormLogo {
+    left: 46px;
+    top: 5px;
+}
+.signUpToDriveButton {
+  visibility: hidden;
+}
+.drive {
+  left: 17px;
+    top: 114px;
+    font-size: 24px;
+    line-height: 31px;
+}
+.driver {
+  font-size: 18px;
+line-height: 23px;
+position: absolute;
+    width: 139px;
+    left: 36px;
+    top: 156px;
+    font-family: IBM Plex Sans ExtraLight;
+}
+.code-text {
+  font-size: 14px;
+line-height: 18px;
+width: 272px;
+    height: 41px;
+    left: 48px;
+    top: 203px;
+    font-family: IBM Plex Sans Light;
+}
+.enterNo_SignUp {
+  width: 300px;
+  left: 50px;
+    top: 294px;
+}
+.checkbox_SignUp {
+  left: 58px;
+    top: 409px;
+}
+.agreement_SignUp {
+  /* width: 233px; */
+  font-size: 14px;
+line-height: 18px;
+left: 71px;
+    top: 411px;
+}
+
+
+.text_SignUp {
+  font-size: 14px;
+line-height: 18px;
+left: 46px;
+top: 567px;
+}
+.check {
+  width: 266px;
+    height: 18px;
+    left: 60px;
+    top: 600px;
+}
 }

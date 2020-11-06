@@ -7,7 +7,7 @@ function LogInForm3b() {
   return (
     <form className="LogInForm">
     <Link to="/">
-        <img className="SignUpToDriveFormLogo" src={require("../assets/images/logo.svg")} alt="RCA Logo" />
+        <img className="LogInFormLogo form3logo" src={require("../assets/images/logo.svg")} alt="RCA Logo" />
     </Link>
     <p className="enter-code">enter verification code</p>
     <label>
@@ -15,7 +15,11 @@ function LogInForm3b() {
     </label>
     <p className="send-text">We sent a text to the phone number below.</p>
     <div className="phone-number">+2348284548717</div>
-    <div className="resend">Resend code</div>
+    <div className="resend">
+        <Link to="/">
+            Resend code
+        </Link>    
+    </div>
     <div className="applyToRideButton1">
          <Button className="call-me">
             <img className="call-me-img"

@@ -54,18 +54,17 @@ function Footer() {
             <FooterLinkItems>
               <FooterLinkTitle>Our Company</FooterLinkTitle>
               <FooterLink to='/sign-up'>About Us</FooterLink>
-              <FooterLink to='/'>Contact Us</FooterLink>
-              <FooterLink to='/'>FAQ</FooterLink>
-              <FooterLink to='/'>Contact Us</FooterLink>
-              <FooterLink to='/'>FAQ</FooterLink>
+              <FooterLink to='/ContactUs'>Contact Us</FooterLink>
+              <FooterLink to='/FAQ'>FAQ</FooterLink>
+              <FooterLink to='/'>Terms of Use (Drivers)</FooterLink>
+              <FooterLink to='/'>Terms of Use (Riders)</FooterLink>
+              <FooterLink to='/'>Privacy Policy</FooterLink>
             </FooterLinkItems>
             <FooterLinkItems>
               <FooterLinkTitle>For Riders</FooterLinkTitle>
               <FooterLink to='/'>Sign In</FooterLink>
               <FooterLink to='/'>Sign Up</FooterLink>
               <FooterLink to='/'>Find A Driver</FooterLink>
-              <FooterLink to='/'>Contact Us</FooterLink>
-              <FooterLink to='/'>FAQ</FooterLink>
             </FooterLinkItems>
           </FooterLinksWrapper>
           <FooterLinksWrapper>
@@ -73,17 +72,14 @@ function Footer() {
               <FooterLinkTitle>For Drivers</FooterLinkTitle>
               <FooterLink to='/'>Sign In</FooterLink>
               <FooterLink to='/'>Sign Up</FooterLink>
-              <FooterLink to='/'>Why Join Us?</FooterLink>
-              <FooterLink to='/'>Contact Us</FooterLink>
-              <FooterLink to='/'>FAQ</FooterLink>
+              <FooterLink to='/WhyJoinUs'>Why Join Us?</FooterLink>
             </FooterLinkItems>
             <FooterLinkItems>
               <FooterLinkTitle>Help</FooterLinkTitle>
               <FooterLink to='/'>Forum</FooterLink>
               <FooterLink to='/'>Blog</FooterLink>
               <FooterLink to='/'>Talk To Us</FooterLink>
-              <FooterLink to='/'>Contact Us</FooterLink>
-              <FooterLink to='/'>FAQ</FooterLink>
+              <FooterLink to='/'>Help Line</FooterLink>
             </FooterLinkItems>
           </FooterLinksWrapper>
         </FooterLinksContainer>

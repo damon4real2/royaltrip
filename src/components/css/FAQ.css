@@ -1,0 +1,218 @@
+#FAQComponent {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 1195px;
+  height: 707px;
+  /* bottom: 35.55%; */
+  background-color: #501F6A;
+}
+#FAQComponent h1 {
+  text-transform: uppercase;
+  position: absolute;
+height: 22px;
+left: 10.42%;
+    right: 73.47%;
+    top: 120px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 22px;
+letter-spacing: 2.8px;
+text-transform: uppercase;
+
+color: #B1B1B1;
+}
+#FAQComponent h2 {
+  text-transform: capitalize;
+  position: absolute;
+    height: 50px;
+    left: 3.42%;
+    right: 54.17%;
+    top: calc(48% - 50px/2 - 143.5px);
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 50px;
+/* identical to box height, or 139% */
+
+letter-spacing: -1px;
+
+color: #FFFFFF;
+}
+#FAQComponent h3 {
+  position: absolute;
+left: 10.42%;
+right: 41.74%;
+top: 33.07%;
+bottom: 52.18%;
+
+font-family: Lato;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 25px;
+color: rgba(255, 255, 255, 0.7);
+}
+
+.left {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: -0.5px;
+    color: #FFFFFF;
+    position: relative;
+    text-align: center;
+}
+.left p1 {
+  position: absolute;
+  width: 405px;
+  height: 56px;
+  left: -21.5%;
+  right: 62.29%;
+  top: 313px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 21px;
+  letter-spacing: -0.5px;
+  color: #FFFFFF;
+  background: #99811D;
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+}
+.left p2 {
+  position: absolute;
+  width: 405px;
+height: 56px;
+left: -21.5%;
+    right: 60.29%;
+   top: 371px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 21px;
+letter-spacing: -0.5px;
+color: #FFFFFF;
+background: #515356;
+display: flex;
+  align-items: center;
+  /* justify-content: center; */
+}
+.left p3 {
+  position: absolute;
+  height: 21px;
+  width: 405px;
+  height: 56px;
+  left: -21.5%;
+  right: 66.46%;
+  top: 429px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 21px;
+  letter-spacing: -0.5px;
+  color: #FFFFFF;
+  background: #515356;
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+}
+.left p4 {
+  position: absolute;
+  height: 21px;
+  width: 405px;
+  height: 56px;
+  left: -21.5%;
+  right: 66.46%;
+  top: 487px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 21px;
+  letter-spacing: -0.5px;
+  color: #FFFFFF;
+  background: #515356;
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+}
+.left p5 {
+  position: absolute;
+  height: 21px;
+  width: 405px;
+  height: 56px;
+  left: -21.5%;
+  right: 66.46%;
+  top: 545px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 21px;
+  letter-spacing: -0.5px;
+  color: #FFFFFF;
+  background: #515356;
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+}
+.left p6 {
+  position: absolute;
+  height: 21px;
+  width: 405px;
+  height: 56px;
+  left: -21.5%;
+  right: 66.46%;
+  top: 603px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 21px;
+  letter-spacing: -0.5px;
+  color: #FFFFFF;
+  background: #515356;
+  display: flex;
+  align-items: center;
+      /* justify-content: center; */
+}
+.right {
+  width: 662px;
+  /* width: 60%; */
+  position: absolute;
+  height: 346px;
+  right: 40px;
+  top: 313px;
+  /* bottom: 39px; */
+  border: 2px solid #99811D;
+  box-sizing: border-box;
+}
+
+.right p {
+  position: absolute;
+  height: 175px;
+  left: 4.35%;
+  right: 15.68%;
+  top: 10.02%;
+  bottom: 41.87%;
+  width: 662px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 25px;
+  color: rgba(255, 255, 255, 0.7);
+  
+}
