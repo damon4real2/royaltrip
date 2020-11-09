@@ -4,8 +4,8 @@ import "./css/HeroFAQ.css";
 
 function HeroFAQ() {
   return(
-    <div className="HeroFAQ">
-        <img src={require("../assets/images/hero-background.jpg")} alt="heroBackground" />
+    <div className="">
+        <img className="HeroFAQ" src={require("../assets/images/Rectangle 233.svg")} alt="heroBackground" />
       <div className="how">How can we help?</div>
         {/* <img className="arrow" src={require("../assets/images/arrow.png")} alt="arrow" /> */}
         <label>

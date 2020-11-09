@@ -7,7 +7,7 @@ function GetStarted() {
         <div className="row">
             <div className="getStarted">
                 <div className="getStarted1">
-                    <div className="getStarted2">
+                    {/* <div className="getStarted2"> */}
                                 <div className="icon-1">
                                     <img src={require("../assets/images/safe-vector.jpg")} alt="Safe Vector" />
                                 </div>
@@ -35,7 +35,7 @@ function GetStarted() {
                     </div>
                 </div>
             </div>      
-            </div> 
+            // </div> 
     )
 }
 export default GetStarted;

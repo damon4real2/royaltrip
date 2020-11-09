@@ -7,7 +7,7 @@ import { Button } from 'reactstrap';
 function SignUpToDriveForm3() {
   return (
         <div className="SignUpToDriveForm3">
-            <div className='driverFormLogo'>
+            <div className='driverFormLogo form4'>
                 <Link to="/">
                     <img src={require("../assets/images/logo.svg")} alt={'driver-logo'}/>
                 </Link>
@@ -17,23 +17,6 @@ function SignUpToDriveForm3() {
             <div className="awesome">Awesome! We will need more details from you to get started.</div>
             <div className="form3">
                 <Row className="driver-top">
-                    <Col>
-                    <label>
-                        <input className="first-name" type="text" name="First Name" placeholder="First Name" />
-                    </label>
-                    </Col>
-                    <Col>
-                    <label>
-                        <input className="last-name" type="text" name="Last Name" placeholder="Last Name" />
-                    </label>
-                    </Col>
-                    <Col>
-                    <label>
-                        <input className="email" type="text" name="email" placeholder="Email" />
-                    </label>
-                    </Col>
-                </Row>
-                <Row className="driver-bottom">
                     <Col>
                     <label>
                         <input className="license-number" type="number" name="Driver's License Number" placeholder="Driver's License Number" />
@@ -47,6 +30,13 @@ function SignUpToDriveForm3() {
                     <Col>
                     <label>
                         <input className="city" type="text" name="City You'll Drive In" placeholder="City You'll Drive In" />
+                    </label>
+                    </Col>
+                </Row>
+                <Row className="driver-bottom">
+                    <Col>
+                    <label>
+                        <input className="email" type="text" name="email" placeholder="Email" />
                     </label>
                     </Col>
                 </Row>

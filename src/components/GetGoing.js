@@ -24,7 +24,7 @@ function GetGoing() {
             </Row>
             <Row>
                 <Col>
-                    <p1>The RoyalTrip driver's app and it's features helps clear your path to self sufficience. When you are ready, cash out in 48hrs.</p1>
+                    <p1a>The RoyalTrip driver's app and it's features helps clear your path to self sufficience. When you are ready, cash out in 48hrs.</p1a>
                 </Col>
                 <Col>
                     <p1>You will need to meet the age required by law in your region, have a smart phone, get on GooglePlay or iOS to download the app, provide the required personal details and attach the vehicle document for background check.</p1>

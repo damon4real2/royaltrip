@@ -8,9 +8,9 @@
     src: url("../../assets/fonts/IBM_Plex_Sans/IBMPlexSans-Light.ttf");
   }
   .royalTripLogo {
-    bottom: 177px;
+    bottom: 107px !important;
     position: absolute;
-    left: 120px;
+    left: 60px !important;
   }
  .appstore-playstore2 {
      margin-left: 5.49rem;
@@ -42,7 +42,7 @@
     color: #99811D !important;
     bottom: 130px;
     position: absolute;
-    top: 32px;
+    top: 37px;
 }
   .question p{
       margin-bottom: 0;
@@ -62,15 +62,17 @@
   .kOefKs{
       justify-content: flex-start !important;
   }
-  .footer-link-title {
-    font-family: IBM Plex Sans;
+  
+  .jykwZK {
+    font-family: IBM Plex Sans SemiBold !important;
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
     line-height: 26px;
     text-align: center;
     color: #333333;
-  }
+    margin-bottom: 16px;
+}
     .footer-link {
     font-family: IBM Plex Sans Light;
     font-style: normal;
@@ -143,28 +145,86 @@
   margin-left: 3.1rem;
   color: #99811D;
 }
-@media only screen and (min-width: 320px) and (max-width: 767px) {
-    .footer-container {
-        justify-content: center !important;
-        /* padding: 2rem; */
-    }
-}
-
-.bEjdwM {
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  margin-bottom: 0.5rem;
-  font-family: IBM Plex Sans Light;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 30px;
-  color: #000000 !important;
-}
-
-.cUFyQW {
-  right: 4px;
-  max-width: 1000px;
-  width: 100%;
+.hSKfGL {
   position: absolute;
+  width: 1440px;
+  height: 424px;
+  left: 0px;
+  /* top: 2485px !important; */
+  background: #F9F9F9;
+}
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  .footer-container {
+      justify-content: center !important;
+  }
+  .iGCBmf {
+    position: relative;
+    padding-top: 32px;
+    top: 29px;
+    }
+    .bEjdwM {
+    -webkit-text-decoration: none;
+    text-decoration: none;
+    margin-bottom: 0.5rem;
+    font-family: IBM Plex Sans Light;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    color: #000000 !important;
+    }
+    .cUFyQW {
+    bottom: 445px;
+    /* top: 0px; */
+    right: 124px !important;
+    width: 100%;
+    position: relative;
+    }
+    .jykwZK {
+    font-family: IBM Plex Sans SemiBold !important;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+    color: #333333;
+    margin-bottom: 16px;
+    }
+    .hSKfGL {
+    width: 377px !important;
+    height: 834px !important;
+    position: absolute !important;
+    left: 0px !important;
+    top: 4063px !important;
+    background: #F9F9F9 !important;
+    }
+    .royalTripLogo {
+    width: 89px;
+    height: 57px;
+    bottom: 37px !important;
+    position: absolute;
+    left: 34px !important;
+    }
+    .appstore-playstore2 {
+    position: absolute;
+    margin: 0 !important;
+    color: #99811D !important;
+    top: -63px;
+    right: 32px;
+    }
+    .question-icon {
+    right: 48px;
+      top: 10px;
+    position: relative;
+    }
+    .question p {
+    position: relative;
+    top: 10px;
+      left: -39px;
+    }
+    .Hsue {
+    position: relative;
+    top: 45px;
+    left: -85px;
+    }
 }

@@ -8,7 +8,7 @@ import PropTypes, { number } from 'prop-types';
 const Input = ({ type = number, placeholder="Enter your phone number", name, value, onChange, error }) => {
     return ( 
         <input 
-            className="enterNo_SignUp"
+            className="enterNo_SignUp input_SignUp"
             type = {type}
             placeholder = {placeholder}
             name = {name}
@@ -59,7 +59,7 @@ function SignUpToDriveForm1() {
                 <img className="SignUpToDriveFormLogo" src={require("../assets/images/logo.svg")} alt="RCA Logo" />
             </Link>
             <p className="drive">drive and cash out big time!</p>
-            <p className="sign-to-drive driver">Sign up to drive</p>
+            <p className="sign-to-drive">Sign up to drive</p>
             <p className="code-text">Let's start with your phone number - we'll text you a code to verify your phone.</p>
             <label>
                 <Input />

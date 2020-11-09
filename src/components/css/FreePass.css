@@ -36,29 +36,58 @@
 .full-name {
     position: absolute;
     left: 0.35px;
-    top: 78.5px;
+    top: 77.5px;
     background: #F5F5F5;
     width: 340px;
     height: 50px;
 }
 .full-name::placeholder {
     text-align: left;
+    font-family: Open Sans;
+font-style: italic;
+font-weight: normal;
+font-size: 11px;
+line-height: 25px;
+display: flex;
+align-items: center;
+letter-spacing: 0.44px;
+color: #999999;
+}
+.full-name:placeholder-shown {
+    text-align: left;
+    font-family: Open Sans;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.44px;
 }
 .e-mail {
     position: absolute;
     left: 0.35px;
-    top: 154.5px;
+    top: 153.5px;
     background: #F5F5F5;
     width: 340px;
     height: 50px;
 }
 .e-mail::placeholder {
     text-align: left;
+    font-family: Open Sans;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.44px;
+    color: #999999;
 }
 .phone-no {
     position: absolute;
     left: 0.35px;
-    top: 230.5px;
+    top: 229.5px;
     bottom: 43.67%;
     background: #F5F5F5;
     width: 340px;
@@ -66,11 +95,20 @@
 }
 .phone-no::placeholder {
     text-align: left;
+    font-family: Open Sans;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.44px;
+    color: #999999;
 }
 .some-details {
     position: absolute;
     left: 0.35px;
-    top: 306.5px;
+    top: 305.5px;
     bottom: 43.67%;
     background: #F5F5F5;
     width: 340px;
@@ -78,6 +116,20 @@
 }
 .some-details::placeholder {
     text-align: left;
+    font-family: Open Sans;
+font-style: italic;
+font-weight: normal;
+font-size: 11px;
+line-height: 25px;
+display: flex;
+align-items: center;
+letter-spacing: 0.44px;
+color: #999999;
+position: absolute;
+width: 122px;
+height: 25px;
+left: 54px;
+top: 300px;
 }
 #join-us {
     position: absolute;
@@ -88,4 +140,8 @@
     width: 190px;
     height: 45px;
     text-transform: uppercase;
+}
+#join-us:hover {
+    background: #FFFFFF !important;
+    color: #501F6A;
 }

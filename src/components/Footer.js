@@ -34,7 +34,7 @@ function Footer() {
           <div className="royalTrip">
             <div className="royalTripLogo">
             <Link to="/">
-              <img src={require("../assets/images/logo.svg")} alt="footer-logo" />
+              <img className="royalTripLogo" src={require("../assets/images/logo.svg")} alt="footer-logo" />
             </Link>
             </div>
             <div className="appstore-playstore2">
@@ -53,7 +53,7 @@ function Footer() {
           <FooterLinksWrapper>
             <FooterLinkItems>
               <FooterLinkTitle>Our Company</FooterLinkTitle>
-              <FooterLink to='/sign-up'>About Us</FooterLink>
+              <FooterLink to='/ContactUs'>About Us</FooterLink>
               <FooterLink to='/ContactUs'>Contact Us</FooterLink>
               <FooterLink to='/FAQ'>FAQ</FooterLink>
               <FooterLink to='/'>Terms of Use (Drivers)</FooterLink>
@@ -95,15 +95,15 @@ function Footer() {
               <SocialIcon />
             </SocialLogo> */}
             <SocialIcons>
-              <SocialIconLink href='https://web.facebook.com/Royal-Trips-107283564520818' target='_blank' aria-label='Facebook'>
+              <SocialIconLink href='/' target='_blank' aria-label='Facebook'>
                 <FaFacebook />
               </SocialIconLink>
-              <SocialIconLink href='https://www.instagram.com/royaltrips_ng/' target='_blank' aria-label='Instagram'>
+              <SocialIconLink href='/' target='_blank' aria-label='Instagram'>
                 <FaInstagram />
               </SocialIconLink>
               <SocialIconLink
                 href={
-                  'https://www.youtube.com/channel/UCaUXF_uZEhhY9s65Lmq58dg/featured'
+                  '//www.youtube.com/channel/UCsKsymTY_4BYR-wytLjex7A?view_as=subscriber'
                 }
                 rel='noopener noreferrer'
                 target='_blank'
@@ -111,10 +111,10 @@ function Footer() {
               >
                 <FaYoutube />
               </SocialIconLink>
-              <SocialIconLink href='https://twitter.com/RoyalTrips3' target='_blank' aria-label='Twitter'>
+              <SocialIconLink href='/' target='_blank' aria-label='Twitter'>
                 <FaTwitter />
               </SocialIconLink>
-              <SocialIconLink href='https://www.linkedin.com/company/royal-trips/about/' target='_blank' aria-label='LinkedIn'>
+              <SocialIconLink href='/' target='_blank' aria-label='LinkedIn'>
                 <FaLinkedin />
               </SocialIconLink>
             </SocialIcons>
@@ -124,7 +124,7 @@ function Footer() {
           </div>
           <div className="col-md-8">
             <div>
-            <WebsiteRights>2020, Royal Trip. All rights reserved.</WebsiteRights>
+            <WebsiteRights>&copy; 2020, Royal Trip. All rights reserved.</WebsiteRights>
             </div>
           </div>
         </div>

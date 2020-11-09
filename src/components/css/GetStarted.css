@@ -8,7 +8,7 @@
     src: url("../../assets/fonts/roboto-cufonfonts/Roboto-Black.ttf");
   } */
 .getStarted {
-    height: 762px;
+    /* height: 762px; */
 width: 1455px;
 left: 0px;
 top: 1066px;
@@ -27,7 +27,7 @@ border-radius: 0px;
     height: 522px;
     width: 1170px;
     left: 135px;
-    top: 2120px;
+    top: 2061px;
     border-radius: 10px;
     
     /* top: 52.37%;
@@ -262,8 +262,7 @@ color: #FFFFFF;
     text-transform: capitalize;
     position: absolute;
     height: 25px;
-    left: 78.01%;
-    right: 10.46%;
+    right: 11.46%;
     top: 220px;
     font-family: Roboto;
     font-style: normal;
@@ -308,29 +307,28 @@ color: #FFFFFF;
 }
 
 @media only screen and (min-width: 320px) and (max-width: 767px) {
-.getStarted1 {
+ 
+    .getStarted1 {
     position: absolute;
     width: 300px;
     height: 830px;
-    left: 30px;
-    top: 2564px;
+    left: 37px;
+    top: 2647px;
     background: #FFFFFF;
     box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
     }
     .icon-1 {
         position: absolute;
-        left: 48.07%;
-right: 47.93%;
-top: 51.35%;
-bottom: 48.4%;
+        left: 131px;
+        top: 2.35%;
     }
     #safe {
     position: absolute;
     height: 25px;
-    left: 6.94%;
-    right: 6.94%;
-    top: calc(50% - 25px/2 + 121px);
+    width: 310px;
+    left: -4px;
+    top: 82px;
     font-family: Roboto;
     font-style: normal;
     font-weight: bold;
@@ -344,223 +342,168 @@ bottom: 48.4%;
 height: 25px;
 left: 6.94%;
 right: 6.94%;
-top: calc(50% - 25px/2 + 161px);
-
+top: calc(-4% - 25px/2 + 161px);
 font-family: Roboto;
 font-style: normal;
 font-weight: normal;
 font-size: 20px;
 line-height: 25px;
-/* identical to box height, or 125% */
-
 text-align: center;
 
 color: #091D2D;
     }
     .moving {
         position: absolute;
-height: 36px;
-left: 31.94%;
-right: 31.94%;
-top: calc(50% - 36px/2 + 201.5px);
-
-font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 12px;
-line-height: 18px;
-/* or 150% */
-
-text-align: center;
-
-color: #524558;
+        height: 36px;
+        left: 5.94%;
+        top: calc(-4% - 36px/2 + 201.5px);
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 18px;
+        text-align: center;
+        color: #524558;
     }
     .get-started-button1 {
-        left: 34.44%;
-right: 34.44%;
-top: 55.54%;
-bottom: 43.54%;
-
-background: #501F6A;
-box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.2);
-border-radius: 5px;
+        right: 34.44%;
+        top: 24.54%;
+        background: #501F6A;
+        box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.2);
+        border-radius: 5px;
     }
 
     .get-started-middle {
         position: absolute;
-width: 320px;
-height: 260px;
-left: 20px;
-top: 2498px;
-
-background: #501F6A;
-box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
-border-radius: 8px;
+        width: 320px;
+        height: 260px;
+        left: -10px;
+        top: 264px;
+        background: #501F6A;
+        box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
     }
     .icon-2 {
         position: absolute;
-        left: 44.44%;
-        right: 44.72%;
-        top: 57.62%;
-        bottom: 41.49%;
-        
-        background: #FFFFFF;
+        right: 42.72%;
+        top: 6.62%;
+        /* background: #FFFFFF; */
     }
     .happy-drivers {
         position: absolute;
 height: 25px;
-left: 6.94%;
-right: 6.94%;
-top: calc(50% - 25px/2 + 399px);
-
+left: 0.94%;
+top: 79px;
 font-family: Roboto;
 font-style: normal;
 font-weight: bold;
 font-size: 20px;
 line-height: 25px;
-/* identical to box height, or 125% */
-
 text-align: center;
-
 color: #FFFFFF;
 
     }
     .happy-riders {
-
-position: absolute;
-height: 25px;
-left: 6.94%;
-right: 6.94%;
-top: calc(50% - 25px/2 + 439px);
-
-font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 20px;
-line-height: 25px;
-/* identical to box height, or 125% */
-
-text-align: center;
-
-color: #FFFFFF;
+        top: 110px;
+    position: absolute;
+    height: 25px;
+    left: 0.94%;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+    color: #FFFFFF;
     }
     .moving2 {
         position: absolute;
-height: 36px;
-left: 31.94%;
-right: 31.94%;
-top: calc(50% - 36px/2 + 479.5px);
-
-font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 12px;
-line-height: 18px;
-/* or 150% */
-
-text-align: center;
-
-color: #FFFFFF;
+    height: 36px;
+    left: 27.94%;
+    top: 142px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    color: #FFFFFF;
     }
     .get-started-button2 {
         position: absolute;
-left: 34.44%;
-right: 34.44%;
-top: 61.9%;
-bottom: 37.19%;
-
-background: #99811D;
-box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.2);
-border-radius: 5px;
+        left: 32%;
+        top: 75.9%;
+        bottom: 37.19%;
+        width: 112px;
+        height: 40px;
+        background: #99811D;
+        box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.2);
+        border-radius: 5px;
     }
     .icon-3 {
         position: absolute;
-left: 44.44%;
-right: 44.72%;
-top: 63.57%;
-bottom: 35.54%;
-
-background: #501F6A;
+        left: 43.44%;
+        top: 66.57%;
     }
     #always {
         position: absolute;
-height: 25px;
-left: 6.94%;
-right: 6.94%;
-top: calc(50% - 25px/2 + 668px);
-
-font-family: Roboto;
-font-style: normal;
-font-weight: bold;
-font-size: 20px;
-line-height: 25px;
-/* identical to box height, or 125% */
-
-text-align: center;
-
-color: #091D2D;
+        height: 25px;
+        top: 74.56%;
+        position: absolute;
+        left: 0.01%;
+        /* right: 0.46%; */
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 25px;
+        text-align: center;
+        color: #091D2D;
     }
     .there {
         position: absolute;
-height: 25px;
-left: 6.94%;
-right: 6.94%;
-top: calc(50% - 25px/2 + 708px);
-
-font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 20px;
-line-height: 25px;
-/* identical to box height, or 125% */
-
-text-align: center;
-
-color: #091D2D;
+        width: 310px;
+        height: 25px;
+        right: -2.06%;
+        top: 79%;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 25px;
+        text-align: center;
+        color: #091D2D;
     }
     .get {
         position: absolute;
-height: 36px;
-left: 30.28%;
-right: 30.56%;
-top: calc(50% - 36px/2 + 748.5px);
-
-font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 12px;
-line-height: 18px;
-/* or 150% */
-
-text-align: center;
-
-color: #524558;
+        height: 36px;
+        left: 17.85%;
+        right: 30.56%;
+        top: 690px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 18px;
+        text-align: center;
+        color: #524558;
     }
     .get-started-button3 {
         position: absolute;
-left: 34.44%;
-right: 34.44%;
-top: 68.05%;
-bottom: 31.04%;
-
-background: #501F6A;
-box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.2);
-border-radius: 5px;
-position: absolute;
-height: 19px;
-left: 40%;
-right: 40%;
-top: calc(50% - 19px/2 + 812px);
-
-font-family: Roboto;
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 19px;
-/* identical to box height, or 136% */
-
-text-align: center;
-
-color: #FFFFFF;
+        left: 30.44%;
+        top: 92.05%;
+        height: 40px;
+        width: 112px;
+        background: #501F6A;
+        box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.2);
+        border-radius: 5px;
+        position: absolute;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 19px;
+        text-align: center;
+        color: #FFFFFF;
     }
 }

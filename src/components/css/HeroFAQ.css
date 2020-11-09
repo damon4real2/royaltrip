@@ -1,14 +1,15 @@
-.HeroWhyJoinUs {
+.HeroFAQ{
   position: relative;
   text-align: center;
-  mix-blend-mode: normal;
-opacity: 0.7;
+  /* mix-blend-mode: normal;
+opacity: 0.7; */
+/* height: 507px; */
 }
 .how {
   position: absolute;
     /* height: 48px; */
-    left: 38.33%;
-    top: 31%;
+    left: 38.4%;
+    top: 48%;
     text-align: center;
     font-family: IBM Plex Sans;
     font-style: normal;
@@ -23,10 +24,9 @@ opacity: 0.7;
   width: 554px;
   height: 51.27px;
   position: absolute;
-  left: 31.76%;
-    right: 30.76%;
-    top: 47.31%;
-    bottom: 86.9%;
+  right: 30.76%;
+  top: 64.31%;
+  bottom: 86.9%;
   background: #FFFFFF;
   border-radius: 4px;
 }
@@ -34,10 +34,10 @@ opacity: 0.7;
   text-align: left;
 }
 .search-icon {
-  left: 964px;
+  left: 952px;
   width: 40px;
   height: 39.44px;
-  bottom: 312px;
+  bottom: 263px;
   position: relative;
   cursor: pointer;
 }
@@ -59,19 +59,11 @@ opacity: 0.7;
 .stay-container {
   position: absolute;
   width: 1440px;
-  height: 17px;
-  left: 0px;
-  top: 671px;
-  
+  height: 16px;
+  left: -13px;
+  top: 680px;
   background: #FFFFFF;
   box-shadow: 0px 4px 10px -6px rgba(120, 120, 118, 0.25);
-  /* position: absolute;
-width: 1440px;
-height: 87px;
-left: 0px;
-top: -86px;
-background: #FFFFFF;
-box-shadow: 0px 4px 10px -6px rgba(120, 120, 118, 0.25); */
 }
 .stay {
   margin-top: 34px;
@@ -79,7 +71,7 @@ box-shadow: 0px 4px 10px -6px rgba(120, 120, 118, 0.25); */
   /* width: 226px; */
   height: 40px;
   left: 624px;
-  top: -95px;
+  top: -86px;
   font-family: IBM Plex Sans;
   font-style: normal;
   font-weight: 500;
@@ -89,8 +81,8 @@ box-shadow: 0px 4px 10px -6px rgba(120, 120, 118, 0.25); */
 }
 .grid-why {
   position: absolute;
-  top: 739px;
-  right: -30px;
+    top: 730px;
+    right: -7px;
 }
 .box-container {
       width: 360px;

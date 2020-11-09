@@ -8,6 +8,7 @@ import SignUp from './pages/SignUpToDrive';
 import ApplyTo from './pages/ApplyToRide';
 import FAQ from './pages/FAQ';
 import ContactUs from './pages/ContactUs';
+import AboutUs from './components/AboutUs'
 import SignUpToDriveForm from './components/SignUpToDriveForm2';
 import SignUpToDriveForm3 from './components/SignUpToDriveForm3';
 import signUpToDriveForm4 from './components/SignUpToDriveForm4';
@@ -31,6 +32,7 @@ function App() {
           <Route path='/applyToRide' component={ApplyTo} />
           <Route path='/FAQ' component={FAQ} />
           <Route path='/ContactUs' component={ContactUs} />
+          <Route path='/AboutUs' component={AboutUs} />
           <Route path='/signUpToDriveForm2' component={SignUpToDriveForm} />
           <Route path='/signUpToDriveForm3' component={SignUpToDriveForm3} />
           <Route path='/signUpToDriveForm4' component={signUpToDriveForm4} />
