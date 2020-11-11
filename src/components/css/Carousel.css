@@ -1,0 +1,12 @@
+.slide {
+    position: absolute;
+    top: 1100px;  
+    width: 1440px;
+}
+.carousel-inner {
+    height: 496px;
+}
+.carousel-item > img { 
+    width: 100%; 
+    margin-top: -64px;
+  }

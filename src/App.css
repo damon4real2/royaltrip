@@ -483,18 +483,12 @@ top: 20px !important;
     left: 85px;
     top: 485px;
   }
-  .newNumber {
-    left: 95px;
-    top: 631px;
-  }
   /* .find {
     left: 96px;
     top: 683px;
   } */
 /* SIGN UP TO DRIVE */
-.signUpToDrive {
-  /* position: relative; */
-}
+
 .signUpToDriveImg {
   position: absolute;
     width: 890px;
@@ -830,7 +824,7 @@ top: 25px;
   position: absolute;
   width: 962px;
   height: 94px;
-  left: 164px;
+  left: 140px;
   top: 116px;
   font-family: IBM Plex Sans SemiBold;
   font-style: normal;
@@ -844,7 +838,7 @@ top: 25px;
 .sign-up-to-drive {
   position: absolute;
   height: 31px;
-  left: 273px;
+  left: 252px;
   top: 220px;
   font-family: IBM Plex Sans;
   font-style: normal;
@@ -876,7 +870,7 @@ color: #1B1B1B;
   position: absolute;
   width: 519px;
   height: 19px;
-  left: 272px;
+  left: 254px;
   top: 275px;
   font-family: IBM Plex Sans;
   font-style: normal;
@@ -886,34 +880,19 @@ color: #1B1B1B;
 
 color: #333333;
 }
-.first-name {
-  position: absolute;
-width: 361px;
-height: 60px;
-left: 258px;
-top: 275px;
 
-background: rgba(80, 31, 106, 0.06);
-border-radius: 10px;
-}
-.last-name {
-  position: absolute;
-width: 361px;
-height: 60px;
-left: 150px;
-top: 275px;
-
-background: rgba(80, 31, 106, 0.06);
-border-radius: 10px;
-}
 .email {
-  position: absolute;
-  width: 361px;
-  height: 60px;
-  /* left: 42px;
-  top: 275px; */
-  background: rgba(80, 31, 106, 0.06);
-  border-radius: 10px;
+  top: 356px;
+    position: absolute;
+    width: 361px;
+    height: 60px;
+    background: rgba(80, 31, 106, 0.06);
+    border-radius: 10px;
+    right: 5px;
+    left: 366px;
+}
+.email::placeholder {
+  text-align: left;
 }
 .driver-top {
   right: 102px;
@@ -931,9 +910,11 @@ width: 361px;
 height: 60px;
 left: 258px;
 top: 355px;
-
 background: rgba(80, 31, 106, 0.06);
 border-radius: 10px;
+}
+.license-number::placeholder {
+  text-align: left;
 }
 .referral-code {
 position: absolute;
@@ -941,20 +922,23 @@ width: 361px;
 height: 60px;
 left: 150px;
 top: 355px;
-
 background: rgba(80, 31, 106, 0.06);
 border-radius: 10px;
 }
+.referral-code::placeholder {
+  text-align: left;
+}
 .city {
-
-position: absolute;
-width: 361px;
-height: 60px;
-left: 42px;
-top: 355px;
-
-background: rgba(80, 31, 106, 0.06);
-border-radius: 10px;
+    position: absolute;
+    width: 361px;
+    height: 60px;
+    left: 121px;
+    top: 16px;
+    background: rgba(80, 31, 106, 0.06);
+    border-radius: 10px;
+}
+.city::placeholder {
+  text-align: left;
 }
 .form3Button {
   text-transform: uppercase;
@@ -962,7 +946,7 @@ border-radius: 10px;
   width: 219px;
   height: 54px;
   left: 266px;
-  top: 577px;
+  top: 561px;
   background: #501F6A !important;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) !important;
   border-radius: 30px !important;
@@ -1062,15 +1046,15 @@ text-transform: capitalize;
     top: 378px !important;
 }
 #next {
-  text-transform: uppercase;
-    left: 95px;
-    top: 529px;
+    text-transform: uppercase;
+    left: 59px !important;
+    top: 448px !important;
     background: #501F6A;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-border-radius: 30px;
-position: absolute;
-width: 177px;
-height: 54px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    position: absolute;
+    width: 177px;
+    height: 54px;
 } 
 
 @media only screen and (min-width: 320px) and (max-width: 767px) {
@@ -1109,20 +1093,32 @@ color: #000000;
 
 .welcome {
   top: 104px;
-    left: 42px;
+  left: 19px;
+  font-family: IBM Plax Sans;
+  
+}
+.enter-code {
+  font-size: 24px;
+    left: -33px;
+    top: 99px;
 }
 .welcome p {
-  left: 36px;
+  left: 40px;
 }
 /* .driver_enter {
   
 } */
 .send p5 {
   width: 298px !important;
-  left: 84px;
+  left: 62px;
 }
 .send p7 {
   width: 148px;
+    position: absolute;
+    font-family: IBM Plex Sans Light;
+    color: #333333;
+    left: 104px;
+    top: 378px;
 }
 .applyToDrive {
   left: 82px;
@@ -1286,6 +1282,164 @@ color: #333333;
 
 
 }
+.first-name {
+  position: absolute;
+width: 361px;
+height: 60px;
+left: 366px;
+top: 332px;
+right: 5px;
+background: rgba(80, 31, 106, 0.06);
+border-radius: 10px;
+}
+.first-name::placeholder {
+  text-align: left;
+  }
+.last-name {
+  position: absolute;
+width: 361px;
+height: 60px;
+left: 258px;
+top: 332px;
+
+background: rgba(80, 31, 106, 0.06);
+border-radius: 10px;
+}
+
+.last-name::placeholder {
+text-align: left;
+}
+.email_next {
+  position: absolute;
+  width: 361px;
+  height: 60px;
+  background: rgba(80, 31, 106, 0.06);
+  border-radius: 10px;
+  top: 332px;
+  left: 150px;
+}
+.email_next::placeholder {
+text-align: left;
+}
+
+.license-number_next {
+  position: absolute;
+  width: 361px;
+  height: 60px;
+  left: 262px;
+  top: 382px;
+  background: rgba(80, 31, 106, 0.06);
+  border-radius: 10px;
+}
+.license-number_next::placeholder {
+text-align: left;
+}
+
+.expiry-date {
+  position: absolute;
+  width: 361px;
+  height: 60px;
+  background: rgba(80, 31, 106, 0.06);
+  border-radius: 10px;
+  top: 382px;
+  left: 156px;
+}
+.expiry-date::placeholder {
+text-align: left;
+}
+.state-of-issue {
+  position: absolute;
+  width: 361px;
+  height: 60px;
+  background: rgba(80, 31, 106, 0.06);
+  border-radius: 10px;
+  top: 381px;
+    left: 47px;
+}
+.state-of-issue::placeholder {
+text-align: left;
+}
+.birth-date {
+  position: absolute;
+  width: 361px;
+  height: 60px;
+  background: rgba(80, 31, 106, 0.06);
+  border-radius: 10px;
+  top: 432px;
+  left: 262px;
+}
+.birth-date::placeholder {
+text-align: left;
+}
+.city {
+  position: absolute;
+  width: 361px;
+  height: 60px;
+  background: rgba(80, 31, 106, 0.06);
+  border-radius: 10px;
+  top: 432px;
+  left: -89px;
+}
+.city::placeholder {
+text-align: left;
+}
+.form3Button2 {
+  text-transform: uppercase;
+  position: absolute;
+width: 219px;
+height: 54px;
+  top: 571px;
+  background: #FFFFFF !important;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 30px !important;
+font-family: IBM Plex Sans;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 23px;
+text-align: center;
+left: 252px;
+}
+/* .form3Button2:hover {
+  background: #501F6A !important;
+  color: #FFFFFF !important;
+} */
+.form3Button2 a {
+  text-decoration: none !important;
+  color: #501F6A !important;
+}
+.form3Button3 {
+  text-transform: uppercase;
+  position: absolute;
+width: 219px;
+height: 54px;
+  top: 571px;
+  background: #501F6A !important;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 30px !important;
+font-family: IBM Plex Sans;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 23px;
+text-align: center;
+color: #FFFFFF;
+left: 480px;
+}
+/* .form3Button3:hover {
+  color: #501F6A !important;
+  background: #FFFFFF !important;
+} */
+.form3Button3 a {
+  text-decoration: none !important;
+  color: #FFFFFF !important;
+}
+/* .already {
+  left: 251px;
+} */
+/* .log-in {
+  left: 251px;
+} */
 /* RIDER */
 @media only screen and (min-width: 320px) and (max-width: 767px) {
   #next_SignUp {
@@ -1334,8 +1488,8 @@ width: 272px;
     top: 294px;
 }
 .checkbox_SignUp {
-  left: 51px;
-    top: 389px;
+  left: 61px;
+  top: 380px;
 }
 .agreement_SignUp {
   /* width: 233px; */
@@ -1402,15 +1556,15 @@ width: 272px;
 .form4 {
   width: 117px;
   height: 75px;
-  top: 25px;
-  left: 49px;
+  top: 9px;
+  left: 13px;
 }
 .cash-out {
   position: absolute;
 width: 257px;
 height: 62px;
-left: 49px;
-top: 91px;
+left: 15px;
+    top: 78px;
 text-align: left;
 font-family: IBM Plex Sans SemiBold;
 font-style: normal;
@@ -1424,8 +1578,8 @@ color: #501F6A;
   /* position: absolute; */
   width: 125px;
   height: 23px;
-  left: 51px;
-  top: 186px;
+  left: 18px;
+    top: 144px;
   font-family: IBM Plex Sans;
   font-style: normal;
   font-weight: normal;
@@ -1435,7 +1589,8 @@ color: #501F6A;
   color: #1B1B1B;
 }
 .awesome {
-  left: 53px;
+    left: 21px;
+    top: 173px;
 }
 .form4 {
   margin: 10;
@@ -1445,12 +1600,12 @@ color: #501F6A;
   position: relative;
   top: 209px;
 }
-.license-number {
+.-number {
   position: absolute;
   width: 361px;
   height: 60px;
   left: 124px;
-  top: 355px;
+  top: 320px;
   background: rgba(80, 31, 106, 0.06);
   border-radius: 10px;
 }
@@ -1459,26 +1614,211 @@ color: #501F6A;
     width: 361px;
     height: 60px;
     left: 123px;
-    top: 395px;
+    top: 362px;
     background: rgba(80, 31, 106, 0.06);
     border-radius: 10px;
 }
 .city {
-    left: 124px;
-    top: 436px;
+  left: 124px;
+  top: 404px;
 }
 .form3Button {
   width: 154px;
-height: 54px;
-left: 55px;
-    top: 551px;
+  height: 54px;
+  left: 17px;
+  top: 497px;
+
 }
 .already {
-  left: 56px;
-    top: 608px;
+  position: absolute;
+  width: 222px;
+  height: 18px;
+  left: 20px;
+  top: 590px;
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  
+  color: #333333;
+}
+
+.newNumber {
+  left: 95px;
+  top: 565px;
+}
+.find {
+  top: 593px;
+}
+.email {
+    position: absolute;
+    width: 331px;
+    height: 60px;
+    background: rgba(80, 31, 106, 0.06);
+    border-radius: 10px;
+    top: 227px;
+    left: 123px;
+}
+.email::placeholder {
+  text-align: left;
+}
+.license-number {
+  position: absolute;
+  width: 331px;
+  height: 60px;
+  left: 123px;
+  top: 268px;
+  background: rgba(80, 31, 106, 0.06);
+  border-radius: 10px;
+}
+.license-number::placeholder {
+  text-align: left;
+}
+.referral-code {
+  position: absolute;
+  width: 331px;
+  height: 60px;
+  left: 125px;
+  top: 309px;
+  background: rgba(80, 31, 106, 0.06);
+  border-radius: 10px;
+}
+.referral-code::placeholder {
+  text-align: left;
+}
+.city {
+  position: absolute;
+  width: 331px;
+  height: 60px;
+  left: 17px;
+  top: 141px;
+  background: rgba(80, 31, 106, 0.06);
+  border-radius: 10px;
+}
+.city::placeholder {
+  text-align: left;
+}
+.first-name {
+  position: absolute;
+  width: 320px;
+height: 60px;
+  background: rgba(80, 31, 106, 0.06);
+  border-radius: 10px;
+  top: 211px;
+    left: 143px;
+}
+.first_name::placeholder {
+text-align: left;
+}
+.last-name {
+position: absolute;
+width: 320px;
+height: 60px;
+left: 142px;
+    top: 251px;
+background: rgba(80, 31, 106, 0.06);
+border-radius: 10px;
+}
+.last-name::placeholder {
+text-align: left;
+}
+.email_next {
+position: absolute;
+width: 320px;
+height: 60px;
+left: 142px;
+    top: 291px;
+background: rgba(80, 31, 106, 0.06);
+border-radius: 10px;
+}
+.email_next::placeholder {
+text-align: left;
+}
+.license-number_next {
+position: absolute;
+width: 320px;
+height: 60px;
+left: 40px;
+    top: 332px;
+background: rgba(80, 31, 106, 0.06);
+border-radius: 10px;
+}
+.license-number_next::placeholder {
+text-align: left;
+}
+.expiry-date {
+  position: absolute;
+    width: 320px;
+    height: 60px;
+    background: rgba(80, 31, 106, 0.06);
+    border-radius: 10px;
+    top: 373px;
+    left: 39px;
+}
+.state-of-issue {
+  position: absolute;
+    width: 320px;
+    height: 60px;
+    background: rgba(80, 31, 106, 0.06);
+    border-radius: 10px;
+    top: 415px;
+    left: 37px;
+}
+.birth-date {
+      position: absolute;
+    width: 320px;
+    height: 60px;
+    background: rgba(80, 31, 106, 0.06);
+    border-radius: 10px;
+    top: 456px;
+    left: 38px;
+}
+.city {
+  left: 40px;
+  width: 320px;
+  top: 498px;
+}
+.form3Button2 {
+  top: 741px;
+  width: 152px;
+  left: 30px;
+}
+.form3Button3 {
+  width: 152px;
+  top: 741px;
+  left: 189px;
+}
+.already {
+  position: absolute;
+  width: 222px;
+  height: 18px;
+  left: 20px;
+  top: 802px;
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  color: #333333;
 }
 .log-in {
-  left: 56px;
-    top: 631px;
+  position: absolute;
+/* width: 38px !important; */
+height: 18px;
+left: 25px;
+top: 610px;
+left: 25px;
+    top: 823px;
+font-family: IBM Plex Sans;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 18px;
+text-align: center;
+
+color: #99811D;
 }
 }

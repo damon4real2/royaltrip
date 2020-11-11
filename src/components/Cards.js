@@ -4,7 +4,7 @@ import {
   Card, CardImg, CardText, CardBody, CardDeck,
   CardTitle
 } from 'reactstrap';
-import "./css/Cards.css";;
+import "./css/Cards.css";
 
 const Example = (props) => {
   return (

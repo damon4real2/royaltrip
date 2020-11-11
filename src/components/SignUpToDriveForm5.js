@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom';
 import { Button } from 'reactstrap';
 import SignUpToDriveForm5b from "./SignUpToDriveForm5b"
 
-function SignUpToDriveForm5b() {
+function SignUpToDriveForm5() {
   return (
         <div className="SignUpToDriveForm5">
             <div className="row">
@@ -25,4 +25,4 @@ function SignUpToDriveForm5b() {
      </div>
     );
   }
-export default SignUpToDriveForm5b;
+export default SignUpToDriveForm5;

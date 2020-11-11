@@ -1,41 +1,60 @@
 .get-going-header {
     position: absolute;
-width: 1440px;
-height: 87px;
-/* left: 602px; */
+    width: 1440px;
+    height: 87px;
+    /* left: 602px; */
     top: 9px;
-
-background: #FFFFFF;
-box-shadow: 0px 4px 10px -6px rgba(120, 120, 118, 0.25);
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10px -6px rgba(120, 120, 118, 0.25);
 }
+
 .get-going-header p {
     position: absolute;
-    /* width: 286px; */
+    width: 286px;
     height: 40px;
     left: 602px;
-    top: 650px;
-    font-family: IBM Plex Sans;
+    top: 633px;
+    font-family: IBM Plex Sans SemiBold;
     font-style: normal;
     font-weight: 500;
     font-size: 36px;
     line-height: 47px;
     color: #000000;
+    padding: 10px;
 }
-
+.col-space {
+    padding-right: 200px;
+}
 .GetGoing h1 {
     position: absolute;
-    width: 120px;
-    height: 62px;
-    left: 136px;
-    top: 683px;
-    font-family: IBM Plex Sans;
+    left: 126px;
+    top: 645px;
+    font-family: IBM Plex Sans SemiBold;
     font-style: normal;
     font-weight: normal;
     font-size: 24px;
     line-height: 31px;
     color: #99811D !important;
 }
-.GetGoing p1a {
+.get-going-left {
+    left: 127px;
+    width: 93px;
+height: 62px;
+}
+.get-going-middle {
+    width: 146px;
+height: 62px;
+}
+.get-going-right {
+    width: 115px;
+    height: 62px;
+}
+.get-going-left2 {
+    left: 127px;
+    width: 261px;
+height: 88px;
+}
+/* .GetGoing p1a {
     position: absolute;
 width: 261px;
 height: 88px;
@@ -47,13 +66,13 @@ font-weight: normal;
 font-size: 18px;
 line-height: 23px;
 color: #000000;
-}
+} */
 .GetGoing p1 {
     position: absolute;
-    width: 317px;
-    height: 138px;
-    left: 132px;
-    top: 786px;
+    width: 261px;
+    height: 88px;
+    left: 127px;
+    top: 740px;
     font-family: IBM Plex Sans;
     font-style: normal;
     font-weight: normal;
@@ -64,8 +83,8 @@ color: #000000;
 .GetGoing img {
     position: absolute;
     position: absolute;
-    width: 789px;
+    width: 528px;
     height: 569px;
-    left: 917px;
-    top: 813px;
+    left: 912px;
+    top: 740px;
 }

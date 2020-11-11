@@ -17,6 +17,11 @@ function SignUpToDriveForm3() {
             <div className="awesome">Awesome! We will need more details from you to get started.</div>
             <div className="form3">
                 <Row className="driver-top">
+                <Col>
+                    <label>
+                        <input className="email" type="text" name="email" placeholder="Email" />
+                    </label>
+                    </Col>
                     <Col>
                     <label>
                         <input className="license-number" type="number" name="Driver's License Number" placeholder="Driver's License Number" />
@@ -27,16 +32,11 @@ function SignUpToDriveForm3() {
                         <input className="referral-code" type="number" name="Promo/Referral Code(Optional)" placeholder="Promo/Referral Code(Optional)" />
                     </label>
                     </Col>
-                    <Col>
-                    <label>
-                        <input className="city" type="text" name="City You'll Drive In" placeholder="City You'll Drive In" />
-                    </label>
-                    </Col>
                 </Row>
                 <Row className="driver-bottom">
-                    <Col>
+                <Col>
                     <label>
-                        <input className="email" type="text" name="email" placeholder="Email" />
+                        <input className="city" type="text" name="City You'll Drive In" placeholder="City You'll Drive In" />
                     </label>
                     </Col>
                 </Row>
