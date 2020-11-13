@@ -1,4 +1,4 @@
-.HeroFAQ{
+.HeroFAQImg{
   position: relative;
   text-align: center;
   /* mix-blend-mode: normal;
@@ -25,7 +25,7 @@ opacity: 0.7; */
   height: 51.27px;
   position: absolute;
   right: 30.76%;
-  top: 64.31%;
+  top: 58.31%;
   bottom: 86.9%;
   background: #FFFFFF;
   border-radius: 4px;
@@ -37,7 +37,7 @@ opacity: 0.7; */
   left: 952px;
   width: 40px;
   height: 39.44px;
-  bottom: 261px;
+  bottom: 294px;
   position: relative;
   cursor: pointer;
 }
@@ -45,7 +45,7 @@ opacity: 0.7; */
   position: absolute;
   /* height: 48px; */
   left: 33%;
-  top: 63%;
+  top: 69%;
   text-align: center;
   font-family: IBM Plex Sans;
   font-style: normal;
@@ -130,4 +130,57 @@ color: #77838F;
   position: relative;
     bottom: -229px;
     left: 29px;
+}
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  .HeroFAQ {
+    width: 360px;
+height: 507px;
+  }
+  .HeroFAQImg {
+    display: none;
+  }
+  .how {
+    font-size: 30px;
+line-height: 48px;
+text-align: center;
+letter-spacing: 1.425px;
+color: #333333;
+width: 276px;
+height: 48px;  
+left: 53px;
+font-family: IBM Plex Sans SemiBold;
+}
+.search-icon {
+  height: 39.43998718261719px;
+  width: 40px;
+  left: 279px;
+  top: 286px;
+  border-radius: 4px;
+}
+.popular {
+  font-size: 12px;
+line-height: 27px;
+color: #333333;
+width: 323px;
+left: 8%;
+top: 62%;
+}
+.stay-container {
+  width: 360px;
+  /* top: 82px; */
+}
+.stay {
+  left: 97px;
+    top: -92px;
+    font-family: IBM Plex Sans SemiBold;
+}
+.box-container {
+  width: 360px;
+  height: 347px;
+  background: #FFFFFF;
+  box-shadow: 0px 2px 48px rgba(0, 0, 0, 0.06);
+  border-radius: 4px;
+  position: relative;
+  left: -14px;
+}
 }

@@ -62,3 +62,40 @@ border-radius: 4px;
   top: 249px;
     left: 904px;
 }
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  .Stay {
+    top: 3002px;
+    width: 374px;
+  }
+  .Stay h1 {
+    width: 165px;
+    height: 42px;
+    font-size: 24px;
+    line-height: 42px;
+    left: 108px;
+    top: 108px;
+  }
+  .Stay h2 {
+    width: 309px;
+    height: 54px;
+    font-size: 14px;
+    line-height: 27px;
+    left: 41px;
+    top: 160px;
+  }
+  .enter {
+    width: 320px;
+    height: 50px;
+        left: 7.24%;
+        right: 6.03%;
+        top: 55.21%;
+        bottom: 20.97%;
+  }
+  .email-search {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    top: 248px;
+    left: 303px;
+}
+}

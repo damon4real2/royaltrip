@@ -5,7 +5,7 @@
   left: 0%;
 right: 0%;
 }
-.WhyJoinUs h1 {
+.WhyJoinUs h3 {
   text-transform: capitalize;
   position: absolute;
 height: 50px;
@@ -244,4 +244,42 @@ line-height: 25px;
 text-align: center;
 
 color: #747578;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  .WhyJoinUs h3 {
+      font-size: 24px;
+      line-height: 50px;
+      width: 129px;
+      height: 50px;
+      font-family: IBM Plex Sans SemiBold;
+      left: 139px;
+      top: 803px;
+}
+.WhyJoinUs p {
+  width: 270px;
+  height: 125px;
+  left: 78px;
+  top: 854px;
+}
+.first {
+  left: 90px;
+  top: 1053px;
+}
+.second {
+  top: 1360px;
+  left: 90px;
+}
+.third {
+  left: 92px;
+  top: 1671px;
+}
+.fourth {
+  top: 1980px;
+  left: 92px;
+}
+.grid-whyJoinUs {
+  position: absolute;
+  left: 5px;
+}
 }

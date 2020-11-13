@@ -1,5 +1,6 @@
 import React from 'react';
 import '../App.css';
+import SidebarHome from '../components/SidebarHome';
 import Navbar from '../components/Navbar'
 import HeroSection from '../components/Hero';
 import Button from '../components/Button';
@@ -15,6 +16,7 @@ import Footer from '../components/Footer';
 function Home() {
   return (
     <>
+      <SidebarHome />
       <Navbar />
       <HeroSection />
       <Button />

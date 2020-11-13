@@ -19,7 +19,7 @@ function AboutUs() {
               <Button className="get-started-button5">learn more</Button>{' '}
             </div>
             <div className="col">
-            <div id="aboutUshero">
+            <div id="aboutUsHero">
               {/* <video autoPlay="autoplay" loop="loop" muted className={classes.Video} >
                   <source src={sample} type='video/mp4' />
                   Your browser does not support the video tag.

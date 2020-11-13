@@ -79,3 +79,67 @@ width: 744px;
 height: 198px;
 color: #FFFFFF;
 }
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  
+  
+  .Earnings {
+    width: 314px;
+  }
+
+
+
+  .Earnings p {
+    font-size: 24px;
+    line-height: 31px;
+    width: 109px;
+    height: 83px;
+    top: 146px;
+    left: -39px;
+  }
+  .Earnings p1 {
+    width: 140px;
+    height: 40px;
+    left: 109px;
+    top: 145px;
+  }
+   .classesVideo {
+    left: -61px;
+    /* width: 600px !important; */
+
+    height: 350px !important;
+    top: 278px;
+    position: absolute;
+   }
+   .Earnings p2 {
+    font-size: 24px;
+    line-height: 31px;
+    width: 252px;
+    height: 62px;
+    top: 566px;
+    left: -41px;
+    position: absolute;
+   }
+   .Earnings p3 {
+    width: 280px;
+    height: 32px;
+    position: absolute;
+    top: 640px;
+    left: -41px;
+   }
+   .Quote {
+     /* width: 366px; */
+     width: 414px;
+     height: 281px;
+   }
+   .Quote p4 {
+    width: 289px;
+    height: 225px;
+    top: 5px;
+    left: 61px;
+    /* left: 34px; */
+    font-size: 19px;
+    line-height: 25px;
+    top: 30px;
+   }
+}

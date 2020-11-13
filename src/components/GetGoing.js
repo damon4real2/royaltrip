@@ -33,7 +33,7 @@ function GetGoing() {
                     <p1 className="get-going-right2">We have you covered with our Royalty Drive, you can become a partner, get on the road and starting earning with style.</p1>
                 </Col>
             </Row>
-            <img src={require("../assets/images/get-going-car.svg")} alt="get-going-car" />
+            <img className="get-going-car" src={require("../assets/images/get-going-car.svg")} alt="get-going-car" />
         </div>
     )
 }

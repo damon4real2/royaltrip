@@ -1059,7 +1059,7 @@ text-transform: capitalize;
 
 @media only screen and (min-width: 320px) and (max-width: 767px) {
   /* LOG IN */
- .applyToDriveImg {
+ .applyToDriveImg1 {
   display: none;
   visibility: hidden;
  }
@@ -1821,4 +1821,8 @@ text-align: center;
 
 color: #99811D;
 }
+/* .Driver {
+  width: 360px;
+  overflow-x: hidden;
+} */
 }

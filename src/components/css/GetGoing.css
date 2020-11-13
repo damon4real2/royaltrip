@@ -88,3 +88,62 @@ color: #000000;
     left: 912px;
     top: 740px;
 }
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+    .get-going-header {
+        width: 360px;
+        top: 25px;
+        height: 53px;
+    }
+    .get-going-header p {
+        left: 78px;
+        top: 640px;
+    }
+    .GetGoing h1 {
+        left: 54px;
+        top: 658px;
+    }
+    .get-going-left {
+        left: 52px;
+    top: 645px;
+        width: 70px;
+        height: 46px;
+    }
+    .GetGoing p1 {
+        width: 261px;
+    height: 88px;
+    left: 57px;
+    top: 750px;
+    font-size: 14px;
+line-height: 18px;
+    }
+    .get-going-middle {
+        left: 52px !important;
+        top: 900px !important;
+    }
+    .get-going-middle2 {
+        left: 52px !important;
+        top: 1000px !important;
+    }
+    .get-going-right {
+        left: 52px !important;
+        top: 1250px !important;
+    }
+    .get-going-right2 {
+        left: 52px !important;
+        top: 1350px !important;
+    }
+    /* .get-going-car {
+        position: absolute;
+        height: 569px;
+    } */
+    .GetGoing img {
+        position: absolute;
+        height: 270.12px;
+        left: -94px;
+        top: 1471px;
+        width: 475px;
+height: 270.12px;
+        /* width: 365px; */
+    }
+}

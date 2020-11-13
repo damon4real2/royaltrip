@@ -4,7 +4,7 @@ import './css/WhyJoinUs.css';
 function WhyJoinUs() {
   return (
       <div className="WhyJoinUs">
-        <h1>why join us</h1>
+        <h3>why join us</h3>
         <p>There is a culture of growth, change and impact with royal trip, it is why our riders will call us secure, convenient and find us delightful, we are attentive to our user feedback to further improve the experience of our service.</p>
         <div className="whyJoinUsGrid">
             <div className="row grid-whyJoinUs">

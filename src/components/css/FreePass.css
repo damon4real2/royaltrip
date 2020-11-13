@@ -145,3 +145,30 @@ top: 300px;
     background: #FFFFFF !important;
     color: #501F6A;
 }
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+    .FreePass {
+        width: 322px;
+    left: 48px;
+    height: 490px;
+    top: 508px;
+    }
+    .header {
+        width: 254px;
+        height: 50px;
+    }
+    .header p1 {
+        left: 41px;
+    top: 12.5px;
+    }
+    .full-name, .e-mail, .phone-no {
+        width: 254.06px;
+        height: 50px;
+    }
+    .some-details {
+        width: 254.06px;
+    }
+    #join-us {
+        left: 32px;
+    }
+}

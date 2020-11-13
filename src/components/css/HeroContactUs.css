@@ -9,18 +9,15 @@ right: 41.39%;
 top: 120px;
 width: 248px;
 /* top: calc(50% - 22px/2 - 1130px); */
-
 font-family: Montserrat;
 font-style: normal;
 font-weight: bold;
 font-size: 14px;
 line-height: 22px;
 /* identical to box height, or 157% */
-
 text-align: center;
 letter-spacing: 2.8px;
 text-transform: uppercase;
-
 color: #B1B1B1;
 }
 .HeroContactUs h2 {
@@ -214,3 +211,153 @@ color: #333333;
   text-align: center;
   color: #747578;
 }
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  .HeroContactUsImg2 {
+    /* width: 100%;
+    height: 100%; */
+    display: none;
+  }
+  .HeroContactUs > img {
+    width: 100%;
+    height: 504px;
+    /* margin-top: -64px; */
+}
+.HeroContactUs h1 {
+  left: 20.39% !important;
+  right: 17.39%;
+    top: 162px;
+}
+.HeroContactUs h2 {
+  top: 220px;
+  left: 62px;
+  font-size: 24px;
+line-height: 29px;
+width: 281px;
+color: #333333;
+}
+.find-more {
+  width: 222px;
+  right: 91px;
+  top: 320px;
+  text-transform: uppercase;
+  position: absolute !important;
+  bottom: 33%;
+  background: #99811D !important;
+  }
+  .joinUsGrid {
+    width: 360px;
+  }
+  .block-left {
+    position: absolute;
+    left: 21.49%;
+    right: 63.12%;
+    top: 43.47%;
+    bottom: 67.27%;
+  }
+  .block-left img {
+    position: absolute;
+    right: -61px;
+}
+.block-left p1 {
+  height: 31px;
+    /* left: -105.38%; */
+    right: -242.26%;
+    top: 97px;
+}
+.block-left p2 {
+  position: absolute;
+  left: -73.78px;
+    top: 131.01px;
+    /* top: 575.01%; */
+    bottom: 71.14%;
+    width: 330px;
+    font-size: 13px;
+line-height: 25px;
+}
+.block-middle {
+  position: absolute;
+  top: 110px;
+}
+.block-middle img {
+position: absolute;
+top: 274px;
+right: 34px;
+}
+.block-middle p1 {
+  right: -2.28%;
+  left: -47.194%;
+  position: absolute;
+  top: 358px;
+}
+.block-middle p2 {
+  right: -91.53px;
+  left: -132.39px;
+    top: 404.01px;
+  bottom: 71.14%;
+  font-size: 13px;
+line-height: 25px;
+}
+.block-right img {
+  position: absolute;
+  top: 547px;
+  right: 128px;
+}
+.block-right p1 {
+  position: absolute;
+  height: 31px;
+  top: 621px;
+  right: 63.22%;
+}
+.block-right p2 {
+  right: -7.92%;
+  top: 667px;
+  font-size: 13px;
+line-height: 25px;
+}
+/*.block-left p1{
+  position: absolute;
+  left: -198px;
+  top: 86px;
+}
+.block-left p2 {
+  position: absolute;
+    left: -252px;
+    top: 135px;
+}
+.block-middle img {
+  position: absolute;
+    top: 269px;
+    right: 540px;
+}
+.block-middle p1 {
+  position: absolute;
+  height: 31px;
+  left: -345.194px;
+  bottom: -310px;
+  top: 360px;
+  right: 491.72px;
+}
+.block-middle p2 {
+  position: absolute;
+  left: -436.39px;
+  right: 407.7px;
+  top: 867.01%;
+  bottom: -410.86px;
+}
+.block-right img {
+  position: absolute;
+    left: -597.39px;
+    right: 407.7px;
+    top: 539.01px;
+    bottom: -410.86px;
+}
+.block-right p1 {
+top: 641px;
+left: -677px;
+}
+.block-right p2 {
+  left: -731px;
+  top: 686px;
+}*/
+} 

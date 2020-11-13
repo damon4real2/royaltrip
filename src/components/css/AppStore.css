@@ -123,10 +123,9 @@ background: #501F6A;;
 @media only screen and (min-width: 320px) and (max-width: 767px) {
   .appstore {
     position: absolute;
-    width: 377px;
-    /* width: 360px; */
+    width: 417px;
     height: 482px;
-    left: 0px;
+    /* left: 27px; */
     top: 3569px;
     background: #501F6A;
   }
@@ -134,7 +133,7 @@ background: #501F6A;;
     position: absolute;
     width: 267px;
     height: 78px;
-    left: 68px;
+    left: 95px;
     top: 22px;
     font-family: IBM Plex Sans;
     font-style: normal;
@@ -149,13 +148,13 @@ background: #501F6A;;
     display: flex;
     justify-content: center;
     position: absolute;
-    right: 57px;
+    right: 69px;
   }
   .appstore-p {
     position: absolute;
     width: 361px;
     height: 23px;
-    left: 20px;
+    left: 50px;
     top: 173px;
     font-family: IBM Plex Sans ExtraLight;
     font-style: normal;
@@ -176,7 +175,7 @@ background: #501F6A;;
     position: absolute;
     width: 376px;
     height: 235px;
-    left: 15.19px;
+    left: 56.19px;
     top: 0px;
     margin-top: -281px;
   }

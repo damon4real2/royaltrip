@@ -1,0 +1,132 @@
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+/* Position and sizing of burger button */
+.bm-burger-button {
+    position: fixed;
+    width: 36px;
+    height: 30px;
+    left: 358px;
+    top: 26px;
+    color: #99811D;
+    /* background: #333333; */
+}
+
+  
+  /* Color/shape of burger icon bars */
+  .bm-burger-bars {
+    background: #99811D;
+  }
+  
+  /* Color/shape of burger icon bars on hover*/
+  .bm-burger-bars-hover {
+    background: #FFFFFF;
+  }
+  
+  /* Position and sizing of clickable cross button */
+  .bm-cross-button {
+    height: 20px !important;
+    width: 19px !important;
+    position: relative;
+    left: 89.17%;
+    right: 5.56%;
+    /* top: 5.31%; */
+    bottom: 98.16%;
+  }
+  
+  /* Color/shape of close button cross */
+  .bm-cross {
+    background: #333333 !important;
+  }
+  
+  /*
+  Sidebar wrapper styles
+  Note: Beware of modifying this element as it can break the animations - you should not need to touch it in most cases
+  */
+  .bm-menu-wrap {
+    position: fixed;
+    height: 100%;
+    width: 374px;
+  }
+  
+  /* General sidebar styles */
+  .bm-menu {
+    /* width: 368px;
+height: 640px;
+left: 0px;
+top: 0px; */
+
+background: #FFFFFF;
+    /* padding: 2.5em 1.5em 0; */
+    font-size: 1.15em;
+  }
+  
+  /* Morph shape necessary with bubble or elastic */
+  .bm-morph-shape {
+    fill: #373a47;
+  }
+  
+  /* Wrapper for item list */
+  .bm-item-list {
+    left: 25px;
+    top: 43px;
+    color: #b8b7ad;
+    padding: 0.8em;
+    position: absolute;
+  }
+  
+  /* Individual item */
+  .bm-item {
+    display: inline-block;
+  }
+  
+  /* Styling of overlay */
+  .bm-overlay {
+    background: rgba(0, 0, 0, 0.3);
+  }
+
+  /* Individual item */
+.bm-item {
+    display: inline-block;
+  
+    color: #d1d1d1;
+    margin-bottom: 10px;
+    text-align: left;
+    text-decoration: none;
+    transition: color 0.2s;
+  }
+  
+  .bm-item:hover {
+    color: #ffffff;
+  }
+  .active-menu {
+    text-transform: capitalize;
+    font-family: IBM Plex Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 23px;
+
+color: #99811D !important;
+
+  }
+  .menu-item {
+    text-transform: capitalize;
+    font-family: IBM Plex Sans;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 23px;
+
+color: #000000;
+  }
+  .navbar-light .navbar-toggler {
+    display: none;
+}
+/* .nav-link {
+display: none;
+}
+.navbar-nav .nav-link {
+  display: none;
+  padding-right: 0;
+  padding-left: 0;
+} */
+  }

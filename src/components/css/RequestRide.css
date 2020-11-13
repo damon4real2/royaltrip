@@ -59,17 +59,34 @@
     width: 65%;
 }
 @media only screen and (min-width: 320px) and (max-width: 767px) {
+   
+    .requestRight {
+        width: 400px;
+        height: 450px;   
+        top: 250px !important;   
+        /* transform: matrix(-0.99, -0.14, -0.14, 0.99, 0, 0); */
+    }
     .rrbody {
+        margin-top: -34rem;
+        margin-right: 58px;
+        /* transform: matrix(-0.99, -0.14, -0.14, 0.99, 0, 0); */
+        /* width: 509px; */
+        /* transform: matrix(-0.99, -0.14, -0.14, 0.99, 0, 0); */
+        /* transform: matrix(-0.99, -0.14, -0.14, 0.99, 0, 0); */
+        top: 5px;
         position: absolute;
-        margin-top: -35rem;
-        margin-right: -58px;
+        top: 51px;
+        right: -9px;
+        /* transform: matrix(-0.99, -0.14, -0.14, 0.99, 0, 0); */
+        /* width: 509px; */
+        /* transform: matrix(-0.99, -0.14, -0.14, 0.99, 0, 0); */
         /* transform: matrix(-0.99, -0.14, -0.14, 0.99, 0, 0); */
  }
  /* .rrbody img {
     width: 20px;
 } */
  .title {
-    left: 39px;
+    left: 46px;
     font-size: 26px !important;
         position: absolute;
         font-family: IBM Plex Sans Medium;
@@ -78,18 +95,19 @@
         line-height: 20px !important;
         text-align: center;
         color: #4E1D69;
-        top: 387px;
+        top: 104px;
     }
     .text {
         text-align: left;
         font-size: 12px !important;
-        left: -40px;
+        left: -47px;
         font-family: IBM Plex Sans Light;
         font-style: normal;
         font-weight: 500;
         line-height: 21px !important;
         color: #4E1D69;
-        top: 76px !important;
+        top: -196px !important;
+        /* width: 339px; */
         line-height: 20px !important;
         margin-top: 250px !important;
     }

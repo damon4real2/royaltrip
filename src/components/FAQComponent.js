@@ -7,7 +7,7 @@ function FAQComponent() {
             <h1>here are few things</h1>
             <h2>frequently asked questions</h2>
             <h3>You may have concerns or interests about knowing how we can serve you better and how we can help you choose us, here are a list of questions people who visit here most concerned about.</h3>
-            <div className="FAQs">
+            <div className="FAQs">  
               <div className="row">
                 <div className="col-2"></div>
                 <div className="col-3 left">

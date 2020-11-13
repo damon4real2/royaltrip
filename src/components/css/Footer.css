@@ -7,6 +7,21 @@
     font-family: IBM Plex Sans Light;
     src: url("../../assets/fonts/IBM_Plex_Sans/IBMPlexSans-Light.ttf");
   }
+  .bEjdwM {
+    -webkit-text-decoration: none;
+    text-decoration: none;
+    margin-bottom: 0.5rem;
+    font-family: IBM Plex Sans Light;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    color: #000000 !important;
+    }
+    .bEjdwM a {
+      color: #000000 !important;
+      text-decoration: none !important;
+    }
   .royalTripLogo {
     bottom: 107px !important;
     position: absolute;
@@ -41,7 +56,7 @@
     line-height: 30px;
     color: #99811D !important;
     bottom: 130px;
-    position: absolute;
+    /* position: absolute; */
     top: 37px;
 }
   .question p{
@@ -79,7 +94,7 @@
     font-weight: normal;
     font-size: 16px;
     line-height: 30px;
-    color: #333333;
+    color: #000000;
 }
 .sc-jrsJCI a {
   text-decoration: none;
@@ -113,6 +128,7 @@
   color: #000000;
 }
 .gqXWtw {
+    left: 0px;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -173,8 +189,12 @@
     line-height: 30px;
     color: #000000 !important;
     }
+    .bEjdwM a {
+      color: #000000 !important;
+      text-decoration: none !important;
+    }
     .cUFyQW {
-    bottom: 445px;
+    /* bottom: 445px; */
     /* top: 0px; */
     right: 124px !important;
     width: 100%;
@@ -192,10 +212,10 @@
     }
     .hSKfGL {
     width: 377px !important;
-    height: 834px !important;
-    position: absolute !important;
+    /* height: 834px !important; */
+    /* position: absolute !important; */
     left: 0px !important;
-    top: 4063px !important;
+    top: 4153px !important;
     background: #F9F9F9 !important;
     }
     .royalTripLogo {
@@ -214,17 +234,17 @@
     }
     .question-icon {
     right: 48px;
-      top: 10px;
+    top: 26px;
     position: relative;
     }
     .question p {
     position: relative;
-    top: 10px;
+    top: 25px;
       left: -39px;
     }
     .Hsue {
-    position: relative;
-    top: 45px;
-    left: -85px;
+      position: relative;
+      top: 9px;
+      left: -99px;
     }
 }

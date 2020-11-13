@@ -11,7 +11,7 @@ function TermsOfService() {
                 <label>
                     <input className="enterNo" type="text" name="phone number" placeholder="Enter Mobile Phone Number" />
                 </label>
-                <Button className="applyToDrive" id="apply">
+                <Button className="applyToDrive1" id="apply">
                     Apply to Drive
                 </Button>{' '}
                 <div className="checkbox"></div>
