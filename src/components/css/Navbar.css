@@ -11,7 +11,7 @@
   background: #99811D !important;
   /* color: #ffffff !important; */
 }
-#sign-up-nav {
+/* #sign-up-nav {
   padding-left: 25px;
   padding-top: 17px;
       width: 108.75px;
@@ -26,7 +26,7 @@
 #sign-up-nav a:hover {
   display: contents;
   color: #000000 !important;
-}
+} */
 .navbar-nav > li{
   padding-left: 15px;
   padding-right:  15px;
