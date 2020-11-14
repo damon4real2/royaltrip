@@ -71,6 +71,7 @@ color: rgba(255, 255, 255, 0.7);
     text-align: center;
 }
 .left p1 {
+  padding-left: 30px;
   position: absolute;
   width: 405px;
   height: 56px;
@@ -90,6 +91,7 @@ color: rgba(255, 255, 255, 0.7);
   /* justify-content: center; */
 }
 .left p2 {
+  padding-left: 30px;
   position: absolute;
   width: 405px;
 height: 56px;
@@ -109,6 +111,7 @@ display: flex;
   /* justify-content: center; */
 }
 .left p3 {
+  padding-left: 30px;
   position: absolute;
   height: 21px;
   width: 405px;
@@ -129,6 +132,7 @@ display: flex;
   /* justify-content: center; */
 }
 .left p4 {
+  padding-left: 30px;
   position: absolute;
   height: 21px;
   width: 405px;
@@ -149,6 +153,7 @@ display: flex;
   /* justify-content: center; */
 }
 .left p5 {
+  padding-left: 30px;
   position: absolute;
   height: 21px;
   width: 405px;
@@ -169,6 +174,7 @@ display: flex;
   /* justify-content: center; */
 }
 .left p6 {
+  padding-left: 30px;
   position: absolute;
   height: 21px;
   width: 405px;
@@ -219,9 +225,13 @@ display: flex;
 
 
 @media only screen and (min-width: 320px) and (max-width: 767px) {
+  body {
+  overflow-x: hidden;
+}
   #FAQComponent {
     top: 1800px;
     height: 1162px !important;
+    width: 429px;
   }
   #FAQComponent h1 {
     width: 212px;
@@ -245,43 +255,55 @@ width: 318px;
 height: 99px;
     top: 87px;
 }
+.FAQ-row {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
 .left {
   width: 320px;
   height: 56px;
 }
 .left p1 {
+  /* display: flex;
+  text-align: center; */
+  padding-left: 10px;
   left: 41.5%;
   top: 212px;
   width: 324px;
 }
 .left p2 {
+  padding-left: 10px;
   top: 775px;
   left: 41.5%;
   width: 324px;
 }
 .left p3 {
+  padding-left: 10px;
   top: 832px;
   left: 41.5%;
   width: 324px;
 }
 .left p4 {
+  padding-left: 10px;
   top: 889px;
   left: 41.5%;
   width: 324px;
 }
 .left p5 {
+  padding-left: 10px;
   top: 946px;
   left: 41.5%;
   width: 324px;
 }
 .left p6 {
+  padding-left: 10px;
   top: 1003px;
   left: 41.5%;
   width: 324px;
 }
 .right {
   top: 213px;
-  left: 42px;
+  left: 35px;
   width: 320px;
   height: 504px;
 }
@@ -291,17 +313,12 @@ height: 99px;
 .right p{
   top: 45px;
   width: 296px;
-  left: 15px;
+  left: 30px;
 }
 .col-6 {
   max-width: 80% !important;
 }
 
-
-.row {
-  margin-right: 0;
-  margin-left: 0;
-}
 
 
 }

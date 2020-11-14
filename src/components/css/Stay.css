@@ -5,12 +5,14 @@ height: 440px;
 left: 0px;
 top: 1980px;
 background: #EEE9F0;
+display: grid;
 }
 .Stay h1 {
   position: absolute;
   height: 42px;
-  left: 42.57%;
-  right: 42.43%;
+  left: 43%;
+  /* right: 42.43%; */
+  text-align: center;
   top: 95px;
   font-family: Nunito;
   font-style: normal;
@@ -27,15 +29,13 @@ height: 54px;
 left: 34.24%;
 right: 34.03%;
 top: 150px;
-
+text-align: center;
 font-family: Nunito;
 font-style: normal;
 font-weight: normal;
 font-size: 17px;
 line-height: 27px;
 /* or 159% */
-
-text-align: center;
 letter-spacing: 0.6px;
 
 color: #501F6A;
@@ -57,22 +57,24 @@ border-radius: 4px;
 }
 .email-search {
   position: relative;
-  width: 40px;
-  height: 40px;
-  top: 249px;
+    width: 40px;
+    height: 40px;
+    top: 45px;
     left: 904px;
 }
 @media only screen and (min-width: 320px) and (max-width: 767px) {
   .Stay {
     top: 3002px;
-    width: 374px;
+    width: 103%;
   }
   .Stay h1 {
     width: 165px;
     height: 42px;
     font-size: 24px;
     line-height: 42px;
-    left: 108px;
+    left: 130px;
+    text-align: right;
+    display: flex;
     top: 108px;
   }
   .Stay h2 {
@@ -80,13 +82,13 @@ border-radius: 4px;
     height: 54px;
     font-size: 14px;
     line-height: 27px;
-    left: 41px;
+    left: 57px;
     top: 160px;
   }
   .enter {
     width: 320px;
     height: 50px;
-        left: 7.24%;
+        left: 12.24%;
         right: 6.03%;
         top: 55.21%;
         bottom: 20.97%;
@@ -95,7 +97,7 @@ border-radius: 4px;
     position: relative;
     width: 40px;
     height: 40px;
-    top: 248px;
-    left: 303px;
+    top: 43px;
+    left: 326px;
 }
 }
