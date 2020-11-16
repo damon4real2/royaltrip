@@ -21,7 +21,7 @@ export default class button extends Component {
                 <div style={header}></div>
                 <div className="row signup_buttons">
                     <Button className="sign-up">Sign up to ride</Button>{' '}
-                    <Button className="apply">Apply to drive</Button>{' '}
+                    <Button href="https://forms.gle/FkoqrBp1eV7zZ8Q68" className="apply">Apply to drive</Button>{' '}
                     <Button className="help">Help line</Button>{' '}
                     <Button className="talk">Talk to us</Button>{' '}
                 </div>
