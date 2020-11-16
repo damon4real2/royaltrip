@@ -19,7 +19,7 @@ export default props => {
       {/* <a className="menu-item" href="/driver">
         log in
       </a> */}
-      <a className="menu-item" href="/driver">
+      <a className="menu-item" href="https://forms.gle/uHkPzawq51gFprtA9">
         sign up
       </a>
     </Menu>

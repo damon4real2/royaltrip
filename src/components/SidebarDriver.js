@@ -12,7 +12,7 @@ export default props => {
       <a className="menu-item active-menu" href="/driver">
         driver
       </a>
-      <a className="menu-item" href="/driver">
+      <a className="menu-item" href="https://forms.gle/uHkPzawq51gFprtA9">
         apply to drive
       </a>
       <a className="menu-item" href="/driver">
@@ -21,9 +21,9 @@ export default props => {
       <a className="menu-item" href="/driver">
         sign up to ride
       </a>
-      <a className="menu-item" href="/driver">
+      {/* <a className="menu-item" href="/driver">
         log in
-      </a>
+      </a> */}
     </Menu>
   );
 };
