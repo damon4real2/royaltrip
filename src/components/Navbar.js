@@ -38,9 +38,9 @@ const Example = (props) => {
             <NavItem>
               <NavLink href="/Rider">Rider</NavLink>
             </NavItem>
-            <NavItem>
+            {/* <NavItem>
               <NavLink href="/logIn">Log In</NavLink>
-            </NavItem>
+            </NavItem> */}
             <UncontrolledDropdown nav inNavbar>
               <DropdownToggle nav className="nav-sign-up">
                 Sign Up

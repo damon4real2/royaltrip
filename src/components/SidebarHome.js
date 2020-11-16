@@ -16,9 +16,9 @@ export default props => {
       <a className="menu-item" href="/rider">
         rider
       </a>
-      <a className="menu-item" href="/driver">
+      {/* <a className="menu-item" href="/driver">
         log in
-      </a>
+      </a> */}
       <a className="menu-item" href="/driver">
         sign up
       </a>
