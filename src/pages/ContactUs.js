@@ -1,6 +1,6 @@
 import React from 'react';
 import '../App.css';
-import Sidebar from '../components/Sidebar';
+import SidebarContactUs from '../components/SidebarContactUs';
 import NavbarContactUs from '../components/NavbarContactUs';
 import HeroContactUs from '../components/HeroContactUs';
 import BorderSpacing from '../components/BorderSpacing';
@@ -12,12 +12,12 @@ import Contact from '../components/Contact';
 function ContactUs() {
   return (
     <>
-    <Sidebar />
+      <SidebarContactUs />
       <NavbarContactUs />
       <HeroContactUs />
-       <BorderSpacing />
-    <AboutUs />
-        <WhyJoinUs />
+      <BorderSpacing />
+      <AboutUs />
+      <WhyJoinUs />
       <Contact />
     </>
   );

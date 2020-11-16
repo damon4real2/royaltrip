@@ -1,5 +1,12 @@
 @media only screen and (min-width: 320px) and (max-width: 767px) {
-/* Position and sizing of burger button */
+.sidebar-image {
+  position: absolute;
+  width: 78px;
+  height: 57px;
+  left: 16px;
+  top: -16px;
+}
+  /* Position and sizing of burger button */
 .bm-burger-button {
     position: fixed;
     width: 36px;
@@ -25,11 +32,12 @@
   .bm-cross-button {
     height: 20px !important;
     width: 19px !important;
-    position: relative;
-    left: 89.17%;
-    right: 5.56%;
+    /* position: relative !important; */
+    left: 82.17%;
+    /* right: 5.56%; */
     /* top: 5.31%; */
-    bottom: 98.16%;
+    top: 38.56px !important;
+    position: absolute !important;
   }
   
   /* Color/shape of close button cross */
@@ -109,14 +117,15 @@ color: #99811D !important;
 
   }
   .menu-item {
+    top: 50px;
     text-transform: capitalize;
     font-family: IBM Plex Sans;
-font-style: normal;
-font-weight: 500;
-font-size: 18px;
-line-height: 23px;
-
-color: #000000;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    color: #000000;
+    position: relative;
   }
   .navbar-light .navbar-toggler {
     display: none;
@@ -129,4 +138,8 @@ display: none;
   padding-right: 0;
   padding-left: 0;
 } */
+  }
+
+  @media only screen and (min-width: 320px) and (max-width: 767px) {
+    
   }
