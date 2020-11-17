@@ -6,7 +6,7 @@ function FreePass() {
   return (
       <form className="FreePass">
         <div className="header">
-          <p1>Get Your Free Pass</p1>
+          <p1>Send Your Message</p1>
             <Label>
               <input className="full-name" type="text" name="Full Name" placeholder="Your name (Required)" />
               <input className="e-mail" type="email" name="email" placeholder="Your Email (Required)" />
@@ -14,7 +14,7 @@ function FreePass() {
               <input className="some-details" type="email" name="details" placeholder="Give some details" />
             </Label>
             <Button id="join-us">
-              join us
+              Send
             </Button>{' '}
         </div>
       </form>
