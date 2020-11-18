@@ -23,6 +23,8 @@ body{
   font-family: IBM Plex Sans ExtraLight;
   src: url("./assets/fonts/IBM_Plex_Sans/IBMPlexSans-ExtraLight.ttf");
 }
+
+
 .applyToRide {
   /* position: absolute;
   width: 52px;

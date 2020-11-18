@@ -6,26 +6,12 @@ export class features extends Component {
     return (
       <div id="features" className="text-center">
         <div className="features_">
-          {/* <div className="col-md-10 col-md-offset-1 section-title"> */}
-            {/* <h2>Features</h2> */}
-          </div>
-          {/* <div className="row"> */}
-            {/* {this.props.data
-              ? this.props.data.map((d,i) => (
-                  <div  key={`${d.title}-${i}`} className="col-xs-6 col-md-3">
-                    {" "}
-                    <i className={d.icon}></i>
-                    <h3>{d.title}</h3>
-                    <p>{d.text}</p>
-                  </div>
-                ))
-              : "Loading..."} */}
               <div className="features_grid">
             <div className="row">
             <div class="col-md-4 feature-a">
                 <div className="img2">
                 <div className="feature-grid">
-                <div className="img-background">
+                <div className="img-background first-img">
                     <img className=""
                       alt="Card"
                       src={require("../assets/images/get-a-ride.svg")}
@@ -39,8 +25,8 @@ export class features extends Component {
                 <div class="col-md-4 feature-b">
                 <div className="img2">
                 <div className="feature-grid active">
-                <div className="img-background middle">
-                    <img className=""
+                <div className="img-background">
+                    <img className="middle"
                       alt="Card"
                       src={require("../assets/images/best-prices.svg")}
                     />
@@ -54,21 +40,20 @@ export class features extends Component {
                 <div className="img2">
                 <div className="feature-grid">
                 <div className="img-background">
-                    <img
+                    <img className="last"
                       alt="Card"
                       src={require("../assets/images/ride-with-class.svg")}
                     />
                   </div>
-                      <h5 className="ride">Ride with class</h5>
-                      <p class="end">Royal Trip gives you a safe and classy ride.</p>
+                      <div className="ride">Ride with class</div>
+                      <div class="end">Royal Trip gives you a safe and classy ride.</div>
                 </div>
                 </div>
               </div>
               </div>
               </div>
             </div>
-        // </div>
-    // </div>
+        </div>
     );
   }
 }

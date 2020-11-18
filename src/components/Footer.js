@@ -52,6 +52,23 @@ function Footer() {
         <FooterLinksContainer>
           <FooterLinksWrapper>
           <FooterLinkItems>
+              <FooterLinkTitle>For Riders</FooterLinkTitle>
+              <FooterLink to='/'>Sign In</FooterLink>
+              <FooterLink to='/'>Sign Up</FooterLink>
+              <FooterLink to='/'>Find A Driver</FooterLink>
+            </FooterLinkItems>
+            <FooterLinkItems>
+              <FooterLinkTitle>Our Company</FooterLinkTitle>
+              <FooterLink to='/ContactUs'>About Us</FooterLink>
+              <FooterLink to='/ContactUs'>Contact Us</FooterLink>
+              <FooterLink to='/FAQ'>FAQ</FooterLink>
+              <FooterLink to='/'>Terms of Use (Drivers)</FooterLink>
+              <FooterLink to='/'>Terms of Use (Riders)</FooterLink>
+              <FooterLink to='/'>Privacy Policy</FooterLink>
+            </FooterLinkItems>
+          </FooterLinksWrapper>
+          <FooterLinksWrapper>
+            <FooterLinkItems>
               <FooterLinkTitle>For Drivers</FooterLinkTitle>
               <FooterLink to='/'>Sign In</FooterLink>
               <FooterLink to='/'>Sign Up</FooterLink>
@@ -63,25 +80,6 @@ function Footer() {
               <FooterLink to='/'>Blog</FooterLink>
               <FooterLink to='/'>Talk To Us</FooterLink>
               <FooterLink to='/'>Help Line</FooterLink>
-            </FooterLinkItems>
-            
-          </FooterLinksWrapper>
-          <FooterLinksWrapper>
-          <FooterLinkItems>
-              <FooterLinkTitle>For Riders</FooterLinkTitle>
-              <FooterLink to='/'>Sign In</FooterLink>
-              <FooterLink to='/'>Sign Up</FooterLink>
-              <FooterLink to='/'>Find A Driver</FooterLink>
-            </FooterLinkItems>
-            
-            <FooterLinkItems>
-              <FooterLinkTitle>Our Company</FooterLinkTitle>
-              <FooterLink to='/ContactUs'>About Us</FooterLink>
-              <FooterLink to='/ContactUs'>Contact Us</FooterLink>
-              <FooterLink to='/FAQ'>FAQ</FooterLink>
-              <FooterLink to='/'>Terms of Use (Drivers)</FooterLink>
-              <FooterLink to='/'>Terms of Use (Riders)</FooterLink>
-              <FooterLink to='/'>Privacy Policy</FooterLink>
             </FooterLinkItems>
           </FooterLinksWrapper>
         </FooterLinksContainer>

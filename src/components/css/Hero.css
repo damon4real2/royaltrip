@@ -1,10 +1,22 @@
-/* .hero {  
-    background-position: 'center';
-    background-size: 'cover';
-    background-repeat: 'no-repeat';
-    width: 100%;
-} */
+.hero-container {
+  background: #501F6A;
+  height: 36.25rem;
+}
 
+.hero {
+  position: relative;
+  width: 84%;
+  height: 100%;
+  left: 7%;
+  top: 3%;
+}
+.hero-logo {
+  position: relative;
+    width: 9%;
+    left: -20.45%;
+    top: -1%;
+    transform: rotate(-12.15deg);
+}
 /* Consider + Previous
  background-image: 'url(${../images/rca1.jpg)}'; */
 
@@ -82,14 +94,46 @@
     max-width: 100%;
     height: auto;
 }
-  @media only screen and (min-width: 320px) and (max-width: 767px) {
-    #hero {
-      margin-top: 0 !important;
-      position: absolute;
-      height: 10px;
-      /* width: 360px; */
-      left: 0px;
-      /* top: 81px; */
 
- }
+
+@media only screen and (max-width: 992px) {
+  .hero {
+    height: 50%;
+    top: 32%;
+  }
+  .hero-logo {
+    top: 29%;
+  }
+}
+  
+@media only screen and (max-width: 768px) {
+  .hero-container {
+    background: #501F6A;
+    height: 30.25rem;
+}
+  .hero {
+    width: 94%;
+    height: 35%;
+    left: 2%;
+    top: 40%;
+  }
+  .hero-logo {
+      width: 11%;
+      left: 63.55%;
+      top: 19%;
+      transform: rotate(-14.15deg);
+  }
+  @media (min-width:641px) {
+    .hero {
+      height: 66%;
+      top: 24%;
+    }
+    .hero-logo {
+      width: 11%;
+      left: 64.55%;
+      top: -16%;
+      transform: rotate(-14.15deg);
+    }
+    
+  }
 }

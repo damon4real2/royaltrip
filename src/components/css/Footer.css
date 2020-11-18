@@ -169,6 +169,17 @@
   /* top: 2485px !important; */
   background: #F9F9F9;
 }
+.jXrSDY {
+  /* top: 3000px !important; */
+  background: #F9F9F9;
+  padding: 4rem 0 2rem 0;
+}
+.cUFyQW {
+  right: 1px;
+  max-width: 1000px;
+  width: 100%;
+  position: absolute;
+}
 @media only screen and (min-width: 320px) and (max-width: 767px) {
   .footer-container {
       justify-content: center !important;
@@ -211,11 +222,11 @@
     margin-bottom: 16px;
     }
     .hSKfGL {
-    width: 377px !important;
+      width: 100% !important;
     /* height: 834px !important; */
     /* position: absolute !important; */
     left: 0px !important;
-    top: 4153px !important;
+    top: 3959px !important;
     background: #F9F9F9 !important;
     }
     .royalTripLogo {
@@ -223,17 +234,17 @@
     height: 57px;
     bottom: 37px !important;
     position: absolute;
-    left: 34px !important;
+    left: 32px !important;
     }
     .appstore-playstore2 {
     position: absolute;
     margin: 0 !important;
     color: #99811D !important;
     top: -63px;
-    right: 32px;
+    right: 57px;
     }
     .question-icon {
-    right: 48px;
+    right: 47px;
     top: 26px;
     position: relative;
     }
@@ -244,7 +255,7 @@
     }
     .Hsue {
       position: relative;
-      top: 9px;
-      left: -99px;
+      top: 80px;
+      left: -84px;
     }
 }

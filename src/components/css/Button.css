@@ -21,7 +21,6 @@ box-shadow: none !important;
 .help, .talk {
   color: #4E1D69 !important;
   border: none !important;
-  /* width: 18%; */
   font-size: 18px !important;
   padding-left: 1rem !important;
   padding-right: 1rem !important;
@@ -41,8 +40,6 @@ box-shadow: none !important;
   font-size: 18px !important;
   width: 195px;
   height: 54px;
-  padding-left: 2rem !important;
-  padding-right: 2rem !important;
   border-radius: 100px 100px !important;
   background: #4E1D69 !important;
   font-weight: bold !important;
@@ -55,8 +52,6 @@ box-shadow: none !important;
   width: 195px;
 height: 54px;
   font-size: 18px !important;
-  padding-left: 2rem !important;
-  padding-right: 2rem !important;
   /* width: 18%; */
   background-color: #fff !important;
   border: 1px solid #4E1D69 !important;
@@ -67,55 +62,97 @@ height: 54px;
   background: #4E1D69 !important;
   color: #FFFFFF !important;
 }
-/* .help {
-  border-radius: 100px 100px !important;
-} */
   .help:hover {
     font-weight: bold;
   }
   .talk:hover {
     font-weight: bold;
   }
-  @media only screen and (min-width: 320px) and (max-width: 767px) {
-    .sign-up, .apply, .help, .talk {
+
+  
+    @media only screen and (max-width: 768px) {
+      .sign-up {
+        position: relative;
+        left: 24%;
+      }
+      .apply {
+        position: relative;
+        left: 24%;
+        margin-top: 2%;
+      }
+      .help, .talk {
+          position: relative;
+          left: 34%;
+      }
+    }
+    @media (min-width:641px) { 
+      .sign-up {
+        left: 64%;
+      }
+      .apply {
+        left: 64%;
+      }
+      .help, .talk {
+        left: 82%;
+      }
+    }
+    /* .sign-up, .apply, .help, .talk {
       padding-left: 1rem !important;
       padding-right: 1rem !important;
-      font-size: 13px !important;
-    }
-    .signup_buttons {
-      display: flex;
-      display: flex;
-      position: absolute;
-      width: 286px;
-    height: 262px;
-    
-    left: 128px;
-    top: 607px;
-      background: #FFFFFF;
-      box-shadow: 0px 0px 10px -6px rgba(120, 120, 118, 0.25);
+      
     }
     .sign-up, .apply {
-      /* position: absolute; */
-      width: 189px;
+      width: 116px;
+      height: 20.7px;
+    }
+    .help, .talk {
+      
+     
+    }
+    hr.rule {
+      display: none!important;
+
+    }
+    .signup_buttons {
+      margin-left: 0px !important;
+      margin-right: 0px !important;
+      display: flex;
+      justify-content: center;
+      box-shadow: 0px 0px 10px -6px rgba(120, 120, 118, 0.25);
+    } 
+    .sign-up {
+      width: 167px;
       height: 45px;
       border-radius: 30px;
-    }
-    .sign-up {
-      left: 86px;
-      top: 519px;
-      background: #501F6A;
+      top: -4%;
+      position: absolute;
+      left: 30%;
     }
     .apply {
-      margin-top: 27px;
-      background: #FFFFFF;;
+      
+      position: absolute;
+      top: 10%;
+      left: 30%;
     }
     .help {
-      margin-top: 18px;
-    margin-left: 45px;
-    margin-right: 90px;
+      height: 23px;
+      width: 103px;
+      top: 180%;
+      left: 36.5%;
+      position: absolute;
     }
     .talk {
-      margin-bottom: 50px;
-      margin-left: 42px;
-    }
-  }
+      height: 23px;
+      width: 109px;
+      top: 262%;
+     left: 35.5%;
+      position: absolute;
+    } */
+   
+
+@media screen and (min-width: 776px) {
+  
+}
+@media screen and (min-width: 992px) {
+ 
+}

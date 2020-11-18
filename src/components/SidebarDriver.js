@@ -1,29 +1,29 @@
 import React from 'react';
-import logo from '../assets/images/logo.svg';
-import {Link} from 'react-router-dom';
+// import logo from '../assets/images/logo.svg';
+// import {Link} from 'react-router-dom';
 import { slide as Menu } from 'react-burger-menu';
 import './css/Sidebar.css'
 export default props => {
   return (
     <Menu className="SidebarMenu">
-      <Link to="/">
+      {/* <Link to="/">
           <img className="sidebar-image" src={logo} alt="Royal Crystal Airways" />
-      </Link>
+      </Link> */}
       <a className="menu-item active-menu" href="/driver">
-        driver
-      </a>
-      <a className="menu-item" href="https://forms.gle/uHkPzawq51gFprtA9">
-        apply to drive
+        Driver
       </a>
       <a className="menu-item" href="/driver">
-        rider
+        Apply to drive
       </a>
       <a className="menu-item" href="/driver">
-        sign up to ride
+        Rider
       </a>
-      {/* <a className="menu-item" href="/driver">
-        log in
-      </a> */}
+      <a className="menu-item" href="/driver">
+        Sign up to ride
+      </a>
+      <a className="menu-item" href="/driver">
+        Log In
+      </a>
     </Menu>
   );
 };

@@ -1,7 +1,7 @@
 import React from 'react';
 import '../App.css';
-import SidebarContactUs from '../components/SidebarContactUs';
 import NavbarContactUs from '../components/NavbarContactUs';
+import SidebarContactUs from '../components/SidebarContactUs';
 import HeroContactUs from '../components/HeroContactUs';
 import BorderSpacing from '../components/BorderSpacing';
 import AboutUs from '../components/AboutUs';
@@ -12,8 +12,8 @@ import Contact from '../components/Contact';
 function ContactUs() {
   return (
     <>
-      <SidebarContactUs />
       <NavbarContactUs />
+      <SidebarContactUs />
       <HeroContactUs />
       <BorderSpacing />
       <AboutUs />

@@ -123,10 +123,10 @@ background: #501F6A;;
 @media only screen and (min-width: 320px) and (max-width: 767px) {
   .appstore {
     position: absolute;
-    width: 417px;
+    width: 414px;
     height: 482px;
     /* left: 27px; */
-    top: 3569px;
+    top: 3390px;
     background: #501F6A;
   }
   .appstore-h4 {
@@ -173,7 +173,7 @@ background: #501F6A;;
   } */
   .cars {
     position: absolute;
-    width: 376px;
+    width: 371px;
     height: 235px;
     left: 56.19px;
     top: 0px;

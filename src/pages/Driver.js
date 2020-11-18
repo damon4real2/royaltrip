@@ -1,7 +1,7 @@
 import React from 'react';
 import '../App.css';
-import SidebarDriver from '../components/SidebarDriver';
 import NavbarLogIn from '../components/NavbarLogIn';
+import SidebarDriver from '../components/SidebarDriver';
 import TermsOfService from '../components/TermsOfService';
 import GetGoing from '../components/GetGoing';
 import CarouselDriver from '../components/CarouselDriver'
@@ -12,8 +12,8 @@ import Earnings from '../components/Earnings'
 function Driver() {
     return (
         <div className="Driver">
-        <SidebarDriver />
             <NavbarLogIn />
+            <SidebarDriver />
             <TermsOfService />
             <GetGoing />
             <CarouselDriver />
