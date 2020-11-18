@@ -14,11 +14,11 @@ function Contact() {
       </div>
       <div className="location-details">
         <img className="location-icon2" src={require("../assets/images/2.svg")} alt="location-icon2" />
-        <p className="location2">info@royaltrips.com.ng; </p>
+        <p className="location2">01-3438076; 07025004829 </p>
       </div>
       <div className="location-details">
         <img className="location-icon3" src={require("../assets/images/3.svg")} alt="location-icon3" />
-        <p className="location3">support@royaltrips.com.ng</p>
+        <p className="location3">support@royaltrips.com.ng; info@royaltrips.com.ng; </p>
       </div>
       <FreePass />
     </div>
