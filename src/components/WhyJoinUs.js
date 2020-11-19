@@ -9,24 +9,24 @@ function WhyJoinUs() {
         <div className="whyJoinUsGrid">
             <div className="row grid-whyJoinUs">
               <div className="first">
-                <img className="grid grid1" src={require("../assets/images/why-grid1.svg")} alt="grid-img" />
+                <img className="grid grid1" src={require("../assets/images/about4.svg")} alt="grid-img" />
                 <h1>pricing</h1>
                 <h2>We are committed to working to create a safe experience for members in our community.</h2>
               </div>
               <div className="second">
-              <img className="grid grid2" src={require("../assets/images/why-grid2.svg")} alt="grid-img" />
+              <img className="grid grid2" src={require("../assets/images/about5.svg")} alt="grid-img" />
                 <h1>Mortage Plan</h1>
                 <h2>Just so you get the best of experience, we have personnels dedicated to responding to speedily resolve issues.</h2>
               </div>
               <div className="third">
-                <img className="grid grid3" src={require("../assets/images/why-grid3.svg")} alt="grid-img" />
+                <img className="grid grid3" src={require("../assets/images/about6.svg")} alt="grid-img" />
                 <h1>Legal Support</h1>
-                <h2>With Royal Trips, we have a plan that can help you own...</h2>
+                <h2>We offer legal support where any party feels his or her right is being infringed upon during a Royal Trip ride.</h2>
               </div>
               <div className="fourth">
-                <img className="grid grid4" src={require("../assets/images/why-grid4.svg")} alt="grid-img" />
+                <img className="grid grid4" src={require("../assets/images/about7.svg")} alt="grid-img" />
                 <h1>Incentive</h1>
-                <h2>We want to esure that the legal rights of members in our community is rightly protected to protect our mmbers from...</h2>
+                <h2>We want to ensure that the legal rights of members in our community is rightly protected to protect our members from...</h2>
               </div>
             </div>
         </div>

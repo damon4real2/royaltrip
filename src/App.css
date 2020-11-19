@@ -1828,3 +1828,19 @@ color: #99811D;
   overflow-x: hidden;
 } */
 }
+
+
+
+
+ /* Mobile view */
+ @media screen and (max-width: 400px) {
+  
+}
+/* Tablet view */
+@media (min-width: 401px) and (max-width: 768px) {
+
+}
+/* iPad view */
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+}

@@ -23,7 +23,7 @@ const Example = (props) => {
 
   return (
     <div>
-      <Navbar color="light" light expand="md">
+      <Navbar color="light" light expand="sm">
         <NavbarBrand href="/">
         <Link to="/">
           <img className="img1" src={logo} alt="Royal Crystal Airways" />
@@ -36,7 +36,7 @@ const Example = (props) => {
               <NavLink href="/Driver">Driver</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="/">Rider</NavLink>
+              <NavLink href="/Rider">Rider</NavLink>
             </NavItem>
             {/* <NavItem>
               <NavLink href="/logIn">Log In</NavLink>
@@ -48,13 +48,13 @@ const Example = (props) => {
               <DropdownMenu right>
                 <DropdownItem>
                   <NavItem>
-                    <NavLink href="https://forms.gle/FkoqrBp1eV7zZ8Q68">Sign up to drive</NavLink>
+                    <NavLink href="/signUpToDrive">Sign up to drive</NavLink>
                   </NavItem>
                 </DropdownItem>
                 <DropdownItem>
-                  {/* <NavItem>
+                  <NavItem>
                     <NavLink href="/applyToRide">Apply to ride</NavLink>
-                  </NavItem> */}
+                  </NavItem>
                 </DropdownItem>
               </DropdownMenu>
             </UncontrolledDropdown>

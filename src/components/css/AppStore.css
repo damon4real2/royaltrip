@@ -180,3 +180,44 @@ background: #501F6A;;
     margin-top: -281px;
   }
 }
+
+
+  /* Mobile view */
+  @media screen and (max-width: 400px) {
+    .appstore {
+        left: 7%;
+        position: absolute;
+        width: 27.4rem;
+        top: 3272px;
+    }
+    .appstore-h4 {
+      top: 44px;
+      font-family: IBM Plex Sans SemiBold;
+      left: 100px;
+  }
+  .appstore-playstore {
+    top: 133px;
+    right: 75px;
+  }
+  .appstore-p {
+    font-family: IBM Plex Sans SemiBold;
+    left: 103px;
+    top: 198px;
+    width: 261px;
+  }
+  .cars {
+    width: 386px;
+    height: 235px;
+    left: 56.19px;
+    top: 0px;
+    margin-top: -251px;
+  }
+}
+  /* Tablet view */
+  @media (min-width: 401px) and (max-width: 768px) {
+  
+  }
+  /* iPad view */
+  @media (min-width: 768px) and (max-width: 1024px) {
+    
+    } 

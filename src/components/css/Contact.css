@@ -96,7 +96,23 @@
   width: 167px;
   height: 51px;
   left: 190px;
-  top: 346.5px;
+  top: 326.5px;
+  font-family: Open Sans;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 25px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.96px;
+  color: #FFFFFF;
+}
+.location2b {
+  position: absolute;
+  width: 167px;
+  height: 51px;
+  left: 190px;
+  top: 356.5px;
   font-family: Open Sans;
   font-style: italic;
   font-weight: normal;
@@ -141,6 +157,8 @@
 }
 @media only screen and (min-width: 320px) and (max-width: 767px) {
   .Contact {
+    left: 2%;
+    width: 114%;
     top: 3740px;
     bottom: 0%;
     background: #501F6A;
@@ -166,18 +184,22 @@ height: 75px;
   }
   .location-icon2 {
     left: 41px;
-    top: 288.5px;
+    top: 328.5px;
   }
   .location2 {
     left: 97px;
-    top: 276.5px;
+    top: 300.5px;
+  }
+  .location2b {
+    left: 97px;
+    top: 332.5px;
   }
   .location-icon3 {
     left: 43px;
-    top: 365.5px;
+    top: 425.5px;
   }
   .location3 {
     left: 97px;
-    top: 350px;
+    top: 400px;
   }
 }

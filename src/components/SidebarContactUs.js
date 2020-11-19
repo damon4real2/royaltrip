@@ -10,13 +10,13 @@ export default props => {
           <img className="sidebar-image" src={logo} alt="Royal Crystal Airways" />
         </Link> */}
       <a className="menu-item active-menu" href="/AboutUs">
-        about our company
+        About our company
       </a>
       <a className="menu-item" href="/ContactUs">
-        why join us
+        Why join us?
       </a>
       <a className="menu-item" href="/ContactUs">
-        contact us
+        Contact us
       </a>
     </Menu>
   );

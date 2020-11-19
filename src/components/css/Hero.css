@@ -128,12 +128,53 @@
       height: 66%;
       top: 24%;
     }
-    .hero-logo {
-      width: 11%;
-      left: 64.55%;
-      top: -16%;
+      .hero-logo {
+        width: 11%;
+        left: 65.55%;
+        top: -1%;
       transform: rotate(-14.15deg);
     }
     
   }
+}
+
+/* iPhone 5 Retina regardless of IOS version */
+@media (max-device-width: 640px) {
+  .hero-container {
+      width: 104%;
+    }
+ }
+@media only screen and (max-device-width: 480px), only screen and (min-device-width: 560px) and (max-device-width: 1136px) and (-webkit-min-device-pixel-ratio: 2) {
+  
+}
+
+/* Mobile view */
+@media screen and (max-width: 400px) {
+  .hero-container {
+    width: 136%;
+    height: 24.25rem;
+  }
+  .hero {
+    width: 94%;
+    height: 51%;
+    left: 2%;
+    top: 34%;
+  }
+  .hero-logo {
+    width: 11%;
+    left: 63.55%;
+    top: 2%;
+    transform: rotate(-14.15deg);
+}
+}
+/* Tablet view */
+@media (min-width: 401px) and (max-width: 768px) {
+
+}
+/* iPad view */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .bg-light {
+    min-width: -webkit-fill-available;
+    background-color: #ffffff !important;
+  } 
 }

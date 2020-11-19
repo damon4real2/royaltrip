@@ -178,14 +178,20 @@ display: none;
     transform: rotate(-15.15deg);
   }
 }
+/* Mobile view */
+@media screen and (max-width: 400px) {
+  .bm-burger-button {
+    left: 98%;
+  }
+}
+/* Tablet view */
+@media (min-width: 401px) and (max-width: 768px) {
 
-  /* @media only screen and (min-width: 992px) {
-    .bm-burger-button  {
-      display: none;
-    }
-  } */
-
-
-  /* @media screen and (min-width: 992px) { 
-
-  } */
+}
+/* iPad view */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .bg-light {
+    min-width: -webkit-fill-available;
+    background-color: #ffffff !important;
+  } 
+}

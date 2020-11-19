@@ -150,9 +150,33 @@ height: 54px;
     } */
    
 
-@media screen and (min-width: 776px) {
-  
+    /* Mobile view */
+@media screen and (max-width: 400px) {
+  .sign-up {
+    position: relative;
+    left: 37%;
+  }
+  .apply {
+    position: relative;
+    left: 37%;
+    margin-top: 2%;
+  }
+  .help, .talk {
+    position: relative;
+    left: 49.3%;
+  }
+  hr.rule {
+    display: none!important;
+  }
 }
-@media screen and (min-width: 992px) {
- 
+/* Tablet view */
+@media (min-width: 401px) and (max-width: 768px) {
+
+}
+/* iPad view */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .bg-light {
+    min-width: -webkit-fill-available;
+    background-color: #ffffff !important;
+  } 
 }

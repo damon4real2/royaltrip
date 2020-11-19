@@ -19,7 +19,7 @@ export default class button extends Component {
         <div style={well}>
             <div className="container">
                     <div style={header}></div>
-                        <div className="row  row-cols-1 row-cols-sm-2 row-cols-md-4 signup_buttons">
+                        <div className="row signup_buttons">
                             <div className="col">
                                 <Button className="sign-up">Sign up to ride</Button>{' '}
                             </div>

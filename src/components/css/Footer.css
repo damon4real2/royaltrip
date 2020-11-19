@@ -205,11 +205,8 @@
       text-decoration: none !important;
     }
     .cUFyQW {
-    /* bottom: 445px; */
-    /* top: 0px; */
-    right: 124px !important;
-    width: 100%;
-    position: relative;
+      right: 123px;
+      top: -504px;
     }
     .jykwZK {
     font-family: IBM Plex Sans SemiBold !important;
@@ -259,3 +256,47 @@
       left: -84px;
     }
 }
+
+  /* Mobile view */
+  @media screen and (max-width: 400px) {
+    .hSKfGL {
+      width: 119% !important;
+      /* height: 834px !important; */
+      /* position: absolute !important; */
+      left: 33px !important;
+      top: 3777px !important;
+      background: #F9F9F9 !important;
+  }
+  .royalTripLogo {
+    left: 40px !important;
+  }
+  .question-icon {
+    right: 24px;
+    top: 19px;
+    position: relative;
+  }
+  .question p {
+    position: relative;
+    top: 19px;
+    left: -13px;
+  }
+  cUFyQW {
+    max-width: 1000px;
+    width: 100%;
+    top: -504px;
+    right: 132px;
+  }
+  .Hsue {
+    position: relative;
+    top: 18px;
+    left: -74px;
+}
+}
+  /* Tablet view */
+  @media (min-width: 401px) and (max-width: 768px) {
+  
+  }
+  /* iPad view */
+  @media (min-width: 768px) and (max-width: 1024px) {
+    
+  }

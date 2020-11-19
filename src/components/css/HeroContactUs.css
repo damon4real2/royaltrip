@@ -28,17 +28,13 @@ color: #B1B1B1;
 right: 20.14%;
 top: 143px;
 bottom: 87.74%;
-
 font-family: Montserrat;
 font-style: normal;
 font-weight: bold;
 font-size: 36px;
 line-height: 50px;
-/* or 139% */
-
 text-align: center;
 letter-spacing: -1px;
-
 color: #FFFFFF;
 }
 
@@ -88,12 +84,14 @@ color: #FFFFFF;
 }
 .block-left img {
   position: absolute;
-  right: 119px;
+  right: 135px;
+  width: 50px;
+  height: 62px;
 }
 .block-left p1 {
   position: absolute;
   height: 31px;
-  left: -39.38%;
+  left: -51.38%;
   right: 68.26%;
   top: 75px;
   width: 212px;
@@ -108,19 +106,14 @@ color: #FFFFFF;
 }
 .block-left p2 {
   position: absolute;
-  left: -80.78%; 
-  right: -5.14%;
-  top: 575.01%;
-  bottom: 71.14%;
-  width: 330px;
-  height: 50px;
-    font-family: Lato;
-    font-style: normal;
-    font-weight: normal;
+    left: -84.78%;
+    top: 505.01%;
     font-size: 16px;
     line-height: 25px;
     text-align: center;
     color: #747578;
+    width: 330px;
+    height: 75px;
 }
 .block-middle {
   position: absolute;
@@ -133,11 +126,13 @@ bottom: 67.27%;
   position: absolute;
   top: 25px;
   right: 115px;
+  width: 50px;
+  height: 62px;
 }
 .block-middle p1 {
   position: absolute;
   height: 31px;
-  left: 26.806%;
+  left: 27.806%;
   right: 44.72%;
   font-family: Montserrat;
   font-style: normal;
@@ -147,25 +142,19 @@ bottom: 67.27%;
   width: 153px;
   text-align: center;
   letter-spacing: -0.7px;
-  /* top: calc(50% - 31px/2 - 646.5px); */
   top: 99px;
   color: #333333;
 }
 .block-middle p2 {
-  position: absolute;
-  left: -2.39%;
-    right: 38.47%;
-    top: 325.01%;
-    bottom: 71.14%;
-  font-family: Lato;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 25px;
-  width: 330px;
-  text-align: center;
-  
-  color: #747578;
+    position: absolute;
+    top: 290.01%;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 25px;
+    width: 330px;
+    height: 75px;
+    text-align: center;
+    color: #747578;
 }
 .block-right {
   position: absolute;
@@ -177,13 +166,14 @@ bottom: 67.27%;
 .block-right img {
   position: absolute;
   top: 21px;
-  right: 107px;
+  right: 82px;
+  width: 50px;
+  height: 62px;
 }
 .block-right p1 {
   position: absolute;
 height: 31px;
-/* left: 69.27%; */
-right: 10.22%;
+right: 1.22%;
 width: 203px;
 font-family: Montserrat;
 font-style: normal;
@@ -198,18 +188,14 @@ color: #333333;
 }
 .block-right p2 {
   position: absolute;
-  /* left: 65%; */
-  right: -10.92%;
-  top: 324.01%;
-  bottom: 71.14%;
+  top: 291.01%;
   width: 330px;
-  font-family: Lato;
-  font-style: normal;
-  font-weight: normal;
+  height: 75px;
   font-size: 16px;
   line-height: 25px;
   text-align: center;
   color: #747578;
+  left: 40px;
 }
 
 @media only screen and (min-width: 320px) and (max-width: 767px) {
@@ -224,12 +210,12 @@ color: #333333;
     /* margin-top: -64px; */
 }
 .HeroContactUs h1 {
-  left: 20.39% !important;
-  right: 17.39%;
-    top: 162px;
+  left: 21.39% !important;
+    right: 17.39%;
+    top: 132px;
 }
 .HeroContactUs h2 {
-  top: 220px;
+  top: 171px;
   left: 62px;
   font-size: 24px;
 line-height: 29px;
@@ -238,7 +224,7 @@ color: #333333;
 }
 .find-more {
   width: 222px;
-  right: 91px;
+  right: 44px;
   top: 320px;
   text-transform: uppercase;
   position: absolute !important;
@@ -256,18 +242,17 @@ color: #333333;
     bottom: 67.27%;
   }
   .block-left img {
+    top: -1.8em;
     position: absolute;
-    right: -61px;
+    right: -70px;
 }
 .block-left p1 {
-  height: 31px;
-    /* left: -105.38%; */
-    right: -242.26%;
-    top: 97px;
+  top: 57px;
+  left: -11.38%;
 }
 .block-left p2 {
-  position: absolute;
-  left: -73.78px;
+    position: absolute;
+    left: -67.78px;
     top: 131.01px;
     /* top: 575.01%; */
     bottom: 71.14%;
@@ -307,10 +292,10 @@ line-height: 25px;
   position: absolute;
   height: 31px;
   top: 621px;
-  right: 63.22%;
+  right: 57.22%;
 }
 .block-right p2 {
-  right: -7.92%;
+      left: -230px;
   top: 667px;
   font-size: 13px;
 line-height: 25px;
