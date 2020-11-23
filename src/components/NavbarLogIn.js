@@ -34,13 +34,13 @@ const Example = (props) => {
         <Collapse isOpen={isOpen} navbar>
           <Nav className="ml-auto" navbar>
             <NavItem>
-              <NavLink href="/Rider">Rider</NavLink>
+              <NavLink href="/Driver">Rider</NavLink>
             </NavItem>
-            <NavItem>
+            {/* <NavItem>
               <NavLink href="/logIn">Log In</NavLink>
-            </NavItem>
+            </NavItem> */}
             <NavItem>
-              <NavLink href="/Rider">Sign Up</NavLink>
+              <NavLink href="https://forms.gle/uHkPzawq51gFprtA9">Sign Up</NavLink>
             </NavItem>
           </Nav>
         </Collapse>

@@ -37,7 +37,7 @@ easy, safe and fast.</p>
                         <p className="value1">Always</p>
                         <p className="value2">There for you</p>
                         <p className="value3 extreme">We are very responsive and prompt, you have our full attention everytime.</p>
-                        <Button className="value-btn">get started</Button>{' '}
+                        <Button className="value-btn"><a href="https://forms.gle/uHkPzawq51gFprtA9">get started</a></Button>{' '}
                     </div>
                     </div>
                 </div>

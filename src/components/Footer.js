@@ -97,10 +97,10 @@ function Footer() {
               <SocialIcon />
             </SocialLogo> */}
             <SocialIcons>
-              <SocialIconLink href='/' target='_blank' aria-label='Facebook'>
+              <SocialIconLink href='https://web.facebook.com/Royal-Trips-107283564520818' target='_blank' aria-label='Facebook'>
                 <FaFacebook />
               </SocialIconLink>
-              <SocialIconLink href='/' target='_blank' aria-label='Instagram'>
+              <SocialIconLink href='https://www.instagram.com/royaltrips_ng/' target='_blank' aria-label='Instagram'>
                 <FaInstagram />
               </SocialIconLink>
               <SocialIconLink
@@ -113,10 +113,10 @@ function Footer() {
               >
                 <FaYoutube />
               </SocialIconLink>
-              <SocialIconLink href='/' target='_blank' aria-label='Twitter'>
+              <SocialIconLink href='https://twitter.com/RoyalTrips3' target='_blank' aria-label='Twitter'>
                 <FaTwitter />
               </SocialIconLink>
-              <SocialIconLink href='/' target='_blank' aria-label='LinkedIn'>
+              <SocialIconLink href='https://www.linkedin.com/company/royal-trips/about/' target='_blank' aria-label='LinkedIn'>
                 <FaLinkedin />
               </SocialIconLink>
             </SocialIcons>
