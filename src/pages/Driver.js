@@ -16,8 +16,8 @@ function Driver() {
             <SidebarDriver />
             <TermsOfService />
             <GetGoing />
-            <CarouselDriver />
-            <Earnings />
+            <CarouselDriver /> 
+            <Earnings /> 
             {/* <Footer /> */}
 
         </div>

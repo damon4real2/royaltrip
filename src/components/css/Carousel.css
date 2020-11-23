@@ -1,38 +1,85 @@
-.slide {
+.never-lost {
+    top: 128em;
     position: absolute;
-    top: 1100px;  
-    width: 1440px;
+    width: 219px;
+    height: 54px;
+    text-transform: uppercase;
+    background: #501F6A !important;
+    color: #FFFFFF !important;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px !important;
+    left: 43.6em;
 }
-.carousel-inner {
-    height: 496px;
+.Slide-mediaBackground-25 {
+    height: 100% !important;
+    text-align: center;
+    background-color: transparent !important;
 }
-.carousel-item > img { 
-    width: 100%; 
-    margin-top: -64px;
+.AutoRotatingCarousel-carouselWrapper-8 {
+    overflow: hidden;
+    transform: scale(1.0);
+    border-radius: 14px;
+}
+.Slide-root-20 {
+    height: 100%;
+    background-color: transparent !important;
+}
+.CarouselInImg {
+    position: absolute;
+    top: 81em;
+}
+.MuiBackdrop-root {
+    background-color: rgba(0, 0, 0, 0);
+}
+.AutoRotatingCarousel-footer-12 {
+    width: 100%;
+    margin-top: 52px;
+    text-align: center;
+}
+  @media only screen and (min-width: 320px) and (max-width: 625px) {
+  .never-lost {
+      top: 128em;
+      position: absolute;
+      width: 219px;
+      height: 54px;
+      text-transform: uppercase;
+      background: #501F6A !important;
+      color: #FFFFFF !important;
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      border-radius: 30px !important;
+      left: 6.6em;
   }
-  .carousel-control-next-icon, .carousel-control-prev-icon {
-    /* display: inline-block;
-    width: 20px; */
-    visibility: hidden;
-    /* height: 20px;
-    background: no-repeat 50%/100% 100%; */
+  .CarouselInImg {
+    position: absolute;
+    top: 200%;
+  } 
 }
-  @media only screen and (min-width: 320px) and (max-width: 767px) {
-    .slide {
+
+
+/* Galaxy Fold */
+@media (min-width: 625px) and (max-width: 626px) {
+    .carousel_background {
+        margin-top: 93%;
+    }
+      .never-lost {
+        top: 99em;
         position: absolute;
-        top: 1630px;  
-        width: 360px;
-        height: 496px;    
-    } 
-    .carousel-item > img {
-        width: 100%;
-        height: 296px;
-        margin-top: -64px;
+        width: 230px;
+        height: 61px;
+        text-transform: uppercase;
+        background: #501F6A !important;
+        color: #FFFFFF !important;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 30px !important;
+        left: 15.6em;
     }
-    .carousel-control-next-icon, .carousel-control-prev-icon {
-        visibility: hidden;
+}
+
+/* Smart phones */
+@media only screen and (min-width: 320px) and (max-width: 625px) {
+    .carousel_background {
+        position: absolute;
+        top: 10em;
     }
-    .carousel-inner {
-        left: 30px;
-    }
-  }
+    
+}

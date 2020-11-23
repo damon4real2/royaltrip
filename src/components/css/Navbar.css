@@ -86,7 +86,7 @@
   }
   .bg-light {
     position: absolute;
-    width: 374px;
+    /* width: 374px; */
     height: 79px;
     left: 0px;
     top: 0px;

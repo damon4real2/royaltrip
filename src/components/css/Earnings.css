@@ -11,7 +11,7 @@ left: 102px;
   width: 261px;
   height: 83px;
   left: 36px;
-  top: -131px;
+  top: -34px;
   font-family: IBM Plex Sans SemiBold;
   font-style: normal;
   font-weight: 500;
@@ -19,12 +19,13 @@ left: 102px;
   line-height: 44px;
   color: #000000;
 }
+
 .Earnings p1 {
   position: absolute;
   width: 221px;
   height: 55px;
   left: 921px;
-    top: -131px;
+    top: -34px;
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
@@ -34,7 +35,6 @@ left: 102px;
   color: #99811D;
 }
 
-
 .Earnings p2 {
   position: relative;
   font-family: IBM Plex Sans SemiBold;
@@ -43,7 +43,7 @@ font-weight: 500;
 font-size: 30px;
 line-height: 39px;
 color: #000000;
-top: 43px;
+top: 788px;
 left: 45px;
 width: 490px;
 height: 39px;
@@ -53,8 +53,14 @@ height: 39px;
   position: relative;
   width: 686px;
 height: 49px;
-top: 75px;
+top: 830px;
 right: 387px;
+}
+
+.classesVideo {
+  position: absolute;
+  top: 17%;
+  left: 3.4em;
 }
 .Quote {
   width: 1440px;
@@ -63,50 +69,47 @@ right: 387px;
   box-shadow: 0px 4px 10px -6px rgba(120, 120, 118, 0.25);
   position: absolute;
   left: -102px;
-  top: 835px;
+  top: 922px;
 }
 .Quote p4 {
   position: absolute;
-  left: 352px;
+  display: flex;
+  text-align: center;
+  width: 744px;
   top: 50px;
   font-family: IBM Plex Sans;
-font-style: normal;
-font-weight: normal;
-font-size: 25px;
-line-height: 32px;
-text-align: center;
-width: 744px;
-height: 198px;
-color: #FFFFFF;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 32px;
+  text-align: center;
+  height: 198px;
+  color: #FFFFFF;
+  left: 14em;
 }
 
 @media only screen and (min-width: 320px) and (max-width: 767px) {
-  
-  
   .Earnings {
     width: 314px;
   }
-
-
-
   .Earnings p {
-    font-size: 24px;
+    font-size: 20px;
     line-height: 31px;
-    width: 109px;
+    width: 139px;
     height: 83px;
     top: 146px;
     left: -39px;
   }
   .Earnings p1 {
+    font-size: 19px;
     width: 140px;
     height: 40px;
     left: 109px;
-    top: 145px;
+    top: 150px;
   }
    .classesVideo {
     left: -61px;
-    /* width: 600px !important; */
-
+    width: 600px !important;
     height: 350px !important;
     top: 278px;
     position: absolute;
@@ -128,18 +131,62 @@ color: #FFFFFF;
     left: -41px;
    }
    .Quote {
-     /* width: 366px; */
-     width: 414px;
+     width: 100%;
      height: 281px;
    }
    .Quote p4 {
     width: 289px;
     height: 225px;
-    top: 5px;
     left: 61px;
-    /* left: 34px; */
     font-size: 19px;
     line-height: 25px;
     top: 30px;
    }
+} 
+/* Galaxy Fold */
+@media only screen and (min-width: 625px) and (max-width: 626px) {
+  .Earnings p {
+    font-size: 22px;
+    line-height: 24px;
+    width: 245px;
+    height: 83px;
+    top: 14em;
+    left: -4em;
+}
+  .Earnings p1 {
+    font-size: 20px;
+    width: 272px;
+    left: 12em;
+    top: 15.2em;
+  }
+  .classesVideo {
+    left: -3.5em;
+    width: 600px !important;
+    height: 350px !important;
+    top: 28em;
+    position: absolute;
+  }
+  .Earnings p2 {
+    font-size: 22px;
+    line-height: 31px;
+    width: 336px;
+    height: 62px;
+    top: 36em;
+    left: -41px;
+    position: absolute;
+  }
+  .Earnings p3 {
+    width: 559px;
+    height: 32px;
+    position: absolute;
+    top: 829px;
+    left: -41px;
+  }
+  .Quote {
+    width: 117%;
+  }
+  .Quote p4 {
+    text-align: center;
+    width: 80%;
+  }
 }

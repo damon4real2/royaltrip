@@ -13,7 +13,7 @@
   position: relative;
   width: 2.25rem;
   height: 1.875rem;
-  left: 89%;
+  left: 85%;
   top: -50px;
   color: #99811D !important;
 }
@@ -31,18 +31,18 @@
   
   /* Position and sizing of clickable cross button */
   .bm-cross-button {
-    height: 20px !important;
-    width: 19px !important;
-    position: relative;
-    left: 80.17%;
-    right: 5.56%;
-    /* top: 5.31%; */
-    bottom: 98.16%;
-    position: absolute;
-    width: 34px !important;
-    height: 36px !important;
-    right: 8px;
-    top: -80px !important;
+      height: 20px !important;
+      width: 19px !important;
+      position: relative;
+      left: 77.17%;
+      right: 5.56%;
+      /* top: 5.31%; */
+      bottom: 98.16%;
+      position: absolute;
+      width: 34px !important;
+      height: 36px !important;
+      right: 8px;
+      top: -5em !important;
   }
   
   /* Color/shape of close button cross */
@@ -156,7 +156,7 @@ display: none;
   }
   }
   @media 
-  (min-device-width: 720px) 
+  (min-device-width: 768px) 
   and (max-device-width: 1280px) {
     .bm-burger-button {
       display: none;
@@ -181,7 +181,7 @@ display: none;
 /* Mobile view */
 @media screen and (max-width: 400px) {
   .bm-burger-button {
-    left: 98%;
+    left: 85%;
   }
 }
 /* Tablet view */

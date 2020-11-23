@@ -62,7 +62,7 @@
   .question p{
       margin-bottom: 0;
       margin-left: 0.7rem;
-      font-family: IBM Plex Sans;
+      font-family: IBM Plex Sans SemiBold !important;
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
@@ -72,7 +72,6 @@
   }
   .question-icon {
     color: #99811D !important;
-    /* background: red !important; */
   }
   .kOefKs{
       justify-content: flex-start !important;
@@ -161,12 +160,7 @@
   color: #99811D;
 }
 .hSKfGL {
-  position: absolute;
-  width: 1440px;
-  height: 424px;
-  left: 0px;
-  /* top: 2485px !important; */
-  background: #F9F9F9;
+  margin-top: 4em !important;
 }
 @media only screen and (min-width: 320px) and (max-width: 767px) {
     .footer-container {

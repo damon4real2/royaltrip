@@ -9,10 +9,8 @@ import {
 
 function Example() {
   return (
-    <div className="appstore">
-      <div className="my-container">
+      <div className="container-fluid appstore">
       <Row>
-      {/* <Card className="col-md-12 "> */}
         <div className="col-md-6 ">
         <div className="readytoride">
         <div className="readytoride2">
@@ -29,35 +27,13 @@ function Example() {
         </div>
         <div className="col-md-1"></div>
         <div className="col-md-5">
-          {/* <div className="img_happy">
-            <img className="img3"
-              alt="..."
-              src={require("../assets/images/man.png")}
-            />
-            </div> */}
-            <div className="img_happy">
             <img className="cars"
               alt="..."
               src={require("../assets/images/cars-grouped.png")}
             />
-            {/* <img className="logo1"
-              alt="..."
-              src={require("../assets/images/logo.svg")}
-            />
-            <img className="logo2"
-              alt="..."
-              src={require("../assets/images/logo.svg")}
-            />
-            <img className="logo3"
-              alt="..."
-              src={require("../assets/images/logo.svg")}
-            /> */}
-            </div>
         </div>
-      {/* </Card> */}
       </Row>
       </div>
-    </div>
   );
 }
 

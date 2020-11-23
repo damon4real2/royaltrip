@@ -12,51 +12,35 @@ border-color: transparent;
 box-shadow: none !important;
 }
 
-.signup_buttons{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 100%;
+.button {
+  background: #FFFFFF;
+  box-shadow: 0px 4px 10px -6px rgba(120, 120, 118, 0.25);
+  margin-top: 1em;
+  margin-bottom: 3.5em;
 }
-.help, .talk {
-  color: #4E1D69 !important;
-  border: none !important;
-  font-size: 18px !important;
-  padding-left: 1rem !important;
-  padding-right: 1rem !important;
-  background: #fff !important;
+.sign-up, .apply, .help, .talk {
+  font-family: IBM Plex Sans SemiBold;
+  font-style: normal;
+  font-size: 18px;
+line-height: 23px;
 }
-.button1 {
-    /* box-shadow: 0px 4px 10px -6px rgba(120, 120, 118, 0.25); */
-    line-height: 50%;
-    margin-top: 20px;
-    height: 45px;
-    display: flex;
-    justify-content: space-between !important;
-    font-family: IBM Plex Sans;
-}
-.sign-up {
+.sign-up, .apply {
   font-family: IBM Plex Sans Light;
-  font-size: 18px !important;
   width: 195px;
   height: 54px;
   border-radius: 100px 100px !important;
-  background: #4E1D69 !important;
   font-weight: bold !important;
+}
+.sign-up {
+  background: #4E1D69 !important;
 }
 .sign-up:hover {
   background: #FFFFFF !important;
   color: #4E1D69 !important;
 }
 .apply {
-  width: 195px;
-height: 54px;
-  font-size: 18px !important;
-  /* width: 18%; */
-  background-color: #fff !important;
-  border: 1px solid #4E1D69 !important;
-    border-radius: 100px !important;
-    color: #4E1D69 !important;
+  background: #FFFFFF !important;
+  color: #4E1D69 !important;
 }
 .apply:hover {
   background: #4E1D69 !important;
@@ -68,115 +52,12 @@ height: 54px;
   .talk:hover {
     font-weight: bold;
   }
-
-  
-    @media only screen and (max-width: 768px) {
-      .sign-up {
-        position: relative;
-        left: 24%;
-      }
-      .apply {
-        position: relative;
-        left: 24%;
-        margin-top: 2%;
-      }
-      .help, .talk {
-          position: relative;
-          left: 34%;
-      }
-    }
-    @media (min-width:641px) { 
-      .sign-up {
-        left: 64%;
-      }
-      .apply {
-        left: 64%;
-      }
-      .help, .talk {
-        left: 82%;
-      }
-    }
-    /* .sign-up, .apply, .help, .talk {
-      padding-left: 1rem !important;
-      padding-right: 1rem !important;
-      
-    }
-    .sign-up, .apply {
-      width: 116px;
-      height: 20.7px;
-    }
-    .help, .talk {
-      
-     
-    }
-    hr.rule {
-      display: none!important;
-
-    }
-    .signup_buttons {
-      margin-left: 0px !important;
-      margin-right: 0px !important;
-      display: flex;
-      justify-content: center;
-      box-shadow: 0px 0px 10px -6px rgba(120, 120, 118, 0.25);
-    } 
-    .sign-up {
-      width: 167px;
-      height: 45px;
-      border-radius: 30px;
-      top: -4%;
-      position: absolute;
-      left: 30%;
-    }
-    .apply {
-      
-      position: absolute;
-      top: 10%;
-      left: 30%;
-    }
-    .help {
-      height: 23px;
-      width: 103px;
-      top: 180%;
-      left: 36.5%;
-      position: absolute;
-    }
-    .talk {
-      height: 23px;
-      width: 109px;
-      top: 262%;
-     left: 35.5%;
-      position: absolute;
-    } */
-   
-
-    /* Mobile view */
-@media screen and (max-width: 400px) {
-  .sign-up {
-    position: relative;
-    left: 37%;
-  }
-  .apply {
-    position: relative;
-    left: 37%;
-    margin-top: 2%;
-  }
   .help, .talk {
-    position: relative;
-    left: 49.3%;
+    border: none !important;
+    color: #4E1D69 !important;
+    background: #fff !important;
   }
-  hr.rule {
-    display: none!important;
-  }
-}
-/* Tablet view */
-@media (min-width: 401px) and (max-width: 768px) {
 
-}
-/* iPad view */
-@media (min-width: 768px) and (max-width: 1024px) {
-  .bg-light {
-    min-width: -webkit-fill-available;
-    background-color: #ffffff !important;
-  } 
-}
+  /* hr.rule {
+    display: none!important;
+  } */

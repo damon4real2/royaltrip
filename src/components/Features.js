@@ -7,7 +7,7 @@ export class features extends Component {
       <div id="features" className="text-center">
         <div className="features_">
               <div className="features_grid">
-            <div className="row">
+            <div className="row d-flex justify-content-around">
             <div class="col-md-4 feature-a">
                 <div className="img2">
                 <div className="feature-grid">
@@ -17,8 +17,8 @@ export class features extends Component {
                       src={require("../assets/images/get-a-ride.svg")}
                     />
                   </div>
-                      <h5>Get a ride</h5>
-                      <p>Royal Trip offers a ride in minutes.</p>
+                      <div className="first-feature">Get a ride</div>
+                      <div className="first-feature-b">Royal Trip offers a ride in minutes.</div>
                 </div>
                 </div>
                 </div>

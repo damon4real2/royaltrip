@@ -35,7 +35,7 @@ const Example = (props) => {
               <NavLink href="/WhyJoinUs">Why join us</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink active href="/HelpCenter">Help center</NavLink>
+              <NavLink href="/HelpCenter">Help center</NavLink>
             </NavItem>
           </Nav>
         </Collapse>

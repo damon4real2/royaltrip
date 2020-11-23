@@ -1,39 +1,16 @@
+.img-fluid{ 
+  max-width: 100%; 
+  height: auto;
+}
+.car1 {
+  position: absolute;
+  top: 19%;
+  left: 12%;
+}
 .hero-container {
   background: #501F6A;
   height: 36.25rem;
 }
-
-.hero {
-  position: relative;
-  width: 84%;
-  height: 100%;
-  left: 7%;
-  top: 3%;
-}
-.hero-logo {
-  position: relative;
-    width: 9%;
-    left: -20.45%;
-    top: -1%;
-    transform: rotate(-12.15deg);
-}
-/* Consider + Previous
- background-image: 'url(${../images/rca1.jpg)}'; */
-
- /* .hero {  
-    background: #501F6A;
-    width: 1440px;
-    height: 630px;
-    left: 0px;
-    top: 102px;
-}
-.rca-car {
-    position: absolute;
-    width: 1066px;
-    height: 513px;
-    left: 198px;
-    top: 176px;
-} */
 
 #hero {
   margin-top: -12%;
@@ -95,86 +72,43 @@
     height: auto;
 }
 
-
-@media only screen and (max-width: 992px) {
-  .hero {
-    height: 50%;
-    top: 32%;
-  }
-  .hero-logo {
-    top: 29%;
+/* iPad view */
+@media (max-width: 1024px) and (min-width: 768px) {
+.car1 {
+    top: 15%;
+    left: auto;
   }
 }
-  
 @media only screen and (max-width: 768px) {
-  .hero-container {
-    background: #501F6A;
-    height: 30.25rem;
-}
-  .hero {
-    width: 94%;
-    height: 35%;
-    left: 2%;
+  .car1 {
+    position: relative;
+    left: -1%;
     top: 40%;
   }
-  .hero-logo {
-      width: 11%;
-      left: 63.55%;
-      top: 19%;
-      transform: rotate(-14.15deg);
+}
+@media (min-width: 577px) and (max-width: 768px) {
+  .car1 {
+    top: 33%;
   }
-  @media (min-width:641px) {
+}
+ 
+  @media (min-width: 410px) and (max-width: 576px){
     .hero {
-      height: 66%;
-      top: 24%;
+      height: 40%;
+      top: 30%;
     }
-      .hero-logo {
-        width: 11%;
-        left: 65.55%;
-        top: -1%;
-      transform: rotate(-14.15deg);
+  }
+  @media (max-width: 376px) {
+    .hero {
+      height: 50%;
+      top: 25%;
     }
-    
   }
-}
-
-/* iPhone 5 Retina regardless of IOS version */
-@media (max-device-width: 640px) {
-  .hero-container {
-      width: 104%;
+  @media (min-width: 320px) and (max-width: 410px){
+    .hero {
+      height: 40%;
+      top: 30%;
     }
- }
-@media only screen and (max-device-width: 480px), only screen and (min-device-width: 560px) and (max-device-width: 1136px) and (-webkit-min-device-pixel-ratio: 2) {
-  
-}
-
-/* Mobile view */
-@media screen and (max-width: 400px) {
-  .hero-container {
-    width: 136%;
-    height: 24.25rem;
   }
-  .hero {
-    width: 94%;
-    height: 51%;
-    left: 2%;
-    top: 34%;
-  }
-  .hero-logo {
-    width: 11%;
-    left: 63.55%;
-    top: 2%;
-    transform: rotate(-14.15deg);
-}
-}
-/* Tablet view */
-@media (min-width: 401px) and (max-width: 768px) {
 
-}
-/* iPad view */
-@media (min-width: 768px) and (max-width: 1024px) {
-  .bg-light {
-    min-width: -webkit-fill-available;
-    background-color: #ffffff !important;
-  } 
-}
+

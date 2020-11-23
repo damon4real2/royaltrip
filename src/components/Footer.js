@@ -80,6 +80,8 @@ function Footer() {
               <FooterLink to='/'>Blog</FooterLink>
               <FooterLink to='/'>Talk To Us</FooterLink>
               <FooterLink to='/'>Help Line</FooterLink>
+              <FooterLink to='/'>...</FooterLink>
+              <FooterLink to='/'>...</FooterLink>
             </FooterLinkItems>
           </FooterLinksWrapper>
         </FooterLinksContainer>

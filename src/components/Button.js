@@ -1,43 +1,21 @@
-import React, { Component } from "react";
+import React from "react";
 import { Button } from 'reactstrap';
 import "./css/Button.css";
-// var Bootstrap = require('react-bootstrap')
 
-export default class button extends Component {
-    render() {
-        var well={
-            boxShadow: "0 1px 1px rgba(120, 120, 118, 0.20)",
-        }
-        var header={
-          marginTop: "20px",
-            color:"#000",
-            fontWeight:"550",
-            flex: 1,
-        }
-
-        return (
-        <div style={well}>
-            <div className="container">
-                    <div style={header}></div>
-                        <div className="row signup_buttons">
-                            <div className="col">
-                                <Button className="sign-up">Sign up to ride</Button>{' '}
-                            </div>
-                            <div className="col">
-                                <Button className="apply">Apply to drive</Button>{' '}
-                            </div>
-                            <div className="col">
-                                <Button className="help">Help Line</Button>{' '}
-                            </div>
-                            <div className="col">
-                                <Button className="talk">Talk to us</Button>{' '}
-                            </div>
-                            {/* <Button className="help">Help line</Button>{' '}
-                            <Button className="talk">Talk to us</Button>{' '} */}
-                        </div>
-                    <hr className="rule"/>
+function button() { 
+    return (
+        <div className="button">
+            <div class="container">
+                <div class="row d-flex justify-content-around">
+                    <Button className="sign-up">Sign up to ride</Button>{' '}
+                    <Button className="apply">Apply to drive</Button>{' '}
+                    <Button className="help">Help Line</Button>{' '}
+                    <Button className="talk">Talk to us</Button>{' '}
+                    {/* <br />
+                    <hr className="rule" /> */}
+                </div>
             </div>
         </div>
-        );
-    }
+    )
 }
+export default button;

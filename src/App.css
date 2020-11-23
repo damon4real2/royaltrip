@@ -1,6 +1,10 @@
 body{
   overflow-x: hidden;
 }
+html {
+  min-width: 100%;
+  background-size: contain;
+}
 @font-face {
   font-family: IBM Plex Sans Medium;
   src: url("./assets/fonts/IBM_Plex_Sans/IBMPlexSans-Medium.ttf");
@@ -1844,3 +1848,6 @@ color: #99811D;
 @media (min-width: 768px) and (max-width: 1024px) {
   
 }
+
+
+

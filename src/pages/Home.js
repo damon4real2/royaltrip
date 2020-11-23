@@ -14,7 +14,7 @@ import Footer from '../components/Footer';
 function Home() {
   return (
     <>
-      <Navbar />
+      <Navbar /> 
       <SidebarHome />
       <HeroSection />
       <Button />

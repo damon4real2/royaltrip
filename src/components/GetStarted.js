@@ -4,38 +4,44 @@ import "./css/GetStarted.css";
 
 function GetStarted() {
     return(
-        <div className="row">
-            <div className="getStarted">
-                <div className="getStarted1">
-                    {/* <div className="getStarted2"> */}
-                                <div className="icon-1">
-                                    <img src={require("../assets/images/safe-vector.jpg")} alt="Safe Vector" />
-                                </div>
-                                <p id="safe">safe</p>
-                                <p className="convenient">And Convenient</p>
-                                <p className="moving">We are committed to working to design a safe and delightful experience for you.</p>
-                                <Button className="get-started-button1">get started</Button>{' '}
-                            <div className="get-started-middle">
-                                <div className="icon-2">
-                                    <img src={require("../assets/images/happy-vector.svg")} alt="Safe Vector" />
-                                </div>
-                                <p className="happy-drivers">happy drivers</p>
-                                <p className="happy-riders">happy riders</p>
-
-                                <p className="moving2">Moving with RoyalTrip is easy, safe and fast.</p>
-                                <Button className="get-started-button2">get started</Button>{' '}
-                            </div>
-                                <div className="icon-3">
-                                    <img src={require("../assets/images/always-vector.jpg")} alt="Safe Vector" />
-                                </div>
-                                <p id="always">Always</p>
-                                <p className="there">there for you</p>
-                                <p className="get">We are very responsive and prompt, you have our full attention everytime you need it.</p>
-                                <Button className="get-started-button3">get started</Button>{' '}
+        <div className="container get_started">
+            <div className="row d-flex get_started_1">
+                <div className="col-md-4  first_get_started">
+                    <div>
+                        <div className="icon_1">
+                            <img src={require("../assets/images/icon_1.svg")} alt="Safe Vector" />
+                        </div>
+                        <p className="value1">Safe</p>
+                        <p className="value2">And Convenient</p>
+                        <p className="value3">We are committed to working to design a safe and delightful experience for you</p>
+                        <Button className="value-btn">get started</Button>{' '}
                     </div>
                 </div>
-            </div>      
-            // </div> 
+                    <div className="col-md-4  second_get_started unique">
+                    <div>
+                        <div className="icon_1">
+                            <img src={require("../assets/images/icon_2.svg")} alt="Safe Vector" />
+                        </div>
+                        <p className="value1b">Happy Drivers</p>
+                        <p className="value2b">Happy Riders</p>
+                        <p className="value3b">Moving with RoyalTrip is
+easy, safe and fast.</p>
+                        <Button className="value-btn-middle">get started</Button>{' '}
+                    </div>
+                </div>
+                    <div className="col-md-4  third_get_started">
+                    <div>
+                        <div className="icon_1 last">
+                            <img src={require("../assets/images/icon_3.svg")} alt="Safe Vector" />
+                        </div>
+                        <p className="value1">Always</p>
+                        <p className="value2">There for you</p>
+                        <p className="value3 extreme">We are very responsive and prompt, you have our full attention everytime.</p>
+                        <Button className="value-btn">get started</Button>{' '}
+                    </div>
+                    </div>
+                </div>
+            </div>
     )
 }
 export default GetStarted;
