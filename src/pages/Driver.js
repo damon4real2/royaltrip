@@ -1,7 +1,7 @@
 import React from 'react';
 import '../App.css';
 import NavbarLogIn from '../components/NavbarLogIn';
-import SidebarDriver from '../components/SidebarDriver';
+// import SidebarDriver from '../components/SidebarDriver';
 import TermsOfService from '../components/TermsOfService';
 import GetGoing from '../components/GetGoing';
 import CarouselDriver from '../components/CarouselDriver'
@@ -13,7 +13,7 @@ function Driver() {
     return (
         <div className="Driver">
             <NavbarLogIn />
-            <SidebarDriver />
+            {/* <SidebarDriver /> */}
             <TermsOfService />
             <GetGoing />
             <CarouselDriver /> 

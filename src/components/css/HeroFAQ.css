@@ -56,16 +56,92 @@
   font-size: 36px;
   color: #000000;
 }
+.grid-why {
+  display: flex;
+  position: absolute;
+    top: 730px;
+    right: -7px;
+}
+.box-container {
+      width: 360px;
+    height: 347px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 48px rgba(0, 0, 0, 0.06);
+    border-radius: 4px;
+    position: relative;
+    left: -158px;
+    text-align: center;
+}
+.box {
+  position: absolute;
+  left: 22.39%;
+  top: 10.31%;
+  bottom: 69.45%;
+}
+
+.box-container h1 {
+  position: absolute;
+    bottom: 122px;
+    width: 134px;
+    height: 26px;
+    left: 30.26%;
+    right: 72.43%;
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.675px;
+  color: #1E2022;
+}
+.box-container p {
+font-family: Nunito;
+font-style: normal;
+font-weight: normal;
+font-size: 17px;
+line-height: 27px;
+text-align: center;
+letter-spacing: 0.6px;
+width: 310px;
+color: #77838F;
+  position: relative;
+    bottom: -229px;
+    left: 29px;
+}
 
 
-@media only screen and (min-width: 625px) and (max-width: 626px) {
-  .ask {
-    width: 298px !important;
-    height: 42.27px !important;
-    margin-top: 12em;
+@media only screen and (min-width: 625px) and (max-width: 765px) {
+  .how {
+    font-size: 28px;
+    margin-top: -7em !important;
+  }
+   .ask {
+    width: 310px !important;
+    height: 34.27px !important;
     background: #FFFFFF;
     border-radius: 4px;
+  } 
+  .search-icon {
+    width: 1.6em;
+    left: -2em;
+    top: -0.1em;
   }
+  .popular {
+    margin-top: -6em !important; 
+  }
+  /* .carousel-caption { */
+    /* position: absolute; */
+    /* right: 15%; */
+    /* bottom: 20px; */
+    /* left: 15%; */
+    /* z-index: 10; */
+    /* padding-top: 20px; */
+    /* padding-bottom: 20px; */
+    /* color: #fff; */
+    /* text-align: center; */
+
+  /* 
   .how {
     margin-top: -4.5em !important;
     font-size: 2em;
@@ -73,6 +149,9 @@
   .popular {
     margin-top: -8em;
   }
+  .stay {
+    font-size: 28px;
+  } */
 }
 
 
@@ -263,21 +342,43 @@ top: 56%;
 
 @media only screen and (min-width: 320px) and (max-width: 767px) {
   .how {
-    font-size: 28px;
-    margin-top: -3em;
+    font-size: 18px;
+    margin-top: -2em;
   }
   .ask {
     width: 197px;
     height: 28.27px;
   }
+  .search-icon {
+    width: 1.6em;
+    left: -1.8em;
+  }
+  .stay {
+    font-size: 26px;
+  }
+  .popular {
+    margin-top: -4em;
+    font-size: 13px;
+    line-height: 27px;
+    letter-spacing: 0.6px;
+  }
 }
 @media only screen and (max-width: 320px) {
   .how {
-    font-size: 22px;
+    line-height: 29px;
+    letter-spacing: 0.425px;
+    font-size: 18px;
+  }
+  .stay {
+    font-size: 26px;
+  }
+  .popular {
+    line-height: 27px;
+    letter-spacing: -1.4px;
   }
 }
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 1400px) {
   .how {
     margin-top: -6em;
     text-align: center;
@@ -290,4 +391,5 @@ top: 56%;
     letter-spacing: 1.425px;
     color: #ffffff;
   }
+  
   } 

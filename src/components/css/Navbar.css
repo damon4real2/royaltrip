@@ -86,7 +86,6 @@
   }
   .bg-light {
     position: absolute;
-    /* width: 374px; */
     height: 79px;
     left: 0px;
     top: 0px;
@@ -116,10 +115,9 @@
     border: 2px solid #99811D;
     box-sizing: border-box;
   }
-  .navbar a {
-    color: #FFFFFF !important;
+  .navbar-expand-sm .navbar-nav .nav-link {
+    color: #333 !important;
   }
-
 }
 
 

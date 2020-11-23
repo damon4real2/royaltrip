@@ -1,5 +1,5 @@
 import React from 'react';
-// import {Row, Col } from 'reactstrap';
+import {Row, Col } from 'reactstrap';
 import "./css/HeroFAQ.css";
 
 function HeroFAQ() {
@@ -13,9 +13,9 @@ function HeroFAQ() {
                     <label>
                         <input className="ask" type="text" name="question" placeholder="Ask a question" />
                         </label>
-                    {/* <img className="search-icon" src={require("../assets/images/question.png")} alt="question" /> */}
+                    <img className="search-icon" src={require("../assets/images/question.png")} alt="question" />
                   </div>
-                  {/* <div className="popular">Popular help topics: Safety, pricing, payment, Security.</div> */}
+                  <div className="popular">Popular help topics: Safety, pricing, payment, Security.</div>
                 </div>
                 <div className="stay-container">
                   <div className="stay">Stay in touch!</div>
@@ -31,7 +31,7 @@ function HeroFAQ() {
               </div>
             </div>
           <div> */}
-      {/* <Row className="grid-why">
+      <Row className="grid-why">
          <Col>
             <div className="container box-container">
               <img className="box" src={require("../assets/images/box-a.svg")} alt="box-a" />
@@ -53,7 +53,7 @@ function HeroFAQ() {
             <p>In our community, we are warm, welcoming and hospitable. We trteat everyone with equal respect and do our best to improve our community.</p>
             </div>
           </Col>
-        </Row> */}
+        </Row>
         </div>
      </div>
   

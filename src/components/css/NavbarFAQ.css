@@ -68,7 +68,9 @@
  .bg-light {
    background-color: #FFFFFF !important;
  }
-
+ .navbar-expand-md .navbar-nav .nav-link {
+     color: #333 !important;
+ }
 @media screen and (max-width: 768px) {
   .navbar-nav {
     display: none !important;
@@ -119,7 +121,9 @@
   .navbar a {
     color: #FFFFFF !important;
   }
-
+  .navbar-expand-sm .navbar-nav .nav-link {
+    color: #333 !important;
+  }
 }
 
 

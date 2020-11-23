@@ -1,7 +1,7 @@
 import React from 'react';
 import '../App.css';
 import NavbarContactUs from '../components/NavbarContactUs';
-import SidebarContactUs from '../components/SidebarContactUs';
+// import SidebarContactUs from '../components/SidebarContactUs';
 import HeroContactUs from '../components/HeroContactUs';
 import BorderSpacing from '../components/BorderSpacing';
 import AboutUs from '../components/AboutUs';
@@ -13,7 +13,7 @@ function ContactUs() {
   return (
     <>
       <NavbarContactUs />
-      <SidebarContactUs />
+      {/* <SidebarContactUs /> */}
       <HeroContactUs />
       <BorderSpacing />
       <AboutUs />

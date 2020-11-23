@@ -4,7 +4,7 @@ import "./css/Hero.css";
 function Hero() {
   return(
     <div className="hero-container">
-      <img src={require("../assets/images/hero-car.png")} className="img-fluid car1" alt="heroBackground" />
+      <img src={require("../assets/images/Group 155.svg")} className="img-fluid car1" alt="heroBackground" />
     </div>
   )
 }

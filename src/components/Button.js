@@ -9,8 +9,8 @@ function button() {
                 <div class="row d-flex justify-content-around">
                     <Button className="sign-up">Sign up to ride</Button>{' '}
                     <Button className="apply">Apply to drive</Button>{' '}
-                    <Button className="help">Help Line</Button>{' '}
-                    <Button className="talk">Talk to us</Button>{' '}
+                    <Button className="talk">Our Company</Button>{' '}
+                    <Button className="help">Help Center</Button>{' '}
                     {/* <br />
                     <hr className="rule" /> */}
                 </div>

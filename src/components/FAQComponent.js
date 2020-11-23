@@ -1,5 +1,6 @@
 import React from 'react';
 import './css/FAQ.css';
+import {Link} from 'react-router-dom';
 
 function FAQComponent() {
     return (
@@ -11,12 +12,36 @@ function FAQComponent() {
               <div className="row FAQ-row">
                 <div className="col-2"></div>
                 <div className="col-3 left">
-                  <p1>1. What is wait time for my driver to reach me?</p1><br></br>
+                <Link to={'/RiderForm2'}>
+                  <p1>1. What is wait time for my driver to reach me?</p1>
+                </Link>
+                  <br></br>
+                  <Link to={'/RiderForm2'}>
+                  <p2>2. What if i forget an item in the Driver’s car?</p2>
+                </Link>
+                  <br></br>
+                  <Link to={'/RiderForm2'}>
+                  <p3>3. Can I cancel a trip enroute/halfway?</p3>
+                </Link>
+                  <br></br>
+                  <Link to={'/RiderForm2'}>
+                  <p4>4. I was charged incorrectly, what do I do?</p4>
+                </Link>
+                  <br></br>
+                  <Link to={'/RiderForm2'}>
+                  <p5>5. How do I get a ride to impress my date?</p5>
+                </Link>
+                  <br></br>
+                  <Link to={'/RiderForm2'}>
+                  <p6>6. Anyway I can split the bill on Royal Trip?</p6>
+                </Link>
+                  <br></br>
+                  {/* <p1>1. What is wait time for my driver to reach me?</p1><br></br>
                   <p2>2. What if i forget an item in the Driver’s car?</p2><br></br>
                   <p3>3. Can I cancel a trip enroute/halfway?</p3><br></br>
                   <p4>4. I was charged incorrectly, what do I do?</p4><br></br>
                   <p5>5. How do I get a ride to impress my date?</p5><br></br>
-                  <p6>6. Anyway I can split the bill on Royal Trip?</p6>
+                  <p6>6. Anyway I can split the bill on Royal Trip?</p6> */}
                 </div>
                 <div className="col-6 right">
                     <p>First, when you request a ride, the nearest driver to your location is tagged to your request to come pick you up. This should be within 0 minuites. However there are certain instances where the wait time might be longer, such instances include the following:
