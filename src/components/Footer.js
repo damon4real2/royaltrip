@@ -38,9 +38,9 @@ function Footer() {
             </Link>
             </div>
             <div className="appstore-playstore2">
-              <img src={require("../assets/images/app-store.svg")} alt="app-store" />
-              <img src={require("../assets/images/google-play.svg")} alt="app-store" />
-            </div>
+            <a href="https://www.apple.com/ng/ios/app-store/"><img src={require("../assets/images/app-store.svg")} alt="app-store" /></a>
+            <a href="https://play.google.com/store/apps"><img src={require("../assets/images/google-play.svg")} alt="google-play" /></a>
+          </div>
             <div className="question">
             <img className="question-icon" src={require("../assets/images/question-icon.jpeg")} alt="question" />
             <p>Help Center</p>
@@ -72,7 +72,7 @@ function Footer() {
               <FooterLinkTitle>For Drivers</FooterLinkTitle>
               <FooterLink to='/'>Sign In</FooterLink>
               <FooterLink to='/'>Sign Up</FooterLink>
-              <FooterLink to='/WhyJoinUs'>Why Join Us?</FooterLink>
+              <FooterLink to='/'>Why Join Us?</FooterLink>
             </FooterLinkItems>
             <FooterLinkItems>
               <FooterLinkTitle>Help</FooterLinkTitle>

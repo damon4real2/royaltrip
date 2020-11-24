@@ -9,7 +9,7 @@ function HeroContactUs() {
             <h1>drive to self reliance</h1>
             <h2>Time matters in life, You make the most out of it when you have the best drive!</h2>
             <div>
-                <Button className="find-more">find more</Button>{' '}
+                <Button href="/Driver" className="find-more">find more</Button>{' '}
             </div>
             <div className="joinUsGrid">
                 <div className="row">

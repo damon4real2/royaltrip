@@ -15,9 +15,9 @@ function Earnings() {
             </div>
             <div className="col-md-4"></div>
             <div className="col-md-4">
-              <Link to="/SignUpToDrive">
+              <a href="https://forms.gle/uHkPzawq51gFprtA9">
                 <p1>Apply to drive and get approved</p1>
-              </Link>
+              </a>
             </div>
           
             <video width="100%" autoPlay="autoplay" loop="loop" muted className="classesVideo" >

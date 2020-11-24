@@ -37,7 +37,7 @@ const NavbarContactUs = (props) => {
               <NavLink href="/">Why join us</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="/">Contact Us</NavLink>
+              <NavLink href="/ContactUs">Contact Us</NavLink>
             </NavItem>
           </Nav>
         </Collapse>

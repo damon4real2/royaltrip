@@ -14,7 +14,7 @@ function GetStarted() {
                         <p className="value1">Safe</p>
                         <p className="value2">And Convenient</p>
                         <p className="value3">We are committed to working to design a safe and delightful experience for you</p>
-                        <Button className="value-btn">get started</Button>{' '}
+                        <Button href="https://forms.gle/uHkPzawq51gFprtA9" className="value-btn">get started</Button>{' '}
                     </div>
                 </div>
                     <div className="col-md-4  second_get_started unique">

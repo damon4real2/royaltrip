@@ -12,27 +12,27 @@ function FAQComponent() {
               <div className="row FAQ-row">
                 <div className="col-2"></div>
                 <div className="col-3 left">
-                <Link to={'/RiderForm2'}>
+                <Link to={'/'}>
                   <p1>1. What is wait time for my driver to reach me?</p1>
                 </Link>
                   <br></br>
-                  <Link to={'/RiderForm2'}>
+                  <Link to={'/'}>
                   <p2>2. What if i forget an item in the Driver’s car?</p2>
                 </Link>
                   <br></br>
-                  <Link to={'/RiderForm2'}>
+                  <Link to={'/'}>
                   <p3>3. Can I cancel a trip enroute/halfway?</p3>
                 </Link>
                   <br></br>
-                  <Link to={'/RiderForm2'}>
+                  <Link to={'/'}>
                   <p4>4. I was charged incorrectly, what do I do?</p4>
                 </Link>
                   <br></br>
-                  <Link to={'/RiderForm2'}>
+                  <Link to={'/'}>
                   <p5>5. How do I get a ride to impress my date?</p5>
                 </Link>
                   <br></br>
-                  <Link to={'/RiderForm2'}>
+                  <Link to={'/'}>
                   <p6>6. Anyway I can split the bill on Royal Trip?</p6>
                 </Link>
                   <br></br>
