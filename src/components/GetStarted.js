@@ -14,7 +14,7 @@ function GetStarted() {
                         <p className="value1">Safe</p>
                         <p className="value2">And secure</p>
                         <p className="value3">For us, safety isn't expensive, it is priceless.</p>
-                        <Button className="value-btn">get started</Button>{' '}
+                        <Button href="https://forms.gle/uHkPzawq51gFprtA9" className="value-btn">get started</Button>{' '}
                     </div>
                 </div>
                     <div className="col-md-4  second_get_started unique">
@@ -26,7 +26,7 @@ function GetStarted() {
                         <p className="value2b">Happy Riders</p>
                         <p className="value3b">Moving with RoyalTrip is
 easy, safe and fast.</p>
-                        <Button className="value-btn">get started</Button>{' '}
+                        <Button href="https://forms.gle/uHkPzawq51gFprtA9" className="value-btn">get started</Button>{' '}
                     </div>
                 </div>
                     <div className="col-md-4  third_get_started">
@@ -37,7 +37,7 @@ easy, safe and fast.</p>
                         <p className="value1">Always</p>
                         <p className="value2">There for you</p>
                         <p className="value3 extreme">We are very responsive and prompt, you have our full attention everytime.</p>
-                        <Button className="value-btn">get started</Button>{' '}
+                        <Button href="https://forms.gle/uHkPzawq51gFprtA9" className="value-btn">get started</Button>{' '}
                     </div>
                     </div>
                 </div>

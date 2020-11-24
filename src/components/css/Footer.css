@@ -326,6 +326,13 @@
       height: 797px !important;
     }
   }
+  
+  a{
+    color: #4E1D69 !important;
+    /* font-weight: normal; */
+    font-family: IBM Plex Sans SemiBold !important;
+    font-style: normal;
+  }
 
   @media (min-width: 320px) and (max-width: 450px) {
   .cUFyQW {
