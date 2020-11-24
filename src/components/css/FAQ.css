@@ -1,48 +1,73 @@
-#FAQComponent {
+.FAQComponent {
+  padding-left: 4em !important;
+  margin-top: 4em;
+  background: #501F6A;
+}
+.FAQComponent h1 {
+  padding-top: 5em;
+  text-transform: uppercase;
+  color: #B1B1B1;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 2.8px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+}
+.FAQComponent h2 {
+  text-transform: capitalize;
+  letter-spacing: -1px;
+  color: #FFFFFF;
+  font-size: 36px;
+  line-height: 50px;
+  font-family: Montserrat;
+} 
+.FAQComponent h3 {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 25px;
+  color: rgba(255, 255, 255, 0.7);
+}
+/*.FAQComponent {
   position: absolute;
   left: 0%;
   right: 0%;
   top: 1195px;
   height: 707px;
-  /* bottom: 35.55%; */
-  background-color: #501F6A;
+  background: #501F6A;
 }
-#FAQComponent h1 {
+ #FAQComponent h1 {
   text-transform: uppercase;
   position: absolute;
-height: 22px;
-left: 10.42%;
-    right: 73.47%;
-    top: 120px;
-
-font-family: Montserrat;
-font-style: normal;
-font-weight: bold;
-font-size: 14px;
-line-height: 22px;
-letter-spacing: 2.8px;
-text-transform: uppercase;
-
-color: #B1B1B1;
+  height: 22px;
+  left: 10.42%;
+  right: 73.47%;
+  top: 120px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 2.8px;
+  text-transform: uppercase;
+  color: #B1B1B1;
 }
 #FAQComponent h2 {
   text-transform: capitalize;
   position: absolute;
-    height: 50px;
-    left: 10.42%;
-    right: 54.17%;
-    top: calc(48% - 50px/2 - 143.5px);
-
-font-family: Montserrat;
-font-style: normal;
-font-weight: bold;
-font-size: 36px;
-line-height: 50px;
-/* identical to box height, or 139% */
-
-letter-spacing: -1px;
-
-color: #FFFFFF;
+  height: 50px;
+  left: 10.42%;
+  right: 54.17%;
+  top: calc(48% - 50px/2 - 143.5px);
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 50px;
+  letter-spacing: -1px;
+  color: #FFFFFF;
 }
 #FAQComponent h3 {
   position: absolute;
@@ -88,7 +113,6 @@ color: rgba(255, 255, 255, 0.7);
   background: #99811D;
   display: flex;
   align-items: center;
-  /* justify-content: center; */
 }
 .left p2 {
   padding-left: 30px;
@@ -108,7 +132,6 @@ color: #FFFFFF;
 background: #515356;
 display: flex;
   align-items: center;
-  /* justify-content: center; */
 }
 .left p3 {
   padding-left: 30px;
@@ -129,7 +152,6 @@ display: flex;
   background: #515356;
   display: flex;
   align-items: center;
-  /* justify-content: center; */
 }
 .left p4 {
   padding-left: 30px;
@@ -150,7 +172,6 @@ display: flex;
   background: #515356;
   display: flex;
   align-items: center;
-  /* justify-content: center; */
 }
 .left p5 {
   padding-left: 30px;
@@ -171,7 +192,6 @@ display: flex;
   background: #515356;
   display: flex;
   align-items: center;
-  /* justify-content: center; */
 }
 .left p6 {
   padding-left: 30px;
@@ -192,16 +212,13 @@ display: flex;
   background: #515356;
   display: flex;
   align-items: center;
-      /* justify-content: center; */
 }
 .right {
   width: 662px;
-  /* width: 60%; */
   position: absolute;
   height: 346px;
   right: 40px;
   top: 313px;
-  /* bottom: 39px; */
   border: 2px solid #99811D;
   box-sizing: border-box;
 }
@@ -221,104 +238,37 @@ display: flex;
   line-height: 25px;
   color: rgba(255, 255, 255, 0.7);
   
-}
+} */
 
 
 @media only screen and (min-width: 320px) and (max-width: 767px) {
-  body {
-  overflow-x: hidden;
-}
-  #FAQComponent {
-    top: 1800px;
-    height: 1162px !important;
-    width: 429px;
+  .FAQComponent h1 {
+    width: 219px;
+    }
+    .FAQComponent h2 {
+      font-size: 25px;
+      line-height: 50px;
+      letter-spacing: -1px;
+      width: 319px;
+      margin-top: -20px;
+    }
+    .FAQComponent h3 {
+      font-family: Lato;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      width: 283px;
+      line-height: 19px;
+    }
   }
-  #FAQComponent h1 {
-    width: 212px;
-    top: 20px;
-    font-size: 12px;
-line-height: 22px;
+
+  @media only screen and (max-width: 320px) {
+  .FAQComponent {
+    padding-left: 0em !important;
   }
-  #FAQComponent h2 {
-    width: 302px;
-    height: 50px;
-    top: 39px;
-    font-size: 22px;
-line-height: 50px;
-left: 2.42%;
-    right: 54.17%;
-  }
-  #FAQComponent h3 {
-  font-size: 14px;
-line-height: 25px;
-width: 318px;
-height: 99px;
-    top: 87px;
-}
-.FAQ-row {
-  margin-left: 0 !important;
-  margin-right: 0 !important;
-}
-.left {
-  width: 320px;
-  height: 56px;
-}
-.left p1 {
-  /* display: flex;
-  text-align: center; */
-  padding-left: 10px;
-  left: 41.5%;
-  top: 212px;
-  width: 324px;
-}
-.left p2 {
-  padding-left: 10px;
-  top: 775px;
-  left: 41.5%;
-  width: 324px;
-}
-.left p3 {
-  padding-left: 10px;
-  top: 832px;
-  left: 41.5%;
-  width: 324px;
-}
-.left p4 {
-  padding-left: 10px;
-  top: 889px;
-  left: 41.5%;
-  width: 324px;
-}
-.left p5 {
-  padding-left: 10px;
-  top: 946px;
-  left: 41.5%;
-  width: 324px;
-}
-.left p6 {
-  padding-left: 10px;
-  top: 1003px;
-  left: 41.5%;
-  width: 324px;
-}
-.right {
-  top: 213px;
-  left: 35px;
-  width: 320px;
-  height: 504px;
-}
-.FAQs p1 {
-  text-align: center;
-}
-.right p{
-  top: 45px;
-  width: 296px;
-  left: 30px;
-}
-.col-6 {
-  max-width: 80% !important;
 }
 
-
-
+/* iPad view */
+@media (min-width: 768px) and (max-width: 1024px) {
+  
 }

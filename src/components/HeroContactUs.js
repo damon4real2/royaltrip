@@ -9,7 +9,7 @@ function HeroContactUs() {
             <h1>drive to self reliance</h1>
             <h2>Time matters in life, You make the most out of it when you have the best drive!</h2>
             <div>
-                <Button href="/Driver" className="find-more">find more</Button>{' '}
+                <Button className="find-more">find more</Button>{' '}
             </div>
             <div className="joinUsGrid">
                 <div className="row">
@@ -27,7 +27,7 @@ function HeroContactUs() {
                     <div className="block-right">
                     <img src={require("../assets/images/about3.svg")} alt="Third block Icon" />
                     <p1>Socially Inclusive</p1>
-                    <p2>We design an environment where everyone is treted equally with respect, dignity and shown a reasonable level of empathy.</p2>
+                    <p2>We design an environment where everyone is treated equally with respect, dignity and shown a reasonable level of empathy.</p2>
                     </div> 
                 </div>
             </div>

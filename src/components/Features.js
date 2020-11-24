@@ -17,8 +17,8 @@ export class features extends Component {
                       src={require("../assets/images/get-a-ride.svg")}
                     />
                   </div>
-                      <div className="first-feature">Get a ride</div>
-                      <div className="first-feature-b">Royal Trip offers a ride in minutes.</div>
+                      <div className="first-feature">Order your trip</div>
+                      <div className="first-feature-b">RoyalTrip offers a ride in minutes.</div>
                 </div>
                 </div>
                 </div>
@@ -46,7 +46,7 @@ export class features extends Component {
                     />
                   </div>
                       <div className="ride">Ride with class</div>
-                      <div class="end">Royal Trip gives you a safe and classy ride.</div>
+                      <div class="end">RoyalTrip gives you a safe, comfortable and affordable ride with class.</div>
                 </div>
                 </div>
               </div>

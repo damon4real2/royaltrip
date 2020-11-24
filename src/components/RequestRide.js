@@ -9,13 +9,13 @@ const RequestRide = (props) => {
       <Col sm="6" className="requestRight">
         <div className="rrhead">
           <div className="title">A fast ride when you need it!</div>
-          <div className="text">Tell us where you want to go. Connect with your Royal Trip Driver, and enjoy your ride.</div>
+          <div className="text">Tell us where you want to go, easy connect with your RoyalTrip Driver, and enjoy your ride.</div>
         </div>
       </Col>
       {/* <Col sm="1" className=""></Col> */}
       <Col sm="5" className="ml-auto">
         <div>
-          <img className="rrbody" src={require("../assets/images/phone1.png")} alt="Phone" />
+          <img className="rrbody" src={require("../assets/images/Group 157.svg")} alt="Phone" />
         </div>
       </Col>
     </Row>

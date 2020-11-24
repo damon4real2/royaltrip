@@ -34,10 +34,10 @@ const NavbarContactUs = (props) => {
         <Collapse isOpen={isOpen} navbar>
           <Nav className="ml-auto" navbar>
             <NavItem>
-              <NavLink href="/">Why join us</NavLink>
+              <NavLink href="/">Why Join Us</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="/ContactUs">Contact Us</NavLink>
+              <NavLink href="/">Contact Us</NavLink>
             </NavItem>
           </Nav>
         </Collapse>

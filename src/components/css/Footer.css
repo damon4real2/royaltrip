@@ -16,16 +16,16 @@
     font-weight: normal;
     font-size: 16px;
     line-height: 30px;
-    color: #000000 !important;
+    color: #4E1D69 !important;
     }
     .bEjdwM a {
-      color: #000000 !important;
+      color: #4E1D69 !important;
       text-decoration: none !important;
     }
   .royalTripLogo {
     bottom: 107px !important;
     position: absolute;
-    left: 60px !important;
+    left: 107px !important;
   }
  .appstore-playstore2 {
      margin-left: 5.49rem;
@@ -38,7 +38,7 @@
   }
   .question {
       display: flex;
-      margin-left: 6.15rem;
+      margin-left: 11.55rem;
       margin-top: 3rem;
   }
   .eRVeVP {
@@ -82,7 +82,7 @@
     font-size: 20px;
     line-height: 26px;
     text-align: center;
-    color: #333333;
+    color: #4E1D69 !important;
     margin-bottom: 16px;
 }
     .footer-link {
@@ -125,7 +125,6 @@
   color: #000000;
 }
 .gqXWtw {
-    left: 0px;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -140,7 +139,7 @@
   align-items: center;
   width: 90%;
   max-width: 1000px;
-  margin: 33px auto 2px 61px !important;
+  margin-left: 129px !important;
 }
 .dbrNqS {
   display: -webkit-box;
@@ -206,15 +205,38 @@
   left: -74px;
 }
 }
-
-
-  /* Tablet view */
-  @media (min-width: 401px) and (max-width: 626px) {
-  
+@media (min-width: 401px) and (max-width: 420px) {
+  .question {
+    margin-left: 9rem !important;
   }
+  .royalTripIcons {
+    left: 10.8em !important;
+  }
+}
+  /* Tablet view */
+  @media (min-width: 401px) and (max-width: 625px) {
+    .dbrNqS {
+      margin-left: -4rem;
+      margin-top: -7.5em;
+  }
+    .royalTripLogo {
+      margin-left: 2em !important;
+      margin-left: 1.5em !important;
+      margin-top: 1em !important;
+    }
+    .appstore-playstore2 {
+      margin-left: 8.4rem;
+      margin-top: 4.5rem;
+    }
+    .question {
+      display: flex;
+      margin-top: 3rem;
+      margin-left: 9.05rem;
+  }
+}
   /* iPad view */
   @media (min-width: 768px) and (max-width: 1024px) {
-    
+  
   }
   /* Galaxy Fold */
   @media (min-width: 626px) and (max-width: 768px) {
@@ -235,14 +257,14 @@
     font-weight: normal;
     font-size: 16px;
     line-height: 30px;
-    color: #000000 !important;
+    color: #4E1D69 !important;
     }
     .bEjdwM a {
-      color: #000000 !important;
+      color: #4E1D69 !important;
       text-decoration: none !important;
     }
     .cUFyQW {
-        right: -21px !important;
+        right: 46px !important;
         top: -489px !important;
     }
     .jykwZK {
@@ -252,7 +274,7 @@
     font-size: 20px;
     line-height: 26px;
     text-align: center;
-    color: #333333;
+    color: #4E1D69 !important;
     margin-bottom: 16px;
     }
     .hSKfGL {
@@ -266,6 +288,7 @@
       bottom: 37px !important;
       left: 85px !important;
       position: absolute;
+      margin-left: 3.2em !important;
     }
     .appstore-playstore2 {
       position: absolute;
@@ -275,23 +298,53 @@
       right: 176px;
     }
     .question {
-    text-align: center;
-    position: relative;
-    left: 8%;
-    bottom: -32px;
-    }
+      text-align: center;
+      position: relative;
+      left: 8%;
+      bottom: -6px;
+  }
     .question p {
       font-family: IBM Plex Sans SemiBold;
     }
     .Hsue {
         font-family: IBM Plex Sans SemiBold !important;
         position: relative;
-        top: 20px;
-        left: -1px;
+        top: 150px;
+        left: 31px;
     }
     .gqXWtw {
       -webkit-flex-direction: column;
       -ms-flex-direction: column;
       flex-direction: row-reverse;
     }
+    .royalTripIcons {
+      left: -5.7em;
+      margin-top: -7em;
+      position: relative;
+    }
+    .jXrSDY {
+      height: 797px !important;
+    }
   }
+
+  @media (min-width: 320px) and (max-width: 450px) {
+  .cUFyQW {
+    top: -683px;
+    right: 96px;
+  }
+  .dbrNqS {
+    margin-top: -2em;
+    margin-left: 10rem;
+  }
+  .question{
+    margin-left: 6.2rem;
+  }
+  .royalTripIcons {
+    position: absolute;
+    margin-top: 3em;
+    left: 8em;
+  }
+  .Hsue {
+    left: -62px;
+  }
+}

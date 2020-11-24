@@ -7,7 +7,7 @@ function Contact() {
   return (
     <div className="Contact">
       <h1>contact us</h1>
-      {/* <h2>BMTC Block 9, F.A.A.N Complex, Murtala Mohammed International Airport, Ikeja, Lagos State, Nigeria.</h2> */}
+      <h2>BMTC Block 9, F.A.A.N Complex, Murtala Mohammed International Airport, Ikeja, Lagos State, Nigeria.</h2>
       <div className="location-details">
         <img className="location-icon1" src={require("../assets/images/1.svg")} alt="location-icon1" />
         <p className="location1">BMTC Block 9, F.A.A.N Complex, M.M.I.A, Ikeja, Lagos State, Nigeria.</p>
@@ -19,7 +19,7 @@ function Contact() {
       </div>
       <div className="location-details">
         <img className="location-icon3" src={require("../assets/images/3.svg")} alt="location-icon3" />
-        <p className="location3">robertprice@gmail.comnig saran22@gmail.com</p>
+        <p className="location3">robertprice@gmail.com nig saran22@gmail.com</p>
       </div>
       <FreePass />
     </div>

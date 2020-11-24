@@ -28,7 +28,8 @@
 }
   .value-btn {
         text-transform: capitalize;
-        background: #501F6A !important;
+        background: #99811D !important;
+        /* background: #501F6A !important; */
         box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.2);
         border-radius: 5px;
         font-family: Roboto;
@@ -37,11 +38,11 @@
         font-size: 14px;
         line-height: 19px;
         text-align: center;
-        color: #FFFFFF;
+        color: #FFFFFF !important;
   }
   .value-btn-middle {
     text-transform: capitalize;
-    background: #99811D !important;
+    /* background: #99811D !important; */
     box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.2);
     border-radius: 5px;
     font-family: Roboto;
@@ -123,8 +124,10 @@
 
  
 @media only screen and (min-width: 320px) and (max-width: 767px) {
+  .get_started_1 {
+    margin-left: 3px !important;
+  }
     .unique {
-     
       color: #FFFFFF !important;
       border-radius: 10px;
       position: absolute;

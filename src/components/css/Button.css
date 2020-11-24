@@ -13,40 +13,47 @@ box-shadow: none !important;
 }
 
 .button {
-  background: #FFFFFF;
+  /* background: #FFFFFF; */
   box-shadow: 0px 4px 10px -6px rgba(120, 120, 118, 0.25);
   margin-top: 1em;
   margin-bottom: 3.5em;
+  padding-bottom: 1em;
 }
 .sign-up, .apply, .help, .talk {
   font-family: IBM Plex Sans SemiBold;
   font-style: normal;
   font-size: 18px;
-line-height: 23px;
-}
-.sign-up, .apply {
-  font-family: IBM Plex Sans Light;
+  line-height: 23px;
+  border-color: #4E1D69 !important;
   width: 195px;
   height: 54px;
   border-radius: 100px 100px !important;
   font-weight: bold !important;
 }
-.sign-up {
+/* .sign-up {
   background: #4E1D69 !important;
 }
-.sign-up:hover {
+.sign-up:hover, .talk:hover {
+  background: #FFFFFF !important;
+  color: #4E1D69 !important;
+} */
+.sign-up, .apply, .talk, .help {
   background: #FFFFFF !important;
   color: #4E1D69 !important;
 }
-.apply {
-  background: #FFFFFF !important;
-  color: #4E1D69 !important;
-}
-.apply:hover {
+.sign-up, .apply:hover, .talk:hover, .help:hover {
   background: #4E1D69 !important;
   color: #FFFFFF !important;
 }
-  .help:hover {
+
+
+/* :active {
+  background: #4E1D69 !important;
+  color: #FFFFFF !important;
+} */
+
+
+  /* .help:hover {
     font-weight: bold;
   }
   .talk:hover {
@@ -56,8 +63,11 @@ line-height: 23px;
     border: none !important;
     color: #4E1D69 !important;
     background: #fff !important;
-  }
+  } */
+
 
   /* hr.rule {
     display: none!important;
   } */
+
+ 

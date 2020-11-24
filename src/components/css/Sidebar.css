@@ -62,13 +62,8 @@
   
   /* General sidebar styles */
   .bm-menu {
-    /* width: 368px;
-height: 640px;
-left: 0px;
-top: 0px; */
-margin-top: -30px;
-background: #FFFFFF;
-    /* padding: 2.5em 1.5em 0; */
+    margin-top: -30px;
+    background: #FFFFFF;
     font-size: 1.15em;
   }
   
@@ -82,7 +77,6 @@ background: #FFFFFF;
     left: 25px;
     top: 17px;
     color: #b8b7ad;
-    /* padding: 0.8em; */
     position: absolute;
   }
   
@@ -99,7 +93,6 @@ background: #FFFFFF;
   /* Individual item */
 .bm-item {
     display: inline-block;
-  
     color: #d1d1d1;
     margin-bottom: 10px;
     text-align: left;
@@ -110,36 +103,11 @@ background: #FFFFFF;
   .bm-item:hover {
     color: #ffffff;
   }
-  /* .active-menu {
-    text-transform: capitalize;
-    font-family: IBM Plex Sans;
-font-style: normal;
-font-weight: bold;
-font-size: 18px;
-line-height: 23px;
-
-color: #99811D !important;
-
-  } */
 
   .navbar-light .navbar-toggler {
     display: none;
 }
-/* .nav-link {
-display: none;
-}
-.navbar-nav .nav-link {
-  display: none;
-  padding-right: 0;
-  padding-left: 0;
-} */
 
-
-  /* HOME PAGE */
-  /* .sidebar-image {
-    margin-left: 30px;
-    margin-top: -188px;
-} */
   .menu-item {
     font-size: 23px !important;
     line-height: 48px !important;
@@ -148,10 +116,10 @@ display: none;
     font-weight: 500;
     font-size: 18px;
     line-height: 23px;
-    color: #000000;
+    color: #99811D !important;
   }
   .menu-item:hover {
-    color: #99811D;
+    color: #501F6A;
     text-decoration: none;
   }
   }

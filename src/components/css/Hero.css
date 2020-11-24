@@ -72,6 +72,14 @@
     height: auto;
 }
 
+@media (min-width: 1024px) and (min-width: 1400px) {
+.car1 {
+    position: absolute;
+    top: 18%;
+    left: 12%;
+  }
+}
+
 /* iPad view */
 @media (max-width: 1024px) and (min-width: 768px) {
 .car1 {
@@ -87,18 +95,27 @@
   }
 }
 @media (min-width: 577px) and (max-width: 768px) {
+  .hero-container {
+    height: 29.25rem;
+}
   .car1 {
     top: 33%;
   }
 }
  
   @media (min-width: 410px) and (max-width: 576px){
+    .hero-container {
+      height: 26.25rem;
+  }
     .hero {
       height: 40%;
       top: 30%;
     }
   }
   @media (max-width: 376px) {
+    .hero-container {
+      height: 22.25rem;
+  }
     .hero {
       height: 50%;
       top: 25%;

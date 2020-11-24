@@ -48,13 +48,13 @@ const Example = (props) => {
               <DropdownMenu right>
                 <DropdownItem>
                   <NavItem>
-                    <NavLink href="https://forms.gle/uHkPzawq51gFprtA9">Sign up to drive</NavLink>
+                    <NavLink href="/signUpToDrive">Sign up to drive</NavLink>
                   </NavItem>
                 </DropdownItem>
                 <DropdownItem>
-                  {/* <NavItem>
+                  <NavItem>
                     <NavLink href="/applyToRide">Apply to ride</NavLink>
-                  </NavItem> */}
+                  </NavItem>
                 </DropdownItem>
               </DropdownMenu>
             </UncontrolledDropdown>

@@ -29,13 +29,13 @@ const Example = (props) => {
         <Collapse isOpen={isOpen} navbar>
           <Nav className="mr-auto" navbar nav-fill>
             <NavItem>
-              <NavLink href="/">Find a driver</NavLink>
+              <NavLink href="/FindADriver">Find a driver</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="/">Why join us</NavLink>
+              <NavLink href="/WhyJoinUs">Why Join Us</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="/">Help center</NavLink>
+              <NavLink href="/HelpCenter">Help center</NavLink>
             </NavItem>
           </Nav>
         </Collapse>

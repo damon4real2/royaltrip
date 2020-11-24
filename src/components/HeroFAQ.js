@@ -31,29 +31,31 @@ function HeroFAQ() {
               </div>
             </div>
           <div> */}
-      <Row className="grid-why">
-         <Col>
-            <div className="container box-container">
-              <img className="box" src={require("../assets/images/box-a.svg")} alt="box-a" />
-              <h1>Using RoyalTrip</h1>
-              <p>In our community, we are warm, welcoming and hospitable. We trteat everyone with equal respect and do our best to improve our community.</p>
+          <div className="container">
+            <Row className="d-flex justify-content-center grid-why">
+              <Col>
+                  <div className="box-container">
+                    <img className="box" src={require("../assets/images/box-a.svg")} alt="box-a" />
+                    <h1>Using RoyalTrip</h1>
+                    <p>In our community, we are warm, welcoming and hospitble. We treat everyone with equal repsect and do our best to improve our community.</p>
+                  </div>
+                </Col>
+                <Col>
+                  <div className="box-container">
+                  <img className="box" src={require("../assets/images/box-b.svg")} alt="box-b" />
+                  <h1>Our Priority</h1>
+                  <p>Our priority is that you feel safe and comfortable in all our rides. Rest easy knowing that we pride ourselves in keeping you safe.</p>
+                  </div>
+                </Col>
+                <Col>
+                  <div className="box-container">
+                  <img className="box" src={require("../assets/images/box-c.svg")} alt="box-c" />
+                  <h1>Accountable</h1>
+                  <p>We hold our community extremely accountable to ensure that your interest is protected and that you can freely express yourself within your right.</p>
+                  </div>
+                </Col>
+              </Row>
             </div>
-          </Col>
-          <Col>
-            <div className="box-container">
-            <img className="box" src={require("../assets/images/box-b.svg")} alt="box-b" />
-            <h1>Our Priority</h1>
-            <p>In our community, we are warm, welcoming and hospitable. We trteat everyone with equal respect and do our best to improve our community.</p>
-            </div>
-          </Col>
-          <Col>
-            <div className="box-container">
-            <img className="box" src={require("../assets/images/box-c.svg")} alt="box-c" />
-            <h1>Accountable</h1>
-            <p>In our community, we are warm, welcoming and hospitable. We trteat everyone with equal respect and do our best to improve our community.</p>
-            </div>
-          </Col>
-        </Row>
         </div>
      </div>
   

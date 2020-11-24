@@ -11,11 +11,13 @@
   margin-top: 2em;
 }
 .first-feature, .middle-title, .ride {
+  font-family: IBM Plex Sans SemiBold;
   font-size: 24px;
     line-height: 70px;
     color: #091D2D;
 }
 .first-feature-b, .middle-text, .end {
+  font-family: IBM Plex Sans;
   font-size: 16px;
   line-height: 31px;
   color: #091D2D;
@@ -34,5 +36,6 @@
   .active {
     padding-top: 1em;
     margin-top: 2em;
+    margin-left: 2em;
   }
 }

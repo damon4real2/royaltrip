@@ -29,7 +29,7 @@
     line-height: 19px !important;
     color: #4E1D69;
     position: relative;
-    top: 25px !important;
+    top: 30px !important;
     left: 94px;
 }
 
@@ -41,9 +41,9 @@
     padding: 10px;
     display: flex;
     align-items: center;
-    -webkit-flex: 1; /* Safari */
-    -ms-flex: 1; /* IE 10 */
-    flex: 1; /* Standard syntax */
+    -webkit-flex: 1; 
+    -ms-flex: 1; 
+    flex: 1;
 }
 .rrbody {
     height: 100%;
@@ -85,15 +85,15 @@
         line-height: 20px !important;
         text-align: center;
         color: #4E1D69;
-        top: 115px;
+        top: 60px;
     }
     .text {
-        text-align: center;
+        /* width: 436px; */
+        text-align: left;
         left: 19px;
         font-family: IBM Plex Sans Light;
         color: #4E1D69;
-        top: -174px !important;
-        width: 314px;
+        top: -226px !important;
         line-height: 34px !important;
         margin-top: 250px !important;
         font-size: 18px !important;
@@ -146,7 +146,7 @@
     .title {
         top: 73px;
         width: 365px;
-        left: 0.3em;
+        left: -0.6em;
         font-size: 23px !important;
     }
     .text {
@@ -158,16 +158,16 @@
         height: 38px;
     }
   .rrbody {
-    margin-left: 40%;
-    margin-top: -203%;
+    margin-left: 48%;
+    margin-top: -45em;
     width: 50%;
     }
 }
 @media (min-width: 321px) and (max-width: 490px) {
     .rrbody {
-        margin-left: 40%;
-        margin-top: -137%;
-        width: 50%;
+        margin-left: 38%;
+        margin-top: -42em;
+        width: 53%;
     }
 }
   @media (min-width: 490px) and (max-width: 574px) {
@@ -184,13 +184,11 @@
         display: block !important;
     }
     .rrbody {
-        margin-top: -38rem;
+        margin-top: -37em;
         top: 5px;
         width: 112%;
         height: 100%;
         margin-left: -18%;
-        /* width: 50%; */
-        /* margin-top: -3rem; */
         text-align: center;
   }
 }
@@ -207,5 +205,9 @@
 
   /* iPad view */
   @media (min-width: 768px) and (max-width: 1024px) {
-    
+        .title {
+            top: 147px;
+            left: 112px;
+            width: 501px;
+        }
     } 

@@ -16,8 +16,8 @@ function Example() {
         <div className="readytoride2">
           <CardTitle className="appstore-h4">Ready to ride/drive with class?</CardTitle>
           <div className="appstore-playstore">
-            <a href="https://www.apple.com/ng/ios/app-store/"><img src={require("../assets/images/app-store.svg")} alt="app-store" /></a>
-            <a href="https://play.google.com/store/apps"><img src={require("../assets/images/google-play.svg")} alt="google-play" /></a>
+            <img src={require("../assets/images/app-store.svg")} alt="app-store" />
+            <img src={require("../assets/images/google-play.svg")} alt="google-play" />
           </div>
           <CardText className="appstore-p">
             Or sign up to start riding/driving.

@@ -1,4 +1,4 @@
-.Stay {
+/* .Stay {
   position: absolute;
 width: 1441px;
 height: 440px;
@@ -11,7 +11,6 @@ display: grid;
   position: absolute;
   height: 42px;
   left: 43%;
-  /* right: 42.43%; */
   text-align: center;
   top: 95px;
   font-family: Nunito;
@@ -35,9 +34,7 @@ font-style: normal;
 font-weight: normal;
 font-size: 17px;
 line-height: 27px;
-/* or 159% */
 letter-spacing: 0.6px;
-
 color: #501F6A;
 }
 .enter {
@@ -100,4 +97,110 @@ border-radius: 4px;
     top: 43px;
     left: 326px;
 }
+} */
+
+.Stay {
+  background: #EEE9F0;
+  margin-top: 4em;
 }
+.Stay h1 {
+  height: 100%;
+  align-items: center;
+  font-family: Nunito;
+  font-size: 24px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 1.2px;
+  color: #1E2022;
+  padding-top: 2em;
+}
+.Stay h2 {
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 27px;
+  text-align: center;
+  letter-spacing: 0.6px;
+  color: #501F6A;
+}
+.enter {
+  width: 457px;
+  height: 52px;
+  background: #FFFFFF;
+  box-shadow: 0px 2px 48px rgba(0, 0, 0, 0.06);
+  border-radius: 4px;
+  text-align: center;
+  margin-top: 2em;
+  margin-left: 28em;
+  /* justify-content: center; */
+}
+.email-search {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  left: -3em;
+  top: -0.1em;
+}
+.email-search::placeholder {
+  padding-right: 2em;
+}
+
+/* Galaxy Fold */
+@media (min-width: 626px) and (max-width: 768px) {
+  .enter {
+    width: 457px;
+    height: 52px;
+    margin-top: 2em;
+    margin-left: 3.6em !important;
+  }
+}
+/* Smart Phones */
+@media only screen and (min-width: 321px) and (max-width: 410px) {
+  .enter {
+    width: 300px;
+    height: 52px;
+    margin-top: 2em;
+    margin-left: 0em;
+  }
+  .email-search {
+    left: 15.7em;
+    top: -3.4em;
+  }
+}
+
+@media only screen and (min-width: 411px) and (max-width: 625px) {
+  .enter {
+    margin-left: 1.2em;
+    width: 310px;
+    height: 41px;
+  }
+  .email-search {
+    position: relative;
+    width: 35px;
+    height: 29px;
+    left: 18em;
+    top: -2.7em;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+    .enter {
+      width: 251px;
+      height: 39px;
+      margin-left: 0.5em;
+  }
+  .email-search {
+    position: relative;
+    width: 40px;
+    height: 35px;
+    left: 13.2em;
+    top: -2.8em;
+  }
+}
+  /* iPad view */
+  @media (min-width: 769px) and (max-width: 1024px) {
+    .enter {
+      margin-left: 15.8em;
+    }
+  }
