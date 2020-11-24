@@ -38,9 +38,9 @@ function Footer() {
             </Link>
             </div>
             <div className="appstore-playstore2">
-              <img src={require("../assets/images/app-store.svg")} alt="app-store" />
-              <img src={require("../assets/images/google-play.svg")} alt="app-store" />
-            </div>
+            <a href="https://www.apple.com/ng/ios/app-store/"><img src={require("../assets/images/app-store.svg")} alt="app-store" /></a>
+            <a href="https://play.google.com/store/apps"><img src={require("../assets/images/google-play.svg")} alt="google-play" /></a>
+          </div>
             <div className="question">
             <img className="question-icon" src={require("../assets/images/question-icon.jpeg")} alt="question" />
             <p>Help Center</p>
@@ -53,35 +53,50 @@ function Footer() {
           <FooterLinksWrapper>
           <FooterLinkItems>
               <FooterLinkTitle>For Riders</FooterLinkTitle>
-              <FooterLink to='/'>Sign In</FooterLink>
+              {/* <FooterLink><Link to="/">Sign In</Link></FooterLink>
               <FooterLink to='/'>Sign Up</FooterLink>
-              <FooterLink to='/'>Find A Driver</FooterLink>
+              <FooterLink to='/'>Find A Driver</FooterLink> */}
+              <a href="/">Sign In</a>
+              <a href="/">Sign Up</a>
+              <a href="/">Find A Driver</a>
             </FooterLinkItems>
-            <FooterLinkItems>
-              <FooterLinkTitle>For Drivers</FooterLinkTitle>
-              <FooterLink to='/'>Sign In</FooterLink>
-              <FooterLink to='/'>Sign Up</FooterLink>
-              <FooterLink to='/WhyJoinUs'>Why Join Us?</FooterLink>
-            </FooterLinkItems>
-          </FooterLinksWrapper>
-          <FooterLinksWrapper>
             <FooterLinkItems>
               <FooterLinkTitle>Our Company</FooterLinkTitle>
               <FooterLink to='/ContactUs'>About Us</FooterLink>
               <FooterLink to='/ContactUs'>Contact Us</FooterLink>
               <FooterLink to='/FAQ'>FAQ</FooterLink>
-              <FooterLink to='/'>Terms of Use (Drivers)</FooterLink>
-              <FooterLink to='/'>Terms of Use (Riders)</FooterLink>
-              <FooterLink to='/'>Privacy Policy</FooterLink>
+              {/* <FooterLink to='/'>Terms of Use (Drivers)</FooterLink> */}
+              <a href="/">Terms Of Use (Drivers)</a>
+              {/* <FooterLink to='/'>Terms of Use (Riders)</FooterLink> */}
+              <a href="/">Terms Of Use (Riders)</a>
+              {/* <FooterLink to='/'>Privacy Policy</FooterLink> */}
+              <a href="/">Privacy Policy</a>
+            </FooterLinkItems>
+          </FooterLinksWrapper>
+          <FooterLinksWrapper>
+            <FooterLinkItems>
+              <FooterLinkTitle>For Drivers</FooterLinkTitle>
+              {/* <FooterLink to='/'>Sign In</FooterLink>
+              <FooterLink to='/'>Sign Up</FooterLink> */}
+              <a href="/">Sign In</a>
+              <a href="/">Sign Up</a>
+              {/* <FooterLink to='/'>Why Join Us?</FooterLink> */}
+              <a href="/">Why Join Us</a>
             </FooterLinkItems>
             <FooterLinkItems>
               <FooterLinkTitle>Help</FooterLinkTitle>
-              <FooterLink to='/'>Forum</FooterLink>
+              {/* <FooterLink to='/'>Forum</FooterLink>
               <FooterLink to='/'>Blog</FooterLink>
               <FooterLink to='/'>Talk To Us</FooterLink>
               <FooterLink to='/'>Help Line</FooterLink>
               <FooterLink to='/'>...</FooterLink>
-              <FooterLink to='/'>...</FooterLink>
+              <FooterLink to='/'>...</FooterLink> */}
+              <a href="/">Forum</a>
+              <a href="/">Blog</a>
+              <a href="/">Talk To Us</a>
+              <a href="/">Help</a>
+              <a href="/">...</a>
+              <a href="/">...</a>
             </FooterLinkItems>
           </FooterLinksWrapper>
         </FooterLinksContainer>
