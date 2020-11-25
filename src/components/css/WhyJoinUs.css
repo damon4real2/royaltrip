@@ -1,0 +1,285 @@
+.WhyJoinUs {
+  position: absolute;
+  top: 1409px;
+  background: linear-gradient(0deg, #FFFFFF, #FFFFFF);
+  left: 0%;
+right: 0%;
+}
+.WhyJoinUs h3 {
+  text-transform: capitalize;
+  position: absolute;
+height: 50px;
+left: 43.12%;
+right: 43.12%;
+top: calc(50% - 50px/2 + 166px);
+font-family: IBM Plex Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 50px;
+text-align: center;
+letter-spacing: -1px;
+color: #333333;
+}
+.WhyJoinUs p {
+  position: absolute;
+  width: 797px;
+  height: 50px;
+  left: 22.36%;
+  right: 22.29%;
+  top: 202px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 25px;
+  text-align: center;
+  color: #747578;
+}
+.grid-whyJoinUs {
+  position: absolute;
+  left: -21px;
+}
+.grid {
+  width: 54px;
+  height: 62px;
+  position: absolute;
+  top: 8%;
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 54px;
+  line-height: 62px;
+  color: #99811D;
+  border-radius: 3px;
+}
+.first {
+  height: 272px;
+width: 270px;
+left: 150px;
+    top: 300px;
+  position: absolute;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 15px rgba(51, 51, 51, 0.1);
+  border-radius: 3px;
+}
+.grid1 {
+  left: 108px;
+}
+.first h1 {
+  text-transform: capitalize;
+  position: absolute;
+  left: 22.86%;
+  right: 75.28%;
+  top: 37.19%;
+  bottom: 33.66%;
+  width: 142px;
+  height: 31px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 31px;
+  text-align: center;
+  letter-spacing: -0.7px;
+  color: #333333;
+}
+.first h2 {
+  position: absolute;
+  left: 6.81%;
+  right: 72.22%;
+  top: 55.79%;
+  bottom: 30.42%;
+  width: 230px;
+  height: 75px;
+font-family: Lato;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 25px;
+text-align: center;
+
+color: #747578;
+}
+.second {
+  top: 300px;
+  position: absolute;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 15px rgba(51, 51, 51, 0.1);
+  border-radius: 3px;
+  height: 272px;
+  width: 270px;
+  left: 470px;
+}
+.grid2 {
+  left: 108px;
+}
+.second h1 {
+  text-transform: capitalize;
+  position: absolute;
+  left: 22.86%;
+  right: 75.28%;
+  top: 37.19%;
+  bottom: 33.66%;
+  width: 142px;
+  height: 31px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 31px;
+  text-align: center;
+  letter-spacing: -0.7px;
+  color: #333333;
+}
+.second h2 {
+  position: absolute;
+  left: 6.81%;
+  right: 72.22%;
+  top: 55.79%;
+  bottom: 30.42%;
+  width: 230px;
+  height: 75px;
+font-family: Lato;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 25px;
+text-align: center;
+
+color: #747578;
+}
+.third {
+  top: 300px;
+  position: absolute;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 15px rgba(51, 51, 51, 0.1);
+  border-radius: 3px;
+  height: 272px;
+  width: 270px;
+  left: 790px;
+}
+.grid3 {
+  left: 108px;
+}
+.third h1 {
+  text-transform: capitalize;
+  position: absolute;
+  left: 22.86%;
+  right: 75.28%;
+  top: 37.19%;
+  bottom: 33.66%;
+  width: 142px;
+  height: 31px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 31px;
+  text-align: center;
+  letter-spacing: -0.7px;
+  color: #333333;
+}
+.third h2 {
+  position: absolute;
+  left: 6.81%;
+  right: 72.22%;
+  top: 55.79%;
+  bottom: 30.42%;
+  width: 230px;
+  height: 75px;
+font-family: Lato;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 25px;
+text-align: center;
+
+color: #747578;
+}
+.fourth {
+  top: 300px;
+  position: absolute;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 15px rgba(51, 51, 51, 0.1);
+  border-radius: 3px;
+  height: 272px;
+  width: 270px;
+  left: 1110px;
+}
+.grid4 {
+  left: 108px;
+}
+.fourth h1 {
+  text-transform: capitalize;
+  position: absolute;
+  left: 22.86%;
+  right: 75.28%;
+  top: 37.19%;
+  bottom: 33.66%;
+  width: 142px;
+  height: 31px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 31px;
+  text-align: center;
+  letter-spacing: -0.7px;
+  color: #333333;
+}
+.fourth h2 {
+  position: absolute;
+  left: 6.81%;
+  right: 72.22%;
+  top: 55.79%;
+  bottom: 30.42%;
+  width: 230px;
+  height: 75px;
+font-family: Lato;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 25px;
+text-align: center;
+
+color: #747578;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  .WhyJoinUs h3 {
+      font-size: 24px;
+      line-height: 50px;
+      width: 129px;
+      height: 50px;
+      font-family: IBM Plex Sans SemiBold;
+      left: 135px;
+      top: 821px;
+}
+.WhyJoinUs p {
+  width: 270px;
+  height: 125px;
+  left: 78px;
+  top: 876px;
+}
+.first {
+  left: 90px;
+  top: 1053px;
+}
+.second {
+  top: 1360px;
+  left: 90px;
+}
+.third {
+  left: 92px;
+  top: 1671px;
+}
+.fourth {
+  top: 1980px;
+  left: 92px;
+}
+.grid-whyJoinUs {
+  position: absolute;
+  left: 5px;
+}
+}

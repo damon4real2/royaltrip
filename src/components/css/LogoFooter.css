@@ -1,0 +1,19 @@
+.logo-parent {
+    position: absolute;
+    width: 1440px;
+    height: 527px;
+    left: 0px;
+    top: 3086px;
+    background: #F5F2F6;
+    height: 527px;
+    width: 1440px;
+    left: 0px;
+    top: 3086px;
+    border-radius: 0px;
+}
+.bottom-logo {
+    position: absolute;
+    height: 75px;
+    left: 122px;
+    top: 17px;
+}

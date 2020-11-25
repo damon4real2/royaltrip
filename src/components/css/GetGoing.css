@@ -1,0 +1,192 @@
+.get-going-header {
+    position: absolute;
+    width: 1440px;
+    height: 87px;
+    top: 9px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10px -6px rgba(120, 120, 118, 0.25);
+}
+
+.get-going-header p {
+    position: absolute;
+    width: 286px;
+    height: 40px;
+    left: 602px;
+    top: 633px;
+    font-family: IBM Plex Sans SemiBold;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 47px;
+    color: #000000;
+    padding: 10px;
+}
+.col-space {
+    padding-right: 200px;
+}
+.GetGoing h1 {
+    position: absolute;
+    left: 126px;
+    top: 645px;
+    font-family: IBM Plex Sans SemiBold;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 31px;
+    color: #99811D !important;
+}
+.get-going-left {
+    left: 127px;
+    width: 93px;
+height: 62px;
+}
+.get-going-middle {
+    width: 146px;
+height: 62px;
+}
+.get-going-right {
+    width: 115px;
+    height: 62px;
+}
+.get-going-left2 {
+    left: 127px;
+    width: 261px;
+height: 88px;
+}
+.GetGoing p1 {
+    position: absolute;
+    width: 261px;
+    height: 88px;
+    left: 127px;
+    top: 740px;
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    color: #000000;
+}
+.get-going-car {
+    position: absolute;
+    width: 528px;
+    height: 569px;
+    left: 912px;
+    top: 740px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 625px) {
+    .get-going-header {
+        width: 360px;
+        top: 25px;
+        height: 53px;
+    }
+    .get-going-header p {
+        left: 23px;
+        top: 694px;
+        text-transform: uppercase;
+        width: 11em;
+    }
+    .GetGoing h1 {
+        width: 200px;
+        left: 54px;
+    top: 714px;
+    }
+    .get-going-left {
+        left: 52px;
+    top: 705px;
+        width: 70px;
+        height: 46px;
+        font-size: 24px !important;
+    }
+    .GetGoing p1 {
+        width: 261px;
+    height: 88px;
+    left: 57px;
+    top: 790px;
+    font-size: 14px;
+    line-height: 18px;
+    }
+    .get-going-middle {
+        left: 54px !important;
+        top: 901px !important;
+    }
+    .get-going-middle2 {
+        left: 57px !important;
+        top: 977px !important;
+    }
+    .get-going-right {
+        left: 54px !important;
+        top: 1150px !important;
+    }
+    .get-going-right2 {
+        left: 57px !important;
+        top: 1232px !important;
+        }
+        .get-going-car {
+            position: absolute;
+            width: 26em;
+            height: 77%;
+            left: -2em;
+            top: 82em;
+        }
+    }
+
+
+
+/* Galaxy Fold */
+@media (min-width: 625px) and (max-width: 626px) {
+    .get-going-header {
+        width: 360px;
+        top: 25px;
+        height: 53px;
+    }
+    .get-going-header p {
+        left: 4em;
+        top: 694px;
+        text-transform: uppercase;
+        width: 11em;
+    }
+    .GetGoing h1 {
+        width: 200px;
+        left: 54px;
+    top: 714px;
+    }
+    .get-going-left {
+        left: 52px;
+    top: 705px;
+        width: 70px;
+        height: 46px;
+        font-size: 24px !important;
+    }
+    .GetGoing p1 {
+        width: 261px;
+    height: 88px;
+    left: 57px;
+    top: 790px;
+    font-size: 14px;
+    line-height: 18px;
+    }
+    .get-going-middle {
+        left: 54px !important;
+        top: 901px !important;
+    }
+    .get-going-middle2 {
+        left: 57px !important;
+        top: 977px !important;
+    }
+    .get-going-right {
+        left: 54px !important;
+        top: 1150px !important;
+    }
+    .get-going-right2 {
+        left: 57px !important;
+        top: 1232px !important;
+        }
+    .get-going-car {
+        position: relative;
+        width: 34em;
+        height: 47em;
+        left: 6em;
+        top: 73em;
+    }
+}

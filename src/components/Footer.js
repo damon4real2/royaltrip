@@ -52,29 +52,6 @@ function Footer() {
         <FooterLinksContainer>
           <FooterLinksWrapper>
           <FooterLinkItems>
-              <FooterLinkTitle>For Riders</FooterLinkTitle>
-              {/* <FooterLink><Link to="/">Sign In</Link></FooterLink>
-              <FooterLink to='/'>Sign Up</FooterLink>
-              <FooterLink to='/'>Find A Driver</FooterLink> */}
-              <a href="/">Sign In</a>
-              <a href="/">Sign Up</a>
-              <a href="/">Find A Driver</a>
-            </FooterLinkItems>
-            <FooterLinkItems>
-              <FooterLinkTitle>Our Company</FooterLinkTitle>
-              <FooterLink to='/ContactUs'>About Us</FooterLink>
-              <FooterLink to='/ContactUs'>Contact Us</FooterLink>
-              <FooterLink to='/FAQ'>FAQ</FooterLink>
-              {/* <FooterLink to='/'>Terms of Use (Drivers)</FooterLink> */}
-              <a href="/">Terms Of Use (Drivers)</a>
-              {/* <FooterLink to='/'>Terms of Use (Riders)</FooterLink> */}
-              <a href="/">Terms Of Use (Riders)</a>
-              {/* <FooterLink to='/'>Privacy Policy</FooterLink> */}
-              <a href="/PrivacyPolicy">Privacy Policy</a>
-            </FooterLinkItems>
-          </FooterLinksWrapper>
-          <FooterLinksWrapper>
-            <FooterLinkItems>
               <FooterLinkTitle>For Drivers</FooterLinkTitle>
               {/* <FooterLink to='/'>Sign In</FooterLink>
               <FooterLink to='/'>Sign Up</FooterLink> */}
@@ -82,7 +59,31 @@ function Footer() {
               <a href="/">Sign Up</a>
               {/* <FooterLink to='/'>Why Join Us?</FooterLink> */}
               <a href="/">Why Join Us</a>
+              {/* <FooterLink to='/'>Terms of Use (Drivers)</FooterLink> */}
+              <a href="/">Terms Of Use <br></br> (Drivers)</a>
             </FooterLinkItems>
+          <FooterLinkItems>
+              <FooterLinkTitle>For Riders</FooterLinkTitle>
+              {/* <FooterLink><Link to="/">Sign In</Link></FooterLink>
+              <FooterLink to='/'>Sign Up</FooterLink>
+              <FooterLink to='/'>Find A Driver</FooterLink> */}
+              <a href="/">Sign In</a>
+              <a href="/">Sign Up</a>
+              <a href="/">Find A Driver</a>
+              {/* <FooterLink to='/'>Terms of Use (Riders)</FooterLink> */}
+              <a href="/">Terms Of Use <br></br> (Riders)</a>
+            </FooterLinkItems>
+            <FooterLinkItems>
+              <FooterLinkTitle>Our Company</FooterLinkTitle>
+              <FooterLink to='/ContactUs'>About Us</FooterLink>
+              <FooterLink to='/ContactUs'>Contact Us</FooterLink>
+              <FooterLink to='/FAQ'>FAQ</FooterLink>
+              {/* <FooterLink to='/'>Privacy Policy</FooterLink> */}
+              <a href="/PrivacyPolicy">Privacy Policy</a>
+            </FooterLinkItems>
+          </FooterLinksWrapper>
+          <FooterLinksWrapper>
+            
             <FooterLinkItems>
               <FooterLinkTitle>Help</FooterLinkTitle>
               {/* <FooterLink to='/'>Forum</FooterLink>
@@ -95,8 +96,6 @@ function Footer() {
               <a href="/">Blog</a>
               <a href="/">Talk To Us</a>
               <a href="/">Help</a>
-              <a href="/">...</a>
-              <a href="/">...</a>
             </FooterLinkItems>
           </FooterLinksWrapper>
         </FooterLinksContainer>
