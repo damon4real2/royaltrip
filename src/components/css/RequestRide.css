@@ -18,7 +18,7 @@
     font-size: 36px !important;
     line-height: 40px !important;
     color: #4E1D69;
-    top: 229px;
+    top: 158px;
     left: 112px;
 }
 .text {
@@ -34,7 +34,7 @@
 }
 
 .requestContainer {
-    margin-top: 4%;
+    margin-top: 3%;
     background: rgba(78, 29, 105, 0.15);
 }
 .requestRight {
@@ -159,14 +159,14 @@
     }
   .rrbody {
     margin-left: 48%;
-    margin-top: -45em;
+    margin-top: -49em;
     width: 50%;
     }
 }
 @media (min-width: 321px) and (max-width: 490px) {
     .rrbody {
         margin-left: 38%;
-        margin-top: -42em;
+        margin-top: -47em;
         width: 53%;
     }
 }
@@ -184,7 +184,7 @@
         display: block !important;
     }
     .rrbody {
-        margin-top: -37em;
+        margin-top: -41em;
         top: 5px;
         width: 112%;
         height: 100%;
@@ -206,7 +206,7 @@
   /* iPad view */
   @media (min-width: 768px) and (max-width: 1024px) {
         .title {
-            top: 147px;
+            top: 98px;
             left: 112px;
             width: 501px;
         }

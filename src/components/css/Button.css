@@ -23,8 +23,7 @@ box-shadow: none !important;
   font-family: IBM Plex Sans SemiBold;
   font-style: normal;
   font-size: 18px;
-  /* line-height: 23px; */
-  line-height: 2.5 !important;
+  line-height: 23px;
   border-color: #4E1D69 !important;
   width: 195px;
   height: 54px;

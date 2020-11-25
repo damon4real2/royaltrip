@@ -23,7 +23,7 @@
       text-decoration: none !important;
     }
   .royalTripLogo {
-    bottom: 107px !important;
+    bottom: 81px !important;
     position: absolute;
     left: 107px !important;
   }
@@ -39,7 +39,7 @@
   .question {
       display: flex;
       margin-left: 11.55rem;
-      margin-top: 3rem;
+      margin-top: 1.4rem;
   }
   .eRVeVP {
     color: #99811D !important;
@@ -160,7 +160,7 @@
 .hSKfGL {
   width: 100% !important;
   position: absolute;
-  top: 3010px !important;
+  top: 2830px !important;
   margin-top: 4em !important;
 }
 .jXrSDY {
@@ -252,7 +252,7 @@
     -webkit-text-decoration: none;
     text-decoration: none;
     margin-bottom: 0.5rem;
-    font-family: IBM Plex Sans Light;
+    font-family: IBM Plex Sans Light !important;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -325,13 +325,6 @@
     .jXrSDY {
       height: 797px !important;
     }
-  }
-  
-  a{
-    color: #4E1D69 !important;
-    /* font-weight: normal; */
-    font-family: IBM Plex Sans SemiBold !important;
-    font-style: normal;
   }
 
   @media (min-width: 320px) and (max-width: 450px) {

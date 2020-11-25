@@ -105,6 +105,7 @@
  
   @media (min-width: 410px) and (max-width: 576px){
     .hero-container {
+      margin-top: -2em;
       height: 26.25rem;
   }
     .hero {

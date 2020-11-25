@@ -1,6 +1,9 @@
 .HeroContactUs {
   position: relative;
 }
+/* .HeroContactUsImg2 {
+  width: 100%;
+} */
 .HeroContactUs h1{
   position: absolute;
 height: 22px;
@@ -8,13 +11,11 @@ left: 41.39%;
 right: 41.39%;
 top: 120px;
 width: 248px;
-/* top: calc(50% - 22px/2 - 1130px); */
 font-family: Montserrat;
 font-style: normal;
 font-weight: bold;
 font-size: 14px;
 line-height: 22px;
-/* identical to box height, or 157% */
 text-align: center;
 letter-spacing: 2.8px;
 text-transform: uppercase;
@@ -197,18 +198,106 @@ color: #333333;
   color: #747578;
   left: 40px;
 }
-
-@media only screen and (min-width: 320px) and (max-width: 767px) {
-  .HeroContactUsImg2 {
-    /* width: 100%;
-    height: 100%; */
-    display: none;
+/* Galaxy Fold */
+@media only screen and (min-width: 600px) and (max-width: 700px) {
+  .HeroContactUs h1 {
+    left: 31.39% !important;
+    top: 154px;
   }
-  .HeroContactUs > img {
-    width: 100%;
-    height: 504px;
-    /* margin-top: -64px; */
+  .HeroContactUs h2 {
+    left: 13.14%;
+    width: 452px;
+    right: 20.14%;
+    top: 189px;
+    bottom: 87.74%;
+    font-family: Montserrat;
+    font-size: 26px;
+    line-height: 36px;
+    text-align: center;
+    letter-spacing: -1px;
+    color: #FFFFFF;
+  }
+  .find-more {
+    right: 29.79%;
+  }
+  .joinUsGrid {
+    width: 80%;
+  }
+  .joinUsGrid {
+    left: 85px;
+    width: 466px;
+  }
+  .block-left {
+    position: absolute;
+    left: 21.49%;
+    right: 63.12%;
+    top: 43.47%;
+    bottom: 67.27%;
+  }
+  .block-left img {
+    top: -1.8em;
+    position: absolute;
+    right: -91px;
 }
+.block-left p1 {
+  top: 57px;
+    left: 38.62%;
+}
+.block-left p2 {
+  position: absolute;
+  left: -31.78px;
+    top: 131.01px;
+    /* top: 575.01%; */
+    bottom: 71.14%;
+    width: 330px;
+    font-size: 13px;
+line-height: 25px;
+}
+.block-middle {
+  position: absolute;
+  top: 110px;
+}
+.block-middle img {
+position: absolute;
+top: 274px;
+right: 34px;
+}
+.block-middle p1 {
+  right: -2.28%;
+  left: -8.194%;
+  position: absolute;
+  top: 364px;
+}
+.block-middle p2 {
+  /* right: -94.53px; */
+  left: -100.39px;
+  top: 425.01px;
+  bottom: 71.14%;
+  font-size: 13px;
+line-height: 25px;
+}
+.block-right img {
+  position: absolute;
+  top: 547px;
+  right: 152px;
+}
+.block-right p1 {
+  position: absolute;
+  height: 31px;
+  top: 621px;
+  right: 57.22%;
+}
+.block-right p2 {
+      left: -215px;
+  top: 667px;
+  font-size: 13px;
+line-height: 25px;
+}
+}
+@media only screen and (min-width: 320px) and (max-width: 600px) {
+  .HeroContactUsImg2 {
+    height: 545px;
+  }
 .HeroContactUs h1 {
   left: 21.39% !important;
     right: 17.39%;
@@ -220,11 +309,11 @@ color: #333333;
   font-size: 24px;
 line-height: 29px;
 width: 281px;
-color: #333333;
+color: #B1B1B1;
 }
 .find-more {
   width: 222px;
-  right: 44px;
+  right: 88px;
   top: 320px;
   text-transform: uppercase;
   position: absolute !important;
@@ -232,6 +321,7 @@ color: #333333;
   background: #99811D !important;
   }
   .joinUsGrid {
+    left: 25px;
     width: 360px;
   }
   .block-left {
@@ -276,8 +366,8 @@ right: 34px;
   top: 358px;
 }
 .block-middle p2 {
-  right: -91.53px;
-  left: -132.39px;
+  /* right: -94.53px; */
+  left: -117.39px;
     top: 404.01px;
   bottom: 71.14%;
   font-size: 13px;
@@ -295,7 +385,7 @@ line-height: 25px;
   right: 57.22%;
 }
 .block-right p2 {
-      left: -230px;
+      left: -215px;
   top: 667px;
   font-size: 13px;
 line-height: 25px;
