@@ -73,7 +73,9 @@ function Footer() {
               {/* <FooterLink to='/'>Terms of Use (Riders)</FooterLink> */}
               <a href="/">Terms Of Use <br></br> (Riders)</a>
             </FooterLinkItems>
-            <FooterLinkItems>
+          </FooterLinksWrapper>
+          <FooterLinksWrapper>
+          <FooterLinkItems>
               <FooterLinkTitle>Our Company</FooterLinkTitle>
               <FooterLink to='/ContactUs'>About Us</FooterLink>
               <FooterLink to='/ContactUs'>Contact Us</FooterLink>
@@ -81,9 +83,6 @@ function Footer() {
               {/* <FooterLink to='/'>Privacy Policy</FooterLink> */}
               <a href="/PrivacyPolicy">Privacy Policy</a>
             </FooterLinkItems>
-          </FooterLinksWrapper>
-          <FooterLinksWrapper>
-            
             <FooterLinkItems>
               <FooterLinkTitle>Help</FooterLinkTitle>
               {/* <FooterLink to='/'>Forum</FooterLink>
