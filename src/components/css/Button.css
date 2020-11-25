@@ -14,6 +14,7 @@ box-shadow: none !important;
 
 .button {
   /* background: #FFFFFF; */
+  line-height: 2.5 !important;
   box-shadow: 0px 4px 10px -6px rgba(120, 120, 118, 0.25);
   margin-top: 1em;
   margin-bottom: 3.5em;
@@ -23,7 +24,7 @@ box-shadow: none !important;
   font-family: IBM Plex Sans SemiBold;
   font-style: normal;
   font-size: 18px;
-  line-height: 2.5;
+  line-height: 2.5 !important;
   border-color: #4E1D69 !important;
   width: 195px;
   height: 54px;
