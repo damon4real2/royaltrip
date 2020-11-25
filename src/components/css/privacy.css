@@ -1,0 +1,35 @@
+@font-face {
+    font-family: IBM Plex Sans Medium;
+    src: url("../../assets/fonts/IBM_Plex_Sans/IBMPlexSans-Medium.ttf");
+  }
+  
+  @font-face {
+    font-family: IBM Plex Sans Light;
+    src: url("../../assets/fonts/IBM_Plex_Sans/IBMPlexSans-Light.ttf");
+  }
+  
+  h1 {
+    font-family: IBM Plex Sans Bold;
+    color: #4E1D69;
+    /* margin: 50px 0px 10px auto; */
+  }
+  
+  h1 .privacy {
+    position: absolute;
+    width: 293px;
+    height: 37px;
+    left: 60px;
+    top: 164px;
+  }
+  .privacy{
+    /* position: absolute;
+    width: 293px;
+    height: 37px;
+    left: 60px;
+    top: 264px; */
+    margin-top: 50px;
+  }
+  
+  .group{
+    margin-top: 40px;
+  }

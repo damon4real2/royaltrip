@@ -70,7 +70,7 @@ function Footer() {
               {/* <FooterLink to='/'>Terms of Use (Riders)</FooterLink> */}
               <a href="/">Terms Of Use (Riders)</a>
               {/* <FooterLink to='/'>Privacy Policy</FooterLink> */}
-              <a href="/">Privacy Policy</a>
+              <a href="/PrivacyPolicy">Privacy Policy</a>
             </FooterLinkItems>
           </FooterLinksWrapper>
           <FooterLinksWrapper>

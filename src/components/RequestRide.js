@@ -15,7 +15,7 @@ const RequestRide = (props) => {
       {/* <Col sm="1" className=""></Col> */}
       <Col sm="5" className="ml-auto">
         <div>
-          <img className="rrbody" src={require("../assets/images/Group 157.svg")} alt="Phone" />
+          <img className="rrbody" src={require("../assets/images/Group 158 (1) 2.svg")} alt="Phone" />
         </div>
       </Col>
     </Row>
