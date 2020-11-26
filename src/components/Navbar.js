@@ -32,10 +32,10 @@ const Example = (props) => {
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="ml-auto" navbar nav-fill>
-            <NavItem>
-              <NavLink href="/Driver">Driver</NavLink>
+            <NavItem className="nav">
+              <NavLink  href="/Driver">Driver</NavLink>
             </NavItem>
-            <NavItem>
+            <NavItem className="nav">
               <NavLink href="/Rider">Rider</NavLink>
             </NavItem>
             {/* <NavItem>

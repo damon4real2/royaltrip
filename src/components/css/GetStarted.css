@@ -40,6 +40,9 @@
         text-align: center;
         color: #FFFFFF !important;
   }
+  .value-btn:hover {
+    background: #501F6A !important;
+  }
   .value-btn-middle {
     text-transform: capitalize;
     /* background: #99811D !important; */
@@ -52,6 +55,10 @@
     line-height: 19px;
     text-align: center;
     color: #FFFFFF;
+}
+.value-btn-middle:hover {
+  background: #FFFFFF !important;
+  color: #501F6A !important;
 }
   .first_get_started, .third_get_started {
     text-align: center !important;
