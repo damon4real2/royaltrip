@@ -25,6 +25,7 @@
   letter-spacing: 1px;
   text-transform: uppercase;
   color: #FFFFFF;
+  margin-top: 50px;
 }
 .Contact h2 {
   position: absolute;
@@ -48,7 +49,7 @@
   width: 45px;
   height: 25px;
   left: 127px;
-  top: 250.5px;
+  top: 222.5px;
   font-family: Font Awesome 5 Free;
   font-style: normal;
   font-weight: 900;
