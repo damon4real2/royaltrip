@@ -60,7 +60,7 @@ function Footer() {
               {/* <FooterLink to='/'>Why Join Us?</FooterLink> */}
               <a href="/">Why Join Us</a>
               {/* <FooterLink to='/'>Terms of Use (Drivers)</FooterLink> */}
-              <a href="/">Terms Of Use <br></br> (Drivers)</a>
+              <a href="/">Terms Of Use</a>
             </FooterLinkItems>
           <FooterLinkItems>
               <FooterLinkTitle>For Riders</FooterLinkTitle>
@@ -71,7 +71,7 @@ function Footer() {
               <a href="/">Sign Up</a>
               <a href="/">Find A Driver</a>
               {/* <FooterLink to='/'>Terms of Use (Riders)</FooterLink> */}
-              <a href="/">Terms Of Use <br></br> (Riders)</a>
+              <a href="/">Terms Of Use</a>
             </FooterLinkItems>
           </FooterLinksWrapper>
           <FooterLinksWrapper>
