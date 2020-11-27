@@ -4,7 +4,7 @@ import '../components/css/privacy.css'
 class Privacy extends Component {
     render() {
         return (
-            <div>
+            <div className="body">
                 <h1 className="privacy">PRIVACY POLICY</h1>
                 <div className="">Effective Date: 15th December, 2020.</div>
                 <div className="group">

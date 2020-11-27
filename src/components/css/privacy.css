@@ -14,6 +14,11 @@
     /* margin: 50px 0px 10px auto; */
   }
   
+  .body{
+    margin-left: 60px;
+    margin-right: 50px;
+    font-family: IBM Plex Sans;
+  }
   h1 .privacy {
     position: absolute;
     width: 293px;
@@ -32,4 +37,30 @@
   
   .group{
     margin-top: 40px;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .body {
+    
+    }
+  }
+  
+  
+  /* Mobile view */
+  @media screen and (max-width: 400px) {
+    .body{
+      
+    }
+  }
+  /* Tablet view */
+  @media (min-width: 401px) and (max-width: 768px) {
+    .body{
+    
+    }
+  }
+  /* iPad view */
+  @media (min-width: 768px) and (max-width: 1024px) {
+    .body{
+      
+    }
   }
