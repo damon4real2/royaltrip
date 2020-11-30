@@ -1,0 +1,171 @@
+.HeroRider {
+  position: relative;
+}
+.HeroRiderText h1 {
+  margin-bottom: 1em;
+  margin-left: -4em;
+  text-align: left;
+  text-transform: uppercase;
+  font-size: 18px;
+  line-height: 23px;
+  color: #E5E5E5;
+  font-family: IBM Plex Sans SemiBold;
+}
+.HeroRiderText h2 {
+  margin-left: -1.1em;
+  text-align: left;
+  font-size: 64px;
+  line-height: 83px;
+  color: #FFFFFF;
+  font-family: IBM Plex Sans SemiBold;
+}
+.enterNoRider {
+  margin-left: -50em;
+  margin-bottom: 7em;
+  width: 361px;
+  height: 60px;
+  background: #FFFFFF;
+  border-radius: 10px;
+  padding-right: 5em;
+}
+.sign-up-rider {
+  background: #99811D !important;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 30px !important;
+  text-transform: uppercase;
+  font-size: 18px;
+  line-height: 23px;
+  width: 219px;
+  height: 54px;
+  position: absolute;
+  bottom: 3em;
+  right: 54em;
+  }
+  
+@media (min-width: 325px) and (max-width:355px) {
+  .HeroRiderText h1 {
+    margin-bottom: 3em;
+    margin-left: -15.5em;
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 12px;
+    line-height: 23px;
+  }
+  .HeroRiderText h2 {
+    margin-top: -0.2em;
+    margin-left: -4em;
+    text-align: left;
+    font-size: 47px;
+    line-height: 41px;
+    color: #FFFFFF;
+    font-family: IBM Plex Sans SemiBold;
+    width: 7em;
+    margin-bottom: 1em;
+  }
+  .enterNoRider {
+    margin-left: -67em;
+    margin-bottom: 7em;
+    width: 320px;
+    height: 50px;
+  }
+  .sign-up-rider {
+    margin-right: 4.3em !important;
+  }
+}
+
+/* Galaxy Fold */
+@media (min-width: 620px) and (max-width: 768px) {
+  .HeroRiderText h1 {
+    margin-bottom: -7em !important;
+    margin-left: -8.5em !important;
+    text-align: left;
+  }
+  .HeroRiderText h2 {
+    margin-bottom: 0.5em;
+    margin-top: 3.2em;
+    font-size: 42px;
+    line-height: 43px;
+    margin-left: -152.2px !important;
+    width: 515px;
+  }
+  .enterNoRider {
+    margin-left: -58em;
+    margin-bottom: 7em;
+    width: 361px;
+  }
+  .sign-up-rider {
+    margin-right: 4em !important;
+  }
+}
+
+
+@media (min-width: 411px) and (max-width: 504px) {
+  .HeroRiderText h1 {
+    margin-bottom: 3em;
+    margin-left: -15.5em;
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 12px;
+    line-height: 23px;
+  }
+  .HeroRiderText h2 {
+    margin-top: -0.2em;
+    margin-left: -4em;
+    text-align: left;
+    font-size: 47px;
+    line-height: 41px;
+    color: #FFFFFF;
+    font-family: IBM Plex Sans SemiBold;
+    width: 7em;
+    margin-bottom: 1em;
+  }
+  .enterNoRider {
+    margin-left: -64em;
+    margin-bottom: 7em;
+    width: 320px;
+    height: 50px;
+  }
+  .sign-up-rider {
+    margin-right: 3em !important;
+}
+}
+
+@media (max-width: 320px) {
+  .HeroRiderImg {
+    margin-top: -71px;
+  }
+  .HeroRiderText h1 {
+    margin-bottom: 3em;
+    margin-left: -15.5em;
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 12px;
+    line-height: 23px;
+  }
+  .HeroRiderText h2 {
+    margin-top: -0.2em;
+    margin-left: -4.85em;
+    font-size: 38px;
+    line-height: 41px;
+    color: #FFFFFF;
+    font-family: IBM Plex Sans SemiBold;
+    width: 7em;
+    margin-bottom: 1em;
+  }
+  .enterNoRider {
+    padding-left: 1.2em;
+    margin-left: -70em;
+    margin-bottom: 7em;
+    width: 285px;
+    height: 55px;
+  }
+  .sign-up-rider {
+    font-size: 16px;
+    line-height: 23px;
+    width: 180px;
+    height: 42px;
+    position: absolute;
+    bottom: 4em;
+    right: 60.9em;
+  }
+}

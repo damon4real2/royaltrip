@@ -140,3 +140,28 @@
     }
 }
 
+
+
+@media only screen and (min-width: 355px) and (max-width: 375px) {
+    .termsOfService p{
+        left: 0px;
+    }
+    .termsOfService p1 {
+        left: 24px;
+    }
+    .enterNo {
+        left: 28px;
+    }
+    .checkbox {
+        left: 28px;
+    }
+    .agreement {
+        left: 16.4%;
+    }
+    .get-going-header p {
+        left: -6px !important;
+    }
+    .get-going-car {
+        left: -4em;
+    }
+}

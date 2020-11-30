@@ -1,28 +1,26 @@
-// import React from 'react';
-// import { Button } from 'reactstrap';
-// import RiderForm1 from "../components/RiderForm1"
+import React from 'react';
 // import '../App.css';
-// import { Link } from 'react-router-dom';
+import NavbarRider from '../components/Navbar/NavbarRider';
+import SidebarRider from '../components/Sidebar/SidebarRider';
+import HeroRider from '../components/Hero/HeroRider';
+import GetGoingRider from '../components/GetGoingRider';
+import CarouselRider from '../components/Carousel/CarouselRider'
+import EarningsRider from '../components/Earnings/EarningsRider'
+// import Footer from '../components/Footer'
 
-// function Rider() {
-//     return (
-//         <div className="rider">
-//             <div className="row">
-//                 <div className="col-7">
-//                         <div className="logInImg">
-//                             <img className='applyToDriveImg' src={require("../assets/images/form-display-avatar.svg")} alt={'log-in'}/>
-//                             <Button className="applyToDrive">
-//                                 <Link to="/SignUpToDrive">
-//                                     Apply to Drive
-//                                 </Link>
-//                             </Button>{' '}
-//                         </div>   
-//                     </div> 
-//                     <div className="col-5">
-//                         <RiderForm1 />
-//                     </div>
-//                 </div>
-//         </div>
-//     )
-// }
-// export default Rider;
+
+function Rider() {
+    return (
+        <div className="Rider">
+            <NavbarRider />
+            <SidebarRider />
+            <HeroRider />
+            <GetGoingRider />
+            <CarouselRider /> 
+            <EarningsRider /> 
+            {/* <Footer /> */}
+
+        </div>
+    )
+}
+export default Rider;

@@ -1,0 +1,40 @@
+.get-going-header-rider {
+    height: 87px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10px -6px rgba(120, 120, 118, 0.25);
+    text-align: center;
+    font-family: IBM Plex Sans SemiBold;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 47px;
+    color: #000000;
+    padding-top: 0.5em;
+}
+.get-going-body {
+    padding-top: 3em;
+}
+.get-going-body h6 {
+    width: 9em;
+    font-family: IBM Plex Sans Light;
+    font-size: 24px;
+    line-height: 31px;
+    color: #99811D;
+}
+.get-going-body p {
+    padding-top: 2em;
+    font-family: IBM Plex Sans Light;
+    font-size: 18px;
+    line-height: 23px;
+    color: #000000;
+}
+@media only screen and (min-width: 320px) and (max-width: 625px) {
+    
+    }
+
+
+
+/* Galaxy Fold */
+@media (min-width: 625px) and (max-width: 626px) {
+    
+}

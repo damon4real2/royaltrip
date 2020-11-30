@@ -88,8 +88,7 @@
         top: -28px;
         /* margin-right: 30px; */
     }
-    .text {
-        /* width: 436px; */
+    /* .text {
         text-align: left;
         left: 19px;
         font-family: IBM Plex Sans Light;
@@ -100,7 +99,7 @@
         font-size: 18px !important;
         line-height: 19px !important;
         position: relative;
-    }
+    } */
 }
 @media (min-width:641px) and (max-width: 767px) { 
     .feature-grid {
@@ -145,9 +144,10 @@
         padding: 0;
     }
     .title {
-        top: 73px;
-        width: 365px;
-        left: -0.6em;
+        top: -75px;
+        width: 354px;
+        line-height: 1.2em !important;
+        left: -0.1em;
         font-size: 23px !important;
     }
     .text {
@@ -155,7 +155,7 @@
         font-size: 14px !important;
         left: 6px !important;
         top: -215px !important;
-        width: 351px;
+        width: 307px;
         height: 38px;
     }
   .rrbody {
@@ -169,6 +169,31 @@
         margin-left: 38%;
         margin-top: -47em;
         width: 53%;
+    }
+    .title {
+        left: 3.75px;
+        width: 381px;
+        font-size: 25px !important;
+        line-height: 40px !important;
+        position: absolute;
+        font-family: IBM Plex Sans Medium;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 34px !important;
+        text-align: center;
+        color: #4E1D69;
+        top: -28px;
+    }
+    .text {
+        font-family: IBM Plex Sans Light;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 13px !important;
+        line-height: 19px !important;
+        color: #4E1D69;
+        position: relative;
+        top: -100px !important;
+        left: 9px;
     }
 }
   @media (min-width: 490px) and (max-width: 574px) {
@@ -192,7 +217,33 @@
         margin-left: -18%;
         text-align: center;
   }
+  .title {
+    left: 36.75px;
+    width: 576px;
+    font-size: 25px !important;
+    line-height: 40px !important;
+    position: absolute;
+    font-family: IBM Plex Sans Medium;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 35px !important;
+    text-align: center;
+    color: #4E1D69;
+    top: 27px;
+    /* margin-right: 30px; */
 }
+.text {
+        width: 538px;
+        text-align: left;
+        left: 42px;
+        font-family: IBM Plex Sans Light;
+        color: #4E1D69;
+        line-height: 34px !important;
+        margin-bottom: 17em;
+        font-size: 18px !important;
+        line-height: 20px !important;
+    }
+  }
 @media (min-width: 640px) and (max-width: 767px) {
 
     .rrbody {
@@ -212,3 +263,22 @@
             width: 501px;
         }
     } 
+
+
+    @media (min-width: 375px) and (max-width: 380px) {
+    .title {    
+        left: 18.75px;
+    }
+    .text {
+        width: 333px;
+        font-family: IBM Plex Sans Light;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 13px !important;
+        line-height: 19px !important;
+        color: #4E1D69;
+        position: relative;
+        top: -100px !important;
+        left: 30px;
+    }
+}

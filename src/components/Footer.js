@@ -14,7 +14,7 @@ import {
   FooterLinksWrapper,
   FooterLinkItems,
   FooterLinkTitle,
-  FooterLink,
+  // FooterLink,
   SocialMedia,
   SocialMediaWrap,
   // SocialLogo,
@@ -62,7 +62,21 @@ function Footer() {
               {/* <FooterLink to='/'>Terms of Use (Drivers)</FooterLink> */}
               <a href="/">Terms Of Use</a>
             </FooterLinkItems>
-          <FooterLinkItems>
+            <FooterLinkItems>
+              <FooterLinkTitle>Our Company</FooterLinkTitle>
+              <a href="/ContactUs">About Us</a>
+              <a href="/ContactUs">Contact Us</a>
+              <a href="/FAQ">FAQ</a>
+              <a href="/PrivacyPolicy">Privacy Policy</a>
+              {/* <FooterLink to='/ContactUs'>About Us</FooterLink> */}
+              {/* <FooterLink to='/ContactUs'>Contact Us</FooterLink>
+              <FooterLink to='/FAQ'>FAQ</FooterLink> */}
+              {/* <FooterLink to='/'>Privacy Policy</FooterLink> */}
+            </FooterLinkItems>
+          </FooterLinksWrapper>
+          <FooterLinksWrapper>
+          
+            <FooterLinkItems>
               <FooterLinkTitle>For Riders</FooterLinkTitle>
               {/* <FooterLink><Link to="/">Sign In</Link></FooterLink>
               <FooterLink to='/'>Sign Up</FooterLink>
@@ -73,17 +87,9 @@ function Footer() {
               {/* <FooterLink to='/'>Terms of Use (Riders)</FooterLink> */}
               <a href="/">Terms Of Use</a>
             </FooterLinkItems>
-          </FooterLinksWrapper>
-          <FooterLinksWrapper>
-          <FooterLinkItems>
-              <FooterLinkTitle>Our Company</FooterLinkTitle>
-              <FooterLink to='/ContactUs'>About Us</FooterLink>
-              <FooterLink to='/ContactUs'>Contact Us</FooterLink>
-              <FooterLink to='/FAQ'>FAQ</FooterLink>
-              {/* <FooterLink to='/'>Privacy Policy</FooterLink> */}
-              <a href="/PrivacyPolicy">Privacy Policy</a>
-            </FooterLinkItems>
+           
             <FooterLinkItems>
+              
               <FooterLinkTitle>Help</FooterLinkTitle>
               {/* <FooterLink to='/'>Forum</FooterLink>
               <FooterLink to='/'>Blog</FooterLink>

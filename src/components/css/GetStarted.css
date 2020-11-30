@@ -131,9 +131,9 @@
 
  
 @media only screen and (min-width: 320px) and (max-width: 767px) {
-  .get_started_1 {
+  /* .get_started_1 {
     margin-left: 3px !important;
-  }
+  } */
     .unique {
       color: #FFFFFF !important;
       border-radius: 10px;

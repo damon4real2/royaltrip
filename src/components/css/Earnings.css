@@ -11,7 +11,7 @@ left: 102px;
   width: 261px;
   height: 83px;
   left: 36px;
-  top: -34px;
+  top: -10px;
   font-family: IBM Plex Sans SemiBold;
   font-style: normal;
   font-weight: 500;
@@ -25,7 +25,7 @@ left: 102px;
   width: 221px;
   height: 55px;
   left: 921px;
-    top: -34px;
+    top: -10px;
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
@@ -59,8 +59,9 @@ right: 387px;
 
 .classesVideo {
   position: absolute;
-  top: 17%;
-  left: 3.4em;
+  top: 14em;
+  left: 6.9em;
+  width: 90% !important;
 }
 .Quote{
   width: 1440px;
