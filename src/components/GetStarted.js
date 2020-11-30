@@ -12,8 +12,8 @@ function GetStarted() {
                             <img src={require("../assets/images/icon_1.svg")} alt="Safe Vector" />
                         </div>
                         <p className="value1">Safe</p>
-                        <p className="value2">And secure</p>
-                        <p className="value3">For us, safety isn't expensive, it is priceless.</p>
+                        <p className="value2">And Convenient</p>
+                        <p className="value3">We help ensure our driver’s security through our in-app security alert system to allow a swift response to any emergency demand.</p>
                         <Button href="https://forms.gle/uHkPzawq51gFprtA9" className="value-btn">get started</Button>{' '}
                     </div>
                 </div>
@@ -24,8 +24,7 @@ function GetStarted() {
                         </div>
                         <p className="value1b">Happy Drivers</p>
                         <p className="value2b">Happy Riders</p>
-                        <p className="value3b">Moving with RoyalTrip is
-easy, safe and fast.</p>
+                        <p className="value3b">Moving with RoyalTrip is easy, safe and fast.</p>
                         <Button href="https://forms.gle/uHkPzawq51gFprtA9" className="value-btn">get started</Button>{' '}
                     </div>
                 </div>
@@ -36,7 +35,7 @@ easy, safe and fast.</p>
                         </div>
                         <p className="value1">Always</p>
                         <p className="value2">There for you</p>
-                        <p className="value3 extreme">We are very responsive and prompt, you have our full attention everytime.</p>
+                        <p className="value3 extreme">We are very responsive and prompt, you have our full attention everytime you need it.</p>
                         <Button href="https://forms.gle/uHkPzawq51gFprtA9" className="value-btn">get started</Button>{' '}
                     </div>
                     </div>
