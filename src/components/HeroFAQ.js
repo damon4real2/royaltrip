@@ -6,7 +6,7 @@ function HeroFAQ() {
   return(
         <div class="d-flex justify-content-center">
           <div className="HeroFAQ">
-              <img className="img-fluid HeroFAQImg" src={require("../assets/images/Rectangle 233.svg")} alt="heroBackground" />
+              <img className="HeroFAQImg" src={require("../assets/images/Rectangle 233.svg")} alt="heroBackground" />
                 <div className="col-12 d-flex justify-content-center"> 
                   <div class="carousel-caption">
                     <div className="how">How can we help?</div>

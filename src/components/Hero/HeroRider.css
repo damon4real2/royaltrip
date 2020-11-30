@@ -1,5 +1,8 @@
-.HeroRider {
+/* .HeroRider {
   position: relative;
+} */
+.HeroRiderImg {
+  margin-left: 0px;
 }
 .HeroRiderText h1 {
   margin-bottom: 1em;
@@ -133,6 +136,7 @@
 @media (max-width: 320px) {
   .HeroRiderImg {
     margin-top: -71px;
+    height: auto;
   }
   .HeroRiderText h1 {
     margin-bottom: 3em;
