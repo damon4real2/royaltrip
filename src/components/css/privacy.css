@@ -48,8 +48,8 @@
   
   /* Mobile view */
   @media screen and (max-width: 400px) {
-    .body{
-      
+    .h1 {
+      font-size: 27px !important;
     }
   }
   /* Tablet view */
