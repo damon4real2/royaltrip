@@ -15,27 +15,13 @@
   }
   
   .body{
-    margin-left: 60px;
-    margin-right: 50px;
+    margin: 50px;
     font-family: IBM Plex Sans;
   }
-  h1 .privacy {
-    position: absolute;
-    width: 293px;
-    height: 37px;
-    left: 60px;
-    top: 164px;
-  }
   .privacy{
-    /* position: absolute;
-    width: 293px;
-    height: 37px;
-    left: 60px;
-    top: 264px; */
-    margin-top: 50px;
+    font-size: 1.5rem;
   }
   .privacy-header {
-    padding-top: 50px;
     color: #000000;
 }
   .group{
@@ -43,7 +29,12 @@
   }
   
   @media screen and (max-width: 768px) {
-   
+    .privacy-header {
+      font-size: 1.5rem !important;
+    }
+    .group h1 {
+      font-size: 1.5rem !important;
+    }
   }
   
   

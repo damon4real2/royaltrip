@@ -39,3 +39,12 @@
     margin-left: 2em;
   }
 }
+
+@media only screen and (max-width: 657px) and (min-width: 627px) {  
+  .active {
+    margin-left: -6em;
+  }
+  .feature-a, .feature-c {
+    margin-left: -11.8em;
+  }
+}

@@ -73,8 +73,11 @@
     color: #99811D;
   }
   .question-icon {
+    height: 21px;
     color: #99811D !important;
-  }
+    top: 2.3em;
+    position: relative;
+}
   .kOefKs{
       justify-content: flex-start !important;
   }
@@ -203,7 +206,7 @@
 .question p {
   font-family: IBM Plex Sans SemiBold !important;
   position: relative;
-  top: -32px;
+  top: -66px;
   left: 8px;
 }
 .cUFyQW {
@@ -292,9 +295,9 @@
     .hSKfGL {
       width: 100% !important;
       position: absolute;
-      top: 4658px !important;
+      top: 4759px !important;
       margin-top: 4em !important;
-    }
+  }
     .royalTripLogo {
       height: 57px;
       bottom: 14px !important;
@@ -314,6 +317,9 @@
       position: relative;
       left: -13%;
       top: 1em !important;
+  }
+  .question-icon {
+    top: 0.1em;
   }
     .question p {
       font-family: IBM Plex Sans SemiBold;
@@ -383,20 +389,30 @@
     top: -18px !important;
     position: absolute;
   }
+  .question p {
+    font-family: IBM Plex Sans SemiBold !important;
+    position: relative;
+    top: -31px;
+    left: 8px;
+  }
 }
 @media (min-width: 400px) and (max-width: 430px) {
   .royalTripLogo {
     left: 56px !important;
+    bottom: 83px !important;
 }
   .appstore-playstore2 {
     display: flex;
-    /* flex: none; */
+    top: -1em;
     margin-left: 2.4rem;
     margin-top: 4.5rem;
   }
+  .question-icon {
+    top: -65px !important;
+  }
   .question {
     margin-left: 0rem !important;
-    top: 14px !important;
+    top: 49px !important;
   }
   .royalTripIcons {
     position: absolute;
@@ -420,6 +436,12 @@
     margin-left: -1.1em;
     top: -77px !important;
   }
+  .question p {
+    font-family: IBM Plex Sans SemiBold !important;
+    position: relative;
+    top: -31px;
+    left: 8px;
+}
   .cUFyQW {
     top: -540px;
     right: 29px;

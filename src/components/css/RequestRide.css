@@ -29,7 +29,7 @@
     line-height: 19px !important;
     color: #4E1D69;
     position: relative;
-    top: 67px !important;
+    top: 40px !important;
     left: 94px;
 }
 
@@ -54,6 +54,17 @@
     width: 65%;
 }
 
+@media only screen and (min-width: 600px) and (max-width: 700px) {
+    .title {
+        left: 42.75px !important;
+        width: 576px !important;
+        font-size: 23px !important;
+    }
+    .text {
+        top: 57px !important;
+        left: 32px !important;
+    }
+}
 
 @media only screen and (min-width: 320px) and (max-width: 640px) {
     .requestContainer {
@@ -282,3 +293,17 @@
         left: 30px;
     }
 }
+
+@media only screen and (max-width: 657px) and (min-width: 627px) {  
+    .rrbody {
+        margin-top: -68rem;
+        width: 142%;
+        margin-left: -37%;
+    }
+    .title {
+      top: 357px;
+    }
+    .text {
+        top: 7.6875em !important;
+    }
+  }
