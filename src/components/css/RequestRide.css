@@ -25,12 +25,12 @@
     font-family: IBM Plex Sans Light;
     font-style: normal;
     font-weight: 500;
-    font-size: 18px !important;
-    line-height: 19px !important;
+    font-size: 17px !important;
+    line-height: 30px !important;
     color: #4E1D69;
     position: relative;
-    top: 40px !important;
-    left: 94px;
+    top: 67px !important;
+    left: 95px;
 }
 
 .requestContainer {
@@ -297,7 +297,7 @@
 @media only screen and (max-width: 657px) and (min-width: 627px) {  
     .rrbody {
         margin-top: -68rem;
-        width: 142%;
+        width: 133%;
         margin-left: -37%;
     }
     .title {
