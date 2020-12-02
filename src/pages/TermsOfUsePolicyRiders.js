@@ -3,6 +3,7 @@ import '../App.css';
 import Navbar from '../components/Navbar';
 // import SidebarHome from '../components/SidebarHome';
 import TermsOfUsePolicyRiders from '../components/TermsOfUsePolicyRiders'
+import Footer from '../components/Footer'
 
 
 function TermsOfUse() {
@@ -11,6 +12,7 @@ function TermsOfUse() {
       <Navbar /> 
       {/* <SidebarHome /> */}
       <TermsOfUsePolicyRiders />
+      <Footer />
     
     </>
   );

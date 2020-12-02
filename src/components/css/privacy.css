@@ -28,6 +28,10 @@
     margin-top: 40px;
   }
   
+  h1 {
+    color: #501F6A !important;
+  }
+  
   @media screen and (max-width: 768px) {
     .privacy-header {
       font-size: 1.5rem !important;

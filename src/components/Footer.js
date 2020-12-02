@@ -100,7 +100,7 @@ function Footer() {
               <FooterLink to='/'>...</FooterLink>
               <FooterLink to='/'>...</FooterLink> */}
               <a href="/">Forum</a>
-              <a href="/">Blog</a>
+              <a href="https://medium.com/@royaltrip">Blog</a>
               <a href="/ContactUs">Talk To Us</a>
               <a href="/FAQ">Help</a>
             </FooterLinkItems>
