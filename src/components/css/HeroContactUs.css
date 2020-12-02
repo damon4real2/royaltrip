@@ -1,9 +1,9 @@
 .HeroContactUs {
   position: relative;
 }
-/* .HeroContactUsImg2 {
-  width: 100%;
-} */
+.HeroContactUsImg2 {
+  margin-left: 0px;
+}
 .HeroContactUs h1{
   position: absolute;
 height: 22px;
