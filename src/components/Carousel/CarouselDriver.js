@@ -11,11 +11,11 @@
 
 import React, { useState } from "react";
 import ReactDOM from "react-dom";
-import Button from "@material-ui/core/Button";
+// import Button from "@material-ui/core/Button";
 import useMediaQuery from "@material-ui/core/useMediaQuery";
 import { AutoRotatingCarousel, Slide } from "material-auto-rotating-carousel";
 import 'react-awesome-slider/dist/custom-animations/cube-animation.css';
-import "./css/Carousel.css";
+import "./Carousel.css";
 
 
 const AutoRotatingCarouselModal = ({ handleOpen, setHandleOpen, isMobile }) => {
@@ -32,22 +32,22 @@ const AutoRotatingCarouselModal = ({ handleOpen, setHandleOpen, isMobile }) => {
       >
         <Slide
           media={
-            <img src={require("../assets/images/iPhone 8 Gold.svg")} className="img-fluid iPhone 8 Gold4" alt="You can't be lost with us" />
+            <img src={require("./assets/images/iPhone 8 Gold.svg")} className="img-fluid iPhone 8 Gold4" alt="You can't be lost with us" />
           }
         />
         <Slide
           media={
-            <img src={require("../assets/images/iPhone 8 Gold2.svg")} className="img-fluid iPhone 8 Gold4" alt="You can't be lost with us" />
+            <img src={require("./assets/images/iPhone 8 Gold2.svg")} className="img-fluid iPhone 8 Gold4" alt="You can't be lost with us" />
           }
         />
         <Slide
           media={
-            <img src={require("../assets/images/iPhone 8 Gold3.svg")} className="img-fluid iPhone 8 Gold4" alt="You can't be lost with us" />
+            <img src={require("./assets/images/iPhone 8 Gold3.svg")} className="img-fluid iPhone 8 Gold4" alt="You can't be lost with us" />
           }
         />
         <Slide
           media={
-            <img src={require("../assets/images/iPhone 8 Gold4.svg")} className="img-fluid iPhone 8 Gold4" alt="You can't be lost with us" />
+            <img src={require("./assets/images/iPhone 8 Gold4.svg")} className="img-fluid iPhone 8 Gold4" alt="You can't be lost with us" />
           }
         />
       </AutoRotatingCarousel>
@@ -57,16 +57,16 @@ const AutoRotatingCarouselModal = ({ handleOpen, setHandleOpen, isMobile }) => {
 
 function CarouselDriver() {
   const [handleOpen, setHandleOpen] = useState({ open: false });
-  const handleClick = () => {
-    setHandleOpen({ open: true });
-  };
+  // const handleClick = () => {
+  //   setHandleOpen({ open: true });
+  // };
   const matches = useMediaQuery("(max-width:600px)");
   return (
     <>
       <div className="CarouselInImg">
-          <img className="img-fluid carousel_background" src={require("../assets/images/carousel-background.svg")} alt="Carousel in background" />
+          <img className="img-fluid carousel_background_driver" src={require("./assets/images/carousel-background.svg")} alt="Carousel in background" />
         </div>
-      <Button className="never-lost" onClick={handleClick}>get started</Button>
+      {/* <Button className="never-lost" onClick={handleClick}>get started</Button> */}
       <AutoRotatingCarouselModal
         isMobile={matches}
         handleOpen={handleOpen}
