@@ -11,7 +11,7 @@ function HeroRider() {
               <div className="col-12 text-align-left HeroRiderText"> 
                 <div className="carousel-caption">
                   <h1>ride with class to self reliance</h1>
-                  <h2>The whole city in the palm of your hand. Let’s take you there!</h2>
+                  <h2>We go your way, we make it safe, secure and affordable.</h2>
                   <label>
                     <input className="enterNoRider" type="text" name="phone number" placeholder="Enter Mobile Phone Number" />
                 </label>

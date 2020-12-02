@@ -5,10 +5,15 @@
 }
 .earnings-brief h4 {
   font-size: 2em !important;
-  margin-top: 1em !important;
+  margin-top: 24em !important;
   width: 15em;
   font-family: IBM Plex Sans SemiBold;
 }
+
+/* .earnings-brief p {
+  margin-left: -26.5;
+} */
+
 .earnings-quote-driver {
   background: #501F6A;
   box-shadow: 0px 4px 10px -6px rgba(120, 120, 118, 0.25);
@@ -148,7 +153,7 @@ right: 387px;
   position: absolute;
   top: 112em;
   left: 4.9em;
-  width: 90% !important;
+  width: 90% !important; 
 }
 /* .earnings-brief h4 {
   margin-top: 32em !important;
@@ -160,8 +165,13 @@ right: 387px;
   font-family: IBM Plex Sans Light !important;
   font-size: 18px !important;
   line-height: 23px !important;
-  margin-left: -15em;
+  margin-left: -26.5em;
 }
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
+  width: 100%;
+  margin-bottom: -10px;
+}
+
 .earnings-quote{
     background: #501F6A;
     box-shadow: 0px 4px 10px -6px rgba(120, 120, 118, 0.25);
@@ -172,13 +182,14 @@ right: 387px;
     color: #FFFFFF;
     font-family: IBM Plex Sans;
     left: 0px;
-    width: 10em;
+    width: 100%;
     font-size: 25px;
     line-height: 32px;
     padding-top: 3em !important;
     padding-left: 12em !important;
     padding-right: 12em !important;
     padding-bottom: 2em !important;
+    /* margin-bottom: 31em !important; */
   }
 
 .EarningsRider p {

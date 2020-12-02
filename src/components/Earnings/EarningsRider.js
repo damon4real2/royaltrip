@@ -18,7 +18,7 @@ function EarningsRider() {
             </video>
             <div className="d-flex text-align-left earnings-brief">
               <h4>Royalty, Safety and Secured</h4><br></br>
-              <p>See how Mariam, Tolu, Usman, Debbie and Emeka use RoyalTrip to ride and enjoy their ride!</p>
+              <p className="p">See how Mariam, Tolu, Usman, Debbie and Emeka use RoyalTrip to ride and enjoy their ride!</p>
             </div>
             <div className="container-fluid earnings-quote">My excitement in riding with RoyalTrip is that I get to ride with class, meet cultured drivers and also get to interact with the drivers in a cultured manner!<br></br><br></br>— Debbie”</div>
           </div>
