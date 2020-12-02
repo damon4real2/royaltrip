@@ -6,8 +6,8 @@ function TermsOfService() {
     return (
         <div className="termsOfService">
             <form>
-                <p>drive and cash out big time!</p>
-                <p1>Everything in life is somewhere else, and you get there in a car.</p1>
+                <p>drive towards self reliance!</p>
+                <p1>Cruise your way to independence as you partner with us.</p1>
                 <label>
                     <input className="enterNo" type="text" name="phone number" placeholder="Enter Mobile Phone Number" />
                 </label>
