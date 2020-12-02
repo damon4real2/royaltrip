@@ -56,8 +56,8 @@ function Footer() {
               {/* <FooterLink><Link to="/">Sign In</Link></FooterLink>
               <FooterLink to='/'>Sign Up</FooterLink>
               <FooterLink to='/'>Find A Driver</FooterLink> */}
-              <a href="/">Sign In</a>
-              <a href="/">Sign Up</a>
+              <a href="/Rider">Sign In</a>
+              <a href="/Rider">Sign Up</a>
               <a href="/FindADriver">Find A Driver</a>
               {/* <FooterLink to='/'>Terms of Use (Riders)</FooterLink> */}
               <a href="/TermsOfUsePolicyRiders">Terms Of Use</a>
@@ -80,8 +80,8 @@ function Footer() {
               <FooterLinkTitle>For Drivers</FooterLinkTitle>
               {/* <FooterLink to='/'>Sign In</FooterLink>
               <FooterLink to='/'>Sign Up</FooterLink> */}
-              <a href="/">Sign In</a>
-              <a href="/https://forms.gle/uHkPzawq51gFprtA9">Sign Up</a>
+              <a href="/Drivers">Sign In</a>
+              <a href="https://forms.gle/uHkPzawq51gFprtA9">Sign Up</a>
               {/* <FooterLink to='/'>Why Join Us?</FooterLink> */}
               <a href="/ContactUs">Why Join Us</a>
               {/* <FooterLink to='/'>Terms of Use (Drivers)</FooterLink> */}
@@ -99,8 +99,8 @@ function Footer() {
               <FooterLink to='/'>Help Line</FooterLink>
               <FooterLink to='/'>...</FooterLink>
               <FooterLink to='/'>...</FooterLink> */}
-              <a href="/">Forum</a>
-              <a href="https://www.quora.com/profile/RoyalTrip">Blog</a>
+              <a href="https://www.quora.com/profile/RoyalTrip">Forum</a>
+              <a href="https://medium.com/@royaltrip">Blog</a>
               <a href="/ContactUs">Talk To Us</a>
               <a href="/FAQ">Help</a>
             </FooterLinkItems>
