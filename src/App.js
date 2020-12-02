@@ -9,7 +9,7 @@ import ApplyTo from './pages/ApplyToRide';
 import FAQ from './pages/FAQ';
 import ContactUs from './pages/ContactUs';
 import PrivacyPolicy from './pages/PrivacyPolicy';
-import TermsOfUse from './pages/TermsOfUse';
+import TermsOfUsePolicyRiders from './pages/TermsOfUsePolicyRiders';
 import AboutUs from './components/AboutUs';
 import FindADriver from './pages/FindADriver';
 // import SignUpToDriveForm from './components/SignUpToDriveForm2';
@@ -39,7 +39,7 @@ function App() {
           <Route path='/AboutUs' component={AboutUs} />
           <Route path='/PrivacyPolicy' component={PrivacyPolicy} />
           <Route path='/FindADriver' component={FindADriver} />
-          <Route path='/TermsOfUse' component={TermsOfUse} />
+          <Route path='/TermsOfUsePolicyRiders' component={TermsOfUsePolicyRiders} />
           {/* <Route path='/signUpToDriveForm2' component={SignUpToDriveForm} />
           <Route path='/signUpToDriveForm3' component={SignUpToDriveForm3} />
           <Route path='/signUpToDriveForm4' component={signUpToDriveForm4} />
