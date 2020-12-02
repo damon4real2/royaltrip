@@ -1,10 +1,23 @@
+/* Carousel-Driver */
+.carousel_background_driver {
+    margin-left: 0px;
+    margin-top: 10em;
+}
+/* iPad view */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .carousel_background_driver {
+        margin-left: 0px;
+        /* margin-top: 10em; */
+    }
+}
+
 /* Carousel-Rider */
 .carousel_background {
-    margin-top: 2em;
     margin-left: 0px;
+    margin-top: 0em;
 }
 .never-lost {
-    top: 130.1em;
+    top: 128.5em;
     position: absolute;
     width: 219px;
     height: 54px;
@@ -63,6 +76,10 @@
     .carousel_background {
         margin-top: 83em;
     }
+    .carousel_background_driver {
+        margin-left: 0px;
+        margin-top: 0em;
+    }
 }
 
 
@@ -77,8 +94,9 @@
         margin-top: 84em;
     }
 }
-/* @media only screen and (max-width: 400px) and (min-width: 421px) {
-    .carousel_background {
-        margin-top: 77em !important;
+@media only screen and (min-width: 400px) and (max-width: 421px) {
+    .carousel_background_driver {
+        margin-left: 0px;
+        margin-top: 0em !important;
     }
-} */
+}

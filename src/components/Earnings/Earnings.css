@@ -1,3 +1,90 @@
+/* DRIVERS */
+.testimonial {
+  margin-left: -30em !important;
+  margin-top: 5em !important;
+}
+.earnings-brief h4 {
+  font-size: 2em !important;
+  margin-top: 1em !important;
+  width: 15em;
+  font-family: IBM Plex Sans SemiBold;
+}
+.earnings-quote-driver {
+  background: #501F6A;
+  box-shadow: 0px 4px 10px -6px rgba(120, 120, 118, 0.25);
+  top: 2715px;
+  font-size: 25px;
+  line-height: 32px;
+  text-align: center;
+  color: #FFFFFF;
+  font-family: IBM Plex Sans;
+  left: 0px;
+  width: 15em;
+  font-size: 25px;
+  line-height: 32px;
+  padding-top: 3em !important;
+  padding-left: 12em !important;
+  padding-right: 12em !important;
+  padding-bottom: 2em !important;
+  margin-top: 2em;
+}
+ /* Galaxy Fold  */
+@media (max-width: 768px) and (min-width: 600px) {
+  .classesVideo1 {
+      left: 2em;
+      top: 116em !important;
+  }
+  .testimonial {
+    margin-top: 28em !important;
+    margin-left: -16.5em !important;
+  }
+  .earnings-quote-driver {
+    padding: 1em !important;
+  }
+}
+
+@media only screen and (min-width: 360px) and (max-width: 370px) {
+/* .earnings-brief h4 {
+  margin-top: -10em !important;
+  width: 44em;
+  }
+  .testimonial {
+    margin-left: -8.5em !important;
+    margin-top: 1em !important;
+  } */
+  .carousel_background_driver {
+    margin-left: 0px;
+    margin-top: 2em;
+}
+  .EarningsRider p {
+    height: 350px !important;
+    margin-top: 17px !important;
+  }
+  .EarningsRider a {
+    margin-top: 0.2em !important;
+    font-size: 53px !important;
+    line-height: 1px;
+}
+  .EarningsRider a {
+    /* height: 350px !important; */
+    margin-top: 1 !important;
+  }
+  .classesVideo1 {
+    top: -32em !important;
+    position: relative;
+ }
+}
+
+@media (max-width: 450px) and (min-width: 400px) {
+  .EarningsRider p {
+    margin-top: 25px !important;
+  }
+  .classesVideo1 {
+    position: relative;
+    top: -140px !important;
+}
+}
+/* RIDERS */
 .Earnings {
   top: 1850px;
   position: absolute;
@@ -63,10 +150,10 @@ right: 387px;
   left: 4.9em;
   width: 90% !important;
 }
-.earnings-brief h4 {
+/* .earnings-brief h4 {
   margin-top: 32em !important;
   font-family: IBM Plex Sans SemiBold;
-}
+} */
 .earnings-brief p {
   width: 35em !important;
   margin-top: 45em !important;
@@ -122,15 +209,18 @@ right: 387px;
   }
 }
 
-@media only screen and (min-width: 342px) and (max-width: 505px) {
-  .EarningsRider a {
-    margin-top: 14.2em !important;
-  }
+@media only screen and (min-width: 342px) and (max-width: 400px) {
+  .EarningsRider p1 {
+    position: relative;
+    font-size: 10px !important;
+    top: -54em !important;
+    right: -3.5em;
+}
   .classesVideo {
     left: -0.05em !important;
     width: 600px !important;
     height: 350px !important;
-    top: 100em !important;
+      top: 98em !important;
   }
   .earnings-brief h4 {
     margin-top: 9em !important;
@@ -142,6 +232,9 @@ right: 387px;
   .classesVideo {
     top: 101em !important;
   }
+  .EarningsRider p {
+      margin-top: 23px !important;
+  }
 }
 /* Galaxy Fold */
 @media (min-width: 600px) and (max-width: 768px) {
@@ -151,20 +244,23 @@ right: 387px;
     margin-top: 2em;
 }
   .EarningsRider a {
-    margin-top: 3.4em !important;
+    margin-top: 3.4em;
   }
   .classesVideo {
     left: 2em;
     top: 111em;
   }
   .earnings-brief h4 {
-    margin-top: 16em !important;
-  }
+    margin-top: 1em !important;
+}
   .earnings-brief p {
     margin-left: -12em !important;
     margin-top: 25em !important;
   }
-
+  .testimonial {
+    margin-top: 8em !important;
+    margin-left: -22.5em !important;
+  }
   .earnings-quote {
     position: absolute;
     top: 2295px !important;
@@ -225,6 +321,16 @@ right: 387px;
 }
 
 @media only screen and (min-width: 360px) and (max-width: 365px) {
+  .earnings-brief h4 {
+    font-size: 1.5em !important;
+    font-family: IBM Plex Sans SemiBold;
+    font-size: 20px;
+    top: -19.5em;
+    width: 22em;
+    font-family: IBM Plex Sans SemiBold;
+    font-size: 20px;
+    position: relative;
+}
   .enterNoRider {
     margin-left: -67.7em !important;
   }
@@ -232,10 +338,27 @@ right: 387px;
     right: 936px !important;
     top: 322px !important;
   }
+  .testimonial {
+    margin-left: -16em !important;
+    margin-top: -28em !important;
+  }
+  
 }
-@media only screen and (min-width: 375px) and (max-width: 420px) {
+@media only screen and (min-width: 375px) and (max-width: 385px) {
+  .carousel_background_driver {
+    margin-left: 0px;
+    margin-top: 2em;
+}
   .EarningsRider p {
-    margin-top: 203px !important;
+    margin-top: 23px !important;
+  }
+  .EarningsRider p1 {
+    position: relative;
+    font-size: 10px !important;
+    top: -18em !important;
+  }
+  .classesVideo1 {
+    margin-top: -9em !important;
   }
 }
 
@@ -243,20 +366,41 @@ right: 387px;
   .EarningsRider a {
     margin-top: 12em !important;
   }
+  .EarningsRider p {
+    margin-top: 23px !important;
+}
+/* .EarningsRider p1 {
+  font-size: 10px !important;
+  left: 6em;
+  font-size: 22px;
+  line-height: 26px;
+  text-decoration-line: underline;
+  color: #99811D;
+  margin-top: 2em;
+  font-family: IBM Plex Sans SemiBold;
+} */
+.link {
+  top: -171px !important;
+  position: relative;
+}
   .earnings-brief h4 {
-    margin-top: 10.5em !important;
+    margin-top: -5.5em !important;
     font-family: IBM Plex Sans SemiBold;
     font-size: 24px;
     line-height: 24px;
     margin-left: 5px !important;
-  }
-  /* .classesVideo {
-    top: 98em !important;
-  } */
-  .earnings-brief p {
-    margin-top: 17.2em !important;
-    margin-left: -9em;
-  }
+    /* margin-top: -5.5em !important; */
+    /* font-size: 24px; */
+    line-height: 27px;
+    margin-left: 5px !important;
+    font-size: 1.5em !important;
+    width: 15em;
+    font-family: IBM Plex Sans SemiBold;
+}
+  .testimonial {
+    margin-top: -4.8em !important;
+    margin-left: -13em !important;
+}
   .earnings-quote {
     top: 2101px !important;
     font-size: 23px;
@@ -266,10 +410,13 @@ right: 387px;
     padding-right: 2em !important;
     padding-bottom: 1em !important;
   }
+  .earnings-quote-driver {
+    padding: 2em !important;
+  }
 }
 @media only screen and (max-width: 340px) {
   .EarningsRider p {
-    margin-top: 6.5em;
+    margin-top: 0.5em;
     line-height: 20px;
     width: 18em;
     font-family: IBM Plex Sans SemiBold;
@@ -280,11 +427,11 @@ right: 387px;
     line-height: 10px !important;
     text-decoration-line: underline;
     color: #99811D;
-    margin-bottom: 10em !important;
+    margin-top: 0.5em !important;
   }
   .EarningsRider a {
     line-height: 1em;
-    margin-top: 7.6em !important;
+    margin-top: 0.6em !important;
   }
   .classesVideo {
     position: absolute;
@@ -293,10 +440,16 @@ right: 387px;
     width: 90% !important;
   }
   .earnings-brief h4 {
-    margin-top: 8em !important;
-    font-family: IBM Plex Sans SemiBold;
-    font-size: 22px;
+    font-size: 24px !important;
+    width: 781px !important;
+    font-family: 'IBM Plex Sans Light';
+    line-height: 25px;
   }
+
+  .earnings-brief h4 {
+    width: 15em;
+}
+
   .earnings-brief p {
     width: 35em !important;
     margin-top: 21em !important;
@@ -305,13 +458,21 @@ right: 387px;
     line-height: 15px !important;
     margin-left: -17em;
   }
-
+  .testimonial {
+    margin-left: -23em !important;
+    margin-top: 5em !important;
+    font-family: IBM Plex Sans Light;
+    width: 604px;
+}
   .earnings-quote {
     top: 1948px !important;
     font-size: 20px;
     line-height: 24px;
     padding: 1em !important;
     height: auto;
+  }
+  .earnings-quote-driver {
+    padding: 2em !important;
   }
 }
 /* iPad view */
@@ -349,7 +510,6 @@ right: 387px;
     padding-bottom: 3em !important;
   }
 }
-
 @media (min-width: 360px) and (max-width: 365px) {
   .EarningsRider p {
     height: 350px !important;
@@ -386,7 +546,7 @@ right: 387px;
   }
   .earnings-brief h4 {
     margin-top: 10em !important;
-    line-height: 22px;
+    line-height: 24px;
   }
   .earnings-brief p {
     margin-top: 25em !important;
@@ -395,8 +555,20 @@ right: 387px;
     line-height: 15px !important;
     margin-left: -21em;
   }
+  .testimonial {
+    line-height: 25px !important;
+    margin-top: 5em !important;
+      margin-left: -27em !important;
+  }
+ 
+.earnings-brief h4 {
+    margin-top: 9em !important;
+    font-family: IBM Plex Sans SemiBold;
+    font-size: 21px;
+    width: 26em;
+    margin-top: 0em !important;
+  }
 }
-
 
 @media (min-width: 325px) and (max-width:355px) {
 .earnings-quote {
@@ -420,5 +592,10 @@ right: 387px;
     padding-bottom: 0em !important;
     font-size: 22px;
     line-height: 26px;
+  }
+  .earnings-quote-driver {
+    top: -411px !important;
+    position: relative;
+    padding: 2em !important;
   }
 }
