@@ -100,7 +100,7 @@ function Footer() {
               <FooterLink to='/'>...</FooterLink>
               <FooterLink to='/'>...</FooterLink> */}
               <a href="/">Forum</a>
-              <a href="https://medium.com/@royaltrip">Blog</a>
+              <a href="https://www.quora.com/profile/RoyalTrip">Blog</a>
               <a href="/ContactUs">Talk To Us</a>
               <a href="/FAQ">Help</a>
             </FooterLinkItems>
