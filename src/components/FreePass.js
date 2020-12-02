@@ -14,11 +14,11 @@ function FreePass() {
             <Label>
               <input className="full-name" type="text" name="Full Name" placeholder="Your name (Required)" />
               <input className="e-mail" type="email" name="email" placeholder="Your Email (Required)" />
-              <input className="phone-no" type="number" name="Phone Number" placeholder="Phone Number" />
-              <input className="some-details" type="email" name="details" placeholder="Give some details" />
+              <input className="phone-no" type="tel" name="Phone Number" placeholder="Phone Number" />
+              <input className="some-details" type="text" name="details" placeholder="Give some details" />
             </Label>
-            <Button id="join-us">
-              join us
+            <Button id="join-us" onClick="alert('Thanks for registering. We will get back to you shortly!')">
+              send
             </Button>{' '}
         </div>
       </form>
