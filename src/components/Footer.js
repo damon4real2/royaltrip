@@ -80,7 +80,7 @@ function Footer() {
               <FooterLinkTitle>For Drivers</FooterLinkTitle>
               {/* <FooterLink to='/'>Sign In</FooterLink>
               <FooterLink to='/'>Sign Up</FooterLink> */}
-              <a href="/Drivers">Sign In</a>
+              <a href="/Driver">Sign In</a>
               <a href="https://forms.gle/uHkPzawq51gFprtA9">Sign Up</a>
               {/* <FooterLink to='/'>Why Join Us?</FooterLink> */}
               <a href="/ContactUs">Why Join Us</a>
