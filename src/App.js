@@ -8,10 +8,11 @@ import SignUp from './pages/SignUpToDrive';
 import ApplyTo from './pages/ApplyToRide';
 import FAQ from './pages/FAQ';
 import ContactUs from './pages/ContactUs';
+import Contact from './components/Contact';
 import PrivacyPolicy from './pages/PrivacyPolicy';
 import TermsOfUsePolicyRiders from './pages/TermsOfUsePolicyRiders';
 import AboutUs from './components/AboutUs';
-// import FindADriver from './pages/FindADriver';
+import FindADriver from './pages/FindADriver';
 // import SignUpToDriveForm from './components/SignUpToDriveForm2';
 // import SignUpToDriveForm3 from './components/SignUpToDriveForm3';
 // import signUpToDriveForm4 from './components/SignUpToDriveForm4';
@@ -36,9 +37,10 @@ function App() {
           <Route path='/applyToRide' component={ApplyTo} />
           <Route path='/FAQ' component={FAQ} />
           <Route path='/ContactUs' component={ContactUs} />
+          <Route path='/Contact' component={Contact} />
           <Route path='/AboutUs' component={AboutUs} />
           <Route path='/PrivacyPolicy' component={PrivacyPolicy} />
-          {/* <Route path='/FindADriver' component={FindADriver} /> */}
+          <Route path='/FindADriver' component={FindADriver} />
           <Route path='/TermsOfUsePolicyRiders' component={TermsOfUsePolicyRiders} />
           {/* <Route path='/signUpToDriveForm2' component={SignUpToDriveForm} />
           <Route path='/signUpToDriveForm3' component={SignUpToDriveForm3} />

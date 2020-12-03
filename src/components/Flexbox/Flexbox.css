@@ -1,7 +1,9 @@
 .Flexbox {
-  margin-top: 12em;
+  margin-top: 6em;
   margin-right: -28px;
   margin-left: -63px;
+  margin-bottom: 6em;
+  margin-left: -4em !important;
 }
 .flexbox {
   border-radius: 25px;
@@ -33,4 +35,83 @@ sub {
   font-family: Roboto;
   margin-top: 2em;
   border-color: #99811D !important;
+}
+
+@media only screen and (min-width: 600px) and (max-width: 750px) {
+  .Flexbox {
+    margin-top: -15em;
+    margin-left: 2.7em !important;
+  }
+  .flexbox-a {
+    margin-bottom: 1em;
+  }
+  .flexbox-b {
+    margin-bottom: 1em;
+  }
+} 
+
+
+
+@media (max-width: 359px) {
+  .flex-img {
+    width: 89%;
+  }
+  .flexbox-a {
+    margin-top: -4em !important;
+    margin-bottom: 2em !important;
+  }
+  .flexbox-c {
+    margin-top: 2em !important;
+  }
+  .feedback {
+    padding-left: 1px;
+  }
+  sub {
+    padding-left: 0.5em;
+  }
+}
+
+
+@media only screen and (min-width: 360px) and (max-width: 385px) {
+  .Flexbox {
+    margin-left: -1.2em !important;
+  }
+  .flex-img {
+    width: 89%;
+  }
+  .flexbox-a {
+    margin-top: -4em !important;
+    margin-bottom: 2em !important;
+  }
+  .flexbox-c {
+    margin-top: 2em !important;
+  }
+}
+
+
+@media only screen and (min-width: 386px) and (max-width: 440px) {
+  .Flexbox {
+    margin-left: -1em !important;
+  }
+  .flex-img {
+    margin-left: 6px;
+  }
+  .flexbox-a {
+    margin-top: -4em !important;
+    margin-bottom: 2em !important;
+  }
+  .flexbox-c {
+    margin-top: 2em !important;
+  }
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .flex-img {
+    width: 18em;
+  }
+
+  .Flexbox {
+  margin-left: -3em !important;
+  }
 }
