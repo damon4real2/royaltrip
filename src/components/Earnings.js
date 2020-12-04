@@ -15,7 +15,8 @@ function Earnings() {
             </div>
             <div className="col-md-4"></div>
             <div className="col-md-4">
-            <a href="https://forms.gle/uHkPzawq51gFprtA9">
+            {/* eslint-disable-next-line */}
+            <a href="https://forms.gle/uHkPzawq51gFprtA9" target="_blank">
                 <p1>Apply to drive and get approved</p1>
               </a>
             </div>

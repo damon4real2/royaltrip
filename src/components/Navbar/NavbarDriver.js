@@ -37,10 +37,10 @@ const Example = (props) => {
               <NavLink href="/Rider">Rider</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="/logIn">Log In</NavLink>
+              <NavLink href="/Driver">Log In</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="/Rider">Sign Up</NavLink>
+              <NavLink href="https://forms.gle/uHkPzawq51gFprtA9">Sign Up</NavLink>
             </NavItem>
           </Nav>
         </Collapse>

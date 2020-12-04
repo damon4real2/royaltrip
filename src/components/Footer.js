@@ -38,8 +38,10 @@ function Footer() {
             </Link>
             </div>
             <div className="appstore-playstore2">
-            <a href="https://www.apple.com/ng/ios/app-store/"><img src={require("../assets/images/app-store.svg")} alt="app-store" /></a>
-            <a href="https://play.google.com/store/apps"><img src={require("../assets/images/google-play.svg")} alt="google-play" /></a>
+            {/* eslint-disable-next-line */}
+            <a href="https://www.apple.com/ng/ios/app-store/" target="_blank"><img src={require("../assets/images/app-store.svg")} alt="app-store" /></a>
+            {/* eslint-disable-next-line */}
+            <a href="https://play.google.com/store/apps" target="_blank"><img src={require("../assets/images/google-play.svg")} alt="google-play" /></a>
           </div>
             <div className="question">
             <img className="question-icon" src={require("../assets/images/question-icon.jpeg")} alt="question" />
@@ -99,8 +101,10 @@ function Footer() {
               <FooterLink to='/'>Help Line</FooterLink>
               <FooterLink to='/'>...</FooterLink>
               <FooterLink to='/'>...</FooterLink> */}
-              <a href="https://www.quora.com/profile/RoyalTrip">Forum</a>
-              <a href="https://medium.com/@royaltrip">Blog</a>
+              {/* eslint-disable-next-line */}
+              <a href="https://www.quora.com/profile/RoyalTrip" target='_blank'>Forum</a>
+              {/* eslint-disable-next-line */}
+              <a href="https://medium.com/@royaltrip" target='_blank'>Blog</a>
               <a href="/ContactUs">Talk To Us</a>
               <a href="/FAQ">Help</a>
             </FooterLinkItems>
