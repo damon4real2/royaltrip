@@ -1,34 +1,34 @@
-import React from 'react';
-import "./css/Hero.css";
+// import React from 'react';
+// import "./css/Hero.css";
 
-function Hero() {
-  return(
-    <div className="hero-container">
-      <img src={require("../assets/images/Group 155.svg")} className="img-fluid car1" alt="heroBackground" />
-    </div>
-  )
-}
-export default Hero;
+// function Hero() {
+//   return(
+//     <div className="hero-container">
+//       <img src={require("../assets/images/Group 155.svg")} className="img-fluid car1" alt="heroBackground" />
+//     </div>
+//   )
+// }
+// export default Hero;
 
 
 
 /* Video Hero Section */
-// import React from 'react';
-// import classes from "./css/Hero.css";
-// import sample from '../assets/videos/production-id-4607375_fdM893em.mp4';
+import React from 'react';
+import classes from "./css/Hero.css";
+import sample from '../assets/videos/Hero.mp4';
 
-// const Hero = () => {
-//     return (
-//       <div id="hero">
-//               <video width="100%" autoPlay="autoplay" loop="loop" muted className={classes.Video} >
-//                   <source src={sample} type='video/mp4' />
-//                   Your browser does not support the video tag.
-//               </video>
-//         </div>
-//   )
-// }
+const Hero = () => {
+    return (
+      <div id="hero">
+              <video width="100%" autoPlay="autoplay" loop="loop" muted className={classes.Video} >
+                  <source src={sample} type='video/mp4' />
+                  Your browser does not support the video tag.
+              </video>
+        </div>
+  )
+}
 
-// export default Hero;
+export default Hero;
 
  /* Fix just below video for overlay text */
             /* <div className={classes.Content}>
