@@ -1,0 +1,114 @@
+.MessageInput {
+  padding-top: 5em;
+}
+.MessageInput h1 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 34px;
+  line-height: 43px;
+  letter-spacing: 0.396px;
+  text-decoration-line: underline;
+  color: #99811D !important;
+}
+.MessageInput p {
+  padding-top: 1em;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.396px;
+  color: rgba(0, 0, 0, 0.7);
+}
+.enter_message1 {
+  width: 27em;
+  background: #FFFFFF;
+  border: 2px solid #501F6A;
+  box-sizing: border-box;
+  border-radius: 10px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 24px;
+  height: 3em;
+  letter-spacing: 0.396px;
+  color: rgba(0, 0, 0, 0.7);
+  box-shadow: 0px 4px 20px rgba(120, 120, 118, 0.2);
+}
+.enter_message1::placeholder {
+  padding-right: 14em;
+}
+.enter_message2::placeholder {
+  padding-right: 11.9em;
+}
+.enter_message3::placeholder {
+  padding-right: 18.1em;
+}
+.enter_message2 {
+  width: 27em;
+  background: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  box-sizing: border-box;
+  border-radius: 10px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 24px;
+  height: 3em;
+  letter-spacing: 0.396px;
+  color: rgba(0, 0, 0, 0.7);
+  box-shadow: 0px 4px 20px rgba(120, 120, 118, 0.2);
+}
+.enter_message3 {
+  width: 27em;
+  background: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  box-sizing: border-box;
+  border-radius: 10px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 24px;
+  height: 14em;
+  letter-spacing: 0.396px;
+  color: rgba(0, 0, 0, 0.7);
+  box-shadow: 0px 4px 20px rgba(120, 120, 118, 0.2);
+  padding-bottom: 10em !important;
+}
+.enter_message {
+  text-align: end;
+}
+.send_button {
+  background: #501F6A !important;
+  border-radius: 10px !important;
+  width: 197px;
+  height: 64px;
+  text-transform: capitalize;
+  font-size: 20px !important;
+  line-height: 17px;
+  letter-spacing: 0.396px;
+  color: #FFFFFF;
+  font-family: Poppins;
+  padding-top: 0.8em !important;
+  margin-top: 1.5em;
+}
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  .active {
+    padding-top: 1em;
+    margin-top: 2em;
+    margin-left: 2em;
+  }
+}
+
+@media only screen and (max-width: 657px) and (min-width: 627px) {  
+  .active {
+    margin-left: -6em;
+  }
+  .feature-a, .feature-c {
+    margin-left: -11.8em;
+  }
+}

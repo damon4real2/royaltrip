@@ -71,6 +71,7 @@ color: #747578;
   color: #747578;
 }
 .get-started-button4 {
+  padding-top: 1.1em !important;
   text-transform: uppercase;
   position: absolute;
   left: 226px;
@@ -113,6 +114,7 @@ color: #747578;
   border: 1px solid #501F6A;
   box-sizing: border-box;
   border-radius: 40px !important;
+  padding-top: 1.1em !important;
 }
 .get-started-button5:hover {
   background: #501F64 !important;

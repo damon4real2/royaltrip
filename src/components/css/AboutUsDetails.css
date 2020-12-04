@@ -1,0 +1,55 @@
+@font-face {
+  font-family: Montserrat Regular;
+  src: url("../../assets/fonts/Montserrat/Montserrat-Regular.ttf");
+}
+
+@font-face {
+  font-family: Montserrat Semi-bold;
+  src: url("../../assets/fonts/Montserrat/Montserrat-SemiBold.ttf");
+}
+@font-face {
+  font-family: Montserrat ExtraLight;
+  src: url("../../assets/fonts/Montserrat/Montserrat-ExtraLight.ttf");
+}
+  
+  .AboutUsDetails h1 {
+    margin-top: 2em;
+    text-transform: uppercase;
+    align-items: center;
+    text-align: center;
+    color: #333333 !important;
+    font-family: Montserrat Regular;
+    font-size: 33px;
+    line-height: 43px;
+  }
+  .AboutUsDetails p {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 19em;
+    padding-right: 19em;
+    font-family: IBM Plex Sans Light;
+    text-align: justify;
+  }
+  .AboutUsDetails h2 {
+    margin-top: 3em;
+    text-transform: capitalize;
+    align-items: center;
+    text-align: center;
+    color: #333333 !important;
+    font-family: Montserrat Regular;
+    font-size: 36px;
+    line-height: 50px;
+  }
+  .AboutUsDetails h3 {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 19em;
+    padding-right: 19em;
+    font-family: IBM Plex Sans Light;
+    text-align: justify;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+    color: #747578;
+  }

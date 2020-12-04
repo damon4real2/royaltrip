@@ -72,6 +72,44 @@ sub {
 }
 
 
+
+/* Our Company */
+.FlexboxOurCompany {
+  margin-top: 4em;
+  justify-content: space-between !important;
+}
+.flexbox-d, .flexbox-e, .flexbox-f {
+  background: #FFFFFF;
+  box-shadow: 0px 4px 15px rgba(51, 51, 51, 0.1);
+  border-radius: 3px; 
+  max-width: 28.333333% !important;
+}
+.flexbox-img {
+  padding-top: 2em;
+}
+.role {
+  padding-left: 1.5em;
+  padding-top: 2em;
+  text-align: left;
+  font-size: 16px;
+  line-height: 20px;
+  color: #091D2D;
+  font-family: 'IBM Plex Sans Medium';
+}
+.description { 
+  padding-left: 1.5em !important;
+  text-align: left;
+  padding-right: 0em !important;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.396px;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+
+
+
+
 @media only screen and (min-width: 360px) and (max-width: 385px) {
   .Flexbox {
     margin-left: -1.2em !important;

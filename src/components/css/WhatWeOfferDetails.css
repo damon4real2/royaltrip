@@ -1,0 +1,79 @@
+@font-face {
+  font-family: Montserrat Regular;
+  src: url("../../assets/fonts/Montserrat/Montserrat-Regular.ttf");
+}
+
+@font-face {
+  font-family: Montserrat Semi-bold;
+  src: url("../../assets/fonts/Montserrat/Montserrat-SemiBold.ttf");
+}
+@font-face {
+  font-family: Montserrat ExtraLight;
+  src: url("../../assets/fonts/Montserrat/Montserrat-ExtraLight.ttf");
+}
+.WhatWeOfferDetails {
+  margin-top: 5em;
+  background: #501F6A;
+  padding-bottom: 6em;
+}
+.WhatWeOfferDetails h1 {
+  padding-top: 3em;
+  text-transform: uppercase;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF !important;
+  font-family: Montserrat Regular;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 34px;
+  line-height: 41px;
+}
+.our_offer1 {
+  color: #ffffff !important;
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 2em;
+  padding-bottom: 3em;
+  padding-left: 17.1em;
+  padding-right: 15em;
+  font-family: Montserrat Regular;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 21px;
+}
+.ruler1 {
+  width: 47em;
+  margin-top: -3.5em;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+}
+.mediator1 {
+    height: 70%;
+    padding-left: 4em !important;
+ }
+ .details p {
+  font-family: IBM Plex Sans Light;
+  font-size: 15px;
+  line-height: 23px;
+  text-align: justify;
+  color: #585858;
+  width: 36em;
+  padding-right: 2.5em;
+}
+  @media screen and (max-width: 768px) {
+   
+  }
+  
+  
+  /* Mobile view */
+  @media screen and (max-width: 400px) {
+    
+  }
+  /* Tablet view */
+  @media (min-width: 401px) and (max-width: 768px) {
+    
+  }
+  /* iPad view */
+  @media (min-width: 768px) and (max-width: 1024px) {
+   
+  }

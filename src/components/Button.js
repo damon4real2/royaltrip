@@ -9,7 +9,7 @@ function button() {
                 <div class="row d-flex justify-content-around">
                     <Button  className="sign-up">Sign up to ride</Button>{' '}
                     <Button href="https://forms.gle/uHkPzawq51gFprtA9" target="_blank" className="apply">Apply to drive</Button>{' '}
-                    <Button href="/ContactUs" className="talk">Our Company</Button>{' '}
+                    <Button href="/OurCompany" className="talk">Our Company</Button>{' '}
                     <Button href="/FAQ" className="help">Help Center</Button>{' '}
                     {/* <br />
                     <hr className="rule" /> */}

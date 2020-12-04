@@ -28,6 +28,19 @@ html {
   src: url("./assets/fonts/IBM_Plex_Sans/IBMPlexSans-ExtraLight.ttf");
 }
 
+@font-face {
+  font-family: Montserrat Regular;
+  src: url("./assets/fonts/Montserrat/Montserrat-Regular.ttf");
+}
+
+@font-face {
+  font-family: Montserrat Semi-bold;
+  src: url("./assets/fonts/Montserrat/Montserrat-SemiBold.ttf");
+}
+@font-face {
+  font-family: Montserrat ExtraLight;
+  src: url("./assets/fonts/Montserrat/Montserrat-ExtraLight.ttf");
+}
 
 .applyToRide {
   /* position: absolute;

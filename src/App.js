@@ -13,6 +13,7 @@ import PrivacyPolicy from './pages/PrivacyPolicy';
 import TermsOfUsePolicyRiders from './pages/TermsOfUsePolicyRiders';
 import AboutUs from './components/AboutUs';
 import FindADriver from './pages/FindADriver';
+import OurCompany from './pages/OurCompany';
 // import SignUpToDriveForm from './components/SignUpToDriveForm2';
 // import SignUpToDriveForm3 from './components/SignUpToDriveForm3';
 // import signUpToDriveForm4 from './components/SignUpToDriveForm4';
@@ -42,6 +43,7 @@ function App() {
           <Route path='/PrivacyPolicy' component={PrivacyPolicy} />
           <Route path='/FindADriver' component={FindADriver} />
           <Route path='/TermsOfUsePolicyRiders' component={TermsOfUsePolicyRiders} />
+          <Route path='/OurCompany' component={OurCompany} />
           {/* <Route path='/signUpToDriveForm2' component={SignUpToDriveForm} />
           <Route path='/signUpToDriveForm3' component={SignUpToDriveForm3} />
           <Route path='/signUpToDriveForm4' component={signUpToDriveForm4} />

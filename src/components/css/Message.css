@@ -1,0 +1,26 @@
+.Message {
+  padding-top: 5em;
+  width: 85%;
+  justify-content: space-around!important;
+  padding-left: 12em;
+}
+.Message img {
+  width: 52.36px;
+  height: 52.36px;
+}
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  .active {
+    padding-top: 1em;
+    margin-top: 2em;
+    margin-left: 2em;
+  }
+}
+
+@media only screen and (max-width: 657px) and (min-width: 627px) {  
+  .active {
+    margin-left: -6em;
+  }
+  .feature-a, .feature-c {
+    margin-left: -11.8em;
+  }
+}

@@ -1,0 +1,471 @@
+@font-face {
+  font-family: Montserrat Regular;
+  src: url("../../assets/fonts/Montserrat/Montserrat-Regular.ttf");
+}
+
+@font-face {
+  font-family: Montserrat Semi-bold;
+  src: url("../../assets/fonts/Montserrat/Montserrat-SemiBold.ttf");
+}
+@font-face {
+  font-family: Montserrat ExtraLight;
+  src: url("../../assets/fonts/Montserrat/Montserrat-ExtraLight.ttf");
+}
+.HeroOurCompanyImg {
+  margin-left: 0px;
+}
+.carousel-caption {
+    position: absolute;
+    right: 15%;
+    bottom: 30px !important;
+    left: 15%;
+    z-index: 10;
+    padding-top: 3px !important;
+    padding-bottom: 160px !important;
+    color: #fff;
+    text-align: center;
+    /* font-family: Montserrat; */
+}
+.HeroOurCompanyText h1 {
+  margin-bottom: 1em;
+  text-align: left;
+  position: relative;
+  font-size: 40px;
+  line-height: 49px;
+  color: #FFFFFF !important;
+  /* font-family: Montserrat; */
+  text-transform: uppercase;
+  font-family: Montserrat Regular;
+  font-style: normal;
+  font-weight: 600;
+  
+}
+.HeroOurCompanyText h2 {
+  text-align: left;
+  font-size: 20px;
+  line-height: 24px;
+  color: #FFFFFF;
+  position: relative;
+  margin-top: -0.2em;
+  font-family: Montserrat ExtraLight;
+  width: 659px;
+  /* margin-bottom: 2em; */
+}
+
+.our-company-read_more {
+  background: #99811D !important;
+  border-radius: 40px !important;
+  text-transform: uppercase;
+  width: 235px;
+  height: 46px;
+  justify-content: left !important;
+  margin-top: 2em;
+  margin-right: 48em;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 2.4px;
+  /* margin-top: 2em; */
+}
+/* .HeroFindADriverText h3 {
+  font-size: 16px;
+  line-height: 19px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 570px;
+  font-family: IBM Plex Sans ExtraLight;
+  margin-top: -2em;
+}
+
+.appstore-playstore3 {
+  margin-top: 2em;
+}
+@media (min-width: 325px) and (max-width:355px) {
+  .HeroRiderText h1 {
+    margin-bottom: 3em;
+    margin-left: -15.5em;
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 12px;
+    line-height: 23px;
+  }
+  .HeroRiderText h2 {
+    margin-top: -0.2em;
+    margin-left: -4em;
+    text-align: left;
+    font-size: 47px;
+    line-height: 41px;
+    color: #FFFFFF;
+    font-family: IBM Plex Sans SemiBold;
+    width: 7em;
+    margin-bottom: 1em;
+  }
+  .enterNoRider {
+    margin-left: -67em;
+    margin-bottom: 7em;
+    width: 320px;
+    height: 50px;
+  }
+  .sign-up-rider {
+    margin-right: 4.3em !important;
+  }
+} 
+
+@media (min-width: 620px) and (max-width: 768px) {
+  .HeroFindADriverImg {
+    margin-left: 0px;
+    height: 73%;
+}
+.carousel-caption {
+  position: absolute;
+  right: 15%;
+  bottom: 20px;
+  left: 15%;
+  z-index: 10;
+  padding-top: 20px;
+  padding-bottom: 0px;
+  color: #fff;
+  text-align: center;
+  bottom: 51px !important;
+}
+  .HeroRiderText h1 {
+    margin-bottom: -7em !important;
+    margin-left: -8.5em !important;
+    text-align: left;
+  }
+  .HeroRiderText h2 {
+    margin-bottom: 0.5em;
+    margin-top: 3.2em;
+    font-size: 42px;
+    line-height: 43px;
+    margin-left: -152.2px !important;
+    width: 515px;
+  }
+  .enterNoRider {
+    margin-left: -58em;
+    margin-bottom: 7em;
+    width: 361px;
+  }
+  .sign-up-rider {
+    margin-right: 4em !important;
+  }
+  .HeroFindADriverText h1 {
+    margin-left: -2.5em;
+    margin-right: auto;
+    margin-bottom: 3em;
+    position: relative;
+    font-size: 43px;
+    line-height: 57px;
+    color: #E5E5E5;
+    font-family: IBM Plex Sans ExtraLight;
+    text-align: left;
+  }
+  .HeroFindADriverText h2 {
+    font-size: 36px;
+    line-height: 57px;
+    color: #FFFFFF;
+    position: relative;
+    margin-bottom: 1em;
+    font-family: IBM Plex Sans SemiBold;
+    margin-left: -21.9em;
+    top: -2.5em;
+  }
+  .HeroFindADriverText h3 {
+    font-size: 16px;
+    line-height: 19px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 570px;
+    position: relative;
+    top: -3.5em;
+    font-family: IBM Plex Sans ExtraLight;
+    margin-top: -3em;
+    margin-left: -11.82em;
+  }
+  .appstore-playstore3 {
+    margin-top: 1em;
+    top: -2em;
+    position: relative;
+    margin-left: -53em;
+  }
+}
+
+
+@media (min-width: 411px) and (max-width: 504px) {
+  .HeroRiderText h1 {
+    margin-bottom: 3em;
+    margin-left: -15.5em;
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 12px;
+    line-height: 23px;
+  }
+  .HeroRiderText h2 {
+    margin-top: -0.2em;
+    margin-left: -4em;
+    text-align: left;
+    font-size: 47px;
+    line-height: 41px;
+    color: #FFFFFF;
+    font-family: IBM Plex Sans SemiBold;
+    width: 7em;
+    margin-bottom: 1em;
+  }
+  .enterNoRider {
+    margin-left: -64em;
+    margin-bottom: 7em;
+    width: 320px;
+    height: 50px;
+  }
+  .sign-up-rider {
+    margin-right: 3em !important;
+}
+}
+
+@media (max-width: 320px) {
+  .HeroRiderImg {
+    margin-top: -71px;
+    height: auto;
+  }
+  .HeroRiderText h1 {
+    margin-bottom: 3em;
+    margin-left: -15.5em;
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 12px;
+    line-height: 23px;
+  }
+  .HeroRiderText h2 {
+    margin-top: -0.2em;
+    margin-left: -4.85em;
+    font-size: 38px;
+    line-height: 41px;
+    color: #FFFFFF;
+    font-family: IBM Plex Sans SemiBold;
+    width: 7em;
+    margin-bottom: 1em;
+  }
+  .enterNoRider {
+    padding-left: 1.2em;
+    margin-left: -70em;
+    margin-bottom: 7em;
+    width: 285px;
+    height: 55px;
+  }
+  .sign-up-rider {
+    font-size: 16px;
+    line-height: 23px;
+    width: 180px;
+    height: 42px;
+    position: absolute;
+    bottom: 4em;
+    right: 60.9em;
+  }
+}
+
+
+@media (max-width: 359px) {
+  .HeroFindADriverImg {
+    height: 63%;
+}
+.caption-rider {
+    bottom: -52px !important;
+}
+  .HeroFindADriverText h1 {
+    margin-bottom: 1em;
+    position: relative;
+    line-height: 57px;
+    width: 331px;
+    color: #E5E5E5;
+    font-family: IBM Plex Sans ExtraLight;
+    left: -8.1em;
+    top: 1em;
+    font-size: 27px;
+}
+  .HeroFindADriverText h2 {
+    font-size: 19px;
+    margin-left: -59em;
+    color: #FFFFFF;
+    position: relative;
+    margin-bottom: 3.5em !important;
+    font-family: IBM Plex Sans SemiBold;
+    margin-bottom: 7em;
+    margin-top: -1.5em;
+    line-height: 83px;
+  }
+  .HeroFindADriverText h3 {
+    font-size: 15px;
+    line-height: 19px;
+    font-family: IBM Plex Sans ExtraLight;
+    top: -4em;
+    width: 314px;
+    position: relative;
+    margin-bottom: 4em;
+    left: -37.34em;
+    margin-top: -2em;
+  }
+  .appstore-playstore3 {
+    width: 60em;
+    left: -34.3em;
+    position: relative;
+    top: -6em;
+  }
+  .appstore-3 {
+    width: 13%;
+  }
+  .googleplay-3 {
+    width: 12%;
+  }
+}
+
+
+@media (min-width: 360px) and (max-width: 374px) {
+  .HeroFindADriverImg {
+    height: 63%;
+}
+.caption-rider {
+    bottom: -52px !important;
+}
+  .HeroFindADriverText h1 {
+    margin-bottom: 1em;
+    position: relative;
+    left: -5.8em;
+    top: 1em;
+    font-size: 34px;
+    line-height: 57px;
+    width: 331px;
+    color: #E5E5E5;
+    font-family: IBM Plex Sans ExtraLight;
+}
+  .HeroFindADriverText h2 {
+    font-size: 21px;
+    margin-left: -51.5em;
+    color: #FFFFFF;
+    position: relative;
+    margin-bottom: 3.5em !important;
+    font-family: IBM Plex Sans SemiBold;
+    margin-bottom: 7em;
+    line-height: 83px;
+  }
+  .HeroFindADriverText h3 {
+    font-size: 16px;
+    line-height: 19px;
+    font-family: IBM Plex Sans ExtraLight;
+    top: -4em;
+    width: 357px;
+    position: relative;
+    margin-bottom: 4em;
+    left: -33.8em;
+  }
+  .appstore-playstore3 {
+    left: -34.3em;
+    position: relative;
+    top: -6em;
+  }
+}
+
+@media (min-width: 375px) and (max-width: 385px) {
+  .HeroFindADriverImg {
+    height: 63%;
+}
+.caption-rider {
+    bottom: -52px !important;
+}
+  .HeroFindADriverText h1 {
+    margin-bottom: 1em;
+    position: relative;
+    left: -5.7em;
+    top: 1em;
+    font-size: 34px;
+    line-height: 57px;
+    width: 331px;
+    color: #E5E5E5;
+    font-family: IBM Plex Sans ExtraLight;
+}
+  .HeroFindADriverText h2 {
+    font-size: 21px;
+    margin-left: -50.7em;
+    color: #FFFFFF;
+    position: relative;
+    margin-bottom: 3.5em !important;
+    font-family: IBM Plex Sans SemiBold;
+    margin-bottom: 7em;
+    line-height: 83px;
+  }
+  .HeroFindADriverText h3 {
+    font-size: 16px;
+    line-height: 19px;
+    font-family: IBM Plex Sans ExtraLight;
+    top: -4em;
+    width: 357px;
+    position: relative;
+    margin-bottom: 4em;
+    left: -33.2em;
+  }
+  .appstore-playstore3 {
+    left: -33.9em;
+    position: relative;
+    top: -6em;
+  }
+}
+
+@media (min-width: 386px) and (max-width: 440px) {
+  .HeroFindADriverImg {
+    height: 63%;
+}
+.caption-rider {
+    bottom: -52px !important;
+}
+  .HeroFindADriverText h1 {
+    margin-bottom: 1em;
+    position: relative;
+    left: -174.1px;
+    top: 1em;
+    font-size: 34px;
+    line-height: 57px;
+    width: 331px;
+    color: #E5E5E5;
+    font-family: IBM Plex Sans ExtraLight;
+}
+  .HeroFindADriverText h2 {
+    font-size: 21px;
+    margin-left: -51.5em;
+    left: 25.8px !important;
+    color: #FFFFFF;
+    position: relative;
+    margin-bottom: 3.5em !important;
+    font-family: IBM Plex Sans SemiBold;
+    margin-bottom: 7em;
+    line-height: 83px;
+  }
+  .HeroFindADriverText h3 {
+    font-size: 16px;
+    line-height: 19px;
+    font-family: IBM Plex Sans ExtraLight;
+    top: -3em;
+    width: 357px;
+    position: relative;
+    margin-bottom: 4em;
+    left: -32.1em;
+  }
+  .appstore-playstore3 {
+    left: -33em;
+    position: relative;
+    top: -6em;
+  }
+}
+
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .HeroFindADriverText h1 {
+    margin-left: -9em;
+  }
+  .HeroFindADriverText h2 {
+    margin-right: 9em;
+  }
+  .HeroFindADriverText h3, .appstore-playstore3 { 
+    margin-right: 27em;
+  }
+}
+
+*/
