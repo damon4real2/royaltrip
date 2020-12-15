@@ -16,13 +16,13 @@
 }
 
 .HeroRiderText h1 {
-  margin-bottom: 1em;
+  margin-bottom: 0.1em;
   margin-left: -4em;
   text-align: left;
   text-transform: uppercase;
   font-size: 18px;
   line-height: 23px;
-  color: #E5E5E5;
+  color: #E5E5E5 !important;
   font-family: IBM Plex Sans SemiBold;
 }
 
@@ -61,8 +61,12 @@
   width: 219px;
   height: 54px;
   position: absolute;
-  bottom: 3em;
+  bottom: 11em;
   right: 54em;
+  }
+
+  .carousel-caption{
+    margin-bottom: -36px !important;
   }
   
   

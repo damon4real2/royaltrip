@@ -7,12 +7,12 @@ function HeroRider() {
     return (
         <div class="d-flex">
         <div className="HeroOurCompany">
-            <img className="HeroOurCompanyImg" src={require("./assets/images/Group 216.jpg")} alt="heroBackground" />
+            <img className="HeroOurCompanyImg" src={require("./assets/images/Group 216.png")} alt="heroBackground" />
               <div className="col-12 HeroOurCompanyText"> 
                 <div className="carousel-caption">
-                  <h1>how to become a partner?</h1>
-                  <h2>Every company producing Delphi or xBase software may become an OTC partner. For our partners we offer attractive purchase terms and technical support.</h2>
-                  <Button className="our-company-read_more">read more</Button>{' '}
+                  <h1>Join Our Rails!</h1>
+                  <h2>We believe that people are the drivers of change in economies,<br></br>We believe that growth do not exist without being intentional,<br></br>We exist to drive our people to self reliance by being obsessive about growth and impact.</h2>
+                  <Button className="our-company-read_more">get started</Button>{' '}
                 </div>
               </div>
       </div>

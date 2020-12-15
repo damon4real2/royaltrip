@@ -106,9 +106,13 @@ sub {
   color: rgba(0, 0, 0, 0.7);
 }
 
-
-
-
+@media screen and (max-width: 768px) {
+.flexbox-d, .flexbox-e, .flexbox-f {
+  height: 15em !important;
+  max-width: 98.333333% !important;
+  margin-top: 20px !important;
+  }
+}
 
 @media only screen and (min-width: 360px) and (max-width: 385px) {
   .Flexbox {

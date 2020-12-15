@@ -8,19 +8,19 @@ function Flexbox () {
       <div class="container">
         <div class="row FlexboxOurCompany">
           <div class="col-md-4 flexbox-d justify-content-center">
-            <img className="flexbox-img" src={require("./assets/images/layout 1.png")} alt="flexbox" />
-            <h4 className="role">Web and mobile UI, UX design</h4>
-            <p className="description">We craft stunning and amazing web UI, using a well drrafted UX to fit your product.</p>
+            <img className="flexbox-img" src={require("./assets/images/why1.png")} alt="flexbox" />
+            <h4 className="role">We are secure</h4>
+            <p className="description">We have measures in place built in-app for our Drivers/Riders security.</p>
           </div>
           <div class="col-md-4 flexbox-e">
-            <img className="flexbox-img" src={require("./assets/images/pen-tool 1.png")} alt="flexbox" />
-            <h4 className="role">Graphic design</h4>
-            <p className="description">Amazing flyers, social media posts and brand representations that would make your brand stand out.</p>
+            <img className="flexbox-img" src={require("./assets/images/why2.png")} alt="flexbox" />
+            <h4 className="role">We are attentive</h4>
+            <p className="description">We pay attention to little details, in every experience had on our platform to ensure we always do better.</p>
           </div>
           <div class="col-md-4 flexbox-f">
-            <img className="flexbox-img" src={require("./assets/images/smartphone 1.png")} alt="flexbox" />
-            <h4 className="role">Mobile app and web development</h4>
-            <p className="description">With well written codes, we build amazing apps for all platforms, mobile and web apps in general.</p>
+            <img className="flexbox-img" src={require("./assets/images/why3.png")} alt="flexbox" />
+            <h4 className="role">We are growth minded</h4>
+            <p className="description">Everyone wants to be somewhere, we wish to get you there as well as help you make progress.</p>
           </div>
         </div>
       </div>

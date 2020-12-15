@@ -6,7 +6,7 @@ import BorderSpacingFindADriver from '../components/BorderSpacing/BorderSpacingF
 import FlexboxFindADriver from '../components/Flexbox/FlexboxFindADriver';
 import BorderSpacingFindADriver2 from '../components/BorderSpacing/BorderSpacingFindADriver2';
 import PreFooter from '../components/PreFooter';
-
+import Footer from '../components/Footer'
 
 function FindADriver() {
     return (
@@ -18,6 +18,7 @@ function FindADriver() {
             <FlexboxFindADriver />
             <BorderSpacingFindADriver2 />
             <PreFooter />
+            <Footer />
         </div>
     )
 }

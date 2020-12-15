@@ -1,0 +1,62 @@
+.DriverWhyJoinUs {
+    margin-top: 16em;
+    background-image: url("./assets/images/driver.png");
+    background-color: #cccccc;
+}
+.DriverWhyJoinUs h1 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 2.8px;
+    text-transform: uppercase;
+    color: #C4C4C4 !important;
+    padding-top: 9em;
+}
+.DriverWhyJoinUs h2 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 50px;
+    letter-spacing: -1px;
+    color: #FFFFFF;
+    text-transform: capitalize;
+}
+.DriverWhyJoinUs p {
+    padding-top: 1.5em;
+    padding-bottom: 5em;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+.top {
+    padding-top: 7.78em;
+    padding-left: 6em !important;
+    /* display: inline;
+    display: inline-block;   */
+}
+.top_details {
+    padding-top: 1.5em;
+}
+.top img {
+    padding-right: 2em;
+}
+.top p1 {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+/* Small screens */
+@media only screen and (max-width: 768px) {
+    .DriverWhyJoinUs {
+        margin-top: 80em;
+    }
+}
