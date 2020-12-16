@@ -1,0 +1,56 @@
+.FooterNew {
+    margin-top: 5em;
+    background: #F9F9F9;
+}
+.FooterImg {
+    padding-left: 5em !important;
+    padding-top: 3em;
+}
+.app_store-google_play {
+    padding-top: 2em;
+}
+.question_1 {
+    padding-top: 3.5em;
+    margin-left: 0.25rem;
+}
+.question_1 p {
+    margin-top: -1.2em;
+    font-family: IBM Plex Sans SemiBold;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: center;
+    color: #99811D;
+    text-transform: capitalize;
+    margin-left: -8em;
+}
+.social_link {
+    padding-left: 0.5em !important;
+    padding-bottom: 5em;
+}
+.FooterLinks {
+    padding-top: 4em;
+}
+.FooterLinks h1 {
+    font-family: IBM Plex Sans Regular;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+    color: #000000 !important;
+    text-transform: capitalize;
+    padding-bottom: 1em;
+}
+.FooterLinks a {
+    text-transform: capitalize;
+    font-family: IBM Plex Sans SemiBold;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    color: #000000 !important;
+    text-decoration: none !important;
+    padding-top: 1em;
+}
