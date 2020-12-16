@@ -85,7 +85,7 @@ function Footer() {
               <a href="/Driver">Sign In</a>
               <a href="https://forms.gle/uHkPzawq51gFprtA9">Sign Up</a>
               {/* <FooterLink to='/'>Why Join Us?</FooterLink> */}
-              <a href="/ContactUs">Why Join Us</a>
+              <a href="/WhyJoinUsPage">Why Join Us</a>
               {/* <FooterLink to='/'>Terms of Use (Drivers)</FooterLink> */}
               <a href="/">Terms Of Use</a>
             </FooterLinkItems>

@@ -6,19 +6,21 @@ import HeroWhyJoinUsPage from '../components/Hero/HeroWhyJoinUsPage';
 import DriverWhyJoinUs  from '../components/Driver/DriverWhyJoinUs';
 import RiderWhyJoinUs  from '../components/Rider/RiderWhyJoinUs'
 import CorporateWhyJoinUs  from '../components/Corporate/CorporateWhyJoinUs'
-// import Footer from '../components/Footer'
+import FleetOwnersWhyJoinUs  from '../components/FleetOwners/FleetOwnersWhyJoinUs'
+import FooterNew from '../components/Footer/FooterNew'
 
 
 function WhyJoinUsPage() {
     return (
-        <div className="Driver">
+        <div className="WhyJoinUsPage">
             <NavbarWhyJoinUs />
             {/* <SidebarWhyJoinUs  /> */}
             <HeroWhyJoinUsPage />
             <DriverWhyJoinUs />
             <RiderWhyJoinUs /> 
             <CorporateWhyJoinUs /> 
-            {/* <<Footer /> */}
+            <FleetOwnersWhyJoinUs />
+            <FooterNew />
 
         </div>
     )
