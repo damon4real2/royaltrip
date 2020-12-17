@@ -4,7 +4,8 @@ import NavbarFAQ from '../components/NavbarFAQ';
 import HeroFAQ from '../components/HeroFAQ';
 import FAQComponent from '../components/FAQComponent';
 import Stay from '../components/Stay'
-import FooterFAQ from '../components/FooterFAQ';
+// import FooterFAQ from '../components/FooterFAQ';
+import FooterNew from '../components/Footer/FooterNew'
 
 function FAQ() {
     return (
@@ -14,7 +15,7 @@ function FAQ() {
             <HeroFAQ />
             <FAQComponent />
             <Stay />
-            <FooterFAQ />
+            <FooterNew />
         </div>
     )
 }

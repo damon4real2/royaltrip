@@ -7,6 +7,7 @@ import GetGoingDriver from '../components/GetGoing/GetGoingDriver';
 import CarouselDriver from '../components/Carousel/CarouselDriver'
 import EarningsDriver from '../components/Earnings/EarningsDriver'
 // import Footer from '../components/Footer'
+import FooterNew from '../components/Footer/FooterNew'
 
 
 function Driver() {
@@ -18,7 +19,7 @@ function Driver() {
             <GetGoingDriver />
             <CarouselDriver /> 
             <EarningsDriver /> 
-            {/* <Footer /> */}
+            <FooterNew />
 
         </div>
     )

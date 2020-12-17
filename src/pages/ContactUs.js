@@ -7,6 +7,7 @@ import BorderSpacing from '../components/BorderSpacing';
 import AboutUs from '../components/AboutUs';
 import WhyJoinUs from '../components/WhyJoinUs';
 import Contact from '../components/Contact';
+import FooterNew from '../components/Footer/FooterNew'
 
 
 function ContactUs() {
@@ -19,6 +20,7 @@ function ContactUs() {
       <AboutUs />
       <WhyJoinUs />
       <Contact />
+      <FooterNew />
     </>
   );
 }
