@@ -68,8 +68,34 @@
         box-shadow: black 1px 2px 5px 1px;
         border: 30%;
     } */
-    .HeroWhyJoinUsPage{
-        /* margin-top: -20em; */
+    .HeroWhyJoinUsPage h1{
+        margin-top: -7em;
+    }
+    .find_more{
+        margin-top: -0.5em !important;
+    }
+    .HeroWhyJoinUsPage h1 {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 12px;
+        line-height: 22px;
+        text-align: center;
+        letter-spacing: 2.8px;
+        text-transform: uppercase;
+        color: #C4C4C4 !important;
+        padding-top: 9em;
+    }
+    .HeroWhyJoinUsPage p {
+        /* font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold; */
+        font-size: 28px;
+        /* line-height: 50px;
+        text-align: center;
+        letter-spacing: -1px;
+        color: #FFFFFF;
+        padding-top: 0.2em; */
     }
   }
   @media (max-width: 376px) {

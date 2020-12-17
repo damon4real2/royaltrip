@@ -70,8 +70,12 @@
         box-shadow: black 1px 2px 5px 1px;
         border: 30%;
     } */
-    .HeroWhyJoinUsPage{
-        /* margin-top: -20em; */
+    .aaa{
+      margin: -2.2rem;
+      margin-top: 35px;
+    }
+    .FlexWhyJoinUsPage{
+      margin-top: 0em;
     }
   }
   @media (max-width: 376px) {

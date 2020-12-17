@@ -92,8 +92,8 @@
         box-shadow: black 1px 2px 5px 1px;
         border: 30%;
     } */
-    .HeroWhyJoinUsPage{
-        /* margin-top: -20em; */
+    img{
+        margin-left: -14px;
     }
   }
   @media (max-width: 376px) {
