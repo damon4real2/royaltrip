@@ -59,3 +59,49 @@
 .rightWhyJoinUs img {
     padding-top: 3em;
 }
+
+
+@media (min-width: 1024px) and (min-width: 1400px) {
+    .rightWhyJoinUs img{
+        margin-left: 80px !important;
+    }
+}
+
+/* iPad view */
+@media (max-width: 1024px) and (min-width: 768px) {
+    
+}
+@media only screen and (max-width: 768px) {
+    /* p{
+        color: black !important;
+    } */
+    .leftWhyJoinUs {
+        padding-left: 2em !important;
+    }
+    
+    .getStarted{
+        width: 95%;
+    }
+}
+@media (min-width: 577px) and (max-width: 768px) {
+    
+}
+ 
+  @media (min-width: 410px) and (max-width: 576px){
+    /* p{
+        color: black !important;
+    } */
+    /* .row{
+        box-shadow: black 1px 2px 5px 1px;
+        border: 30%;
+    } */
+    img{
+        margin-left: -14px;
+    }
+  }
+  @media (max-width: 376px) {
+    
+  }
+  @media (min-width: 320px) and (max-width: 410px){
+    
+  }

@@ -59,4 +59,35 @@
     .DriverWhyJoinUs {
         margin-top: 80em;
     }
+}/* Small screens */
+@media only screen and (max-width: 768px) {
+    .DriverWhyJoinUs {
+        margin-top: 45em;
+    }
 }
+@media (min-width: 1024px) and (min-width: 1400px) {
+    
+}
+
+/* iPad view */
+@media (max-width: 1024px) and (min-width: 768px) {
+    .DriverWhyJoinUs{
+        margin-top: 18em !important;
+    }
+}
+@media only screen and (max-width: 768px) {
+    
+}
+@media (min-width: 577px) and (max-width: 768px) {
+    
+}
+ 
+  @media (min-width: 410px) and (max-width: 576px){
+    
+  }
+  @media (max-width: 376px) {
+    
+  }
+  @media (min-width: 320px) and (max-width: 410px){
+    
+  }
