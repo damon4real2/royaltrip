@@ -1,0 +1,95 @@
+.CitiesDrivers {
+    padding-top: 5em;
+}
+.find_search {
+    width: 67em;
+    height: 4em;
+    border: 2px solid rgba(80, 31, 106, 0.3);
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin-left: 5em;
+    padding-right: 45em;
+}
+input[type=text]:focus {
+    border: 2px solid rgba(80, 31, 106, 0.3);
+  }
+.find_search::placeholder {
+    text-transform: capitalize;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 37px;
+    color: rgba(80, 31, 106, 0.4);
+}
+.select_countries {
+    width: 205px;
+    height: 57px;
+    border: 2px solid #000000;
+    box-sizing: border-box;
+    border-radius: 40px;
+    text-transform: capitalize;
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    color: #000000;
+    background: #FFFFFF;
+    margin-top: 3em;
+}
+.cities {
+    padding-left: 3em;
+}
+.cities a {
+    padding-top: 10em !important;
+}
+.CitiesDrivers h1 {
+    padding-top: 4em;
+    text-transform: uppercase;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 25px;
+    color: #333333 !important;
+}
+.CitiesDrivers a {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 58px;
+    text-decoration-line: underline;
+    color: #501F6A;
+    text-transform: capitalize;
+}
+.CitiesDrivers a:hover {
+    color: #501F6A !important;
+}
+.CitiesRiders {
+    padding-top: 5em;
+}
+.CitiesRiders h1 {
+    padding-top: 4em;
+    text-transform: uppercase;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 25px;
+    color: #333333 !important;
+}
+.CitiesRiders a {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 58px;
+    text-decoration-line: underline;
+    color: #501F6A;
+    text-transform: capitalize;
+}
+.CitiesRiders a:hover {
+    color: #501F6A !important;
+}

@@ -12,9 +12,9 @@ function FooterNew() {
               </Link>
               <div className="app_store-google_play">
                  {/* eslint-disable-next-line */}
-                <a href="https://www.apple.com/ng/ios/app-store/" target="_blank"><img className="" src={require("./assets/images/app-store.svg")} alt="flexbox" /></a>
+                <a href="https://www.apple.com/ng/ios/app-store/" target="_blank"><img className="app_store" src={require("./assets/images/app-store.svg")} alt="flexbox" /></a>
                  {/* eslint-disable-next-line */}
-                <a href="https://play.google.com/store/apps" target="_blank"><img className="" src={require("./assets/images/google-play.svg")} alt="flexbox" /><br></br></a>
+                <a href="https://play.google.com/store/apps" target="_blank"><img className="google_play" src={require("./assets/images/google-play.svg")} alt="flexbox" /><br></br></a>
               </div>
               <div className="question_1">
                 <img src={require("./assets/images/question.png")} alt="flexbox" />
@@ -36,10 +36,19 @@ function FooterNew() {
                   <a href='https://www.instagram.com/royaltrips_ng/' target='_blank' aria-label='Instagram'><img src={require("./assets/images/inst.png")} alt="flexbox" /></a>
                 </div>
                 <div class="p-2">
-                  <img src={require("./assets/images/youT.png")} alt="flexbox" />
+                  <a href={
+                  '//www.youtube.com/channel/UCsKsymTY_4BYR-wytLjex7A?view_as=subscriber'
+                    }
+                    rel='noopener noreferrer'
+                    target='_blank'
+                    aria-label='Youtube'
+                  >
+                  <img src={require("./assets/images/youT.png")} alt="flexbox" /></a>
                 </div>
                 <div class="p-2">
-                  <img src={require("./assets/images/pint.png")} alt="flexbox" />
+                  {/* eslint-disable-next-line */}
+                  <a href='https://www.linkedin.com/company/royal-trips/about/' target='_blank' aria-label='LinkedIn'>
+                  <img src={require("./assets/images/linkedIn.png")} alt="flexbox" /></a>
                 </div>
               </div>
               </div>
@@ -50,37 +59,39 @@ function FooterNew() {
                   <div className="col">
                     <h1>for riders</h1>
                       <div class="d-flex flex-column">
-                        <a className="p-2" href="/">sign in</a>
-                        <a className="p-2" href="/">sign up</a>
-                        <a className="p-2" href="/">find a driver</a>
-                        <a className="p-2" href="/">cities</a>
+                        <a className="p-2" href="/Rider">sign in</a>
+                        <a className="p-2" href="/Rider">sign up</a>
+                        <a className="p-2" href="/FindADriver">find a driver</a>
+                        <a className="p-2" href="/CitiesForRiders">cities</a>
                     </div>
                   </div>
                   <div className="col">
                     <h1>for drivers</h1>
                     <div class="d-flex flex-column">
-                      <a className="p-2" href="/">sign in</a>
-                      <a className="p-2" href="/">sign up</a>
-                      <a className="p-2" href="/">why join us?</a>
-                      <a className="p-2" href="/">cities</a>
+                      <a className="p-2" href="/Driver">sign in</a>
+                      <a className="p-2" href="https://forms.gle/uHkPzawq51gFprtA9">sign up</a>
+                      <a className="p-2" href="/WhyJoinUsPage">why join us?</a>
+                      <a className="p-2" href="/CitiesForDrivers">cities</a>
                     </div>
                   </div>
                   <div className="col">
                     <h1>our company</h1>
                       <div class="d-flex flex-column">
-                      <a className="p-2" href="/">about us</a>
-                      <a className="p-2" href="/">contact us</a>
-                      <a className="p-2" href="/">FAQ</a>
-                      <a className="p-2" href="/">privacy policy</a>
+                      <a className="p-2" href="/ContactUs">about us</a>
+                      <a className="p-2" href="/ContactUs">contact us</a>
+                      <a className="p-2" href="/FAQ">FAQ</a>
+                      <a className="p-2" href="/PrivacyPolicy">privacy policy</a>
                     </div>
                   </div>
                   <div className="col">
                     <h1>help</h1>
                     <div class="d-flex flex-column">
-                      <a className="p-2" href="/">forum</a>
-                      <a className="p-2" href="/">blog</a>
-                      <a className="p-2" href="/">talk to us</a>
-                      <a className="p-2" href="/">help line</a>
+                      {/* eslint-disable-next-line */}
+                      <a className="p-2" href="https://www.quora.com/profile/RoyalTrip" target='_blank'>forum</a>
+                      {/* eslint-disable-next-line */}
+                      <a className="p-2" href="https://medium.com/@royaltrip" target='_blank'>blog</a>
+                      <a className="p-2" href="/ContactUs">talk to us</a>
+                      <a className="p-2" href="/FAQ">help line</a>
                     </div>
                   </div>
                 </div>
