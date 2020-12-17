@@ -65,3 +65,42 @@
     line-height: 30px;
     color: #99811D;
 }
+
+@media (min-width: 1024px) and (min-width: 1400px) {
+    
+}
+
+/* iPad view */
+@media (max-width: 1024px) and (min-width: 768px) {
+    
+}
+@media only screen and (max-width: 768px) {
+    /* p{
+        color: black !important;
+    } */
+    .app_store-google_play{
+        display: inline-flex;
+    }
+}
+@media (min-width: 577px) and (max-width: 768px) {
+    
+}
+ 
+  @media (min-width: 410px) and (max-width: 576px){
+    /* p{
+        color: black !important;
+    } */
+    /* .row{
+        box-shadow: black 1px 2px 5px 1px;
+        border: 30%;
+    } */
+    .HeroWhyJoinUsPage{
+        /* margin-top: -20em; */
+    }
+  }
+  @media (max-width: 376px) {
+    
+  }
+  @media (min-width: 320px) and (max-width: 410px){
+    
+  }
