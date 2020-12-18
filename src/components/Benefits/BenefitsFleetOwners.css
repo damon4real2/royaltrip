@@ -1,0 +1,45 @@
+.BenefitsFleetOwners {
+    margin-top: 5.5em;
+}
+.BenefitsFleetOwners h1 {
+    text-transform: capitalize;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 48px;
+    color: #091133 !important;
+}
+.BenefitsFleetOwners p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #333333 !important;
+}
+.xtics {
+    margin-top: 2em;
+}
+.xtics img {
+    width: 35px;
+    height: 36px;
+}
+.xtics h1 {
+    font-family: IBM Plex Sans SemiBold;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 26px;
+    color: #091133 !important;
+    text-transform: capitalize;
+    margin-top: 1em;
+}
+.xtics p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    color: #384044 !important;
+}

@@ -3,10 +3,11 @@ import '../App.css';
 import NavbarFleetOwners from '../components/Navbar/NavbarFleetOwners';
 // import SidebarFleetOwners from '../components/SidebarFleetOwners';
 import HeroFleetOwners from '../components/Hero/HeroFleetOwners';
-// import GetGoingFleetOwners from '../components/GetGoing/GetGoingFleetOwners';
-// import CarouselFleetOwners from '../components/Carousel/CarouselFleetOwners'
-// import EarningsFleetOwners from '../components/Earnings/EarningsFleetOwners'
-// import Footer from '../components/Footer'
+import BenefitsFleetOwners from '../components/Benefits/BenefitsFleetOwners';
+import Data from '../components/Flexbox/Data';
+import ReduceCosts from '../components/Flexbox/ReduceCosts';
+import Fleet from '../components/Flexbox/Fleet';
+import FooterNew from '../components/Footer/FooterNew';
 
 
 function FleetOwners() {
@@ -15,10 +16,11 @@ function FleetOwners() {
             <NavbarFleetOwners />
             {/* <SidebarFleetOwners /> */}
             <HeroFleetOwners />
-            {/* <GetGoingFleetOwners />
-            <CarouselFleetOwners /> 
-            <EarningsFleetOwners />  */}
-            {/* <Footer /> */}
+            <BenefitsFleetOwners />
+            <Data /> 
+            <ReduceCosts /> 
+            <Fleet />
+            <FooterNew />
 
         </div>
     )

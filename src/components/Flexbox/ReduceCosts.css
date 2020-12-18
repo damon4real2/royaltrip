@@ -1,0 +1,20 @@
+.ReduceCosts {
+  margin-top: 2em;
+}
+.ReduceCosts h1 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 48px;
+  color: #091133 !important;
+  margin-top: 5em;
+}
+.ReduceCosts p {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  color: #333333 !important;
+}

@@ -1,0 +1,26 @@
+.Fleet {
+  margin-top: 2em;
+}
+.Fleet h1 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 48px;
+  color: #091133 !important;
+  padding-left: 1em;
+  margin-top: 4.5em;
+}
+.Fleet p {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  color: #333333 !important;
+  padding-left: 2.5em;
+}
+.fleet_bottom {
+  margin-left: -10.4em !important;
+  margin-top: -9em;
+}
