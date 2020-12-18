@@ -1,0 +1,37 @@
+.FlexCol {
+  width: 10%;
+}
+.FlexBusiness img {
+  margin-bottom: 0.5em;
+  margin-left: 0px !important;
+}
+.FlexBusiness h4 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  letter-spacing: 0.1px;
+  color: #252B42;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  /* margin: 10px 0px; */
+  text-transform: capitalize;
+}
+.FlexBusiness p {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #374754;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin-bottom: 3em;
+  /* margin: 10px 0px; */
+}

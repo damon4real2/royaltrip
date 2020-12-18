@@ -81,6 +81,7 @@ function FooterNew() {
                       <a className="p-2" href="/ContactUs">contact us</a>
                       <a className="p-2" href="/FAQ">FAQ</a>
                       <a className="p-2" href="/PrivacyPolicy">privacy policy</a>
+                      <a className="p-2" href="/FleetOwners">fleet owners</a>
                     </div>
                   </div>
                   <div className="col">

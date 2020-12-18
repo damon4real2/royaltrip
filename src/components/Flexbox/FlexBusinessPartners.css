@@ -1,0 +1,18 @@
+.FlexBusinessPartners {
+  margin-top: 7em;
+}
+.FlexBusinessPartners h1 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 55px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #252B42 !important;
+  text-transform: capitalize;
+  margin-bottom: 1em;
+}
+.FlexBusinessPartners img {
+  margin-bottom: 3em;
+}

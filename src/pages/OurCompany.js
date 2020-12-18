@@ -14,7 +14,6 @@ import MessageInput from "../components/MessageInput";
 // import EarningsRider from '../components/Earnings/EarningsRider'
 // import Footer from '../components/Footer'
 // import '../components/css/Footer.css'
-import FooterNew from '../components/Footer/FooterNew'
 
 
 function Rider() {
@@ -32,7 +31,7 @@ function Rider() {
             {/* <GetGoingRider /> */}
             {/* <CarouselRider />  */}
             {/* <EarningsRider />  */}
-            <FooterNew />
+            {/* <Footer /> */}
 
         </div>
     )

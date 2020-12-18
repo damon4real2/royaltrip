@@ -1,0 +1,44 @@
+.FlexboxBusiness {
+  margin-top: 5em;
+  background: rgba(80, 31, 106, 0.1);
+}
+.FlexboxBusiness h1 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 55px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #501F6A !important;
+  text-transform: capitalize;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em !important;
+}
+.flexboxBusiness {
+  padding-left: 36px;
+}
+.feedback {
+  color: #501F6A;
+}
+sub {
+  margin-bottom: 2em !important;
+  color: #501F6A;
+}
+
+.read_more {
+  width: 105px;
+  height: 40px;
+  margin: 1em 2em 5em -3.5em !important;
+  background: #99811D;
+  box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 19px;
+  text-align: center;
+  color: #FFFFFF;
+  text-transform: capitalize;
+}

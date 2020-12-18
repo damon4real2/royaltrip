@@ -3,8 +3,7 @@ import '../App.css';
 import Navbar from '../components/Navbar';
 // import SidebarHome from '../components/SidebarHome';
 import TermsOfUsePolicy from '../components/TermsOfUsePolicy'
-// import Footer from '../components/Footer'
-import FooterNew from '../components/Footer/FooterNew'
+import Footer from '../components/Footer'
 
 
 function TermsOfUse() {
@@ -13,7 +12,7 @@ function TermsOfUse() {
       <Navbar /> 
       {/* <SidebarHome /> */}
       <TermsOfUsePolicy />
-      <FooterNew />
+      <Footer />
     </>
   );
 }

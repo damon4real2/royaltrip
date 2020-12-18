@@ -30,7 +30,7 @@ const NavbarWhyJoinUs = (props) => {
               <NavLink href="/Drivers">Drivers</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="/Rider">Riders</NavLink>
+              <NavLink href="/Riders">Riders</NavLink>
             </NavItem>
             <NavItem>
               <NavLink href="/CitiesForRiders">Cities</NavLink>

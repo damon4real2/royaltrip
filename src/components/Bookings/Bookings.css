@@ -1,0 +1,91 @@
+.Bookings {
+    margin-top: 4em;
+}
+.bookings_left {
+    padding-left: 7em !important;
+}
+.Bookings h1 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0.1px;
+    color: #252B42 !important;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin-top: 3em;
+}
+.Bookings p {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 55px;
+    letter-spacing: 0.2px;
+    color: #252B42 !important;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    /* margin: 10px 0px; */
+}
+.Bookings p1 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0.1px;
+    color: #252B42 !important;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 10px 0px;
+}
+.Bookings p2 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0.2px;
+    color: #374754 !important;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 10px 0px;
+}
+.your_email {
+    background: #F4F4F4;
+    border: 1px solid #E8E8E8;
+    box-sizing: border-box;
+    border-radius: 39px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 12px 0px;
+    text-transform: capitalize;
+    width: 273px;
+    height: 54px;
+    margin-left: -1em !important;
+    padding-right: 6.5em !important;
+}
+.subscribe {
+    margin-left: 7em;
+    width: 177px;
+    height: 58px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #501F6A;
+    border-radius: 35px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    text-transform: capitalize;
+    padding-top: 0.89em !important;
+    margin-top: 0.6em;
+}

@@ -37,7 +37,7 @@ const NavbarWhyJoinUs = (props) => {
         <Collapse isOpen={isOpen} navbar>
           <Nav className="ml-auto" navbar>
             <NavItem>
-              <NavLink href="/Rider">Rider</NavLink>
+              <NavLink href="/Riders">Rider</NavLink>
             </NavItem>
             <NavItem>
               <NavLink href="/Business">Business</NavLink>

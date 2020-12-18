@@ -64,8 +64,8 @@
  .navbar-nav > li > .dropdown-menu a{   color: #000000 !important;  }
 
  .bg-light {
-   background-color: #FFFFFF !important;
- }
+  background-color: transparent !important;
+}
 .active {
   height: 2.5em !important;
   border-radius: 0px;
@@ -94,7 +94,7 @@
     left: 0px;
     top: 0px;
     min-width: -webkit-fill-available;
-    background-color: #ffffff !important;
+    background-color: transparent !important;
   }
   .navbar-toggler-icon {
       top: -3px;
