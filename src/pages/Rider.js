@@ -6,8 +6,8 @@ import HeroRider from '../components/Hero/HeroRider';
 import GetGoingRider from '../components/GetGoingRider';
 import CarouselRider from '../components/Carousel/CarouselRider'
 import EarningsRider from '../components/Earnings/EarningsRider'
-import FooterNew from '../components/FooterNew'
-import '../components/css/Footer.css'
+import FooterNew from '../components/Footer/FooterNew'
+// import '../components/css/Footer.css'
 
 
 function Rider() {

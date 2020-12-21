@@ -12,7 +12,7 @@ import MessageInput from "../components/MessageInput";
 // import GetGoingRider from '../components/GetGoingRider';
 // import CarouselRider from '../components/Carousel/CarouselRider'
 // import EarningsRider from '../components/Earnings/EarningsRider'
-import FooterNew from '../components/FooterNew'
+import FooterNew from '../components/Footer/FooterNew'
 // import '../components/css/Footer.css'
 
 

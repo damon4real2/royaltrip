@@ -3,7 +3,7 @@ import '../App.css';
 import Navbar from '../components/Navbar';
 // import SidebarHome from '../components/SidebarHome';
 import TermsOfUsePolicyRiders from '../components/TermsOfUsePolicyRiders'
-import FooterNew from '../components/FooterNew'
+import FooterNew from '../components/Footer/FooterNew'
 
 
 function TermsOfUse() {
