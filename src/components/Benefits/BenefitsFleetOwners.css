@@ -43,3 +43,21 @@
     line-height: 18px;
     color: #384044 !important;
 }
+
+@media screen and (max-width: 768px) {
+    .benefitImg{
+        height: 30em;
+        width: 38em;
+        margin-left: -12em;
+    }
+    /* .benefitRight{
+        height: 30em;
+        width: 38em;
+        margin-left: -12em;
+    }
+    .benefitLeft{
+        height: 300em;
+        width: 38em;
+        margin-left: -12em;
+    } */
+  }

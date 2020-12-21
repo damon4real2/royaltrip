@@ -6,7 +6,7 @@ import HeroRider from '../components/Hero/HeroRider';
 import GetGoingRider from '../components/GetGoingRider';
 import CarouselRider from '../components/Carousel/CarouselRider'
 import EarningsRider from '../components/Earnings/EarningsRider'
-import Footer from '../components/Footer'
+import FooterNew from '../components/FooterNew'
 import '../components/css/Footer.css'
 
 
@@ -19,7 +19,7 @@ function Rider() {
             <GetGoingRider />
             <CarouselRider /> 
             <EarningsRider /> 
-            <Footer />
+            <FooterNew />
 
         </div>
     )
