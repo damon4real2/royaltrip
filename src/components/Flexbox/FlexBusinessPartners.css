@@ -16,3 +16,12 @@
 .FlexBusinessPartners img {
   margin-bottom: 3em;
 }
+
+@media screen and (max-width: 768px) {
+  .FlexBusinessPartners img {
+    margin-left: 0em ;
+    width: 17em ;
+    height: 30em;
+    margin-top: -15em;
+  }
+}

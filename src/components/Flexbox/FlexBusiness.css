@@ -35,3 +35,10 @@
   margin-bottom: 3em;
   /* margin: 10px 0px; */
 }
+
+@media screen and (max-width: 768px) {
+  .FlexBusiness img {
+    width: 60px !important;
+    height: 60px !important;
+  }
+}

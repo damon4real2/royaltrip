@@ -42,3 +42,11 @@ sub {
   color: #FFFFFF;
   text-transform: capitalize;
 }
+
+@media screen and (max-width: 768px) {
+  .FlexboxBusiness img {
+    margin-left: -53px !important;
+    margin-top: 42px;
+  }
+  
+}

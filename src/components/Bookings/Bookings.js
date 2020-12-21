@@ -6,14 +6,15 @@ function Bookings() {
   return (
       <div className="container Bookings">
           <div className="row">
-            <div className="col-7">
-              <img src={require("./assets/images/book_ride.png")} alt="right_img" />
-            </div>
+            
             <div className="col-5 bookings_left">
               <h1>At your fingertips</h1>
               <p>Book a ride for your people now!</p>
               <p1>Subscribe to our Newsletter</p1><br></br>
               <p2>Available exclusively on RoyalTrip</p2>
+              <div className="col-7">
+              <img src={require("./assets/images/book_ride.png")} alt="right_img" />
+            </div>
               <div class="container">
                 <div class="row">
                   <div class="col-md-6">

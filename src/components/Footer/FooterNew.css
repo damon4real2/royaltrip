@@ -1,6 +1,13 @@
 .FooterNew {
     margin-top: 5em;
     background: #F9F9F9;
+    /* display: grid; */
+
+}
+
+.row{
+    display: grid;
+    grid-template-columns: 2fr 2fr  !important;
 }
 .FooterNew img {
     cursor: pointer;

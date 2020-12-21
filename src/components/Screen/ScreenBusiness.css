@@ -1,0 +1,7 @@
+@media screen and (max-width: 768px) {
+    .ScreenBusiness img {
+        width: 35em !important;
+        height: 30em;
+        margin-left: -90px;
+    }
+  }
