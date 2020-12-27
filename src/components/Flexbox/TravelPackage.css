@@ -1,0 +1,43 @@
+.TravelPackage {
+  margin-top: 2.5em;
+}
+.Illustrator {
+  margin-left: -9em;
+}
+.TravelPackage h2 {
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 56px;
+  color: #000000;
+  mix-blend-mode: normal;
+  margin-top: 4.5em;
+}
+.Protect-block {
+  width: 56px;
+  height: 2px;
+}
+.TravelPackage h3 {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 30px;
+  color: #7D7987;
+  mix-blend-mode: normal;
+}
+.learn_more {
+  border: 1.4px solid #501F6A;
+  box-sizing: border-box;
+  border-radius: 55px;
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  /* line-height: 60px; */
+  color: #501F6A;
+  mix-blend-mode: normal;
+  height: 56px;
+  width: 200px;
+  margin-top: 4em;
+}

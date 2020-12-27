@@ -73,8 +73,9 @@
   .HeroBusinessText h2 {
     font-size: 20px;
   }
-  img {
+  .HeroBusiness img {
     width: 26em !important;
+    height: 30em;
   }
   .HeroBusinessText {
     bottom: 135px !important;

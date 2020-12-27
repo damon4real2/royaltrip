@@ -1,0 +1,18 @@
+.img-fluid {
+  margin-left: 0px;
+}
+.HeroInsuranceText h1 {
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 68px;
+  color: #FFFFFF !important;
+  text-shadow: 0px 6px 10px rgba(0, 0, 0, 0.2);
+}
+.HeroInsuranceText {
+  width: 30em;
+  text-align: left !important;
+  margin-bottom: -2em !important;
+  line-height: 1px !important;
+}

@@ -24,3 +24,10 @@
   margin-left: -10.4em !important;
   margin-top: -9em;
 }
+
+@media screen and (max-width: 768px) {
+  .Fleet img {
+    margin-left: -6em;
+  }
+  
+}

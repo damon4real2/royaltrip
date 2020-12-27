@@ -15,9 +15,9 @@ function Fleet () {
             <img src={require('./assets/images/fleet.png')} alt="Fleet_img" />
           </div>
         </div>
-        {/* <div className="col-12 fleet_bottom"> */}
-          {/* <img className="fleet_bottom" src={require('./assets/images/fleet_bottom.png')} alt="Fleet_img" /> */}
-        {/* </div> */}
+        <div className="coatrc l-12 fleet_bottom">
+          <img className="fleet_bottom" src={require('./assets/images/fleet_bottom.png')} alt="Fleet_img" />
+        </div>
       </div>
     );
 }

@@ -11,7 +11,7 @@ function HeroFleetOwners() {
               <button className="get-started">get started</button>
             </div>
             <div className="col-7">
-              <img className="right_hero_img" src={require("./assets/images/alone.png")} alt="flexbox" />
+              <img className="right_hero_img" src={require("./assets/images/alone.svg")} alt="flexbox" />
             </div>
         </div>
       </div>

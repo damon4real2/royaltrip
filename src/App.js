@@ -19,6 +19,7 @@ import CitiesForDrivers from './pages/CitiesForDrivers';
 import CitiesForRiders from './pages/CitiesForRiders';
 import Business from './pages/Business';
 import FleetOwners from './pages/FleetOwners';
+import Insurance from './pages/Insurance';
 // import SignUpToDriveForm from './components/SignUpToDriveForm2';
 // import SignUpToDriveForm3 from './components/SignUpToDriveForm3';
 // import signUpToDriveForm4 from './components/SignUpToDriveForm4';
@@ -54,6 +55,7 @@ function App() {
           <Route path='/CitiesForRiders' component={CitiesForRiders} />
           <Route path='/Business' component={Business} />
           <Route path='/FleetOwners' component={FleetOwners} />
+          <Route path='/Insurance' component={Insurance} />
           {/* <Route path='/signUpToDriveForm2' component={SignUpToDriveForm} />
           <Route path='/signUpToDriveForm3' component={SignUpToDriveForm3} />
           <Route path='/signUpToDriveForm4' component={signUpToDriveForm4} />

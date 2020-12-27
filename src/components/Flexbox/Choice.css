@@ -1,0 +1,32 @@
+.Choice h1 {
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 56px;
+  color: #000000 !important;
+  text-align: center;
+  padding-top: 2em;
+}
+.Protect_block {
+  background: #000000;
+  border-radius: 5px;
+  text-align: center;
+  margin-top: 2.5em;
+}
+.Choice p {
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: center;
+  color: #7D7987;
+  padding-top: 3em;
+  width: 962px !important;
+}
+.block_insurance {
+  height: 114.99999237060547px;
+  width: 131.58103942871094px;
+  border-radius: 0px;
+}
