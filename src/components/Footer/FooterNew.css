@@ -91,4 +91,24 @@
         padding-left: 12em;
         padding-top: -0.9em;
     } */
+    .footer_logo {
+        margin-left: -11em;
+    }
+    .app_store-google_play {
+        display: flex;
+        margin-left: -13em;
+        padding-top: 2.75em;
+    }
+    .question_1 {
+        display: flex;
+        padding-top: 3.55em;
+        margin-left: -11.75rem;
+    }
+    .question_1 a {
+        margin-top: -0.2em;
+    }
+    .social_link {
+        margin-left: -12.5rem !important;
+        margin-top: 1em;
+    }
 }

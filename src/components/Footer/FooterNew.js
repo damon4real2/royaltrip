@@ -8,7 +8,7 @@ function FooterNew() {
           <div className="row">
             <div className="col-4 FooterImg">
               <Link to="/">
-                <img className="" src={require("./assets/images/logo.svg")} alt="flexbox" /><br></br>
+                <img className="footer_logo" src={require("./assets/images/logo.svg")} alt="flexbox" /><br></br>
               </Link>
               <div className="app_store-google_play">
                  {/* eslint-disable-next-line */}

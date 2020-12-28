@@ -38,9 +38,6 @@ const Example = (props) => {
             <NavItem className="nav">
               <NavLink href="/Rider">Rider</NavLink>
             </NavItem>
-            {/* <NavItem>
-              <NavLink href="/logIn">Log In</NavLink>
-            </NavItem> */}
             <UncontrolledDropdown nav inNavbar>
               <DropdownToggle nav className="nav-sign-up">
                 Sign Up
@@ -52,9 +49,6 @@ const Example = (props) => {
                   </NavItem>
                 </DropdownItem>
                 <DropdownItem>
-                  {/* <NavItem>
-                    <NavLink href="/applyToRide">Apply to ride</NavLink>
-                  </NavItem> */}
                 </DropdownItem>
               </DropdownMenu>
             </UncontrolledDropdown>
