@@ -96,19 +96,47 @@
   padding-top: 0.8em !important;
   margin-top: 1.5em;
 }
-@media only screen and (min-width: 320px) and (max-width: 767px) {
-  .active {
-    padding-top: 1em;
-    margin-top: 2em;
-    margin-left: 2em;
+@media only screen and (max-width: 768px) {
+  .send_button {
+    font-size: 15px !important;
+    width: 133px;
+    height: 45px;
+    padding-bottom: 2em !important;
   }
 }
-
-@media only screen and (max-width: 657px) and (min-width: 627px) {  
-  .active {
-    margin-left: -6em;
+@media only screen and (max-width: 800px) and (min-width: 600px) {  
+  .enter_message1, .enter_message2, .enter_message3 {
+    margin-right: 0.5em;
   }
-  .feature-a, .feature-c {
-    margin-left: -11.8em;
+}
+@media only screen and (max-width: 330px) {
+  .MessageInput h1 {
+  font-size: 30px;
+  }
+  .enter_message1, .enter_message2 {
+    height: 2.5em;
+  }
+  .enter_message1, .enter_message2, .enter_message3 {
+    width: 16em;
+    padding-left: 1em;
+  }
+}
+@media only screen and (min-width: 330px) and (max-width: 360px) {
+  .enter_message1, .enter_message2 {
+    height: 2.5em;
+  }
+  .enter_message1, .enter_message2, .enter_message3 {
+    width: 18em;
+    padding-left: 1em;
+  }
+}
+@media only screen and (min-width: 361px) and (max-width: 414px) {
+  .enter_message1, .enter_message2 {
+    height: 2.5em;
+  }
+  .enter_message1, .enter_message2, .enter_message3 {
+    width: 20em;
+    padding-left: 1em;
+    margin-right: 0.75em;
   }
 }

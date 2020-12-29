@@ -25,8 +25,8 @@
   .AboutUsDetails p {
     padding-top: 1em;
     padding-bottom: 1em;
-    padding-left: 19em;
-    padding-right: 19em;
+    padding-left: 18em;
+    padding-right: 18em;
     font-family: IBM Plex Sans Light;
     text-align: justify;
   }
@@ -52,4 +52,22 @@
     line-height: 25px;
     text-align: center;
     color: #747578;
+  }
+
+  @media screen and (max-width: 768px) {
+    .AboutUsDetails h1 {
+      font-size: 27px;
+    }
+    .AboutUsDetails p {
+      padding-top: 2em;
+      padding-bottom: 1em;
+      padding-left: 3em;
+      padding-right: 3em;
+    }
+    .AboutUsDetails h3 {
+      padding-top: 2em;
+      padding-bottom: 1em;
+      padding-left: 3em;
+      padding-right: 3em;
+    }
   }

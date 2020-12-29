@@ -37,21 +37,44 @@
     font-size: 12px !important;
     line-height: 15px !important;
     padding-top: 13.75px !important;
-    margin-left: 49em !important;
+    margin-left: 49em;
   }
   @media screen and (max-width: 768px) {
-   
+    .WhoWeAre h1 {
+      font-size: 27px;
+    }
+    .WhoWeAre p {
+      padding-top: 2em;
+      padding-bottom: 1em;
+      padding-left: 3em;
+      padding-right: 3em;
+    }
   }
   
   
   /* Mobile view */
-  @media screen and (max-width: 400px) {
-    
+  @media screen and (max-width: 409px) {
+    .readMore {
+      margin-left: 7em !important;
+      width: 185px;
+      height: 45px;
+    }
+  }
+  @media screen and (min-width: 410px) and (max-width: 599px) {
+    .readMore {
+      margin-left: 8em !important;
+      width: 185px;
+      height: 45px;
+    }
   }
   /* Tablet view */
-  @media (min-width: 401px) and (max-width: 768px) {
-    
+  @media (min-width: 600px) and (max-width: 800px) {
+    .readMore {
+      margin-left: 17em !important;
+      width: 205px;
+      height: 45px;
   }
+}
   /* iPad view */
   @media (min-width: 768px) and (max-width: 1024px) {
    

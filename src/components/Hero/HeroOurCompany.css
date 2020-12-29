@@ -49,7 +49,6 @@
   margin-top: -0.2em;
   font-family: Montserrat ExtraLight;
   width: 659px;
-  /* margin-bottom: 2em; */
 }
 
 .our-company-read_more {
@@ -64,7 +63,6 @@
   font-size: 12px;
   line-height: 15px;
   letter-spacing: 2.4px;
-  /* margin-top: 2em; */
 }
 
 
@@ -78,26 +76,63 @@
     width: 30em !important;
   }
 }
-
-
-@media only screen and (min-width: 399px) and (max-width: 624px) {
-  .HeroOurCompanyText h2 {
-    width: 34% !important;
+@media only screen and (min-width: 600px) and (max-width: 800px) {
+  .heroText {
+    margin-bottom: 0em !important;
+    margin-left: -10em;
+  }
+  .our-company-read_more {
+    margin-right: 58em;
   }
 }
 
-@media only screen and (min-width: 321px) and (max-width: 398px) {
+@media only screen and (max-width: 409px) {
   .HeroOurCompanyText h1 {
     font-size: 36px;
-    /* padding-left: 0.2em; */
   }
  .HeroOurCompanyText h2 {
     width: 14em !important;
  }
+  .heroText {
+    margin-bottom: -4em !important;
+    margin-left: -12em;
+  }
+  .our-company-read_more {
+    width: 200px;
+    height: 40px;
+    justify-content: left !important;
+    margin-top: 2em;
+    font-size: 12px !important;
+    margin-left: -25.5em;
+  }
+}
+
+@media only screen and (min-width: 410px) and (max-width: 599px) {
+  .heroText {
+    margin-bottom: -2em !important;
+    margin-left: -12em;
+  }
+  .HeroOurCompanyText h1 {
+    font-size: 36px;
+  }
+  .HeroOurCompanyText h2 {
+    width: 18em !important;
+ }
+ .our-company-read_more {
+  width: 200px;
+  height: 40px;
+  justify-content: left !important;
+  margin-top: 2em;
+  font-size: 12px !important;
+  margin-left: -22em;
+  }
 }
 
 @media only screen and (max-width: 320px) {
 .HeroOurCompanyText h2 {
     padding-right: 1.1em !important;
+  }
+  .our-company-read_more {
+    margin-left: -29.5em;
   }
 }

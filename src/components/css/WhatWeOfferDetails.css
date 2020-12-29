@@ -31,7 +31,7 @@
 .our_offer1 {
   color: #ffffff !important;
   text-align: center;
-  text-transform: uppercase;
+  text-transform: uppercase !important;
   padding-top: 2em;
   padding-bottom: 3em;
   padding-left: 17.1em;
@@ -39,7 +39,7 @@
   font-family: Montserrat Regular;
   font-style: normal;
   font-weight: 600;
-  font-size: 17px;
+  /* font-size: 17px; */
   line-height: 21px;
 }
 .ruler1 {
@@ -60,10 +60,86 @@
   width: 36em;
   padding-right: 2.5em;
 }
-  @media screen and (max-width: 768px) {
-   
+@media screen and (max-width: 768px) {
+  .WhatWeOfferDetails h1 {
+    padding-top: 1em;
+    font-size: 27px;
   }
-  
+  .drive {
+    display: none;
+  }
+  .details p {
+    text-align: center;
+  }
+}
+@media screen and (min-width: 600px) and (max-width: 800px) {
+  .care {
+    width: 13em !important;
+    margin-left: -6.3em !important;
+  }
+  .mediator1 {
+    padding-left: 9em !important;
+    margin-top: -2.5em;
+  }
+  .details p {
+      padding-top: 2.5em;
+  }
+}
+  @media screen and (min-width: 370px) and (max-width: 385px) {
+    .mediator1 {
+      margin-left: 0.5em !important;
+      margin-top: -3em;
+    }
+  }
+  @media screen and (min-width: 386px) and (max-width: 420px) {
+    .care {
+      width: 10em;
+      text-decoration: underline;
+      margin-left: -11em !important;
+    }
+    .mediator1 {
+      margin-top: -3em;
+    }
+  }
+  @media screen and (max-width: 330px) {
+    .WhatWeOfferDetails {
+      height: 54em;
+  }
+    .WhatWeOfferDetails h1 {
+      font-size: 27px;
+  }
+  .mediator1 {
+    padding-left: 1.6em !important;
+    margin-top: -4.5em !important;
+  }
+    .care {
+      width: 13em !important;
+      margin-left: -15.5em !important;
+    }
+    .details p {
+      font-size: 12px !important;
+      width: 24em !important;
+      margin-left: 1em !important;
+      padding-top: 1.5em;
+    }
+}
+@media screen and (min-width: 331px) and (max-width: 369px) {
+  .care {
+    width: 13em !important;
+    margin-left: -14.5em !important;
+  }
+  .mediator1 {
+    margin-left: 0em !important;
+    margin-top: -3em;
+  }
+    .details p {
+      font-size: 12px !important;
+      width: 24em !important;
+      margin-left: 1em !important;
+      padding-top: 1.5em;
+      padding-right: 0px !important;
+    }
+  }
   
   /* Mobile view */
   @media screen and (max-width: 400px) {

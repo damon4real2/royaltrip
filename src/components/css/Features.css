@@ -52,6 +52,34 @@
   }
 }
  @media only screen and (max-width: 599px) {
+   .first-feature {
+    margin-left: -0.5em;
+    margin-top: -2em;
+}
+.first-feature-b {
+    margin-left: 0em;
+    margin-top: -0.8em;
+   }
+  .middle {
+    margin-left: -1em;
+    position: relative;
+    top: 1.4em;
+  }
+  .middle-title {
+    margin-left: -1.5em;
+    margin-top: 1em;
+  }
+  .middle-text {
+    margin-left: -2em;
+    margin-top: -1em;
+  }
+  .ride {
+    margin-top: -3em;
+  }
+  .end {
+    margin-top: -1em;
+    line-height: 21px;
+  }
   .feature-c {
     margin-top: 11em !important;
   }

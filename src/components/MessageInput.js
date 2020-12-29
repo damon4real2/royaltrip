@@ -8,8 +8,8 @@ export class MessageInput extends Component {
       <div className="MessageInput container">
         <div className="row">
           <div className="col-md-5">
-            <h1>Let us handle your project, professionally.</h1>
-            <p>With well written codes, we build amazing apps for all platforms, mobile and web apps in general.</p>
+            <h1>We love to hear from you.</h1>
+            <p>Send us your message via the form, we love to hear from you.</p>
           </div>
           <div className="col-md-7 enter_message">
             <label>
