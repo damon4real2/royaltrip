@@ -77,7 +77,8 @@
     position: absolute;
     width: 237px;
     height: 18px;
-    right: 752px;
+    margin-left: 34em;
+    /* right: 752px; */
     top: 436px;
     font-family: IBM Plex Sans Light;
     font-style: normal;
@@ -129,7 +130,7 @@
         top: 355px;
     }
     .agreement {
-        left: 22.4%;
+        /* left: 22.4%; */
         top: 23.8em;
         position: relative;
     }
@@ -157,7 +158,8 @@
         top: 365px;
     }
     .agreement {
-        left: 15.4%;
+        margin-left: 7em;
+        /* left: 15.4%; */
         top: 24.4em;
         position: relative;
     }
@@ -166,9 +168,12 @@
     }
 }
 
-@media only screen and (min-width: 360px) and (max-width: 370px) {
+@media only screen and (min-width: 360px) and (max-width: 420px) {
     .termsOfService p1{
     width: 314px;
+    }
+    .agreement {
+        margin-left: 6em;
     }
 }
 
@@ -196,7 +201,8 @@
         top: 335px;
     }
     .agreement {
-        left: 19.4%;
+        margin-left: 4.5em;
+        /* left: 19.4%; */
         top: 22.2em;
     }
     #apply {
@@ -227,13 +233,13 @@
         top: 380px;
     }
     .agreement {
-        right: 620px;
+        /* right: 620px; */
         top: 380px;
     }
 }
 
-@media (min-width: 1025px) and (max-width: 1366px) {
+@media (min-width: 1025px) and (max-width: 1440px) {
     .agreement {
-        right: 683px;
+        /* right: 657px; */
     }
 }
