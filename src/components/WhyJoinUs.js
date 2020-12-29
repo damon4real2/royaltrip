@@ -26,7 +26,7 @@ function WhyJoinUs() {
               <div className="fourth">
                 <img className="grid grid4" src={require("../assets/images/about7.svg")} alt="grid-img" />
                 <h1>Incentive</h1>
-                <h2>We want to ensure that the legal rights of members in our community is rightly protected to protect our members from...</h2>
+                <h2>We are glad to have you partner with us, which is why we have rewards to encourage excellence and the drive to constantly improve to serve you better.</h2>
               </div>
             </div>
         </div>
