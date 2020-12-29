@@ -20,7 +20,7 @@ function WhyJoinUs() {
               </div>
               <div className="third">
                 <img className="grid grid3" src={require("../assets/images/about6.svg")} alt="grid-img" />
-                <h1>Legal Support</h1>
+                <h1>Fair Hearing</h1>
                 <h2>We offer legal support where any party feels his or her right is being infringed upon during a Royal Trip ride.</h2>
               </div>
               <div className="fourth">
