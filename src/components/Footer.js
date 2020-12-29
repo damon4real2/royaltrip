@@ -105,7 +105,7 @@ function Footer() {
               <a href="https://www.quora.com/profile/RoyalTrip" target='_blank'>Forum</a>
               {/* eslint-disable-next-line */}
               <a href="https://medium.com/@royaltrip" target='_blank'>Blog</a>
-              <a href="/ContactUs">Talk To Us</a>
+              <a href="/https://direct.lc.chat/12476826/">Talk To Us</a>
               <a href="/FAQ">Help</a>
             </FooterLinkItems>
           </FooterLinksWrapper>
