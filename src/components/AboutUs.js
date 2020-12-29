@@ -13,7 +13,7 @@ function AboutUs() {
               <h1>about our company</h1>
               <h2>Times and moments in life is where we find experiences, memories of love, joy and laughter. Lets help you relive them, lets get you there.</h2>
               <img className="thin-block" src={require("../assets/images/thin-slant-block.svg")} alt="rectangle" />
-              <h3>Equality is the basis of genuine acceptance, we accept you for who you are, and we want to be what drives you to where you want to go.</h3>
+              <h3>Equality is the basis to genuine acceptance, we accept you for who you are, and we want to be what drives you to where you want to go.</h3>
               <h4>In pursuit of purpose? lets get you there</h4>
               <Button className="get-started-button4">get started</Button>{' '}
               <Button className="get-started-button5">learn more</Button>{' '}

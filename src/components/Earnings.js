@@ -28,7 +28,7 @@ function Earnings() {
             <p2>Earnings, Self reliance, and Support</p2>
             <p3>See how Mariam, Tolu, Usman, and Emeka use RoyalTrip to drive and cash out big time!</p3>
             <div className="Quote">
-              <p4>“My joy in this partnership is the benefit that comes with driving on RoyalTrip platform. Owning a home within 6 months, Access to hire purchase within 3 months is not something I get to hear, except with royaltrip drivers.<br></br><br></br>— Seun”</p4>
+              <p4>“My joy in this partnership is the benefit that comes with driving on RoyalTrip platform. Owning a home within 6 months, Access to hire purchase within 3 months is not something i get to hear, except with royaltrip drivers.<br></br><br></br>— Seun”</p4>
             </div>
           </div>
         
