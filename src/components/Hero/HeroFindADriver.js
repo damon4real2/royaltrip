@@ -10,7 +10,7 @@ function HeroRider() {
                 <div className="carousel-caption caption-rider">
                   <h1>Welcome to RoyalTrip!</h1>
                   <h2>You’re one step ahead to finding a Driver.</h2>
-                  <h3>Every day, we collect customers' feedback, iterate on ideas to reach more people and serve you better. Our commitment is to give you a safe,  comfortable and delightful experience with RoyalTrip! use these links below to get our App and find a Driver Now!...</h3>
+                  <h3>Every day, we collect customers' feedback, implement ideas and to serve you better. Our commitment is to give you a safe,  comfortable and delightful experience with RoyalTrip! use these links below to get our App and find a Driver Now!...</h3>
                   <div className="appstore-playstore3">
                     <a href="https://www.apple.com/ng/ios/app-store/"><img src={require("./assets/images/app-store.svg")} alt="app-store" className="appstore-3" /></a>
                     <a href="https://play.google.com/store/apps"><img src={require("./assets/images/google-play.svg")} alt="google-play" className="googleplay-3" /></a>
