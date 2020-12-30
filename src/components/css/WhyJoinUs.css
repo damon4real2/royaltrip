@@ -5,7 +5,7 @@
   left: 0%;
 right: 0%;
 }
-.WhyJoinUs h3 {
+.WhyJoinUs h1 {
   text-transform: capitalize;
   position: absolute;
 height: 50px;
@@ -19,7 +19,7 @@ font-size: 36px;
 line-height: 50px;
 text-align: center;
 letter-spacing: -1px;
-color: #333333;
+color: #333333 !important;
 }
 .WhyJoinUs p {
   position: absolute;
@@ -64,7 +64,7 @@ left: 150px;
   border-radius: 3px;
 }
 .grid1 {
-  left: 108px;
+  left: 87px;
 }
 .first h1 {
   text-transform: capitalize;
@@ -88,8 +88,8 @@ left: 150px;
   position: absolute;
   left: 6.81%;
   right: 72.22%;
-  top: 55.79%;
-  bottom: 30.42%;
+  top: 51.79%;
+  /* bottom: 30.42%; */
   width: 230px;
   height: 75px;
 font-family: Lato;
@@ -112,16 +112,17 @@ color: #747578;
   left: 470px;
 }
 .grid2 {
-  left: 108px;
+  left: 87px;
 }
 .second h1 {
+  margin-left: -71px !important;
   text-transform: capitalize;
-  position: absolute;
-  left: 22.86%;
-  right: 75.28%;
+  /* position: absolute; */
+  /* left: 22.86%; */
+  /* right: 40.28%; */
   top: 37.19%;
   bottom: 33.66%;
-  width: 142px;
+  width: 173px;
   height: 31px;
   font-family: Montserrat;
   font-style: normal;
@@ -136,8 +137,8 @@ color: #747578;
   position: absolute;
   left: 6.81%;
   right: 72.22%;
-  top: 55.79%;
-  bottom: 30.42%;
+  top: 51.79%;
+  /* bottom: 30.42%; */
   width: 230px;
   height: 75px;
 font-family: Lato;
@@ -160,7 +161,7 @@ color: #747578;
   left: 790px;
 }
 .grid3 {
-  left: 108px;
+  left: 87px;
 }
 .third h1 {
   text-transform: capitalize;
@@ -184,8 +185,8 @@ color: #747578;
   position: absolute;
   left: 6.81%;
   right: 72.22%;
-  top: 55.79%;
-  bottom: 30.42%;
+  top: 51.79%;
+  /* bottom: 30.42%; */
   width: 230px;
   height: 75px;
 font-family: Lato;
@@ -208,7 +209,7 @@ color: #747578;
   left: 1110px;
 }
 .grid4 {
-  left: 108px;
+  left: 87px;
 }
 .fourth h1 {
   text-transform: capitalize;
@@ -232,8 +233,8 @@ color: #747578;
   position: absolute;
   left: 6.81%;
   right: 72.22%;
-  top: 55.79%;
-  bottom: 30.42%;
+  top: 51.79%;
+  /* bottom: 30.42%; */
   width: 230px;
   height: 75px;
 font-family: Lato;
@@ -282,4 +283,20 @@ color: #747578;
   position: absolute;
   left: 5px;
 }
+}
+.WhyJoinUs h3 {
+  text-transform: capitalize;
+  position: absolute;
+height: 50px;
+left: 43.12%;
+right: 43.12%;
+top: calc(50% - 50px/2 + 166px);
+font-family: IBM Plex Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 50px;
+text-align: center;
+letter-spacing: -1px;
+color: #333333;
 }

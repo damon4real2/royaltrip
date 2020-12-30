@@ -14,13 +14,13 @@ width: 324px;
 height: 50px;
 left: 231px;
 top: 388px;
-font-family: IBM Plex Sans;
+font-family: IBM Plex Sans SemiBold;
 font-style: normal;
 font-weight: bold;
 font-size: 36px;
 line-height: 50px;
 letter-spacing: -1px;
-color: #000000;
+color: #000000 !important;
 }
 .AboutUs h2 {
   position: absolute;
@@ -71,7 +71,7 @@ color: #747578;
   color: #747578;
 }
 .get-started-button4 {
-  padding-top: 1.1em !important;
+  padding-top: 0.4em !important;
   text-transform: uppercase;
   position: absolute;
   left: 226px;
@@ -114,7 +114,7 @@ color: #747578;
   border: 1px solid #501F6A;
   box-sizing: border-box;
   border-radius: 40px !important;
-  padding-top: 1.1em !important;
+  padding-top: 0.4em !important;
 }
 .get-started-button5:hover {
   background: #501F64 !important;
@@ -135,7 +135,9 @@ color: #747578;
   } */
   .AboutUs {
     width: 374px;
-  }
+    margin-top: -33em;
+    /* margin-left: 5em; */
+}
   .AboutUs h1 {
     font-size: 24px;
 line-height: 50px;
@@ -176,13 +178,13 @@ left: 65px;
 }
 .get-started-button4 {
   width: 160px;
-  top: 1704px;
-  left: 121px;
+  /* top: 1704px;
+  left: 121px; */
 }
 .get-started-button5 {
   width: 160px;
-  top: 1764px;
-  left: 121px;
+  /* top: 1764px;
+  left: 121px; */
 }
 .man {
   position: absolute;
@@ -191,4 +193,7 @@ left: 65px;
   left: 2%;
   top: 1827px;
 }
+  /* .start_button {
+  display: flex;
+  } */
 }

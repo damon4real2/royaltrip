@@ -15,7 +15,7 @@ function WhyJoinUs() {
               </div>
               <div className="second">
               <img className="grid grid2" src={require("../assets/images/about5.svg")} alt="grid-img" />
-                <h1>Mortgage Plan</h1>
+                <h1>Dedicated Support</h1>
                 <h2>Just so you get the best of experience, we have dedicated personnel responding speedily to resolve issues and queries.</h2>
               </div>
               <div className="third">
