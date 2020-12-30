@@ -60,6 +60,21 @@
   width: 36em;
   padding-right: 2.5em;
 }
+.drive {
+  position: absolute;
+  width: 361px;
+  height: 36px;
+  left: 31px;
+  top: -7px;
+  /* font-family: IBM Plex Sans Semi-bold; */
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 36px;
+  text-align: center;
+  color: #ffffff;
+  text-transform: capitalize;
+}
 @media screen and (max-width: 768px) {
   .WhatWeOfferDetails h1 {
     padding-top: 1em;
