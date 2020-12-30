@@ -8,7 +8,7 @@ class PreFooter extends Component {
             <div className="container-fluid PreFooter">
                 <div className="row">
                     <div className="col-sm-8 PreFooterRight">
-                        <h1>Join Millions of our users having a delightful, secured and convenient experience cruising with Royaltrip!</h1>
+                        <h1>Join Millions of our users having a delightful, secured and convenient experience cruising with RoyalTrip!</h1>
                         <Button href="https://forms.gle/uHkPzawq51gFprtA9" className="get-started2">
                             Get Started
                         </Button>{' '}
