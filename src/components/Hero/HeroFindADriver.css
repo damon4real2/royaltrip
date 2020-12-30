@@ -12,7 +12,7 @@
   position: relative;
   font-size: 48px;
   line-height: 57px;
-  color: #E5E5E5;
+  color: #E5E5E5 !important;
   font-family: IBM Plex Sans ExtraLight;
 }
 .HeroFindADriverText h2 {
