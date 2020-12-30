@@ -181,6 +181,7 @@
   .sign-up-rider {
     margin-right: 3em !important;
 }
+
 }
 
 @media (max-width: 320px) {
@@ -378,7 +379,7 @@
     height: 63%;
 }
 .caption-rider {
-    bottom: -52px !important;
+    margin-bottom: -15em !important;
 }
   .HeroFindADriverText h1 {
     margin-bottom: 1em;
