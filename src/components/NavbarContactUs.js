@@ -27,7 +27,7 @@ const NavbarContactUs = (props) => {
         </NavbarBrand>
         <Nav className="ml-auto" navbar>
             <NavItem>
-              <NavLink href="/">About Our Company</NavLink>
+              <NavLink href="/">About Us</NavLink>
             </NavItem>
         </Nav>
         <NavbarToggler onClick={toggle} />

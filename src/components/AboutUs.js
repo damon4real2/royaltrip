@@ -10,7 +10,7 @@ function AboutUs() {
       <div className="AboutUs">
         <div className="row">
             <div className="col">
-              <h1>about our company</h1>
+              <h1>about us</h1>
               <h2>Times and moments in life is where we find experiences, memories of love, joy and laughter. Lets help you relive them, lets get you there.</h2>
               <img className="thin-block" src={require("../assets/images/thin-slant-block.svg")} alt="rectangle" />
               <h3>Equality is the basis of genuine acceptance, we accept you for who you are, and we want to be what drives you to where you want to go.</h3>
