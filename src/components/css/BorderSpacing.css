@@ -7,9 +7,21 @@ top: 844px;
 background: #FFFFFF;
 box-shadow: 0px 2px 6px rgba(120, 120, 118, 0.25);
 }
+.BorderSpaced3  {
+  font-family: IBM Plex Sans SemiBold;
+  font-style: normal;
+  font-weight: 500;
+  text-align: center;
+  font-size: 36px;
+  line-height: 47px;
+  text-transform: capitalize;
+  color: #000000;
+}
 @media only screen and (min-width: 320px) and (max-width: 767px) {
   .BorderSpacing {
     top: 1362px;
     width: 411px !important;
+    margin-left: 70px;
 }
+
 }

@@ -146,4 +146,7 @@
     min-width: -webkit-fill-available;
     background-color: #ffffff !important;
   } 
+  .navbar-toggler{
+    left: ;
+  }
 }
