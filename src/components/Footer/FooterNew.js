@@ -77,8 +77,8 @@ function FooterNew() {
                   <div className="col">
                     <h1>our company</h1>
                       <div class="d-flex flex-column">
-                      <a className="p-2" href="/ContactUs">about us</a>
-                      <a className="p-2" href="/ContactUs">contact us</a>
+                      <a className="p-2" href="/AboutOurCompany">about us</a>
+                      <a className="p-2" href="/AboutOurCompany">contact us</a>
                       <a className="p-2" href="/FAQ">FAQ</a>
                       <a className="p-2" href="/PrivacyPolicy">privacy policy</a>
                       <a className="p-2" href="/FleetOwners">fleet owners</a>
@@ -93,7 +93,7 @@ function FooterNew() {
                       <a className="p-2" href="https://www.quora.com/profile/RoyalTrip" target='_blank'>forum</a>
                       {/* eslint-disable-next-line */}
                       <a className="p-2" href="https://medium.com/@royaltrip" target='_blank'>blog</a>
-                      <a className="p-2" href="/ContactUs">talk to us</a>
+                      <a className="p-2" href="/AboutOurCompany">talk to us</a>
                       <a className="p-2" href="/FAQ">help line</a>
                     </div>
                   </div>
