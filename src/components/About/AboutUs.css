@@ -337,6 +337,9 @@ left: 65px;
   display: flex;
   margin: 1em;
 }
+.wrapped_col {
+  margin-top: 2em;
+}
 .contactUs p6 {
   font-family: Open Sans;
   font-weight: normal;
