@@ -335,10 +335,7 @@ left: 65px;
 }
 .wrapped {
   display: flex;
-  margin: 1em;
-}
-.wrapped_col {
-  margin-top: 2em;
+  margin-top: 3em;
 }
 .contactUs p6 {
   font-family: Open Sans;

@@ -101,7 +101,7 @@ function AboutUs() {
                 </div>
                 <div className="container-fluid contactUs">
                     <div className="row">
-                        <div className="col wrapped_col">
+                        <div className="col">
                           <div className="wrapped">
                             <img className="" src={require("./assets/images/1.svg")} alt="location-icon1" />
                             <p6>BMTC Block 9,<br></br> F.A.A.N Complex,<br></br> M.M.I.A, Ikeja, Lagos State,<br></br> Nigeria.</p6>
