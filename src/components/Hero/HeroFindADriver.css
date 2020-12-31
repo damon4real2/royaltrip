@@ -45,7 +45,6 @@
     font-size: 12px;
     line-height: 23px;
   }
-
   .HeroRiderText h2 {
     margin-top: -0.2em;
     margin-left: -4em;
@@ -57,7 +56,6 @@
     width: 7em;
     margin-bottom: 1em;
   }
-
   .enterNoRider {
     margin-left: -67em;
     margin-bottom: 7em;
@@ -159,7 +157,6 @@
     font-size: 12px;
     line-height: 23px;
   }
-
   .HeroRiderText h2 {
     margin-top: -0.2em;
     margin-left: -4em;
@@ -171,7 +168,6 @@
     width: 7em;
     margin-bottom: 1em;
   }
-
   .enterNoRider {
     margin-left: -64em;
     margin-bottom: 7em;
@@ -181,7 +177,6 @@
   .sign-up-rider {
     margin-right: 3em !important;
 }
-
 }
 
 @media (max-width: 320px) {
@@ -196,9 +191,6 @@
     text-transform: uppercase;
     font-size: 12px;
     line-height: 23px;
-  }
-  .carousel-caption{
-    bottom: -10em !important;
   }
   .HeroRiderText h2 {
     margin-top: -0.2em;
@@ -379,7 +371,7 @@
     height: 63%;
 }
 .caption-rider {
-    margin-bottom: -15em !important;
+    bottom: -52px !important;
 }
   .HeroFindADriverText h1 {
     margin-bottom: 1em;

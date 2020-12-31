@@ -1,7 +1,7 @@
 import React from 'react';
 // import '../App.css';
-import NavbarContactUs from '../components/NavbarContactUs';
-// import SidebarContactUs from '../components/SidebarContactUs';
+import NavbarAboutOurCompany from '../components/Navbar/NavbarAboutOurCompany';
+// import SidebarAboutOurCompany from '../components/Sidebar/SidebarAboutOurCompany';
 import HeroOurCompany from '../components/Hero/HeroOurCompany';
 import WhoWeAre from '../components/WhoWeAre';
 import WhatWeOffer from '../components/WhatWeOffer';
@@ -19,8 +19,8 @@ import FooterNew from '../components/Footer/FooterNew'
 function Rider() {
     return (
         <div className="Rider">
-            <NavbarContactUs />
-            {/* <SidebarContactUs /> */}
+            <NavbarAboutOurCompany />
+            {/* <SidebarAboutOurCompany /> */}
             <HeroOurCompany />
             <WhoWeAre />
             <WhatWeOffer />

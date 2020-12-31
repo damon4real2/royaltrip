@@ -59,26 +59,3 @@
 .rightWhyJoinUs img {
     padding-top: 3em;
 }
-
-/* Small screens */
-@media only screen and (max-width: 768px) {
-    /* .DriverWhyJoinUs {
-        margin-top: 80em;
-    } */
-    .rightWhyJoinUs img {
-        margin-left: -14px;
-    }
-    .leftWhyJoinUs {
-        padding-left: 1em !important;
-    }
-    .getStarted{
-        width: 100%;
-    }
-    
-}
-@media only screen and (max-width: 768px) {
-    .rightWhyJoinUs img {
-        margin-left: 20px !important;
-    }
-}
-

@@ -1,0 +1,482 @@
+/* .HeroContactUs {
+  position: relative;
+}
+.HeroContactUsImg2 {
+  margin-left: 0px;
+}
+.HeroContactUs h1{
+  position: absolute;
+height: 22px;
+left: 41.39%;
+right: 41.39%;
+top: 120px;
+width: 248px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 22px;
+text-align: center;
+letter-spacing: 2.8px;
+text-transform: uppercase;
+color: #B1B1B1 !important;
+}
+.HeroContactUs h2 {
+  position: absolute;
+  left: 20.14%;
+  height: 100px;
+  width: 860px;
+right: 20.14%;
+top: 143px;
+bottom: 87.74%;
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 50px;
+text-align: center;
+letter-spacing: -1px;
+color: #FFFFFF;
+}
+
+  .find-more {
+    text-transform: uppercase;
+    position: absolute !important;
+    bottom: 33%;
+    background: #99811D !important;
+    border-radius: 40px;
+    width: 235px;
+    height: 46px;
+    position: absolute;
+    right: 41.79%;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    letter-spacing: 2.4px;
+    color: #FFFFFF;
+    border-radius: 40px !important;
+}
+
+
+.find-more:hover {
+  background: #4E1D69 !important;
+}
+.joinUsGrid {
+  background: #FFFFFF;
+  width: 1140px;
+  height: 357px;
+  position: absolute;
+  left: 10.27%;
+  top: 436px;
+}
+.joinUsGrid img {
+  width: 58px;
+  height: 62px;
+}
+.block-left {
+  position: absolute;
+    left: 21.49%;
+    right: 63.12%;
+    top: 26.47%;
+    bottom: 67.27%;
+}
+.block-left img {
+  position: absolute;
+  right: 135px;
+  width: 50px;
+  height: 62px;
+}
+.block-left p1 {
+  position: absolute;
+  height: 31px;
+  left: -51.38%;
+  right: 68.26%;
+  top: 75px;
+  width: 212px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 31px;
+  text-align: center;
+  letter-spacing: -0.7px;
+  color: #333333;
+}
+.block-left p2 {
+  position: absolute;
+    left: -84.78%;
+    top: 505.01%;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+    color: #747578;
+    width: 330px;
+    height: 75px;
+}
+.block-middle {
+  position: absolute;
+left: 36.88%;
+right: 36.74%;
+top: 19.47%;
+bottom: 67.27%;
+}
+.block-middle img {
+  position: absolute;
+  top: 25px;
+  right: 115px;
+  width: 50px;
+  height: 62px;
+}
+.block-middle p1 {
+  position: absolute;
+  height: 31px;
+  left: 27.806%;
+  right: 44.72%;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 31px;
+  width: 153px;
+  text-align: center;
+  letter-spacing: -0.7px;
+  top: 99px;
+  color: #333333;
+}
+.block-middle p2 {
+    position: absolute;
+    top: 290.01%;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 25px;
+    width: 330px;
+    height: 75px;
+    text-align: center;
+    color: #747578;
+}
+.block-right {
+  position: absolute;
+left: 63.26%;
+right: 10.35%;
+top: 19.47%;
+bottom: 67.27%;
+}
+.block-right img {
+  position: absolute;
+  top: 21px;
+  right: 82px;
+  width: 50px;
+  height: 62px;
+}
+.block-right p1 {
+  position: absolute;
+height: 31px;
+right: 1.22%;
+width: 203px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 31px;
+top: 99px;
+text-align: center;
+letter-spacing: -0.7px;
+
+color: #333333;
+}
+.block-right p2 {
+  position: absolute;
+  top: 291.01%;
+  width: 330px;
+  height: 75px;
+  font-size: 16px;
+  line-height: 25px;
+  text-align: center;
+  color: #747578;
+  left: 40px;
+}
+
+@media only screen and (min-width: 600px) and (max-width: 700px) {
+  .HeroContactUs h1 {
+    left: 31.39% !important;
+    top: 154px;
+  }
+  .HeroContactUs h2 {
+    left: 13.14%;
+    width: 452px;
+    right: 20.14%;
+    top: 189px;
+    bottom: 87.74%;
+    font-family: Montserrat;
+    font-size: 26px;
+    line-height: 36px;
+    text-align: center;
+    letter-spacing: -1px;
+    color: #FFFFFF;
+  }
+  .find-more {
+    right: 29.79%;
+  }
+  .joinUsGrid {
+    width: 80%;
+  }
+  .joinUsGrid {
+    left: 85px;
+    width: 466px;
+  }
+  .block-left {
+    position: absolute;
+    left: 21.49%;
+    right: 63.12%;
+    top: 43.47%;
+    bottom: 67.27%;
+  }
+  .block-left img {
+    top: -1.8em;
+    position: absolute;
+    right: -91px;
+}
+.block-left p1 {
+  top: 57px;
+    left: 38.62%;
+}
+.block-left p2 {
+  position: absolute;
+  left: -31.78px;
+    top: 131.01px;
+    bottom: 71.14%;
+    width: 330px;
+    font-size: 13px;
+line-height: 25px;
+}
+.block-middle {
+  position: absolute;
+  top: 110px;
+}
+.block-middle img {
+position: absolute;
+top: 274px;
+right: 34px;
+}
+.block-middle p1 {
+  right: -2.28%;
+  left: -8.194%;
+  position: absolute;
+  top: 364px;
+}
+.block-middle p2 {
+  left: -100.39px;
+  top: 425.01px;
+  bottom: 71.14%;
+  font-size: 13px;
+line-height: 25px;
+}
+.block-right img {
+  position: absolute;
+  top: 547px;
+  right: 152px;
+}
+.block-right p1 {
+  position: absolute;
+  height: 31px;
+  top: 621px;
+  right: 57.22%;
+}
+.block-right p2 {
+      left: -215px;
+  top: 667px;
+  font-size: 13px;
+line-height: 25px;
+}
+}
+@media only screen and (min-width: 320px) and (max-width: 600px) {
+  .HeroContactUsImg2 {
+    height: 545px;
+  }
+.HeroContactUs h1 {
+  left: 21.39% !important;
+    right: 17.39%;
+    top: 132px;
+}
+.HeroContactUs h2 {
+  top: 171px;
+  left: 62px;
+  font-size: 24px;
+line-height: 29px;
+width: 281px;
+color: #B1B1B1;
+}
+.find-more {
+  width: 222px;
+  right: 88px;
+  top: 320px;
+  text-transform: uppercase;
+  position: absolute !important;
+  bottom: 33%;
+  background: #99811D !important;
+  }
+  .joinUsGrid {
+    left: 25px;
+    width: 360px;
+  }
+  .block-left {
+    position: absolute;
+    left: 21.49%;
+    right: 63.12%;
+    top: 43.47%;
+    bottom: 67.27%;
+  }
+  .block-left img {
+    top: -1.8em;
+    position: absolute;
+    right: -70px;
+}
+.block-left p1 {
+  top: 57px;
+  left: -11.38%;
+}
+.block-left p2 {
+    position: absolute;
+    left: -67.78px;
+    top: 131.01px;
+    bottom: 71.14%;
+    width: 330px;
+    font-size: 13px;
+line-height: 25px;
+}
+.block-middle {
+  position: absolute;
+  top: 110px;
+}
+.block-middle img {
+position: absolute;
+top: 274px;
+right: 34px;
+}
+.block-middle p1 {
+  right: -2.28%;
+  left: -47.194%;
+  position: absolute;
+  top: 358px;
+}
+.block-middle p2 {
+  left: -117.39px;
+    top: 404.01px;
+  bottom: 71.14%;
+  font-size: 13px;
+line-height: 25px;
+}
+.block-right img {
+  position: absolute;
+  top: 547px;
+  right: 128px;
+}
+.block-right p1 {
+  position: absolute;
+  height: 31px;
+  top: 621px;
+  right: 57.22%;
+}
+.block-right p2 {
+      left: -215px;
+  top: 667px;
+  font-size: 13px;
+line-height: 25px;
+}
+}  */
+.HeroAboutOurCompanyImg {
+  margin-left: -15px;
+}
+/* .headline {
+
+} */
+.headline h1 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 22px;
+  text-align: center;
+  letter-spacing: 2.8px;
+  text-transform: uppercase;
+  color: #E5E5E5 !important;
+  margin-top: 2em;
+}
+.headline p {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 50px;
+  text-align: center;
+  letter-spacing: -1px;
+  color: #FFFFFF;
+}
+.find-more {
+  height: 46px;
+  width: 235px;
+  left: 0px;
+  top: 0px;
+  border-radius: 40px;  
+  background: #99811D;
+  border-radius: 40px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: center;
+  letter-spacing: 2.4px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  margin-bottom: 6em;
+  margin-top: 1.5em;
+}
+.holder {
+  background: #FFFFFF;
+  margin-bottom: -18em;
+}
+.holder img {
+  margin-top: 3em;
+  margin-bottom: 1.5em;
+  margin-left: 0px;
+}
+.holder p1 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 31px;
+  text-align: center;
+  letter-spacing: -0.7px;
+  color: #333333;
+  margin-bottom: 1.5em;
+}
+.holder p2 {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 25px;
+  text-align: center;
+  color: #747578;
+  margin-top: 1.5em;
+}
+@media only screen and (max-width: 374px) {
+  .holder {
+    margin-bottom: -59em;
+  }
+}
+@media only screen and (min-width: 375px) and (max-width: 550px) {
+  .holder {
+    margin-bottom: -56em;
+  }
+}
+@media only screen and (min-width: 551px) and (max-width: 750px) {
+  .holder {
+    margin-bottom: -47em;
+  }
+}

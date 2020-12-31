@@ -2,12 +2,12 @@ import React from 'react';
 import './BorderSpacing.css';
 
 
-function BorderSpaced3() {
+function BorderSpacing2() {
   return (
-    <div className="BorderSpaced3">
+    <div className="BorderSpacing3">
       Join us now and enjoy great experiences!
     </div>
   );
 }
 
-export default BorderSpaced3;
+export default BorderSpacing2;

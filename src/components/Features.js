@@ -31,8 +31,10 @@ export class features extends Component {
                       src={require("../assets/images/best-prices.svg")}
                     />
                   </div>
+                  <div className="mid">
                       <div className="middle-title">Best prices</div>
                       <div className="middle-text">We do not stretch you beyond what is affordable.</div>
+                  </div>
                 </div>
                 </div>
                 </div>

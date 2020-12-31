@@ -7,7 +7,7 @@ import logIn from './pages/LogIn';
 import SignUp from './pages/SignUpToDrive';
 import ApplyTo from './pages/ApplyToRide';
 import FAQ from './pages/FAQ';
-import ContactUs from './pages/ContactUs';
+import AboutOurCompany from './pages/AboutOurCompany';
 import Contact from './components/Contact';
 import PrivacyPolicy from './pages/PrivacyPolicy';
 import TermsOfUsePolicyRiders from './pages/TermsOfUsePolicyRiders';
@@ -43,7 +43,7 @@ function App() {
           <Route path='/signUpToDrive' component={SignUp} />
           <Route path='/applyToRide' component={ApplyTo} />
           <Route path='/FAQ' component={FAQ} />
-          <Route path='/ContactUs' component={ContactUs} />
+          <Route path='/AboutOurCompany' component={AboutOurCompany} />
           <Route path='/Contact' component={Contact} />
           <Route path='/AboutUs' component={AboutUs} />
           <Route path='/PrivacyPolicy' component={PrivacyPolicy} />

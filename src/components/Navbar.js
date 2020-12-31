@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import logo from '../assets/images/logo.svg';
 import {Link} from 'react-router-dom';
-import SidebarHome from '../components/SidebarHome';
+// import SidebarHome from '../components/SidebarHome';
 import {
   Collapse,
   Navbar,
@@ -56,7 +56,7 @@ const Example = (props) => {
           </Nav>
         </Collapse>
       </Navbar>
-      <SidebarHome />
+      {/* <SidebarHome /> */}
     </div>
   );
 }

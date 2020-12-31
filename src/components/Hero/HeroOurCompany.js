@@ -11,7 +11,7 @@ function HeroRider() {
               <div className="col-12 HeroOurCompanyText"> 
                 <div className="carousel-caption heroText">
                   <h1>Join Our Wheels!</h1>
-                  <h2>We believe that people are the drivers of change in economies,<br></br>We believe that growth do not exist without being intentional,<br></br>We exist to drive our people to self reliance by being obsessed about growth and impact.</h2>
+                  <h2>We believe that people are the drivers of change in economies,<br></br>We believe that growth does not exist without being intentional,<br></br>We exist to drive our people to self-reliance by being obsessed about growth and impact.</h2>
                   <Button className="our-company-read_more">get started</Button>{' '}
                 </div>
               </div>

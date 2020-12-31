@@ -31,7 +31,7 @@ function Example() {
         <div className="col-md-5">
             <img className="cars"
               alt="..."
-              src={require("../assets/images/Group 191 (1).png")}
+              src={require("../assets/images/Group 191.png")}
             />
         </div>
       </Row>
