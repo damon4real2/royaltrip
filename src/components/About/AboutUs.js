@@ -115,7 +115,6 @@ function AboutUs() {
                               <p6>support@royaltrips.com.ng<br></br>info@royaltrips.com.ng</p6>
                             </div>
                         </div>
-                        {/* <div className="container send_container"> */}
                           <div className="col send-a-message">
                               <div className="container">
                                   <div className="col-12 d-flex justify-content-center send-theme">send your message</div>
@@ -132,7 +131,6 @@ function AboutUs() {
                                   </div>
                               </div>
                           </div>
-                        {/* </div> */}
                     </div>
                 </div>
               </div>

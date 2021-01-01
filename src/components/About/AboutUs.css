@@ -420,6 +420,24 @@ left: 65px;
   margin-top: 2em;
   margin-bottom: 2em;
 }
+
+
+@media only screen and (min-width: 320px) and (max-width: 355px) {
+  .send-theme {
+    font-size: 10px !important;
+    line-height: 1.8 !important;
+}
+  .form-content {
+    padding-left: 7px;
+    width: 133px !important;
+    font-size: xx-small;
+  }
+}
+@media only screen and (min-width: 370px) and (max-width: 375px) {
+  .text_mail, .phone_no, .details_ {
+    margin-left: 8px !important;
+  }
+}
 @media only screen and (max-width: 375px) {
   .mini-space {
     background: #FFFFFF;
@@ -429,11 +447,39 @@ left: 65px;
   .button-flex {
     display: flex;
   }
-  .left_text {
-    margin-top: 23em !IMPORTANT;
+  .left_text h2 {
+    margin-top: 24em;
+  }
+  .left_text  p {
+    margin-top: 2em;
   }
 .wrapped {
     margin-left: -8em;
+  }
+  .send-a-message {
+    margin-top: 5em !important;
+    left: -4em !important;
+    background: #FFFFFF;
+    border-radius: 16px;
+    margin-right: 12em;
+    margin-bottom: 3em;
+    width: 18em !important;
+  }
+  .send-theme {
+    font-size: 15px;
+    line-height: 0.8;
+  }
+  .text_mail, .phone_no, .details_ {
+    width: 173px;
+  }
+  .text_mail {
+    padding-right: 3.8em;
+  }
+  .phone_no {
+    padding-right: 6.1em;
+  }
+  .details_ {
+    padding-right: 5em;
   }
 }
 @media only screen and (min-width: 376px) and (max-width: 450px) {
@@ -445,11 +491,43 @@ left: 65px;
   .button-flex {
     display: flex;
   }
-  .left_text {
-    margin-top: 11em;
+  .left_text h2 {
+    margin-top: 22.5em;
   }
-  .wrapped {
-    margin-left: -8em;
+  .left_text  p {
+    margin-top: 2em;
+  }
+  .wrap
+    .wrapped {
+      margin-left: -8em;
+    }
+    .send-a-message {
+      margin-top: 5em !important;
+      background: #FFFFFF;
+      border-radius: 16px;
+      margin-right: 12em;
+      margin-bottom: 3em;
+      width: 25em !important;
+  }
+  .send-theme {
+    font-size: 15px;
+    line-height: 0.8;
+  }
+  .text_mail, .phone_no, .details_ {
+    width: 341px;
+  }
+  .text_mail {
+    padding-right: 13.8em;
+  }
+  .phone_no {
+    padding-right: 16.1em;
+  }
+  .details_ {
+    padding-right: 15em;
+  }
+  .contactUs {
+    padding-top: 1em;
+    padding-left: 1em !important;
   }
 }
 @media only screen and (min-width: 450px) and (max-width: 599px) {
@@ -482,6 +560,10 @@ left: 65px;
   }
   .send-a-message {
     margin-top: 4em;
+    left: -0.5em !important;
+  }
+  .adjust {
+    margin-left: -9px !important;
   }
   .send_container {
     margin-left: 1.8em;
