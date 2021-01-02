@@ -58,7 +58,7 @@
   height: 75px;
 }
 .nav-options {
-  padding-left: 25px;
+  padding-left: 58em;
   display: grid;
   grid-template-columns: repeat(3, auto);
   grid-gap: 50px;
