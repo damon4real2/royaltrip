@@ -1,9 +1,194 @@
-.navbar .in .nav li {
-  display: block;
-  float: none;
-  width:100%;
+@font-face {
+  font-family: IBM Plex Sans Medium;
+  src: url("/src/assets/fonts/IBM_Plex_Sans/IBMPlexSans-Medium.ttf");
 }
-/* .bm-overlay {
-      position: none !important;
-    z-index: 0 !important;
+
+@font-face {
+  font-family: IBM Plex Sans Light;
+  src: url("/src/assets/fonts/IBM_Plex_Sans/IBMPlexSans-Light.ttf");
+}
+
+@font-face {
+  font-family: IBM Plex Sans Semi-bold;
+  src: url("/src/assets/fonts/IBM_Plex_Sans/IBMPlexSans-SemiBold.ttf");
+}
+@font-face {
+  font-family: IBM Plex Sans Regular;
+  src: url("/src/assets/fonts/IBM_Plex_Sans/IBMPlexSans-SemiBold.ttf");
+}
+@font-face {
+  font-family: IBM Plex Sans ExtraLight;
+  src: url("/src/assets/fonts/IBM_Plex_Sans/IBMPlexSans-ExtraLight.ttf");
+}
+
+@font-face {
+  font-family: Montserrat Regular;
+  src: url("/src/assets/fonts/Montserrat/Montserrat-Regular.ttf");
+}
+
+@font-face {
+  font-family: Montserrat Semi-bold;
+  src: url("/src/assets/fonts/Montserrat/Montserrat-SemiBold.ttf");
+}
+@font-face {
+  font-family: Montserrat ExtraLight;
+  src: url("/src/assets/fonts/IBM_Plex_Sans/IBMPlexSans-ExtraLight.ttf");
+}
+
+/*Desktop View*/
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 40px;
+  height: 80px;
+}
+.logo-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.logo-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo {
+  width: 112px;
+  height: 75px;
+}
+.nav-options {
+  padding-left: 25px;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-gap: 50px;
+  list-style-type: none;
+  padding-top: 0.85em;
+}
+.nav-options a {
+  color: #99811D;
+  text-transform: capitalize;
+  /* font-family: IBM Plex Sans SemiBold; */
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+}
+.nav-options a:hover {
+  color: #4E1D69 ;
+  text-decoration: none;
+}
+.mobile-option {
+  display: none;
+}
+
+.option :hover {
+  color: white;
+}
+.signin-up {
+  display: flex;
+  padding: 0px 5px;
+  list-style-type: none;
+}
+.sign-in {
+  padding-right: 50px;
+  align-self: center;
+}
+.sign-in :hover {
+  color: white;
+}
+.signup-btn {
+  padding: 10px 10px;
+  height: 2.4rem;
+  border-radius: 3px;
+  background: #99811D;
+  color: white;
+  cursor: pointer;
+  align-items: center;
+  text-transform: capitalize;
+}
+.signup-btn:hover {
+  background: #501F6A;
+  text-decoration: none;
+  color: #ffffff;
+}
+@media (max-width: 648px) {
+  /*Mobile View */
+  .header {
+    padding: 0px 10px;
+  }
+  .logo {
+    width: 89px;
+    height: 57px;
+  }
+  .nav-options {
+    display: flex;
+    width: 100%;
+    height: 350px;
+    position: absolute;
+    top: 80px;
+    left: -100%;
+    opacity: 0;
+    transition: all 0.5s ease;
+    flex-direction: column;
+    list-style-type: none;
+    grid-gap: 0px;
+  }
+  /* .nav-options.active {
+    left: 0;
+    opacity: 1;
+    transition: all 0.5s ease;
+    z-index: 1;
+    align-content: center;
+    padding-left: 0px;
+    margin-left: -12px;
+  } */
+  .nav-options.active {
+    background: #ffffff !important;
+    /* background: #ffffff; */
+    left: 0;
+    opacity: 1;
+    transition: all 0.5s ease;
+    z-index: 1;
+    align-content: center;
+    padding-left: 0px;
+    margin-left: 0px;
+    margin-top: -1px;
+    min-height: -webkit-fill-available;
+}
+/* .active {
+  color: #4E1D69;
 } */
+  .menu-icon {
+    height: 36px;
+    width: 41px;  
+  }
+  .option {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vw;
+    padding: 30px 0px 30px 0px;
+  }
+  .sign-up_ {
+    /* background: rgb(222, 9, 241); */
+    border-radius: 3px;
+    color: white;
+    padding: 20px 0px;
+    /* width: 80%; */
+    align-self: center;
+    border-radius: 3px;
+  }
+
+  .signin-up {
+    display: none;
+}
+.mobile-menu {
+  display: block;
+}
+}
+@media only screen and (min-width: 649px) {
+  .mobile-menu {
+    display: none;
+  }
+}

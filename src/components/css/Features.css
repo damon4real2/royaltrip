@@ -7,91 +7,31 @@
   font-family: IBM Plex Sans Light;
   src: url("../../assets/fonts/IBM_Plex_Sans/IBMPlexSans-Light.ttf");
 }
-#features {
-  margin-top: 2em;
-}
-.first-feature, .middle-title, .ride {
-  font-family: IBM Plex Sans SemiBold;
-  font-size: 24px;
-    line-height: 70px;
-    color: #091D2D;
-}
-.first-feature-b, .middle-text, .end {
-  font-family: IBM Plex Sans;
-  font-size: 16px;
-  line-height: 31px;
-  color: #091D2D;
-}
-.active {
-  height: 19em;
-  background: #FFFFFF;
-  border-radius: 10px;
-  box-shadow: 5px 10px 20px 1px rgba(0,0,0,0.253)!important;
-}
-.middle {
-  position: relative;
-  top: 1.4em;
-}
-.mid {
-  margin-top: 3em;
-}
-@media only screen and (min-width: 320px) and (max-width: 767px) {
-  .active {
-    padding-top: 1em;
-    margin-top: 2em;
-    margin-left: 2em;
-  }
-}
 
-@media only screen and (min-width: 600px) and (max-width: 768px) {  
-  .active {
-    margin-left: -6em;
-  }
-  .feature-a, .feature-c {
-    margin-left: -11.8em;
-  }
-  .feature-c {
-    margin-top: 11em !important;
-  }
-  .middle-title {
-    margin-left: -1.5em;
-    margin-top: -1em !important;
-  }
-  .middle-text {
-    margin-left: -2em;
-    margin-top: -1em !important;
-  }
-}
- @media only screen and (max-width: 599px) {
-   .first-feature {
-    margin-left: -0.5em;
-    margin-top: -2em;
-}
-.first-feature-b {
-    margin-left: 0em;
-    margin-top: -0.8em;
-   }
-  .middle {
-    margin-left: -1em;
-    position: relative;
-    top: 1.4em;
-  }
-  .middle-title {
-    margin-left: -1.5em;
-    margin-top: -1em !important;
-  }
-  .middle-text {
-    margin-left: -2em;
-    margin-top: -1em !important;
-  }
-  .ride {
-    margin-top: -3em;
-  }
-  .end {
-    margin-top: -1em;
-    line-height: 21px;
-  }
-  .feature-c {
-    margin-top: 11em !important;
-  }
+ .features1 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 21px;
+  color: #091D2D;
+ }
+ .features2 {
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 23px;
+  color: #091D2D;
+  padding-bottom: 1.5em;
+  text-align: center;
+ }
+ .mid-center {
+  background: #FFFFFF;
+  box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+ }
+ .active_img {
+   padding-top: 2em;
+   padding-bottom: 2em;
  }

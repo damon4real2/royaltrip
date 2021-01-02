@@ -1,7 +1,6 @@
 import React from 'react';
 import '../App.css';
 import Navbar from '../components/Navbar';
-// import SidebarHome from '../components/SidebarHome';
 import HeroSection from '../components/Hero';
 import Button from '../components/Button';
 import Features from '../components/Features';
@@ -15,7 +14,6 @@ function Home() {
   return (
     <>
       <Navbar /> 
-      {/* <SidebarHome /> */}
       <HeroSection />
       <Button />
       <Features />

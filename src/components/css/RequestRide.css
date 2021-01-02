@@ -299,9 +299,12 @@
 
 @media only screen and (max-width: 657px) and (min-width: 627px) {  
     .rrbody {
-        margin-top: -68rem;
-        width: 133%;
-        margin-left: -37%;
+        margin-top: -68em;
+        top: 5px;
+        width: 112%;
+        height: 100%;
+        margin-left: 10em;
+        text-align: center;
     }
     .title {
       top: 357px;

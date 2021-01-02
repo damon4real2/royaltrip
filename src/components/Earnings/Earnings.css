@@ -296,10 +296,10 @@ right: 387px;
     margin-top: -0.5em;
   }
   .enterNoRider {
-    margin-left: -64.7em;
-    margin-bottom: 7em;
-    width: 320px;
-    height: 60px;
+    margin-left: -64.7em !important;
+    margin-bottom: 7em !important;
+    width: 320px !important;
+    height: 60px !important;
   }
   .sign-up-rider {
     right: 910px;

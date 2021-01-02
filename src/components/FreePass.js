@@ -9,7 +9,7 @@ import './css/FreePass.css';
 function FreePass() {
   return (
       <form className="FreePass">
-        <div className="header">
+        <div className="header1">
           <p1>Send Your Message</p1>
             <Label>
               <input className="full-name" type="text" name="Full Name" placeholder="Your name (Required)" />

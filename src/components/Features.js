@@ -4,58 +4,40 @@ import "./css/Features.css";
 export class features extends Component {
   render() {
     return (
-      <div id="features" className="text-center">
-        <div className="features_">
-              <div className="features_grid">
-            <div className="row d-flex justify-content-around">
-            <div class="col-md-4 feature-a">
-                <div className="img2">
-                <div className="feature-grid">
-                <div className="img-background first-img">
-                    <img className=""
+      <div className="container">
+          <div className="row">
+              <div className="col">
+                <div className="d-flex justify-content-center">
+                  <img className=""
                       alt="Card"
                       src={require("../assets/images/get-a-ride.svg")}
                     />
-                  </div>
-                      <div className="first-feature">Order your trip</div>
-                      <div className="first-feature-b">RoyalTrip offers a ride in minutes.</div>
                 </div>
-                </div>
-                </div>
-                <div class="col-md-4 feature-b">
-                <div className="img2">
-                <div className="feature-grid active">
-                <div className="img-background">
-                    <img className="middle"
+                  <p1 className="d-flex justify-content-center features1">Order your trip</p1><br></br>
+                  <p2 className="d-flex justify-content-center features2">RoyalTrip offers a ride in minutes.</p2>
+              </div>
+              <div className="col mid-center">
+              <div className="d-flex justify-content-center">
+                  <img className="active_img"
                       alt="Card"
                       src={require("../assets/images/best-prices.svg")}
                     />
-                  </div>
-                  <div className="mid">
-                      <div className="middle-title">Best prices</div>
-                      <div className="middle-text">We do not stretch you beyond what is affordable.</div>
-                  </div>
                 </div>
-                </div>
-                </div>
-                <div class="col-md-4 feature-c">
-                <div className="img2">
-                <div className="feature-grid">
-                <div className="img-background">
-                    <img className="last"
+                  <p1 className="d-flex justify-content-center features1">Best prices</p1><br></br>
+                  <p2 className="d-flex justify-content-center features2">We do not stretch you beyond what is affordable.</p2>
+              </div>
+              <div className="col">
+              <div className="d-flex justify-content-center">
+                  <img className=""
                       alt="Card"
                       src={require("../assets/images/ride-with-class.svg")}
                     />
-                  </div>
-                      <div className="ride">Ride with class</div>
-                      <div class="end">RoyalTrip gives you a safe, comfortable and affordable ride with class.</div>
                 </div>
-                </div>
+                  <p1 className="d-flex justify-content-center features1">Ride with class</p1><br></br>
+                  <p2 className="d-flex justify-content-center features2">RoyalTrip gives you a safe, comfortable and affordable ride with class.</p2>
               </div>
-              </div>
-              </div>
-            </div>
-        </div>
+          </div>
+      </div>
     );
   }
 }

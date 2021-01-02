@@ -137,12 +137,12 @@
 }
 @media only screen and (min-width: 600px) and (max-width: 750px) {
     .termsOfService p {
-        left: 47px;
-        font-size: 18px;
+        left: 37px;
+        /* font-size: 18px; */
         line-height: 23px;
     }
     .termsOfService p1 {
-        left: 45px;
+        left: 50px;
         top: 140px;
         font-family: IBM Plex Sans Medium;
         font-size: 36px;
