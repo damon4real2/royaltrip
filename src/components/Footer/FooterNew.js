@@ -98,7 +98,7 @@ function FooterNew() {
                     </div>
                   </div>
                 </div>
-                <div className="website_rights">&copy; 2020, Royal Trip. All rights reserved.</div>
+                <div className="website_rights">&copy; 2020, RoyalTrip. All rights reserved.</div>
               </div>
             </div>
           </div>
