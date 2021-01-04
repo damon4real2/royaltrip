@@ -64,6 +64,7 @@
   grid-gap: 50px;
   list-style-type: none;
   padding-top: 0.85em;
+  margin-bottom: 2`em;
 }
 .b {
   margin-right: 43em !important;
@@ -167,6 +168,7 @@
     margin-left: -12px;
   } */
   .nav-options.active {
+  height: 875%;
     background: #ffffff !important;
     /* background: #ffffff; */
     left: 0;
