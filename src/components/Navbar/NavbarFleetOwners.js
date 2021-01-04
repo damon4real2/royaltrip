@@ -78,7 +78,7 @@ const NavbarWhyJoinUs = () => {
           </a>
         </div>
         <ul className={click ? "nav-options active" : "nav-options"}>
-          <li className="option b" onClick={closeMobileMenu}>
+          <li className="option c" onClick={closeMobileMenu}>
             <a href="/FleetOwners">Fleet Owners</a>
           </li>
           {/* <div className="option-b"> */}
