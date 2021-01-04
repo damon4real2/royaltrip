@@ -10,23 +10,28 @@ function FlexboxBusiness () {
         </div>
         <div class="row flexboxBusiness">
           <div class="col-md-4 flexbox-a justify-content-center">
-            <img src={require("./assets/images/test1.png")} alt="flexbox" />
+            <div className="d-flex justify-content-center">
+              <img src={require("./assets/images/test1.png")} alt="flexbox" />
+            </div>
             <h4 className="feedback">“The ride was splendid and the driver was not reckless”</h4>
             <sub className="first-sub">Mr Adeniyi</sub>
             <button type="button" class="read_more">read more</button>
           </div>
           <div class="col-md-4 flexbox-b">
-            <img src={require("./assets/images/test2.png")} alt="flexbox" />
+          <div className="d-flex justify-content-center">
+              <img src={require("./assets/images/test2.png")} alt="flexbox" />
+            </div>
             <h4 className="feedback">“I love that the driver was gentle and receptive.”</h4>
             <sub>Mrs Clara</sub>
             <button type="button" class="read_more">read more</button>
           </div>
           <div class="col-md-4 flexbox-c">
-            <img src={require("./assets/images/test3.png")} alt="flexbox" />
+          <div className="d-flex justify-content-center">
+              <img src={require("./assets/images/test3.png")} alt="flexbox" />
+            </div>
             <h4 className="feedback">“I like that the driver was punctual and funny”</h4>
             <sub>Mr Betty</sub>
             <button type="button" class="read_more">read more</button>
-            {/* <Button className="read-more">read more</Button>{' '} */}
           </div>
         </div>
       </div>

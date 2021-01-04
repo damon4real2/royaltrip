@@ -1,6 +1,5 @@
 .FlexboxBusiness {
   margin-top: 5em;
-  background: rgba(80, 31, 106, 0.1);
 }
 .FlexboxBusiness h1 {
   font-family: Montserrat;
@@ -17,6 +16,9 @@
 }
 .flexboxBusiness {
   padding-left: 36px;
+}
+.flexboxBusiness img {
+  margin-left: 0px;
 }
 .feedback {
   color: #501F6A;
@@ -45,8 +47,19 @@ sub {
 
 @media screen and (max-width: 768px) {
   .FlexboxBusiness img {
-    margin-left: -53px !important;
+    /* margin-left: -53px !important; */
     margin-top: 42px;
   }
   
+}
+
+@media only screen and (max-width: 768px) {
+  .Message {
+      padding-left: 3em;
+  }
+  .Message {
+      margin-right: auto;
+      width: 85%;
+      margin-left: auto;
+  }
 }
