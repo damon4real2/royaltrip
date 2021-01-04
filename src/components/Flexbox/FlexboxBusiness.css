@@ -48,10 +48,15 @@ sub {
 
 @media screen and (max-width: 768px) {
   .FlexboxBusiness img {
-    /* margin-left: -53px !important; */
-    margin-top: 42px;
+    margin-left: -2em !important;
+    margin-top: 3.1em;
+}
+  .feedback {
+    padding-left: 0px;
   }
-  
+  sub {
+    padding-left: 0em;
+  }
 }
 
 @media only screen and (max-width: 768px) {
