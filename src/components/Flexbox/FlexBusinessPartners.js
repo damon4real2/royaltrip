@@ -5,7 +5,7 @@ import "./FlexBusinessPartners.css";
 
 function FlexBusinessPartners () {
     return (
-      <div className="container FlexboxBusiness">
+      <div className="container-fluid FlexboxBusinessPartners">
           <div className="col-12 d-flex justify-content-center">
               <h1>partners</h1>
           </div>

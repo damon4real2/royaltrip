@@ -1,6 +1,7 @@
 .HeroBusiness img {
   margin-left: 0px;
   margin-bottom: 7.5em;
+  width: 100% !important;
 }
 .HeroBusiness h1 {
   margin-bottom: 0.7em !important;
@@ -61,8 +62,8 @@
       font-family: Montserrat;
       font-style: normal;
       font-weight: bold;
-      font-size: 26px;
-      line-height: 48px;
+      font-size: 44px;
+      line-height: 55px;
       text-align: center;
       letter-spacing: 0.2px;
       color: #FFFFFF !important;
@@ -74,11 +75,11 @@
     font-size: 20px;
   }
   .HeroBusiness img {
-    /* width: 26em !important; */
+    width: 100% !important;
     height: 30em;
   }
   .HeroBusinessText {
-    bottom: 135px !important;
+    bottom: 95px !important;
   }
     .business_get_started {
       text-transform: capitalize;
@@ -99,5 +100,61 @@
       width: 164px;
       position: relative;
       top: 2em !important;
+  }
+}
+
+
+@media screen and (max-width: 375px) {
+  .HeroBusiness h1 {
+    font-size: 34px;
+    line-height: 45px;
+  }
+  .HeroBusiness h2 {
+    line-height: 26px;
+  }
+  .HeroBusinessText {
+    margin-bottom: -88px !important;
+  }
+}
+@media screen and (max-width: 355px) {
+  .HeroBusinessText {
+    margin-bottom: -7em !important;
+  }
+  .HeroBusiness h1 {
+    font-size: 22px;
+    line-height: 31px;
+  }
+  .HeroBusiness h1 {
+    font-size: 18px;
+    line-height: 31px;
+  }
+}
+@media screen and (min-width: 360px) and (max-width: 375px) {
+  .HeroBusinessText {
+      margin-bottom: -78px !important;
+  }
+}
+@media screen and (min-width: 376px) and (max-width: 420px) {
+  .HeroBusiness h1 {
+    font-size: 30px;
+    line-height: 45px;
+  }
+  .HeroBusiness h2 {
+    line-height: 26px;
+  }
+  .HeroBusinessText {
+      margin-bottom: 6.5em !important;
+  }
+}
+@media screen and (min-width: 420px) and (max-width: 599px) {
+  .HeroBusiness h1 {
+    font-size: 30px;
+    line-height: 45px;
+  }
+  .HeroBusiness h2 {
+    line-height: 26px;
+  }
+  .HeroBusinessText {
+      margin-bottom: 145px !important;
   }
 }

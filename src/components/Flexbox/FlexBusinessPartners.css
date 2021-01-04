@@ -1,7 +1,7 @@
-.FlexBusinessPartners {
+.FlexboxBusinessPartners {
   margin-top: 7em;
 }
-.FlexBusinessPartners h1 {
+.FlexboxBusinessPartners h1 {
   font-family: Montserrat;
   font-style: normal;
   font-weight: 500;
@@ -13,15 +13,10 @@
   text-transform: capitalize;
   margin-bottom: 1em;
 }
-.FlexBusinessPartners img {
-  margin-bottom: 3em;
-}
 
 @media screen and (max-width: 768px) {
-  .FlexBusinessPartners img {
-    margin-left: 0em ;
-    width: 17em ;
-    height: 30em;
+  .FlexboxBusinessPartners img {
+    margin-left: 0em;
     margin-top: -15em;
   }
 }
