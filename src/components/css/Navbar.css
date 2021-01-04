@@ -146,6 +146,7 @@
     margin-left: -12px;
   } */
   .nav-options.active {
+    height: 875% !important;
     background: #ffffff !important;
     /* background: #ffffff; */
     left: 0;
