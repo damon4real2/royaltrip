@@ -48,16 +48,16 @@
     .benefitImg{
         height: 30em;
         width: 38em;
-        margin-left: -12em;
+        /* margin-left: 0px; */
     }
     .benefitRight{
         height: 30em;
         width: 38em;
-        margin-left: -12em;
+        /* margin-left: -12em; */
     }
     .benefitLeft{
         height: 300em;
         width: 38em;
-        margin-left: -12em;
+        /* margin-left: -12em; */
     }
   }
