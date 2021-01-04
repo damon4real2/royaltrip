@@ -36,9 +36,7 @@ function FooterNew() {
                   <a href='https://www.instagram.com/royaltrips_ng/' target='_blank' aria-label='Instagram'><img src={require("./assets/images/inst.png")} alt="flexbox" /></a>
                 </div>
                 <div class="p-2">
-                  <a href={
-                  '//www.youtube.com/channel/UCsKsymTY_4BYR-wytLjex7A?view_as=subscriber'
-                    }
+                  <a href='https://www.youtube.com/channel/UCaUXF_uZEhhY9s65Lmq58dg'
                     rel='noopener noreferrer'
                     target='_blank'
                     aria-label='Youtube'
