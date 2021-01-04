@@ -60,18 +60,32 @@
 .nav-options {
   padding-left: 25px;
   display: grid;
-  grid-template-columns: repeat(4, auto);
+  /* grid-template-rows: repeat(4, auto); */
   grid-gap: 50px;
   list-style-type: none;
   padding-top: 0.85em;
 }
+.b {
+  margin-right: 43em !important;
+}
+
+
+.c {
+  margin-right: 40em !important;
+}
+.option {
+  grid-row: 4 / span 4;
+}
+/* .a {
+  padding-left: 2em;
+} */
 .nav-options a {
   color: #99811D;
   text-transform: capitalize;
   /* font-family: IBM Plex Sans SemiBold; */
   font-style: normal;
   font-weight: 500;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 23px;
 }
 .nav-options a:hover {
@@ -136,6 +150,13 @@
     list-style-type: none;
     grid-gap: 0px;
   }
+  .b {
+    margin-right: 0em;
+  }
+  .c {
+    margin: 0px;
+    margin-right: 0em !important;
+  }
   /* .nav-options.active {
     left: 0;
     opacity: 1;
@@ -146,7 +167,6 @@
     margin-left: -12px;
   } */
   .nav-options.active {
-    height: 875% !important;
     background: #ffffff !important;
     /* background: #ffffff; */
     left: 0;
@@ -193,5 +213,8 @@
 @media only screen and (min-width: 649px) {
   .mobile-menu {
     display: none;
+  }
+  .b {
+    margin-right: 0em;
   }
 }
