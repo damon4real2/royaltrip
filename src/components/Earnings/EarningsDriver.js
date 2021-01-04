@@ -17,7 +17,7 @@ function EarningsRider() {
               Your browser does not support the video tag.
             </video>
             <div className="d-flex text-align-left earnings-brief">
-              <h4>Earnings, Self reliance, and Support</h4><br></br>
+              <h4>Royalty, Safety and Secured</h4><br></br>
               <div className="testimonial">See how Mariam, Tolu, Usman, Debbie and Emeka use RoyalTrip to ride and enjoy their ride!</div>
             </div>
             <div className="container-fluid earnings-quote-driver">“My joy in this partnership is the benefit that comes with driving on RoyalTrip platform. Owning a home within 6 months, Access to hire purchase within 3 months is not something I get to hear, except with royaltrip drivers.”<br></br><br></br>— Seun”</div>
