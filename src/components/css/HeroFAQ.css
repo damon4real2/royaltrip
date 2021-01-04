@@ -1,5 +1,6 @@
 .HeroFAQImg{
   margin-top: -2em;
+  margin-left: 0px;
 }
 .how {
   margin-top: -6em;
@@ -104,23 +105,27 @@ color: #77838F;
   .HeroFAQImg {
     height: 545px;
 }
+.hero_ {
+  margin-bottom: -12em !important;
+}
   .how {
     font-size: 48px !important;
     margin-top: -8em !important;
   }
    .ask {
-    width: 310px !important;
-    height: 34.27px !important;
+     margin-left: 2.6em;
+    width: 367px !important;
+    height: 36.27px !important;
     background: #FFFFFF;
     border-radius: 4px;
   } 
   .search-icon {
     width: 1.6em;
-    left: -2em;
+    left: -3em !important;
     top: -0.1em;
   }
   .popular {
-    margin-top: -25em !important; 
+    margin-top: -23em !important; 
   }
   .stay-container {
     height: 3em;
@@ -134,7 +139,12 @@ color: #77838F;
     position: absolute;
     margin-top: 15em;
 }
-  
+.FAQComponent h2 {
+  margin-left: -4em;
+}
+.FAQComponent h3 {
+  margin-left: -7.5em;
+}
   /* .carousel-caption { */
     /* position: absolute; */
     /* right: 15%; */
@@ -407,7 +417,10 @@ top: 56%;
   
   } 
 
-  @media (min-width: 360px) and (max-width: 370px) {
+  @media (min-width: 320px) and (max-width: 414px) {
+    .carousel-caption {
+      margin-bottom: -8em !important;
+  }
     .how {
       top: 3em;
       position: relative;

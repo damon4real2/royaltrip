@@ -60,7 +60,7 @@
 .nav-options {
   padding-left: 25px;
   display: grid;
-  grid-template-columns: repeat(3, auto);
+  grid-template-columns: repeat(6, auto);
   grid-gap: 50px;
   list-style-type: none;
   padding-top: 0.85em;
@@ -115,7 +115,9 @@
 @media (max-width: 648px) {
   /*Mobile View */
   .header {
-    padding: 0px 10px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10px -6px rgba(120, 120, 118, 0.25);
+    /* padding: 0px 10px; */
   }
   .logo {
     width: 89px;
@@ -160,8 +162,8 @@
   color: #4E1D69;
 } */
   .menu-icon {
-    height: 36px;
-    width: 41px;  
+    height: 28px;
+    width: 33px;  
   }
   .option {
     display: flex;
@@ -183,9 +185,9 @@
   .signin-up {
     display: none;
 }
-.mobile-menu {
-  display: block;
-}
+  .mobile-menu {
+    display: block;
+  }
 }
 @media only screen and (min-width: 649px) {
   .mobile-menu {

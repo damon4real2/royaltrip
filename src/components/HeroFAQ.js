@@ -8,7 +8,7 @@ function HeroFAQ() {
           <div className="HeroFAQ">
               <img className="HeroFAQImg" src={require("../assets/images/Rectangle 233.svg")} alt="heroBackground" />
                 <div className="col-12 d-flex justify-content-center"> 
-                  <div class="carousel-caption">
+                  <div class="carousel-caption hero_">
                     <div className="how">How can we help?</div>
                     <label>
                         <input className="ask" type="text" name="question" placeholder="Ask a question" />
@@ -31,7 +31,7 @@ function HeroFAQ() {
               </div>
             </div>
           <div> */}
-          <div className="container">
+          <div className="container faq_container">
             <Row className="d-flex justify-content-center grid-why">
               <Col>
                   <div className="box-container">

@@ -158,6 +158,9 @@ border-radius: 4px;
   .email-search {
     margin-left: 0px;
   }
+  .email-search {
+    margin-left: 20px;
+  }
 }
 /* Smart Phones */
 @media only screen and (min-width: 321px) and (max-width: 410px) {

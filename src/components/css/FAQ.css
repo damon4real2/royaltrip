@@ -239,9 +239,28 @@ display: flex;
   color: rgba(255, 255, 255, 0.7);
   
 } */
+@media only screen and (min-width: 625px) and (max-width: 765px) {
+  .FAQComponent h2 {
+    margin-left: -4em;
+  }
+  .FAQComponent h3 {
+    margin-left: -7.5em;
+  }
+}
 
-
+@media only screen and (min-width: 350px) and (max-width: 414px) {
+  .FAQComponent h2 {
+    margin-left: -4em;
+    line-height: 1.2 !important;
+  }
+  .FAQComponent h3 {
+    margin-left: -7.5em;
+  }
+}
 @media only screen and (min-width: 320px) and (max-width: 767px) {
+  /* .faq_container {
+
+  } */
   .FAQComponent h1 {
     width: 219px;
     }
@@ -265,6 +284,13 @@ display: flex;
   @media only screen and (max-width: 320px) {
   .FAQComponent {
     padding-left: 0em !important;
+  }
+  .FAQComponent h2 {
+    margin-left: -2.5em;
+    line-height: 1.2 !important;
+  }
+  .FAQComponent h3 {
+    margin-left: -4.5em;
   }
 }
 

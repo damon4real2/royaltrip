@@ -11,7 +11,7 @@
   font-family: Montserrat ExtraLight;
   src: url("../../assets/fonts/Montserrat/Montserrat-ExtraLight.ttf");
 }
-  
+
   .WhoWeAre h1 {
     margin-top: 2em;
     text-transform: uppercase;
@@ -20,12 +20,20 @@
     color: #333333 !important;
     font-family: Montserrat Regular;
   }
-  .WhoWeAre p {
+  .strong {
+    font-family: IBM Plex Sans SemiBold;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 20px;
+    color: #000000;
+  }
+  .values {
     padding-top: 1em;
     padding-bottom: 1em;
     padding-left: 19em;
     padding-right: 19em;
-    font-family: IBM Plex Sans Light;
+    /* font-family: IBM Plex Sans Light; */
   }
   .readMore {
     background: #501F6A !important;
@@ -43,7 +51,7 @@
     .WhoWeAre h1 {
       font-size: 27px;
     }
-    .WhoWeAre p {
+    .values {
       padding-top: 2em;
       padding-bottom: 1em;
       padding-left: 3em;

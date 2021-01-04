@@ -23,6 +23,18 @@ const Header = () => {
           <li className="option" onClick={closeMobileMenu}>
             <a href="/Rider">rider</a>
           </li>
+          <li className="option" onClick={closeMobileMenu}>
+            <a href="/FleetOwners">fleet owners</a>
+          </li>
+          <li className="option" onClick={closeMobileMenu}>
+            <a href="/Business">business</a>
+          </li>
+          {/* <li className="option" onClick={closeMobileMenu}>
+            <a href="/Business">business</a>
+          </li>
+          <li className="option" onClick={closeMobileMenu}>
+            <a href="/Business">business</a>
+          </li> */}
           {/* <li className="option" onClick={closeMobileMenu}>
             <a href="/">log in</a>
           </li> */}

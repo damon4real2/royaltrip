@@ -19,7 +19,7 @@ function BenefitsFleetOwners() {
                       <div className="col">
                         <img className="benefitRight" src={require("./assets/images/benefits_right.png")} alt="grid_img" />
                         <h1>flexible pricing</h1>
-                        <p>In addition to helping to oversee operations, you can subscribe to our lease to own option and enjoy a flexible pricing which includes reducing vehicle purchase costs, optimize fuel consumption by driving traffic to your fleet which allows you to assess quicker rides compared to other drivers and analysing driver behaviour. </p>
+                        <p>In addition to helping to oversee operations, you can subscribe to our lease to own option and enjoy a flexible pricing which includes reducing vehicle purchase costs, optimize fuel consumption by driving traffic to your fleet which allows you to assess quicker rides compared to other drivers and analysing driver behaviour.</p>
                       </div>
                     </div>
                 </div>
