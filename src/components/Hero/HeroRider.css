@@ -126,8 +126,28 @@
   }
 }
 
-
-@media (min-width: 411px) and (max-width: 504px) {
+@media (min-width: 356px) and (max-width: 410px) {
+  .HeroRiderText h1 {
+    font-size: 14px !important;
+    line-height: 18px;
+    margin-bottom: 1em;
+    margin-left: -13.5em;
+    text-align: left;
+  }
+  .HeroRiderText h2 {
+    font-size: 32px;
+    line-height: 42px;
+    margin-top: -0.2em;
+    margin-left: -5.9em;
+    text-align: left;
+  }
+  .HeroRiderText {
+    margin-bottom: 0em !important;
+    bottom: 88px !important;
+    position: absolute;
+  }
+}
+@media (min-width: 411px) and (max-width: 619px) {
   .HeroRiderText h1 {
     margin-bottom: 3em;
     margin-left: -15.5em;
@@ -194,7 +214,7 @@
     width: 180px;
     height: 42px;
     position: absolute;
-    bottom: 4em;
+    bottom: 11em !important;
     right: 60.9em;
   }
 }

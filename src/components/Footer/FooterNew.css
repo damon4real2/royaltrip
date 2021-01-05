@@ -16,11 +16,9 @@
     padding-left: 5em !important;
     padding-top: 3em;
 }
-.app_store-google_play {
-    padding-top: 4.75em;
-}
+
 .question_1 {
-    padding-top: 6.55em;
+    padding-top: 2.55em;
     margin-left: 0.25rem;
 }
 .question_1 a {
@@ -41,7 +39,7 @@
 }
 .social_link {
     padding-left: 0em !important;
-    margin-top: 2.8em;
+    margin-top: 0.8em;
 }
 .social_link img:hover {
     background: #501F6A !important;
@@ -51,15 +49,16 @@
     padding-top: 4em;
 }
 .FooterLinks h1 {
+    padding-left: 0.3em;
     /* font-family: IBM Plex Sans Regular; */
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
-    line-height: 26px;
+    line-height: 17px;
     text-align: left;
     color: #000000 !important;
     text-transform: capitalize;
-    padding-bottom: 1em;
+    /* padding-bottom: 1em; */
 }
 .FooterLinks a {
     text-transform: capitalize;
@@ -67,7 +66,7 @@
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
-    line-height: 30px;
+    line-height: 10px;
     color: #000000 !important;
     /* text-decoration: none !important; */
     padding-top: 1em;
@@ -97,11 +96,11 @@
     .app_store-google_play {
         display: flex;
         margin-left: -13em;
-        padding-top: 2.75em;
+        padding-top: -0.25em;
     }
     .question_1 {
         display: flex;
-        padding-top: 3.55em;
+        padding-top: 1.55em;
         margin-left: -11.75rem;
     }
     .question_1 a {
@@ -109,6 +108,9 @@
     }
     .social_link {
         margin-left: -12.5rem !important;
-        margin-top: 1em;
+        margin-top: -1em;
+    }
+    .FooterLinks {
+        padding-top: 2em;
     }
 }
