@@ -64,7 +64,7 @@
   grid-gap: 50px;
   list-style-type: none;
   padding-top: 0.85em;
-  margin-bottom: 2`em;
+  margin-bottom: 2em;
 }
 .b {
   margin-right: 43em !important;
@@ -86,7 +86,7 @@
   /* font-family: IBM Plex Sans SemiBold; */
   font-style: normal;
   font-weight: 500;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 23px;
 }
 .nav-options a:hover {
@@ -188,13 +188,20 @@
     height: 28px;
     width: 33px;  
   }
-  .option {
+  /* .option {
     display: flex;
     align-items: center;
     justify-content: center;
     height: 10vw;
     padding: 30px 0px 30px 0px;
-  }
+  } */
+  .option {
+    display: flex;
+    align-items: start;
+    justify-content: left;
+    height: 10vw;
+    padding: 30px 0px 30px 50px;
+}
   .sign-up_ {
     /* background: rgb(222, 9, 241); */
     border-radius: 3px;
