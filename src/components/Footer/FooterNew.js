@@ -53,7 +53,7 @@ function FooterNew() {
             </div>
             <div className="col-8 FooterLinks">
               <div className="container">
-                <div className="row">
+                <div className="row footerlink">
                   <div className="col">
                     <h1>for riders</h1>
                       <div class="d-flex flex-column">

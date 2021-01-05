@@ -113,4 +113,15 @@
     .FooterLinks {
         padding-top: 2em;
     }
+    .footerlink {
+        margin-left: -4.5em !important;
+        display: grid !important;
+        grid-template-columns: 2fr 2fr;
+    }
+    .FooterLinks h1 {
+        padding-bottom: 0.5em;
+    }
+    .flex-column {
+        padding-bottom: 0.5em;
+    }
 }
