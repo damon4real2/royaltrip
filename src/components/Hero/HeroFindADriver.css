@@ -283,6 +283,9 @@
 .caption-rider {
     bottom: -52px !important;
 }
+.carousel-caption {
+  margin-bottom: -14em !important;
+}
   .HeroFindADriverText h1 {
     margin-bottom: 1em;
     position: relative;
