@@ -1,3 +1,15 @@
+.covid {
+  height: 55px;
+  background: #99811D;
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 30px;
+  text-decoration-line: underline;
+  color: #FFFFFF;
+  text-align: center;
+}
 .img-fluid{ 
   max-width: 100%; 
   height: auto;
@@ -11,7 +23,24 @@
   background: #501F6A;
   height: 36.25rem;
 }
-
+#hero p {
+  cursor: pointer;
+  margin-top: 15px !important;
+}
+.icon {
+  height: 26px;
+  width: 26px;
+  margin-left: 2em;
+}
+.cancel {
+  height: 16px;
+  width: 16px;
+  margin-right: 2em;
+}
+#hero img {
+  margin-bottom: auto;
+  margin-top: auto;
+}
 /* #hero {
   margin-top: -12%;
 } */
@@ -88,6 +117,10 @@
   }
 }
 @media only screen and (max-width: 768px) {
+  #hero p {
+    line-height: 1.2;
+    margin-top: 10px;
+  }
   .car1 {
     position: relative;
     left: -1%;

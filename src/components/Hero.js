@@ -20,6 +20,7 @@ import sample from '../assets/videos/Hero.mp4';
 const Hero = () => {
     return (
       <div id="hero">
+          <div className="d-flex justify-content-center covid"><img className="icon" src={require("../assets/images/icon.svg")} alt="Safe Vector" /><p>Know the best ways to help keep yourself healthy with our latest info on COVID-19.</p><img className="cancel" src={require("../assets/images/cancel.svg")} alt="Safe Vector" /></div>
               <video width="100%" autoPlay="autoplay" loop="loop" muted className={classes.Video} >
                   <source src={sample} type='video/mp4' />
                   Your browser does not support the video tag.

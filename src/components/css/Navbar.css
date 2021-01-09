@@ -82,7 +82,7 @@
 } */
 .nav-options a {
   color: #99811D;
-  text-transform: capitalize;
+  text-transform: uppercase;
   /* font-family: IBM Plex Sans SemiBold; */
   font-style: normal;
   font-weight: 500;
@@ -120,7 +120,7 @@
   color: white;
   cursor: pointer;
   align-items: center;
-  text-transform: capitalize;
+  text-transform: uppercase;
 }
 .signup-btn:hover {
   background: #501F6A;

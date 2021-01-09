@@ -16,7 +16,7 @@
 background: #501F6A;;
 }
 .appstore-h4 {
-  margin-top: 4em;
+  margin-top: 2em;
   margin-left: 0.3em;
   font-family: IBM Plex Sans Regular;
   font-size: 36px;
@@ -31,12 +31,11 @@ background: #501F6A;;
 .card-img {
     height: auto;
 }
-
 .readytoride2{
   text-align: center;
 }
 .appstore-playstore{
-  padding-bottom: 1rem;
+  /* padding-bottom: 1rem; */
   display: flex;
   justify-content: center;
 }
@@ -54,7 +53,7 @@ img {
 }
 @media only screen and (min-width: 320px) and (max-width: 767px) {
     .appstore {
-      margin-top: 67em;
+      margin-top: 0em;
     }
     .appstore-h4 {
       font-size: 26px;

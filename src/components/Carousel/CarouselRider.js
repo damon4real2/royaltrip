@@ -64,7 +64,7 @@ function CarouselRider() {
   return (
     <>
       <div className="">
-          <img className="img-fluid carousel_background" src={require("./assets/images/carousel-background2.svg")} alt="Carousel in background" />
+          <img className="img-fluid carousel_background carousel_background_driver" src={require("./assets/images/carousel-background2.svg")} alt="Carousel in background" />
         </div>
       {/* <Button className="never-lost" onClick={handleClick}>get started</Button> */}
       <AutoRotatingCarouselModal

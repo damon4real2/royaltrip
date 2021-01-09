@@ -6,7 +6,7 @@ import "./HeroRider.css";
 function HeroRider() {
     return (
         <div class="d-flex">
-        <div className="HeroRider">
+        <div className="HeroRider container-fluid">
             <img className="HeroRiderImg" src={require("./assets/images/hero-rider-background.svg")} alt="heroBackground" />
               <div className="col-12 text-align-left HeroRiderText"> 
                 <div className="carousel-caption">

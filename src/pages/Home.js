@@ -4,9 +4,9 @@ import Navbar from '../components/Navbar';
 import HeroSection from '../components/Hero';
 import Button from '../components/Button';
 import Features from '../components/Features';
-import RequestRide from '../components/RequestRide';
-import GetStarted from '../components/GetStarted';
+// import RequestRide from '../components/RequestRide';
 import AppStore from '../components/AppStore';
+import GetStarted from '../components/GetStarted';
 import FooterNew from '../components/Footer/FooterNew';
 
 
@@ -17,9 +17,9 @@ function Home() {
       <HeroSection />
       <Button />
       <Features />
-      <RequestRide />
-      <GetStarted />
+      {/* <RequestRide /> */}
       <AppStore />
+      <GetStarted />
       <FooterNew />
     </>
   );

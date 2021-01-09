@@ -1,10 +1,10 @@
 import React from "react";
 import {Link} from 'react-router-dom';
-import "./FooterNew.css";
+import "./FooterNewHome.css";
 
-function FooterNew() {
+function FooterNewHome() {
   return (
-      <div className="container-fluid FooterNew">
+      <div className="container-fluid FooterNewHome">
           <div className="row">
             <div className="col-4 FooterImg">
               <Link to="/">
@@ -103,4 +103,4 @@ function FooterNew() {
       </div>
   )
 }
-export default FooterNew;
+export default FooterNewHome;

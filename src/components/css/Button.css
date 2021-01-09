@@ -71,4 +71,10 @@ box-shadow: none !important;
     display: none!important;
   } */
 
- 
+ @media screen and (max-width: 768px) {
+  .sign-up, .apply, .help, .talk {
+    width: 167px;
+    height: 54px;
+    margin-top: 0.5em;
+}
+ } 

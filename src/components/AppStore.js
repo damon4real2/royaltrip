@@ -27,11 +27,10 @@ function Example() {
         </div>
         </div>
         </div>
-        <div className="col-md-1"></div>
-        <div className="col-md-5">
+        <div className="col-md-6">
             <img className="cars"
               alt="..."
-              src={require("../assets/images/all-cars.png")}
+              src={require("../assets/images/menu_nav.svg")}
             />
         </div>
       </Row>
