@@ -86,8 +86,9 @@
   /* font-family: IBM Plex Sans SemiBold; */
   font-style: normal;
   font-weight: 500;
-  font-size: 18px;
+  font-size: 15px;
   line-height: 23px;
+  letter-spacing: -1.8px;
 }
 .nav-options a:hover {
   color: #4E1D69 ;

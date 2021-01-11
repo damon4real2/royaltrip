@@ -41,6 +41,23 @@
   margin-bottom: auto;
   margin-top: auto;
 }
+.alert-dismissible {
+    padding-right: 0rem;
+}
+.alert {
+  margin-bottom: 0rem !important;
+}
+.alert-warning {
+  color: #ffffff !important;
+  background-color: #998117 !important;
+  border-color: #ffeeba !important;
+}
+#hero a {
+  color: #ffffff !important;
+}
+#hero a:hover {
+  text-decoration: underline;
+}
 /* #hero {
   margin-top: -12%;
 } */

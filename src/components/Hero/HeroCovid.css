@@ -1,0 +1,89 @@
+.HeroCovid {
+  background: #F0F0F0;
+}
+.HeroCovid a {
+  font-size: 11px;
+  letter-spacing: -0.8px;
+  color: #ffffff !important;
+  text-align: center;
+}
+.HeroCovid a:hover {
+  color: #ffffff !important;
+  text-decoration: underline;
+  letter-spacing: 0.2px;
+}
+.covid-links {
+  display: flex;
+  background: #F0F0F0;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+.covid-links a {
+  /* font-family: IBM Plex Sans; */
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px !important;
+  line-height: 23px !important;
+  color: #000000 !important;
+  text-transform: capitalize;
+  letter-spacing: 1.8px;
+  text-align: center;
+  padding-right: 1em;
+}
+.covid-links a:hover { 
+  color: #99811D !important;
+  text-decoration: none;
+}
+.covid-hero {
+  padding-top: 2.5em;
+}
+.covid-hero h1 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 122px;
+  line-height: 143px;
+  color: #000000 !important;
+}
+.covid-hero p {
+  font-family: Roboto;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding-bottom: 1.5em;
+}
+.car_driver {
+  height: 250px;
+  width: 220px;
+  padding-top: 5em;
+}
+@media only screen and (max-width: 768px) {
+  .HeroCovid a {
+    font-size: 11px;
+    letter-spacing: -0.8px;
+  }
+  .covid-hero h1 {
+    font-family: Roboto;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 56px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .covid-hero p {
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .car_driver {
+    padding-bottom: 2em;
+  }
+}

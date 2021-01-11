@@ -73,6 +73,9 @@
   background: transparent !important;
   color: #99811D !important;
 }
+.nav-options a {
+  font-size: 15px !important;
+}
 @media screen and (max-width: 768px) {
   .navbar-nav {
     display: none !important;

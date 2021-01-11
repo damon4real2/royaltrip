@@ -17,6 +17,7 @@
 }
 .app_store-google_play {
     display: flex;
+    margin-left: 2em;
 }
 .google_play {
     width: 164px;
@@ -58,7 +59,7 @@ img {
 }
 .FooterLinks h1 {
     padding-left: 0.3em;
-    /* font-family: IBM Plex Sans Regular; */
+    font-family: IBM Plex Sans Regular;
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
@@ -70,7 +71,7 @@ img {
 }
 .FooterLinks a {
     text-transform: capitalize;
-    font-family: IBM Plex Sans;
+    /* font-family: IBM Plex Sans; */
     font-style: normal;
     font-weight: normal;
     font-size: 16px;

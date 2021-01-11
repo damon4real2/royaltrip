@@ -7,10 +7,12 @@ function FooterNew() {
       <div className="container-fluid FooterNew">
           <div className="row">
             <div className="col-4 FooterImg">
+            <div className="d-flex justify-content-center">
               <Link to="/">
                 <img className="footer_logo" src={require("./assets/images/logo.svg")} alt="flexbox" /><br></br>
               </Link>
-              <div className="app_store-google_play">
+              </div>
+              <div className=" app_store-google_play">
                  {/* eslint-disable-next-line */}
                 <a href="https://www.apple.com/ng/ios/app-store/" target="_blank"><img className="app_store" src={require("./assets/images/app-store.svg")} alt="flexbox" /></a>
                  {/* eslint-disable-next-line */}

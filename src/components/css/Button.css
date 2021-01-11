@@ -38,7 +38,11 @@ box-shadow: none !important;
   background: #FFFFFF !important;
   color: #4E1D69 !important;
 } */
-.sign-up, .apply, .talk, .help {
+.sign-up:hover {
+  background: #FFFFFF !important;
+  color: #4E1D69 !important;
+}
+.apply, .talk, .help {
   background: #FFFFFF !important;
   color: #4E1D69 !important;
 }
