@@ -49,10 +49,27 @@ function FlexCovid3 () {
                   <img className="d-flex align-items-left" src={require("./assets/images/corona-update.svg")} alt="flexbox" /><br></br>
                 </div>
               </div>
-              <div className="d-flex align-items-left faqs container">
+              <div className="container d-flex align-items-left faqs">
+                <div className="row">
                 <h1>NCDC Health and safety guidelines</h1>
                 <p>The Nigerian Centre for Disease Control have provided us with guidelines relative to the COVID-19 Pandemic. For more information, kindly visit ncdc.gov.ng</p>
               </div>
+              </div>
+                            <div className="container d-flex align-items-left faqs">
+                <div className="row">
+                  <h1>FAQs</h1>
+                  <h1>How is RoyalTrip ensuring their drivers and riders safety? </h1>
+<p>•	We keep a close eye on our driver-partners and riders by constantly providing in-app COVID-19 update and guidelines, we also encourage that our driver-partners and riders open up to express any complaint through our user feed back to report any form of non-compliant attitude to the COVID-19 guidelines.<br></br>
+•	In Addition, we are intentional about committing our drivers to having a pack of face mask and sanitizers to further reinforce personal hygiene, this is to make provision for instances where riders do not have their facemask on and also to ensure adequate personal hygiene. </p>
+                </div>
+                </div>
+                <div className="container d-flex align-items-left faqs">
+                <div className="row">
+                  <h1>What is done if any member of RoyalTrip community is exposed to COVID-19?</h1>
+<p>•	We are very concerned about the health and safety of the members of our community. The moment we receive a report of any persons testing positive to COVID-19. Knowing that they would be receiving medical attention, they will not be able to use RoyalTrip till they have been Medically attended to up to the point they attain a full recovery.<br></br>
+•	Consequently, we are obliged to conform to COVID-19 guidelines and Licensed health officials to confirm likely individuals who may have been I recent contact with persons being treated.</p>
+                </div>
+                </div>
             </div>
           </div>
     );

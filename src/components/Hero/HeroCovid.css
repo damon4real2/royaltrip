@@ -1,5 +1,24 @@
+/* @font-face {
+  font-family: roboto-cufonfonts Thin Italic;
+  src: url("../../assets/fonts/roboto-cufonfonts/Roboto-ThinItalic.ttf");
+}
+
+@font-face {
+  font-family: roboto-cufonfonts Thin;
+  src: url("../../assets/fonts/roboto-cufonfonts/Roboto-ThinItalic.ttf");
+} */
+@font-face {
+  font-family: Roboto Light;
+  src: url("../../assets/fonts/roboto-cufonfonts/Roboto-Regular.ttf");
+}
+@font-face {
+  font-family: Roboto Bold;
+  src: url("../../assets/fonts/roboto-cufonfonts/Roboto-Bold.ttf");
+}
+  
 .HeroCovid {
   background: #F0F0F0;
+  font-family: Roboto Light;
 }
 .HeroCovid a {
   font-size: 11px;
@@ -38,7 +57,7 @@
   padding-top: 2.5em;
 }
 .covid-hero h1 {
-  font-family: Roboto;
+  font-family: Roboto Bold;
   font-style: normal;
   font-weight: bold;
   font-size: 122px;
@@ -46,7 +65,7 @@
   color: #000000 !important;
 }
 .covid-hero p {
-  font-family: Roboto;
+  font-family: Roboto Regular;
   font-size: 21px;
   font-style: normal;
   font-weight: 400;

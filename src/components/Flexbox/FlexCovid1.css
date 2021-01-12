@@ -1,3 +1,12 @@
+@font-face {
+  font-family: Roboto Light;
+  src: url("../../assets/fonts/roboto-cufonfonts/Roboto-Regular.ttf");
+}
+@font-face {
+  font-family: Roboto Bold;
+  src: url("../../assets/fonts/roboto-cufonfonts/Roboto-Bold.ttf");
+}
+  
 .FlexCovid1 {
   background: #FFFFFF;
 }
@@ -9,7 +18,7 @@
   height: 150px;
 }
 .FlexCovid1 h1 {
-  font-family: Roboto;
+  font-family: Roboto Bold;
   font-size: 47px;
   font-style: normal;
   font-weight: 700;
@@ -19,7 +28,7 @@
   color: #000000 !important;
 }
 .FlexCovid1 p {
-  font-family: Roboto;
+  font-family: Roboto Regular;
   font-size: 21px;
   font-style: normal;
   font-weight: 400;
@@ -34,4 +43,10 @@
   text-decoration: underline;
   text-align: left;
   padding-left: 0em;
+}
+@media screen and (max-width: 768px) {
+  .FlexCovidRow {
+    padding-left: 1em;
+    padding-right: 1em;
+  }
 }

@@ -27,8 +27,8 @@
 sub {
   margin-bottom: 2em !important;
   color: #501F6A;
+  bottom: 0.5em !important;
 }
-
 .read_more {
   width: 105px;
   height: 40px;

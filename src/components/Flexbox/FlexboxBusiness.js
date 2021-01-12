@@ -15,7 +15,7 @@ function FlexboxBusiness () {
             </div>
             <h4 className="feedback">“The ride was splendid and the driver was not reckless”</h4>
             <sub className="first-sub">Mr Adeniyi</sub>
-            <button type="button" class="read_more">read more</button>
+            {/* <button type="button" class="read_more">read more</button> */}
           </div>
           <div class="col-md-4 flexbox-b">
           <div className="d-flex justify-content-center">
@@ -23,7 +23,7 @@ function FlexboxBusiness () {
             </div>
             <h4 className="feedback">“I love that the driver was gentle and receptive.”</h4>
             <sub>Mrs Clara</sub>
-            <button type="button" class="read_more">read more</button>
+            {/* <button type="button" class="read_more">read more</button> */}
           </div>
           <div class="col-md-4 flexbox-c">
           <div className="d-flex justify-content-center">
@@ -31,7 +31,7 @@ function FlexboxBusiness () {
             </div>
             <h4 className="feedback">“I like that the driver was punctual and funny”</h4>
             <sub>Mr Betty</sub>
-            <button type="button" class="read_more">read more</button>
+            {/* <button type="button" class="read_more">read more</button> */}
           </div>
         </div>
       </div>

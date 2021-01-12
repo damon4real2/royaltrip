@@ -20,7 +20,7 @@ function FooterNew() {
               </div>
               <div className="question_1">
                 <img src={require("./assets/images/question.png")} alt="flexbox" />
-                <a href="/">help center</a>
+                <a href="/FAQ">help center</a>
               </div>
               <br></br>
               <div className="container social_link">

@@ -45,7 +45,7 @@ function Footer() {
           </div>
             <div className="question">
             <img className="question-icon" src={require("../assets/images/question-icon.jpeg")} alt="question" />
-            <p>Help Center</p>
+            <p><a href="/FAQ">Help Center</a></p>
             </div>
           </div>
         </div>

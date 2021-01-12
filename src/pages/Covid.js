@@ -11,7 +11,7 @@ import FlexCovid3 from '../components/Flexbox/FlexCovid3';
 // import CarouselInsurance from '../components/Carousel/CarouselInsurance'
 // import EarningsInsurance from '../components/Earnings/EarningsInsurance'
 // import PreFooter from '../components/PreFooter/PreFooterInsurance'
-// import FooterNew from '../components/Footer/FooterNew'
+import FooterNew from '../components/Footer/FooterNew'
 
 
 function Covid() {
@@ -27,7 +27,7 @@ function Covid() {
             <TripPackage /> */}
             {/* CarouselInsurance /> 
             <EarningsInsurance />  */}
-            {/* <FooterNew /> */}
+            <FooterNew />
         </div>
     )
 }

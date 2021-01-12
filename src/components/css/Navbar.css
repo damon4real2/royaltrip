@@ -34,7 +34,10 @@
   font-family: Montserrat ExtraLight;
   src: url("/src/assets/fonts/IBM_Plex_Sans/IBMPlexSans-ExtraLight.ttf");
 }
-
+/* @font-face {
+  font-family: Roboto Bold;
+  src: url("../../assets/fonts/roboto-cufonfonts/Roboto-Bold.ttf");
+} */
 /*Desktop View*/
 .header {
   display: flex;
@@ -83,7 +86,6 @@
 .nav-options a {
   color: #99811D;
   text-transform: uppercase;
-  /* font-family: IBM Plex Sans SemiBold; */
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
