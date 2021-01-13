@@ -1,7 +1,7 @@
 After every commit, wait for like 2-3 minutes depending on the load or the workdone for the images to build, check the url.... http://royaltrips.royalcrystalairwaysadmin.space:81
 
 If after waiting for about 2-3 minutes and no changes. Please, reach out to the DevOps Engineer, that's probably an error pumping in the pipeline... or Docker images are full and old images need to deleted
-
+.
 
 
 
@@ -77,4 +77,4 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 
 ### `npm run build` fails to minify
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify .
